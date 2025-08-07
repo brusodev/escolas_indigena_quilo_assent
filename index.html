@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolas Indígenas - São Paulo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        #map {
+            height: 600px;
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .info-panel {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .school-list {
+            max-height: 400px;
+            overflow-y: auto;
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .school-item {
+            padding: 10px;
+            border-bottom: 1px solid #ecf0f1;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .school-item:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .school-name {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .school-location {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        .coordinates {
+            color: #27ae60;
+            font-size: 0.8em;
+            font-family: monospace;
+        }
+        
+        .legend {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 10px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .legend-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 2px solid white;
+            box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        }
+        
+        .urban { background-color: #3498db; }
+        .rural { background-color: #e74c3c; }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escolas Indígenas do Estado de São Paulo</h1>
+    <p class="subtitle">Localização geográfica das 42 escolas estaduais indígenas</p>
+    
+    <div class="stats">
+        <div class="stat-card">
+            <div class="stat-number" id="total-schools">42</div>
+            <div class="stat-label">Total de Escolas</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="rural-schools">39</div>
+            <div class="stat-label">Zona Rural</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="urban-schools">3</div>
+            <div class="stat-label">Zona Urbana</div>
+        </div>
+    </div>
+    
+    <div id="map"></div>
+    
+    <div class="legend">
+        <h3>Legenda</h3>
+        <div class="legend-item">
+            <div class="legend-icon rural"></div>
+            <span>Escola em Zona Rural (39 escolas)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-icon urban"></div>
+            <span>Escola em Zona Urbana (3 escolas)</span>
+        </div>
+    </div>
+    
+    <div class="info-panel">
+        <h3>Como usar as coordenadas:</h3>
+        <ul>
+            <li><strong>Google Maps:</strong> Cole as coordenadas (latitude, longitude) na barra de pesquisa</li>
+            <li><strong>GPS:</strong> Use os valores de DS_LATITUDE e DS_LONGITUDE</li>
+            <li><strong>Apps de navegação:</strong> Waze, Google Maps mobile aceitam coordenadas</li>
+        </ul>
+        <p><strong>Exemplo:</strong> Para a ALDEIA NIMUENDAJU, use: <code>-22.29116058, -49.37730026</code></p>
+    </div>
+    
+    <div class="school-list">
+        <h3>Lista das Escolas (clique para centralizar no mapa)</h3>
+        <div id="school-items"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <script>
+        // Dados das escolas indígenas
+        const schools = [
+            { name: "ALDEIA NIMUENDAJU", lat: -22.29116058, lng: -49.37730026, city: "AVAI", zone: 2 },
+            { name: "ALDEIA EKERUA", lat: -22.2747097, lng: -49.37297058, city: "AVAI", zone: 2 },
+            { name: "ALDEIA TEREGUA", lat: -22.16006088, lng: -49.38312149, city: "AVAI", zone: 2 },
+            { name: "ALDEIA KOPENOTI", lat: -23.55051994, lng: -46.63330841, city: "NOGUEIRA", zone: 2 },
+            { name: "ALDEIA RENASCER", lat: -23.47613907, lng: -45.19160843, city: "UBATUBA", zone: 1 },
+            { name: "ALDEIA BOA VISTA", lat: -23.37615967, lng: -44.96944046, city: "UBATUBA", zone: 1 },
+            { name: "TXONDARO TEKOA MBAE", lat: -23.61064911, lng: -49.58242035, city: "BARAO DE ANTONINA", zone: 2 },
+            { name: "ALDEIA KARUGWA", lat: -23.60279083, lng: -49.58737946, city: "BARAO DE ANTONINA", zone: 2 },
+            { name: "ALDEIA YWY PYHAU", lat: -23.5999794, lng: -49.57976913, city: "BARAO DE ANTONINA", zone: 2 },
+            { name: "ALDEIA TEKOAPORA", lat: -23.6990509, lng: -49.54547119, city: "ITAPORANGA", zone: 2 },
+            { name: "ALDEIA GWAWIRA", lat: -24.79512024, lng: -47.76939011, city: "IGUAPE", zone: 2 },
+            { name: "ALDEIA ITAPUA", lat: -24.68457985, lng: -47.50952148, city: "IGUAPE", zone: 2 },
+            { name: "TAGUATO AGUIA", lat: -24.68473053, lng: -47.51789856, city: "IGUAPE", zone: 2 },
+            { name: "ALDEIA CAPOEIRAO", lat: -24.30809021, lng: -47.11671829, city: "ITARIRI", zone: 2 },
+            { name: "ALDEIA RIO DO AZEITE", lat: -24.33348083, lng: -47.17166138, city: "ITARIRI", zone: 2 },
+            { name: "ALDEIA URUITY", lat: -24.26409912, lng: -47.32629013, city: "MIRACATU", zone: 2 },
+            { name: "ALDEIA DJAIKOATY", lat: -24.20033073, lng: -47.36891937, city: "MIRACATU", zone: 2 },
+            { name: "KO E JU", lat: -24.15617943, lng: -47.33876038, city: "SANTA RITA DO RIBEIRA", zone: 2 },
+            { name: "DJEKUPE AMBA ARANDY", lat: -23.46372986, lng: -46.75337982, city: "SAO PAULO - JARAGUA", zone: 1 },
+            { name: "INDIA MARIA ROSA", lat: -21.5655098, lng: -50.31747818, city: "BRAUNA", zone: 2 },
+            { name: "ESC EST INDIGENA ALDEIA MAENDUA PORA", lat: -25.03816032, lng: -48.14419937, city: "CANANEIA", zone: 2 },
+            { name: "ALDEIA SANTA CRUZ", lat: -25.1335907, lng: -47.9416008, city: "CANANEIA", zone: 2 },
+            { name: "ALDEIA RIO BRANCO II", lat: -25.03256035, lng: -48.04067993, city: "CANANEIA", zone: 2 },
+            { name: "ALDEIA TAKUARI TY", lat: -25.01310921, lng: -47.94667816, city: "CANANEIA", zone: 2 },
+            { name: "ALDEIA TAQUARI", lat: -24.46722031, lng: -48.19955826, city: "ELDORADO", zone: 2 },
+            { name: "ALDEIA PINDO TY", lat: -24.75048065, lng: -47.86373138, city: "PARIQUERA-ACU", zone: 2 },
+            { name: "ALDEIA ARACA MIRIM", lat: -24.71689987, lng: -47.87017822, city: "PARIQUERA-ACU", zone: 2 },
+            { name: "ALDEIA ITAPU MIRIM", lat: -24.51189041, lng: -48.00183868, city: "REGISTRO", zone: 2 },
+            { name: "ALDEIA PEGUAO TY", lat: -24.28780937, lng: -48.30912018, city: "SETE BARRAS", zone: 2 },
+            { name: "TXERU BA E KUA I", lat: -23.75160027, lng: -45.78998947, city: "BERTIOGA", zone: 2 },
+            { name: "CLASSES VINCULADAS A EE OMAR DONATO BASSANI", lat: -23.85606956, lng: -46.60800934, city: "SAO BERNARDO DO CAMPO", zone: 2 },
+            { name: "ALDEIA RIO BRANCO", lat: -24.14668083, lng: -46.80730057, city: "ITANHAEM", zone: 2 },
+            { name: "ALDEIA TANGARA", lat: -24.16555023, lng: -46.87303162, city: "ITANHAEM", zone: 2 },
+            { name: "KUARAY O E A SOL NASCENTE", lat: -24.11581039, lng: -46.68315125, city: "MONGAGUA", zone: 1 },
+            { name: "ALDEIA AGUAPEU", lat: -24.08580971, lng: -46.65306091, city: "MONGAGUA", zone: 2 },
+            { name: "ALDEIA NHAMANDU MIRIM", lat: -24.28722954, lng: -47.00923157, city: "PERUIBE", zone: 2 },
+            { name: "ALDEIA BANANAL", lat: -24.26161003, lng: -46.98276901, city: "PERUIBE", zone: 2 },
+            { name: "ALDEIA PIACAGUERA", lat: -24.24653053, lng: -46.90629959, city: "PERUIBE", zone: 2 },
+            { name: "ALDEIA TEKOA MIRIM", lat: -24.00324059, lng: -46.52542877, city: "PRAIA GRANDE", zone: 1 },
+            { name: "ALDEIA DE PARANAPUA", lat: -23.98343086, lng: -46.3825798, city: "SAO VICENTE", zone: 1 },
+            { name: "KRUKUTU", lat: -23.86470985, lng: -46.62084961, city: "SAO PAULO - PARELHEIROS", zone: 1 },
+            { name: "INDIGENA GUARANI GWYRA PEPO", lat: -23.86746979, lng: -46.65039063, city: "SAO PAULO - PARELHEIROS", zone: 1 },
+            { name: "INDIA VANUIRE", lat: -21.79439926, lng: -50.38648987, city: "ARCO-IRIS", zone: 2 }
+        ];
+
+        // Inicializar mapa
+        const map = L.map('map').setView([-23.5, -47.0], 7);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Adicionar marcadores
+        schools.forEach((school, index) => {
+            const color = school.zone === 2 ? '#e74c3c' : '#3498db';
+            const zoneText = school.zone === 2 ? 'Rural' : 'Urbana';
+            
+            const marker = L.circleMarker([school.lat, school.lng], {
+                color: 'white',
+                fillColor: color,
+                fillOpacity: 0.8,
+                radius: 8,
+                weight: 2
+            }).addTo(map);
+
+            marker.bindPopup(`
+                <div style="min-width: 200px;">
+                    <h4 style="margin: 0 0 10px 0; color: #2c3e50;">${school.name}</h4>
+                    <p style="margin: 5px 0;"><strong>Cidade:</strong> ${school.city}</p>
+                    <p style="margin: 5px 0;"><strong>Zona:</strong> ${zoneText}</p>
+                    <p style="margin: 5px 0;"><strong>Coordenadas:</strong></p>
+                    <p style="font-family: monospace; font-size: 0.9em; background: #f8f9fa; padding: 5px; border-radius: 3px;">${school.lat}, ${school.lng}</p>
+                    <button onclick="copyCoordinates('${school.lat}, ${school.lng}')" style="background: #3498db; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer;">Copiar Coordenadas</button>
+                </div>
+            `);
+        });
+
+        // Lista de escolas
+        const schoolItemsContainer = document.getElementById('school-items');
+        schools.forEach((school, index) => {
+            const zoneText = school.zone === 2 ? 'Rural' : 'Urbana';
+            const zoneClass = school.zone === 2 ? 'rural' : 'urban';
+            
+            const schoolItem = document.createElement('div');
+            schoolItem.className = 'school-item';
+            schoolItem.innerHTML = `
+                <div class="school-name">${school.name}</div>
+                <div class="school-location">${school.city} - Zona ${zoneText}</div>
+                <div class="coordinates">${school.lat}, ${school.lng}</div>
+            `;
+            
+            schoolItem.onclick = () => {
+                map.setView([school.lat, school.lng], 12);
+            };
+            
+            schoolItemsContainer.appendChild(schoolItem);
+        });
+
+        // Função para copiar coordenadas
+        function copyCoordinates(coords) {
+            navigator.clipboard.writeText(coords).then(() => {
+                alert('Coordenadas copiadas: ' + coords);
+            }).catch(() => {
+                // Fallback para navegadores mais antigos
+                const textArea = document.createElement('textarea');
+                textArea.value = coords;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('Coordenadas copiadas: ' + coords);
+            });
+        }
+
+        // Atualizar estatísticas
+        const ruralCount = schools.filter(s => s.zone === 2).length;
+        const urbanCount = schools.filter(s => s.zone === 1).length;
+        
+        document.getElementById('rural-schools').textContent = ruralCount;
+        document.getElementById('urban-schools').textContent = urbanCount;
+    </script>
+</body>
+</html>
