@@ -1,0 +1,98 @@
+{
+  "CENTRO": {
+    "total": 1,
+    "s1": 0,
+    "s2": 1,
+    "s2_4x4": 0
+  },
+  "CENTRO OESTE": {
+    "total": 1,
+    "s1": 0,
+    "s2": 1,
+    "s2_4x4": 0
+  },
+  "NORTE 1": {
+    "total": 1,
+    "s1": 0,
+    "s2": 1,
+    "s2_4x4": 0
+  },
+  "NORTE 2": {
+    "total": 1,
+    "s1": 0,
+    "s2": 1,
+    "s2_4x4": 0
+  },
+  "LESTE 1": {
+    "total": 1,
+    "s1": 0,
+    "s2": 1,
+    "s2_4x4": 0
+  },
+  "LESTE 2": {
+    "total": 1,
+    "s1": 0,
+    "s2": 1,
+    "s2_4x4": 0
+  },
+  "ANDRADINA": {
+    "total": 0,
+    "s1": 0,
+    "s2": 0,
+    "s2_4x4": 0
+  },
+  "AVARE": {
+    "total": 0,
+    "s1": 0,
+    "s2": 0,
+    "s2_4x4": 0
+  },
+  "BAURU": {
+    "total": 0,
+    "s1": 0,
+    "s2": 0,
+    "s2_4x4": 0
+  },
+  "CARAGUATATUBA": {
+    "total": 0,
+    "s1": 0,
+    "s2": 0,
+    "s2_4x4": 0
+  },
+  "ITAPEVA": {
+    "total": 0,
+    "s1": 0,
+    "s2": 0,
+    "s2_4x4": 0
+  },
+  "ITARARE": {
+    "total": 0,
+    "s1": 0,
+    "s2": 0,
+    "s2_4x4": 0
+  },
+  "LINS": {
+    "total": 0,
+    "s1": 0,
+    "s2": 0,
+    "s2_4x4": 0
+  },
+  "MIRACATU": {
+    "total": 0,
+    "s1": 0,
+    "s2": 0,
+    "s2_4x4": 0
+  },
+  "MIRANTE DO PARANAPANEMA": {
+    "total": 0,
+    "s1": 0,
+    "s2": 0,
+    "s2_4x4": 0
+  },
+  "SANTO ANASTACIO": {
+    "total": 0,
+    "s1": 0,
+    "s2": 0,
+    "s2_4x4": 0
+  }
+}

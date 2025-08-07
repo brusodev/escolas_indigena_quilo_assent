@@ -1,0 +1,33 @@
+
+METODOLOGIA DE CÁLCULO DE DISTÂNCIAS
+
+📐 FÓRMULA UTILIZADA: Haversine
+🌍 TIPO: Distância geodésica (linha reta na superfície terrestre)
+📊 PRECISÃO: Coordenadas em graus decimais (sistema WGS84)
+🎯 APLICAÇÃO: Padrão internacional para cálculos geográficos
+
+A fórmula de Haversine é o método padrão para calcular a distância mais curta 
+entre dois pontos na superfície de uma esfera (Terra). Esta fórmula considera 
+a curvatura da Terra e fornece a distância geodésica, que é a distância "em 
+linha reta" entre dois pontos seguindo a superfície terrestre.
+
+DIFERENÇAS COM OUTRAS MEDIÇÕES:
+• Google Maps: Distância rodoviária (seguindo estradas)
+• Distância Euclidiana: Linha reta sem considerar curvatura da Terra
+• Distância Haversine: Linha reta considerando curvatura da Terra ✅
+
+VANTAGENS DO MÉTODO HAVERSINE:
+✅ Precisão científica reconhecida internacionalmente
+✅ Considera a curvatura real da Terra
+✅ Ideal para planejamento logístico e análise geográfica
+✅ Base para sistemas GPS e navegação
+✅ Permite comparações consistentes entre localidades
+
+FÓRMULA MATEMÁTICA:
+a = sin²(Δφ/2) + cos φ1 ⋅ cos φ2 ⋅ sin²(Δλ/2)
+c = 2 ⋅ atan2(√a, √(1−a))
+d = R ⋅ c
+
+Onde:
+φ = latitude, λ = longitude, R = raio da Terra (6.371 km)
+Δφ = diferença de latitudes, Δλ = diferença de longitudes
