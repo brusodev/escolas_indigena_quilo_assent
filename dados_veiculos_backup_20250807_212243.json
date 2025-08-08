@@ -266,17 +266,17 @@
     "diretoria_original": "JABOTICABAL"
   },
   "PIRASSUNUNGA": {
-    "total": 2,
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "PIRASSUNUNGA"
   },
   "RIBEIRÃO PRETO": {
-    "total": 3,
+    "total": 2,
     "s1": 0,
     "s2": 2,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "RIBEIRÃO PRETO"
   },
   "SÃO CARLOS": {
@@ -315,10 +315,10 @@
     "diretoria_original": "ASSIS"
   },
   "MIRANTE DO PARANAPANEMA": {
-    "total": 2,
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "MIRANTE DO PARANAPANEMA"
   },
   "OURINHOS": {
@@ -343,38 +343,38 @@
     "diretoria_original": "SANTO ANASTÁCIO"
   },
   "TUPÃ": {
-    "total": 2,
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "TUPÃ"
   },
   "APIAI": {
-    "total": 2,
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "APIAI"
   },
   "ITAPETININGA": {
-    "total": 2,
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "ITAPETININGA"
   },
   "ITAPEVA": {
-    "total": 2,
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "ITAPEVA"
   },
   "ITARARÉ": {
-    "total": 2,
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "ITARARÉ"
   },
   "ITU": {
@@ -399,123 +399,123 @@
     "diretoria_original": "SOROCABA"
   },
   "VOTORANTIM": {
-    "total": 2,
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "VOTORANTIM"
   },
-  "BRAGANCA PAULISTA": {
+  "BRAGANCA PAULISTA ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "BRAGANCA PAULISTA"
+    "diretoria_original": "BRAGANCA PAULISTA "
   },
-  "CAMPINAS LESTE": {
+  "CAMPINAS LESTE ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "CAMPINAS LESTE"
+    "diretoria_original": "CAMPINAS LESTE "
   },
-  "CAMPINAS OESTE": {
+  "CAMPINAS OESTE ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "CAMPINAS OESTE"
+    "diretoria_original": "CAMPINAS OESTE "
   },
-  "JUNDIAI": {
+  "JUNDIAI ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "JUNDIAI"
+    "diretoria_original": "JUNDIAI "
   },
-  "MOGI MIRIM": {
+  "MOGI MIRIM ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "MOGI MIRIM"
+    "diretoria_original": "MOGI MIRIM "
   },
-  "SÃO JOÃO DA BOA VISTA": {
+  "SÃO JOÃO DA BOA VISTA ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "SÃO JOÃO DA BOA VISTA"
+    "diretoria_original": "SÃO JOÃO DA BOA VISTA "
   },
   "MIRACATU": {
-    "total": 2,
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "MIRACATU"
   },
-  "REGISTRO": {
-    "total": 3,
-    "s1": 0,
-    "s2": 2,
-    "s2_4x4": 1,
-    "diretoria_original": "REGISTRO"
-  },
-  "SANTOS": {
-    "total": 3,
-    "s1": 0,
-    "s2": 2,
-    "s2_4x4": 1,
-    "diretoria_original": "SANTOS"
-  },
-  "SÃO VICENTE": {
-    "total": 3,
-    "s1": 0,
-    "s2": 2,
-    "s2_4x4": 1,
-    "diretoria_original": "SÃO VICENTE"
-  },
-  "CARAGUATATUBA": {
+  "REGISTRO ": {
     "total": 2,
     "s1": 0,
+    "s2": 2,
+    "s2_4x4": 0,
+    "diretoria_original": "REGISTRO "
+  },
+  "SANTOS ": {
+    "total": 2,
+    "s1": 0,
+    "s2": 2,
+    "s2_4x4": 0,
+    "diretoria_original": "SANTOS "
+  },
+  "SÃO VICENTE ": {
+    "total": 2,
+    "s1": 0,
+    "s2": 2,
+    "s2_4x4": 0,
+    "diretoria_original": "SÃO VICENTE "
+  },
+  "CARAGUATATUBA": {
+    "total": 1,
+    "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "CARAGUATATUBA"
   },
   "GUARATINGUETA": {
-    "total": 3,
+    "total": 2,
     "s1": 0,
     "s2": 2,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "GUARATINGUETA"
   },
-  "JACAREI": {
+  "JACAREI ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "JACAREI"
+    "diretoria_original": "JACAREI "
   },
-  "PINDAMONHANGABA": {
-    "total": 2,
+  "PINDAMONHANGABA ": {
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
-    "diretoria_original": "PINDAMONHANGABA"
+    "s2_4x4": 0,
+    "diretoria_original": "PINDAMONHANGABA "
   },
-  "SAO JOSE DOS CAMPOS": {
+  "SAO JOSE DOS CAMPOS ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "SAO JOSE DOS CAMPOS"
+    "diretoria_original": "SAO JOSE DOS CAMPOS "
   },
-  "TAUBATE": {
-    "total": 2,
+  "TAUBATE ": {
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
-    "diretoria_original": "TAUBATE"
+    "s2_4x4": 0,
+    "diretoria_original": "TAUBATE "
   },
   "BARRETOS": {
     "total": 2,
@@ -524,12 +524,12 @@
     "s2_4x4": 0,
     "diretoria_original": "BARRETOS"
   },
-  "CATANDUVA": {
+  "CATANDUVA ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "CATANDUVA"
+    "diretoria_original": "CATANDUVA "
   },
   "JOSÉ BONIFACIO": {
     "total": 2,
@@ -560,10 +560,10 @@
     "diretoria_original": "AVARE"
   },
   "BAURU": {
-    "total": 2,
+    "total": 1,
     "s1": 0,
     "s2": 1,
-    "s2_4x4": 1,
+    "s2_4x4": 0,
     "diretoria_original": "BAURU"
   },
   "BOTUCATU": {
@@ -573,12 +573,12 @@
     "s2_4x4": 0,
     "diretoria_original": "BOTUCATU"
   },
-  "JAU": {
+  "JAU ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "JAU"
+    "diretoria_original": "JAU "
   },
   "LINS": {
     "total": 2,
@@ -622,12 +622,12 @@
     "s2_4x4": 0,
     "diretoria_original": "LIMEIRA"
   },
-  "PIRACICABA": {
+  "PIRACICABA ": {
     "total": 2,
     "s1": 0,
     "s2": 2,
     "s2_4x4": 0,
-    "diretoria_original": "PIRACICABA"
+    "diretoria_original": "PIRACICABA "
   },
   "SUMARÉ": {
     "total": 2,
