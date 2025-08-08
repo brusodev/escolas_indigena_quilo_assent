@@ -3,7 +3,6 @@
 ## 📋 Visão Geral
 
 Este sistema centraliza informações sobre **63 escolas indígenas e quilombolas** do estado de São Paulo, incluindo:
-
 - 📍 Localização geográfica precisa
 - 🚗 Dados de frota por diretoria de ensino
 - 📊 Relatórios executivos automatizados
@@ -15,15 +14,14 @@ Este sistema centraliza informações sobre **63 escolas indígenas e quilombola
 
 ### ✅ **SISTEMA COMPLETAMENTE SINCRONIZADO**
 
-| Componente          | Escolas | Status        | Última Atualização |
-| ------------------- | ------- | ------------- | ------------------ |
-| **Dashboard Web**   | 63      | ✅ Ativo      | 08/08/2025         |
-| **Base de Dados**   | 63      | ✅ Íntegra    | 08/08/2025         |
-| **Relatório Excel** | 63      | ✅ Atualizado | 08/08/2025         |
-| **Relatório PDF**   | 63      | ✅ Gerado     | 08/08/2025         |
+| Componente | Escolas | Status | Última Atualização |
+|------------|---------|--------|--------------------|
+| **Dashboard Web** | 63 | ✅ Ativo | 08/08/2025 |
+| **Base de Dados** | 63 | ✅ Íntegra | 08/08/2025 |
+| **Relatório Excel** | 63 | ✅ Atualizado | 08/08/2025 |
+| **Relatório PDF** | 63 | ✅ Gerado | 08/08/2025 |
 
 ### 📊 **Estatísticas Principais**
-
 - **Total de Escolas**: 63
 - **Escolas Indígenas**: 43
 - **Escolas Quilombolas/Assentamentos**: 20
@@ -31,14 +29,13 @@ Este sistema centraliza informações sobre **63 escolas indígenas e quilombola
 - **Total de Veículos**: 172
 - **Metodologia de Distância**: Haversine (precisão ±0.1km)
 
+
 ## 📐 Metodologia de Cálculo de Distâncias
 
 ### 🌍 Fórmula de Haversine
-
 Este sistema utiliza a **Fórmula de Haversine** para calcular as distâncias entre escolas e diretorias de ensino. Esta é a metodologia padrão internacional para cálculos geodésicos precisos.
 
 **Características da Fórmula de Haversine:**
-
 - ✅ **Tipo:** Distância geodésica (linha reta na superfície terrestre)
 - ✅ **Precisão:** Considera a curvatura da Terra
 - ✅ **Padrão:** Utilizada em sistemas GPS e navegação
@@ -46,7 +43,6 @@ Este sistema utiliza a **Fórmula de Haversine** para calcular as distâncias en
 - ✅ **Raio Terra:** 6.371 km (raio médio)
 
 ### 📊 Fórmula Matemática
-
 ```
 a = sin²(Δφ/2) + cos φ1 ⋅ cos φ2 ⋅ sin²(Δλ/2)
 c = 2 ⋅ atan2(√a, √(1−a))
@@ -54,27 +50,25 @@ d = R ⋅ c
 ```
 
 Onde:
-
 - `φ` = latitude
-- `λ` = longitude
+- `λ` = longitude  
 - `R` = raio da Terra (6.371 km)
 - `Δφ` = diferença de latitudes
 - `Δλ` = diferença de longitudes
 
 ### 🗺️ Diferenças com Outras Medições
-
 - **Haversine (nosso sistema):** Distância geodésica "em linha reta"
 - **Google Maps:** Distância rodoviária seguindo estradas
 - **Diferença esperada:** 10-20km é normal e aceitável
 
 ### ✅ Validação
-
 - **Total validado:** 59 escolas
 - **Precisão:** 100% das distâncias verificadas
 - **Método:** Recálculo automático com fórmula Haversine
 - **Tolerância:** ±0,1 km
 
 ---
+
 
 ## 📋 Arquivos do Projeto
 

@@ -1,0 +1,46 @@
+{
+  "sistema": {
+    "nome": "Sistema de Gestão de Escolas Indígenas, Quilombolas e Assentamentos",
+    "versao": "2.0",
+    "ultima_atualizacao": "2025-08-08 10:42:44",
+    "status": "Atualizado com dados das 63 escolas"
+  },
+  "dados": {
+    "total_escolas": 63,
+    "escolas_indigenas": 43,
+    "escolas_quilombolas_assentamentos": 20,
+    "diretorias_responsaveis": 19,
+    "total_veiculos": 172,
+    "arquivo_principal": "dados/excel/distancias_escolas_diretorias_completo_63_corrigido.xlsx",
+    "metodologia_distancia": "Haversine",
+    "referencia_validacao": {
+      "escola": "ALDEIA KOPENOTI",
+      "distancia_km": 27.16,
+      "coordenadas_escola": "-22.264515, -49.35027069",
+      "coordenadas_diretoria": "-22.3233112, -49.0940288",
+      "diretoria": "Bauru"
+    }
+  },
+  "estrutura_arquivos": {
+    "dados_excel": "dados/excel/",
+    "dados_json": "dados/json/",
+    "dashboard": "dashboard/",
+    "relatorios_excel": "relatorios/excel/",
+    "relatorios_pdf": "relatorios/pdf/",
+    "scripts": "scripts/",
+    "documentacao": "documentacao/"
+  },
+  "classificacao_distancias": {
+    "baixa": "< 50 km",
+    "media": "50-100 km",
+    "alta": "> 100 km"
+  },
+  "tipos_escola": {
+    "indigena": "Escolas em aldeias indígenas",
+    "quilombola_assentamento": "Escolas em comunidades quilombolas e assentamentos"
+  },
+  "zonas": {
+    "rural": "Zona rural",
+    "urbana": "Zona urbana"
+  }
+}

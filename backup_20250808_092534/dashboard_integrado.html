@@ -493,8 +493,7 @@ Status: PRODUÇÃO (dados científicos validados)
         <div class="methodology-content">
           <div class="methodology-item">
             <strong>🎯 Fórmula Haversine:</strong>
-            <p>Todas as distâncias são calculadas usando a fórmula geodésica Haversine, padrão científico internacional
-              para distâncias em superfície esférica.</p>
+            <p>Todas as distâncias são calculadas usando a fórmula geodésica Haversine, padrão científico internacional para distâncias em superfície esférica.</p>
           </div>
           <div class="methodology-item">
             <strong>✅ Validação Científica:</strong>
@@ -502,8 +501,7 @@ Status: PRODUÇÃO (dados científicos validados)
           </div>
           <div class="methodology-item">
             <strong>🔧 Correções Aplicadas:</strong>
-            <p>Exemplo: ALDEIA KOPENOTI corrigida de 286.65 km → 27.16 km (erro de cálculo anterior identificado e
-              corrigido).</p>
+            <p>Exemplo: ALDEIA KOPENOTI corrigida de 286.65 km → 27.16 km (erro de cálculo anterior identificado e corrigido).</p>
           </div>
           <div class="methodology-item">
             <strong>📊 Fonte dos Dados:</strong>
@@ -632,7 +630,7 @@ Status: PRODUÇÃO (dados científicos validados)
       try {
         // Tentar carregar do JSON primeiro
         const response = await fetch('dados_veiculos_diretorias.json');
-
+        
         if (response.ok) {
           const data = await response.json();
           vehicleMetadata = data.metadata;
@@ -644,41 +642,41 @@ Status: PRODUÇÃO (dados científicos validados)
         }
       } catch (error) {
         console.warn('⚠️ Fetch falhou, usando dados dos metadados embebidos');
-
+        
         // Usar metadados embebidos como referência para o total
         vehicleMetadata = {
           "total_veiculos": 172,
           "total_diretorias": 91,
           "data_atualizacao": "2025-08-07"
         };
-
+        
         // Dados essenciais das diretorias com escolas (usando dados reais)
         vehicleData = {
-          "ANDRADINA": { "s1": 1, "s2": 1, "s2_4x4": 0, "total": 2 },
-          "AVARE": { "s1": 0, "s2": 2, "s2_4x4": 0, "total": 2 },
-          "BAURU": { "s1": 0, "s2": 1, "s2_4x4": 1, "total": 2 },
-          "CENTRO": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "NORTE 1": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "SUL 3": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "SÃO VICENTE": { "s1": 0, "s2": 2, "s2_4x4": 0, "total": 2 },
-          "SANTOS": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "REGISTRO": { "s1": 0, "s2": 2, "s2_4x4": 0, "total": 2 },
-          "MIRACATU": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "CARAGUATATUBA": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "ITARARE": { "s1": 0, "s2": 2, "s2_4x4": 0, "total": 2 },
-          "ITAPEVA": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "APIAI": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "TUPA": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "PENAPOLIS": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "LINS": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "SAO BERNARDO DO CAMPO": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "SANTO ANASTACIO": { "s1": 0, "s2": 1, "s2_4x4": 0, "total": 1 },
-          "MIRANTE DO PARANAPANEMA": { "s1": 0, "s2": 3, "s2_4x4": 0, "total": 3 }
+          "ANDRADINA": {"s1": 1, "s2": 1, "s2_4x4": 0, "total": 2},
+          "AVARE": {"s1": 0, "s2": 2, "s2_4x4": 0, "total": 2},
+          "BAURU": {"s1": 0, "s2": 1, "s2_4x4": 1, "total": 2},
+          "CENTRO": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "NORTE 1": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "SUL 3": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "SÃO VICENTE": {"s1": 0, "s2": 2, "s2_4x4": 0, "total": 2},
+          "SANTOS": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "REGISTRO": {"s1": 0, "s2": 2, "s2_4x4": 0, "total": 2},
+          "MIRACATU": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "CARAGUATATUBA": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "ITARARE": {"s1": 0, "s2": 2, "s2_4x4": 0, "total": 2},
+          "ITAPEVA": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "APIAI": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "TUPA": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "PENAPOLIS": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "LINS": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "SAO BERNARDO DO CAMPO": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "SANTO ANASTACIO": {"s1": 0, "s2": 1, "s2_4x4": 0, "total": 1},
+          "MIRANTE DO PARANAPANEMA": {"s1": 0, "s2": 3, "s2_4x4": 0, "total": 3}
         };
-
+        
         console.log(`✅ Dados embebidos carregados: ${Object.keys(vehicleData).length} diretorias principais`);
         console.log(`📊 Total de veículos (metadata): ${vehicleMetadata.total_veiculos}`);
-
+        
         return { metadata: vehicleMetadata, diretorias: vehicleData };
       }
     }
@@ -1531,13 +1529,13 @@ Status: PRODUÇÃO (dados científicos validados)
     function calculateStats() {
       // Usar o total de veículos dos metadados se disponível, senão calcular
       let totalVehicles = 0;
-
+      
       if (vehicleMetadata && vehicleMetadata.total_veiculos) {
         totalVehicles = vehicleMetadata.total_veiculos;
       } else {
         totalVehicles = Object.values(vehicleData).reduce((sum, v) => sum + v.total, 0);
       }
-
+      
       const highPrioritySchools = schoolsData.filter(s => s.distance > 50).length;
       const uniqueDiretorias = [...new Set(schoolsData.map(s => s.diretoria))].length;
 
@@ -1550,7 +1548,7 @@ Status: PRODUÇÃO (dados científicos validados)
 
       // Atualizar a legenda com o número correto de diretorias com veículos
       updateLegendVehicleCount(diretoriasComVeiculos);
-
+      
       console.log(`🔢 Estatísticas calculadas: ${totalVehicles} veículos, ${diretoriasComVeiculos} diretorias com veículos`);
     }
 

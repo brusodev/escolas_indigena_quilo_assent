@@ -1,0 +1,246 @@
+{
+  "configuracao_sistema": {
+    "versao": "2.0",
+    "data_atualizacao": "2025-08-08",
+    "responsavel": "Sistema Automatizado",
+    "descricao": "Configuração centralizada do sistema de escolas indígenas e quilombolas"
+  },
+
+  "repositorios_dados": {
+    "fonte_principal": {
+      "arquivo": "distancias_escolas_diretorias_completo_63_corrigido.xlsx",
+      "descricao": "Fonte única da verdade - Dados completos de todas as 63 escolas",
+      "tipo": "Excel",
+      "colunas_principais": [
+        "Nome_Escola",
+        "Tipo_Escola",
+        "Cidade_Escola",
+        "Endereco_Escola",
+        "DE_Responsavel",
+        "Zona",
+        "Latitude_Escola",
+        "Longitude_Escola",
+        "Nome_Diretoria",
+        "Cidade_Diretoria",
+        "Endereco_Diretoria",
+        "Latitude_Diretoria",
+        "Longitude_Diretoria",
+        "Distancia_KM"
+      ],
+      "validacoes": {
+        "total_escolas": 63,
+        "kopenoti_distancia": 27.16,
+        "tolerancia_distancia": 0.1
+      }
+    },
+
+    "dados_veiculos": {
+      "arquivo": "dados_veiculos_diretorias.json",
+      "descricao": "Dados consolidados da frota de veículos por diretoria",
+      "tipo": "JSON",
+      "estrutura": {
+        "metadata": {
+          "total_veiculos": 172,
+          "total_diretorias": 19,
+          "data_atualizacao": "2025-08-08"
+        },
+        "diretorias": "array de objetos com dados de veículos"
+      },
+      "validacoes": {
+        "total_veiculos": 172,
+        "total_diretorias": 19
+      }
+    },
+
+    "dashboard_web": {
+      "arquivo": "dashboard_integrado.html",
+      "descricao": "Interface web interativa com mapa e estatísticas",
+      "tipo": "HTML/JavaScript",
+      "funcionalidades": [
+        "Mapa interativo com Leaflet",
+        "Dados embarcados (CORS-resistant)",
+        "Filtros por tipo e prioridade",
+        "Estatísticas em tempo real",
+        "Informações de veículos por diretoria"
+      ],
+      "validacoes": {
+        "escolas_embarcadas": 63,
+        "contem_kopenoti": true
+      }
+    }
+  },
+
+  "relatorios_gerados": {
+    "excel_completo": {
+      "arquivo": "Relatorio_Completo_Escolas_Diretorias.xlsx",
+      "descricao": "Relatório Excel com múltiplas planilhas especializadas",
+      "planilhas": [
+        "Resumo_Executivo",
+        "Escolas_Indigenas",
+        "Escolas_Quilombolas",
+        "Todas_Escolas",
+        "Metodologia_Haversine"
+      ],
+      "fonte_dados": "distancias_escolas_diretorias_completo_63_corrigido.xlsx"
+    },
+
+    "pdf_detalhado": {
+      "arquivo": "Relatorio_Paisagem_Escolas_[timestamp].pdf",
+      "descricao": "Relatório PDF profissional com análise estatística",
+      "secoes": [
+        "Capa institucional",
+        "Análise estatística com gráficos",
+        "Tabelas detalhadas por tipo",
+        "Metodologia científica",
+        "Indicadores de qualidade"
+      ],
+      "fonte_dados": "distancias_escolas_diretorias_completo_63_corrigido.xlsx"
+    }
+  },
+
+  "scripts_manutencao": {
+    "validador_central": {
+      "arquivo": "repositorio_central.py",
+      "descricao": "Valida integridade e sincronização de todos os repositórios",
+      "funcoes": [
+        "Validação de arquivo principal",
+        "Validação de dados de veículos",
+        "Validação de dashboard",
+        "Verificação de sincronização",
+        "Criação de backups",
+        "Relatório de integridade"
+      ]
+    },
+
+    "atualizador_completo": {
+      "arquivo": "atualizar_relatorios_completos.py",
+      "descricao": "Orquestra regeneração de todos os relatórios",
+      "funcoes": [
+        "Verificação de dados atualizados",
+        "Validação de veículos",
+        "Geração de Excel",
+        "Geração de PDF",
+        "Relatório de execução"
+      ]
+    },
+
+    "gerador_excel": {
+      "arquivo": "gerar_relatorio_excel.py",
+      "descricao": "Gera relatório Excel completo com formatação",
+      "saida": "Relatorio_Completo_Escolas_Diretorias.xlsx"
+    },
+
+    "gerador_pdf": {
+      "arquivo": "gerar_relatorio_pdf.py",
+      "descricao": "Gera relatório PDF com análise estatística",
+      "saida": "Relatorio_Paisagem_Escolas_[timestamp].pdf"
+    },
+
+    "sincronizador": {
+      "arquivo": "comparar_dados_dashboard_excel.py",
+      "descricao": "Compara e identifica diferenças entre dashboard e Excel"
+    }
+  },
+
+  "alteracoes_recentes": {
+    "escolas_adicionadas": [
+      {
+        "nome": "BAIRRO DE BOMBAS",
+        "cidade": "IPORANGA",
+        "diretoria": "Apiai",
+        "distancia_km": 21.99,
+        "coordenadas": [-24.60935974, -48.65967178],
+        "data_adicao": "2025-08-08"
+      },
+      {
+        "nome": "BAIRRO BOMBAS DE CIMA",
+        "cidade": "IPORANGA",
+        "diretoria": "Apiai",
+        "distancia_km": 21.99,
+        "coordenadas": [-24.60933304, -48.65969086],
+        "data_adicao": "2025-08-08"
+      },
+      {
+        "nome": "FAZENDA DA CAIXA",
+        "cidade": "UBATUBA",
+        "diretoria": "Caraguatatuba",
+        "distancia_km": 67.76,
+        "coordenadas": [-23.34110069, -44.83760834],
+        "data_adicao": "2025-08-08"
+      },
+      {
+        "nome": "MARIA ANTONIA CHULES PRINCS",
+        "cidade": "ELDORADO",
+        "diretoria": "Registro",
+        "distancia_km": 58.21,
+        "coordenadas": [-24.60128975, -48.40626144],
+        "data_adicao": "2025-08-08"
+      }
+    ],
+
+    "diretorias_adicionadas": [
+      {
+        "nome": "Apiai",
+        "cidade": "APIAI",
+        "coordenadas": [-24.51111, -48.84222],
+        "escolas_atendidas": 2,
+        "data_adicao": "2025-08-08"
+      }
+    ],
+
+    "correcoes_aplicadas": [
+      "Preenchimento de valores NaN na coluna 'Zona'",
+      "Correção de tipos de dados em scripts Python",
+      "Adição de endereços completos para escolas",
+      "Implementação de validação de coordenadas",
+      "Correção de bug 'float' object has no attribute 'lower'"
+    ]
+  },
+
+  "estatisticas_atuais": {
+    "total_escolas": 63,
+    "escolas_indigenas": 43,
+    "escolas_quilombolas": 20,
+    "total_diretorias": 19,
+    "total_veiculos": 172,
+    "distancia_media_km": 41.7,
+    "escolas_alta_prioridade": 25,
+    "metodologia_distancia": "Haversine",
+    "precisao_calculo": "±0.1 km",
+    "sistema_coordenadas": "WGS84"
+  },
+
+  "configuracao_validacao": {
+    "checks_automaticos": [
+      "Total de escolas = 63",
+      "KOPENOTI distância = 27.16 km (±0.1)",
+      "Total de veículos = 172",
+      "Ausência de valores NaN críticos",
+      "Sincronização dashboard-Excel",
+      "Integridade de coordenadas"
+    ],
+
+    "alertas_criticos": [
+      "Discrepância no total de escolas",
+      "Alteração na distância KOPENOTI",
+      "Perda de sincronização entre sistemas",
+      "Corrupção de arquivos base"
+    ]
+  },
+
+  "fluxo_atualizacao": {
+    "ordem_execucao": [
+      "1. Backup dos repositórios (repositorio_central.py)",
+      "2. Validação de integridade (repositorio_central.py)",
+      "3. Atualização de dados se necessário",
+      "4. Regeneração de relatórios (atualizar_relatorios_completos.py)",
+      "5. Validação final da sincronização"
+    ],
+
+    "comandos_principais": [
+      "python repositorio_central.py",
+      "python atualizar_relatorios_completos.py",
+      "python resumo_final_sincronizacao.py"
+    ]
+  }
+}

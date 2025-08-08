@@ -1,0 +1,899 @@
+{
+  "metadata": {
+    "total_veiculos": 245,
+    "total_diretorias": 126,
+    "diretorias_relevantes": 19,
+    "veiculos_relevantes": 40,
+    "distribuicao_relevantes": {
+      "s1": 10,
+      "s2": 25,
+      "s2_4x4": 5
+    },
+    "data_atualizacao": "08/08/2025 - 14:04",
+    "fonte": "dados_veiculos_originais_corretos.json"
+  },
+  "diretorias": {
+    "CENTRO": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "CENTRO"
+    },
+    "CENTRO OESTE": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "CENTRO OESTE"
+    },
+    "NORTE 1": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "NORTE 1"
+    },
+    "NORTE 2": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "NORTE 2"
+    },
+    "LESTE 1": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "LESTE 1"
+    },
+    "LESTE 2": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "LESTE 2"
+    },
+    "LESTE 3": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "LESTE 3"
+    },
+    "LESTE 4": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "LESTE 4"
+    },
+    "LESTE 5": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "LESTE 5"
+    },
+    "CENTRO SUL": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "CENTRO SUL"
+    },
+    "SUL 1": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "SUL 1"
+    },
+    "SUL 2": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "SUL 2"
+    },
+    "SUL 3": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "SUL 3"
+    },
+    "GUARULHOS NORTE": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "GUARULHOS NORTE"
+    },
+    "GUARULHOS SUL": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "GUARULHOS SUL"
+    },
+    "ITAQUAQUECETUBA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "ITAQUAQUECETUBA"
+    },
+    "MOGI DAS CRUZES": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "MOGI DAS CRUZES"
+    },
+    "SUZANO": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "SUZANO"
+    },
+    "DIADEMA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "DIADEMA"
+    },
+    "MAUÁ": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "MAUÁ"
+    },
+    "MAUA": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "MAUÁ"
+    },
+    "SANTO ANDRÉ": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "SANTO ANDRÉ"
+    },
+    "SANTO ANDRE": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "SANTO ANDRÉ"
+    },
+    "SÃO BERNARDO DO CAMPO": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO BERNARDO DO CAMPO"
+    },
+    "SAO BERNARDO DO CAMPO": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO BERNARDO DO CAMPO"
+    },
+    "CAIEIRAS": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "CAIEIRAS"
+    },
+    "CARAPICUÍBA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "CARAPICUÍBA"
+    },
+    "CARAPICUIBA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "CARAPICUÍBA"
+    },
+    "ITAPECERICA DA SERRA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "ITAPECERICA DA SERRA"
+    },
+    "ITAPEVI": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "ITAPEVI"
+    },
+    "OSASCO": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "OSASCO"
+    },
+    "TABOÃO DA SERRA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "TABOÃO DA SERRA"
+    },
+    "TABOAO DA SERRA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "TABOÃO DA SERRA"
+    },
+    "ANDRADINA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "ANDRADINA"
+    },
+    "ARAÇATUBA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "ARAÇATUBA"
+    },
+    "ARACATUBA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "ARAÇATUBA"
+    },
+    "BIRIGUI": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "BIRIGUI"
+    },
+    "FERNANDÓPÓLIS": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "FERNANDÓPÓLIS"
+    },
+    "FERNANDOPOLIS": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "FERNANDÓPÓLIS"
+    },
+    "JALES": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "JALES"
+    },
+    "PENÁPOLIS": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "PENÁPOLIS"
+    },
+    "PENAPOLIS": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "PENÁPOLIS"
+    },
+    "VOTUPORANGA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "VOTUPORANGA"
+    },
+    "ARARAQUARA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "ARARAQUARA"
+    },
+    "FRANCA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "FRANCA"
+    },
+    "JABOTICABAL": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "JABOTICABAL"
+    },
+    "PIRASSUNUNGA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "PIRASSUNUNGA"
+    },
+    "RIBEIRÃO PRETO": {
+      "total": 3,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 1,
+      "diretoria_original": "RIBEIRÃO PRETO"
+    },
+    "RIBEIRAO PRETO": {
+      "total": 3,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 1,
+      "diretoria_original": "RIBEIRÃO PRETO"
+    },
+    "SÃO CARLOS": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO CARLOS"
+    },
+    "SAO CARLOS": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO CARLOS"
+    },
+    "SÃO JOAQUIM DA BARRA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO JOAQUIM DA BARRA"
+    },
+    "SAO JOAQUIM DA BARRA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO JOAQUIM DA BARRA"
+    },
+    "SERTÃOZINHO": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SERTÃOZINHO"
+    },
+    "SERTAOZINHO": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SERTÃOZINHO"
+    },
+    "ADAMANTINA": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "ADAMANTINA"
+    },
+    "ASSIS": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "ASSIS"
+    },
+    "MIRANTE DO PARANAPANEMA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "MIRANTE DO PARANAPANEMA"
+    },
+    "OURINHOS": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "OURINHOS"
+    },
+    "PRESIDENTE PRUDENTE": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "PRESIDENTE PRUDENTE"
+    },
+    "SANTO ANASTÁCIO": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "SANTO ANASTÁCIO"
+    },
+    "SANTO ANASTACIO": {
+      "total": 2,
+      "s1": 1,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "SANTO ANASTÁCIO"
+    },
+    "TUPÃ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "TUPÃ"
+    },
+    "TUPA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "TUPÃ"
+    },
+    "APIAI": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "APIAI"
+    },
+    "ITAPETININGA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "ITAPETININGA"
+    },
+    "ITAPEVA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "ITAPEVA"
+    },
+    "ITARARÉ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "ITARARÉ"
+    },
+    "ITARARE": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "ITARARÉ"
+    },
+    "ITU": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "ITU"
+    },
+    "SÃO ROQUE": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO ROQUE"
+    },
+    "SAO ROQUE": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO ROQUE"
+    },
+    "SOROCABA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SOROCABA"
+    },
+    "VOTORANTIM": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "VOTORANTIM"
+    },
+    "BRAGANCA PAULISTA ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "BRAGANCA PAULISTA "
+    },
+    "BRAGANCA PAULISTA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "BRAGANCA PAULISTA "
+    },
+    "CAMPINAS LESTE ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "CAMPINAS LESTE "
+    },
+    "CAMPINAS LESTE": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "CAMPINAS LESTE "
+    },
+    "CAMPINAS OESTE ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "CAMPINAS OESTE "
+    },
+    "CAMPINAS OESTE": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "CAMPINAS OESTE "
+    },
+    "JUNDIAI ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "JUNDIAI "
+    },
+    "JUNDIAI": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "JUNDIAI "
+    },
+    "MOGI MIRIM ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "MOGI MIRIM "
+    },
+    "MOGI MIRIM": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "MOGI MIRIM "
+    },
+    "SÃO JOÃO DA BOA VISTA ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO JOÃO DA BOA VISTA "
+    },
+    "SAO JOAO DA BOA VISTA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO JOÃO DA BOA VISTA "
+    },
+    "MIRACATU": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "MIRACATU"
+    },
+    "REGISTRO ": {
+      "total": 3,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 1,
+      "diretoria_original": "REGISTRO "
+    },
+    "REGISTRO": {
+      "total": 3,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 1,
+      "diretoria_original": "REGISTRO "
+    },
+    "SANTOS ": {
+      "total": 3,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 1,
+      "diretoria_original": "SANTOS "
+    },
+    "SANTOS": {
+      "total": 3,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 1,
+      "diretoria_original": "SANTOS "
+    },
+    "SÃO VICENTE ": {
+      "total": 3,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 1,
+      "diretoria_original": "SÃO VICENTE "
+    },
+    "SAO VICENTE": {
+      "total": 3,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 1,
+      "diretoria_original": "SÃO VICENTE "
+    },
+    "CARAGUATATUBA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "CARAGUATATUBA"
+    },
+    "GUARATINGUETA": {
+      "total": 3,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 1,
+      "diretoria_original": "GUARATINGUETA"
+    },
+    "JACAREI ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "JACAREI "
+    },
+    "JACAREI": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "JACAREI "
+    },
+    "PINDAMONHANGABA ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "PINDAMONHANGABA "
+    },
+    "PINDAMONHANGABA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "PINDAMONHANGABA "
+    },
+    "SAO JOSE DOS CAMPOS ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SAO JOSE DOS CAMPOS "
+    },
+    "SAO JOSE DOS CAMPOS": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SAO JOSE DOS CAMPOS "
+    },
+    "TAUBATE ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "TAUBATE "
+    },
+    "TAUBATE": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "TAUBATE "
+    },
+    "BARRETOS": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "BARRETOS"
+    },
+    "CATANDUVA ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "CATANDUVA "
+    },
+    "CATANDUVA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "CATANDUVA "
+    },
+    "JOSÉ BONIFACIO": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "JOSÉ BONIFACIO"
+    },
+    "JOSE BONIFACIO": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "JOSÉ BONIFACIO"
+    },
+    "SÃO JOSÉ DO RIO PRETO": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO JOSÉ DO RIO PRETO"
+    },
+    "SAO JOSE DO RIO PRETO": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SÃO JOSÉ DO RIO PRETO"
+    },
+    "TAQUARITINGA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "TAQUARITINGA"
+    },
+    "AVARE": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "AVARE"
+    },
+    "BAURU": {
+      "total": 2,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 1,
+      "diretoria_original": "BAURU"
+    },
+    "BOTUCATU": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "BOTUCATU"
+    },
+    "JAU ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "JAU "
+    },
+    "JAU": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "JAU "
+    },
+    "LINS": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "LINS"
+    },
+    "MARILIA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "MARILIA"
+    },
+    "PIRAJU": {
+      "total": 1,
+      "s1": 0,
+      "s2": 1,
+      "s2_4x4": 0,
+      "diretoria_original": "PIRAJU"
+    },
+    "AMERICANA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "AMERICANA"
+    },
+    "CAPIVARI": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "CAPIVARI"
+    },
+    "LIMEIRA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "LIMEIRA"
+    },
+    "PIRACICABA ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "PIRACICABA "
+    },
+    "PIRACICABA": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "PIRACICABA "
+    },
+    "SUMARÉ": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SUMARÉ"
+    },
+    "SUMARE": {
+      "total": 2,
+      "s1": 0,
+      "s2": 2,
+      "s2_4x4": 0,
+      "diretoria_original": "SUMARÉ"
+    }
+  }
+}

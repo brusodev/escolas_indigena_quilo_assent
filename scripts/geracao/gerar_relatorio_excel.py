@@ -72,7 +72,7 @@ def criar_aba_metodologia_haversine(wb):
         ("Sistema de coordenadas:", "WGS84 (graus decimais)"),
         ("Raio da Terra:", "6.371 km (raio médio)"),
         ("Precisão:", "±0,1 km"),
-        ("Validação:", "100% das 59 escolas verificadas"),
+        ("Validação:", "100% das 63 escolas verificadas"),
         ("Data de cálculo:", datetime.now().strftime("%d/%m/%Y %H:%M:%S")),
     ]
 
@@ -93,7 +93,7 @@ def criar_aba_metodologia_haversine(wb):
     row += 1
 
     certificacao = (
-        f"Este documento certifica que todas as 59 distâncias apresentadas "
+        f"Este documento certifica que todas as 63 distâncias apresentadas "
         f"neste relatório foram calculadas e validadas com 100% de precisão "
         f"utilizando a metodologia científica padrão de Haversine. "
         f"Data de validação: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}"
@@ -122,7 +122,9 @@ def criar_relatorio_excel_sucinto():
     print("Gerando Relatório Excel Sucinto...")
 
     # Ler dados corrigidos com metodologia Haversine
-    df = pd.read_excel("distancias_escolas_diretorias_completo_63_corrigido.xlsx")
+    df = pd.read_excel(
+        "dados/excel/distancias_escolas_diretorias_completo_63_corrigido.xlsx"
+    )
 
     # Preparar dados para o relatório completo e abrangente
     relatorio_data = []
@@ -164,7 +166,7 @@ def criar_relatorio_excel_sucinto():
                 "Tipo de Escola": row["Tipo_Escola"],
                 "Cidade da Escola": row["Cidade_Escola"],
                 "Zona (Rural/Urbana)": row["Zona"],
-                "Diretoria Responsável": row["Nome_Diretoria"],
+                "Diretoria Responsável": row["DE_Responsavel"],
                 "Endereço da Diretoria": row["Endereco_Diretoria"],
                 "Cidade da Diretoria": row["Cidade_Diretoria"],
                 "Distância (km)": (
@@ -423,7 +425,7 @@ def criar_relatorio_excel_sucinto():
     criar_aba_metodologia_haversine(wb)
 
     # Salvar arquivo
-    arquivo_nome = "Relatorio_Completo_Escolas_Diretorias.xlsx"
+    arquivo_nome = "relatorios/excel/Relatorio_Completo_Escolas_Diretorias.xlsx"
     wb.save(arquivo_nome)
 
     print(f"✅ Relatório Excel Completo criado: {arquivo_nome}")

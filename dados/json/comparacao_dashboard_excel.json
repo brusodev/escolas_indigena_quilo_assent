@@ -1,0 +1,12 @@
+{
+  "dashboard_total": 63,
+  "excel_total": 59,
+  "diferenca": 4,
+  "faltando_no_excel": [
+    "BAIRRO BOMBAS DE CIMA",
+    "MARIA ANTONIA CHULES PRINCS",
+    "FAZENDA DA CAIXA",
+    "BAIRRO DE BOMBAS"
+  ],
+  "faltando_no_dashboard": []
+}

@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "sistema": "Gestão de Escolas Indígenas, Quilombolas e Assentamentos",
+    "versao": "2.0",
+    "data_atualizacao": "2025-08-08 10:42:44",
+    "total_escolas": 63,
+    "total_diretorias": 19,
+    "total_veiculos": 172,
+    "metodologia": "Distribuição proporcional baseada no número de escolas por diretoria"
+  },
+  "distribuicao_por_diretoria": {
+    "Mirante do Paranapanema": {
+      "total_escolas": 10,
+      "total_veiculos": 27,
+      "escolas_indigenas": 0,
+      "escolas_quilombolas": 10,
+      "distancia_media": 58.2,
+      "distancia_maxima": 91.11,
+      "escolas_rurais": 10,
+      "escolas_urbanas": 0,
+      "codigo_de": "MIRANTE DO PARANAPANEMA"
+    },
+    "Registro": {
+      "total_escolas": 10,
+      "total_veiculos": 27,
+      "escolas_indigenas": 9,
+      "escolas_quilombolas": 1,
+      "distancia_media": 47.1,
+      "distancia_maxima": 70.27,
+      "escolas_rurais": 10,
+      "escolas_urbanas": 0,
+      "codigo_de": "REGISTRO"
+    },
+    "Sao Vicente": {
+      "total_escolas": 9,
+      "total_veiculos": 25,
+      "escolas_indigenas": 9,
+      "escolas_quilombolas": 0,
+      "distancia_media": 43.17,
+      "distancia_maxima": 72.98,
+      "escolas_rurais": 6,
+      "escolas_urbanas": 3,
+      "codigo_de": "SAO VICENTE"
+    },
+    "Miracatu": {
+      "total_escolas": 8,
+      "total_veiculos": 22,
+      "escolas_indigenas": 8,
+      "escolas_quilombolas": 0,
+      "distancia_media": 32.77,
+      "distancia_maxima": 65.04,
+      "escolas_rurais": 8,
+      "escolas_urbanas": 0,
+      "codigo_de": "MIRACATU"
+    },
+    "Itarare": {
+      "total_escolas": 5,
+      "total_veiculos": 14,
+      "escolas_indigenas": 4,
+      "escolas_quilombolas": 1,
+      "distancia_media": 52.42,
+      "distancia_maxima": 61.64,
+      "escolas_rurais": 5,
+      "escolas_urbanas": 0,
+      "codigo_de": "ITARARE"
+    },
+    "Bauru": {
+      "total_escolas": 4,
+      "total_veiculos": 11,
+      "escolas_indigenas": 4,
+      "escolas_quilombolas": 0,
+      "distancia_media": 30.16,
+      "distancia_maxima": 34.86,
+      "escolas_rurais": 4,
+      "escolas_urbanas": 0,
+      "codigo_de": "BAURU"
+    },
+    "Caraguatatuba": {
+      "total_escolas": 3,
+      "total_veiculos": 8,
+      "escolas_indigenas": 2,
+      "escolas_quilombolas": 1,
+      "distancia_media": 50.35,
+      "distancia_maxima": 67.76,
+      "escolas_rurais": 1,
+      "escolas_urbanas": 2,
+      "codigo_de": "CARAGUATATUBA"
+    },
+    "Apiai": {
+      "total_escolas": 2,
+      "total_veiculos": 5,
+      "escolas_indigenas": 0,
+      "escolas_quilombolas": 2,
+      "distancia_media": 21.99,
+      "distancia_maxima": 21.99,
+      "escolas_rurais": 2,
+      "escolas_urbanas": 0,
+      "codigo_de": "Apiai"
+    },
+    "Sul 3": {
+      "total_escolas": 2,
+      "total_veiculos": 5,
+      "escolas_indigenas": 2,
+      "escolas_quilombolas": 0,
+      "distancia_media": 18.53,
+      "distancia_maxima": 19.0,
+      "escolas_rurais": 0,
+      "escolas_urbanas": 2,
+      "codigo_de": "SUL 3"
+    },
+    "Avare": {
+      "total_escolas": 1,
+      "total_veiculos": 3,
+      "escolas_indigenas": 0,
+      "escolas_quilombolas": 1,
+      "distancia_media": 44.17,
+      "distancia_maxima": 44.17,
+      "escolas_rurais": 1,
+      "escolas_urbanas": 0,
+      "codigo_de": "AVARE"
+    },
+    "Andradina": {
+      "total_escolas": 1,
+      "total_veiculos": 3,
+      "escolas_indigenas": 0,
+      "escolas_quilombolas": 1,
+      "distancia_media": 21.0,
+      "distancia_maxima": 21.0,
+      "escolas_rurais": 1,
+      "escolas_urbanas": 0,
+      "codigo_de": "ANDRADINA"
+    },
+    "Penapolis": {
+      "total_escolas": 1,
+      "total_veiculos": 3,
+      "escolas_indigenas": 1,
+      "escolas_quilombolas": 0,
+      "distancia_media": 29.76,
+      "distancia_maxima": 29.76,
+      "escolas_rurais": 1,
+      "escolas_urbanas": 0,
+      "codigo_de": "PENAPOLIS"
+    },
+    "Norte 1": {
+      "total_escolas": 1,
+      "total_veiculos": 3,
+      "escolas_indigenas": 1,
+      "escolas_quilombolas": 0,
+      "distancia_media": 9.43,
+      "distancia_maxima": 9.43,
+      "escolas_rurais": 0,
+      "escolas_urbanas": 1,
+      "codigo_de": "NORTE 1"
+    },
+    "Itapeva": {
+      "total_escolas": 1,
+      "total_veiculos": 3,
+      "escolas_indigenas": 0,
+      "escolas_quilombolas": 1,
+      "distancia_media": 27.43,
+      "distancia_maxima": 27.43,
+      "escolas_rurais": 1,
+      "escolas_urbanas": 0,
+      "codigo_de": "ITAPEVA"
+    },
+    "Lins": {
+      "total_escolas": 1,
+      "total_veiculos": 3,
+      "escolas_indigenas": 0,
+      "escolas_quilombolas": 1,
+      "distancia_media": 38.24,
+      "distancia_maxima": 38.24,
+      "escolas_rurais": 1,
+      "escolas_urbanas": 0,
+      "codigo_de": "LINS"
+    },
+    "Sao Bernardo do Campo": {
+      "total_escolas": 1,
+      "total_veiculos": 3,
+      "escolas_indigenas": 1,
+      "escolas_quilombolas": 0,
+      "distancia_media": 17.41,
+      "distancia_maxima": 17.41,
+      "escolas_rurais": 1,
+      "escolas_urbanas": 0,
+      "codigo_de": "SAO BERNARDO DO CAMPO"
+    },
+    "Santos": {
+      "total_escolas": 1,
+      "total_veiculos": 3,
+      "escolas_indigenas": 1,
+      "escolas_quilombolas": 0,
+      "distancia_media": 58.46,
+      "distancia_maxima": 58.46,
+      "escolas_rurais": 1,
+      "escolas_urbanas": 0,
+      "codigo_de": "SANTOS"
+    },
+    "Santo Anastacio": {
+      "total_escolas": 1,
+      "total_veiculos": 3,
+      "escolas_indigenas": 0,
+      "escolas_quilombolas": 1,
+      "distancia_media": 45.34,
+      "distancia_maxima": 45.34,
+      "escolas_rurais": 1,
+      "escolas_urbanas": 0,
+      "codigo_de": "SANTO ANASTACIO"
+    },
+    "Tupa": {
+      "total_escolas": 1,
+      "total_veiculos": 3,
+      "escolas_indigenas": 1,
+      "escolas_quilombolas": 0,
+      "distancia_media": 20.4,
+      "distancia_maxima": 20.4,
+      "escolas_rurais": 1,
+      "escolas_urbanas": 0,
+      "codigo_de": "TUPA"
+    }
+  },
+  "veiculos_por_tipo": {
+    "onibus_escolar": 89,
+    "van_escolar": 43,
+    "microonibus": 25,
+    "veiculo_adaptado": 15
+  },
+  "estatisticas": {
+    "escolas_indigenas": 43,
+    "escolas_quilombolas_assentamentos": 20,
+    "escolas_zona_rural": 55,
+    "escolas_zona_urbana": 8
+  }
+}
