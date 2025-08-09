@@ -1102,19 +1102,29 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 const saoPauloGeoJSON = mapasp_completo();
 const saoPauloGeoJSONSimples = mapasp_simples();
 
+// Variável global para controlar o layer ativo
+let currentSaoPauloLayer = null;
+let isCompleteMode = false;
 
-const saoPauloLayer = L.geoJSON(saoPauloGeoJSONSimples, {
-  style: {
-    color: "#2E86C1",
-    weight: 3,
-    opacity: 0.8,
-    fillColor: "#AED6F1",
-    fillOpacity: 0.15,
-    dashArray: "10, 10",
-  }
-}).addTo(map);
+// Função para criar layer baseado no modo
+function createSaoPauloLayer(useCompleteData = false) {
+  const data = useCompleteData ? saoPauloGeoJSON : saoPauloGeoJSONSimples;
+  return L.geoJSON(data, {
+    style: {
+      color: "#2E86C1",
+      weight: 3,
+      opacity: 0.8,
+      fillColor: "#AED6F1",
+      fillOpacity: 0.15,
+      dashArray: "10, 10",
+    }
+  });
+}
 
-saoPauloLayer.bindPopup(`
+// Inicializar com coordenadas simples (padrão)
+currentSaoPauloLayer = createSaoPauloLayer(false).addTo(map);
+
+currentSaoPauloLayer.bindPopup(`
   <div style="text-align: center; min-width: 200px;">
     <h4 style="margin: 0 0 10px 0; color: #2E86C1;">🗺️ Estado de São Paulo</h4>
     <p style="margin: 5px 0;"><strong>📊 Escolas mapeadas:</strong> 63</p>
@@ -1596,11 +1606,190 @@ async function initializeDashboard() {
   console.log("✅ Dashboard inicializado com sucesso!");
 }
 
+// ========================================
+// FUNCIONALIDADE: ALTERNAR COORDENADAS
+// ========================================
+
+// Função para alternar entre coordenadas simples e completas
+function toggleCoordinates() {
+  const toggleBtn = document.getElementById('toggle-coordinates-btn');
+  const coordinatesInfo = document.getElementById('coordinates-info');
+  const btnText = toggleBtn.querySelector('.btn-text');
+  
+  // Remover layer atual
+  if (currentSaoPauloLayer) {
+    map.removeLayer(currentSaoPauloLayer);
+  }
+  
+  // Alternar modo
+  isCompleteMode = !isCompleteMode;
+  
+  // Criar novo layer baseado no modo
+  currentSaoPauloLayer = createSaoPauloLayer(isCompleteMode).addTo(map);
+  
+  // Atualizar popup
+  const popupContent = isCompleteMode ? `
+    <div style="text-align: center; min-width: 200px;">
+      <h4 style="margin: 0 0 10px 0; color: #2E86C1;">🗺️ Estado de São Paulo</h4>
+      <p style="margin: 5px 0;"><strong>📊 Escolas mapeadas:</strong> 63</p>
+      <p style="margin: 5px 0;"><strong>🏢 Diretorias:</strong> 19</p>
+      <p style="margin: 5px 0;"><strong>🚗 Veículos disponíveis:</strong> 172</p>
+      <p style="margin: 5px 0;"><strong>🏛️ Municípios:</strong> 645</p>
+      <p style="margin: 5px 0;"><strong>📍 Detalhamento:</strong> Completo</p>
+    </div>
+  ` : `
+    <div style="text-align: center; min-width: 200px;">
+      <h4 style="margin: 0 0 10px 0; color: #2E86C1;">🗺️ Estado de São Paulo</h4>
+      <p style="margin: 5px 0;"><strong>📊 Escolas mapeadas:</strong> 63</p>
+      <p style="margin: 5px 0;"><strong>🏢 Diretorias:</strong> 19</p>
+      <p style="margin: 5px 0;"><strong>🚗 Veículos disponíveis:</strong> 172</p>
+      <p style="margin: 5px 0;"><strong>📍 Área de cobertura:</strong> Total</p>
+    </div>
+  `;
+  
+  currentSaoPauloLayer.bindPopup(popupContent);
+  
+  // Atualizar interface do botão
+  if (isCompleteMode) {
+    btnText.textContent = 'Mostrar Contorno';
+    coordinatesInfo.textContent = 'Modo: Municípios Detalhados';
+    toggleBtn.classList.add('active');
+    toggleBtn.setAttribute('data-mode', 'complete');
+  } else {
+    btnText.textContent = 'Mostrar Municípios';
+    coordinatesInfo.textContent = 'Modo: Contorno do Estado';
+    toggleBtn.classList.remove('active');
+    toggleBtn.setAttribute('data-mode', 'simple');
+  }
+  
+  console.log(`🗺️ Coordenadas alteradas para: ${isCompleteMode ? 'Completas (645 municípios)' : 'Simples (contorno do estado)'}`);
+}
+
+// Event listener para o botão de alternar coordenadas
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleBtn = document.getElementById('toggle-coordinates-btn');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', toggleCoordinates);
+  }
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   // Função global
   window.showConnection = showConnection;
   // Inicializar quando a página carregar
   initializeDashboard();
+});
+
+// ========================================
+// FUNCIONALIDADE: TELA CHEIA DO MAPA
+// ========================================
+
+// Variáveis para controle do modo tela cheia
+let isFullscreenMode = false;
+let originalMapContainer = null;
+
+// Função para entrar no modo tela cheia
+function enterFullscreenMode() {
+  const mapElement = document.getElementById('map');
+  const fullscreenOverlay = document.getElementById('map-fullscreen-overlay');
+  const fullscreenContainer = document.getElementById('map-fullscreen');
+  const fullscreenBtn = document.getElementById('fullscreen-btn');
+  const btnText = fullscreenBtn.querySelector('.btn-text');
+  const btnIcon = fullscreenBtn.querySelector('.btn-icon');
+  
+  if (!mapElement || !fullscreenOverlay || !fullscreenContainer) return;
+  
+  // Salvar referência do container original
+  originalMapContainer = mapElement.parentNode;
+  
+  // Mover o mapa para o container de tela cheia
+  fullscreenContainer.appendChild(mapElement);
+  
+  // Mostrar overlay
+  fullscreenOverlay.classList.remove('hidden');
+  
+  // Redimensionar o mapa
+  setTimeout(() => {
+    map.invalidateSize();
+  }, 100);
+  
+  // Atualizar estado
+  isFullscreenMode = true;
+  
+  // Atualizar botão
+  btnIcon.textContent = '🔍';
+  btnText.textContent = 'Em Tela Cheia';
+  fullscreenBtn.classList.add('active');
+  
+  // Prevenir scroll da página
+  document.body.style.overflow = 'hidden';
+  
+  console.log('🔍 Modo tela cheia ativado');
+}
+
+// Função para sair do modo tela cheia
+function exitFullscreenMode() {
+  const mapElement = document.getElementById('map');
+  const fullscreenOverlay = document.getElementById('map-fullscreen-overlay');
+  const fullscreenBtn = document.getElementById('fullscreen-btn');
+  const btnText = fullscreenBtn.querySelector('.btn-text');
+  const btnIcon = fullscreenBtn.querySelector('.btn-icon');
+  
+  if (!mapElement || !fullscreenOverlay || !originalMapContainer) return;
+  
+  // Mover o mapa de volta ao container original
+  originalMapContainer.appendChild(mapElement);
+  
+  // Esconder overlay
+  fullscreenOverlay.classList.add('hidden');
+  
+  // Redimensionar o mapa
+  setTimeout(() => {
+    map.invalidateSize();
+  }, 100);
+  
+  // Atualizar estado
+  isFullscreenMode = false;
+  
+  // Atualizar botão
+  btnIcon.textContent = '🔍';
+  btnText.textContent = 'Tela Cheia';
+  fullscreenBtn.classList.remove('active');
+  
+  // Restaurar scroll da página
+  document.body.style.overflow = 'auto';
+  
+  console.log('🔙 Modo tela cheia desativado');
+}
+
+// Função para alternar modo tela cheia
+function toggleFullscreenMode() {
+  if (isFullscreenMode) {
+    exitFullscreenMode();
+  } else {
+    enterFullscreenMode();
+  }
+}
+
+// Event listeners para tela cheia
+document.addEventListener('DOMContentLoaded', function() {
+  const fullscreenBtn = document.getElementById('fullscreen-btn');
+  const exitFullscreenBtn = document.getElementById('exit-fullscreen-btn');
+  
+  if (fullscreenBtn) {
+    fullscreenBtn.addEventListener('click', toggleFullscreenMode);
+  }
+  
+  if (exitFullscreenBtn) {
+    exitFullscreenBtn.addEventListener('click', exitFullscreenMode);
+  }
+  
+  // ESC para sair da tela cheia
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape' && isFullscreenMode) {
+      exitFullscreenMode();
+    }
+  });
 });
 
 // Função global

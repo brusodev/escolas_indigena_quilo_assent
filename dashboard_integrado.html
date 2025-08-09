@@ -145,6 +145,24 @@ Status: PRODUÇÃO (dados das 63 escolas validados)
             <span>Estado de São Paulo (área de cobertura)</span>
           </div>
         </div>
+
+        <!-- Controles do Mapa -->
+        <div class="map-controls">
+          <h4>🎛️ Controles do Mapa</h4>
+          <div class="control-buttons">
+            <button id="toggle-coordinates-btn" class="toggle-btn" data-mode="simple">
+              <span class="btn-icon">🗺️</span>
+              <span class="btn-text">Mostrar Municípios</span>
+            </button>
+            <button id="fullscreen-btn" class="toggle-btn fullscreen-btn">
+              <span class="btn-icon">🔍</span>
+              <span class="btn-text">Tela Cheia</span>
+            </button>
+          </div>
+          <div class="control-info">
+            <small id="coordinates-info">Modo: Contorno do Estado</small>
+          </div>
+        </div>
       </div>
 
       <!-- Lista de Escolas -->
@@ -166,6 +184,22 @@ Status: PRODUÇÃO (dados das 63 escolas validados)
           <!-- Escolas serão carregadas aqui -->
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- Overlay de Tela Cheia do Mapa -->
+  <div id="map-fullscreen-overlay" class="fullscreen-overlay hidden">
+    <div class="fullscreen-header">
+      <h2>🗺️ Mapa Interativo - Tela Cheia</h2>
+      <div class="fullscreen-controls">
+        <button id="exit-fullscreen-btn" class="exit-btn">
+          <span class="btn-icon">✕</span>
+          <span class="btn-text">Sair da Tela Cheia</span>
+        </button>
+      </div>
+    </div>
+    <div id="map-fullscreen" class="fullscreen-map">
+      <!-- Mapa será movido para cá -->
     </div>
   </div>
 
