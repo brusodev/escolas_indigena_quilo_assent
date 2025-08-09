@@ -135,9 +135,7 @@ class RelatorioElegantePDF:
         ax2.grid(True, alpha=0.3)
 
         plt.tight_layout()
-        plt.savefig(
-            "relatorios/graficos/graficos_relatorio.png", dpi=300, bbox_inches="tight"
-        )
+        plt.savefig("graficos_relatorio.png", dpi=300, bbox_inches="tight")
         plt.close()
 
         # Gráfico 2: Distâncias por diretoria (ajustado para paisagem)
@@ -150,7 +148,7 @@ class RelatorioElegantePDF:
         )
 
         diretorias_dist = (
-            df_num.groupby("DE_Responsavel")
+            df_num.groupby("Nome_Diretoria")
             .agg({"Distancia_Numerica": "mean", "Nome_Escola": "count"})
             .round(2)
         )
@@ -191,11 +189,7 @@ class RelatorioElegantePDF:
             )
 
         plt.tight_layout()
-        plt.savefig(
-            "relatorios/graficos/diretorias_distancias.png",
-            dpi=300,
-            bbox_inches="tight",
-        )
+        plt.savefig("diretorias_distancias.png", dpi=300, bbox_inches="tight")
         plt.close()
 
     def criar_capa(self, story, df):
@@ -394,9 +388,9 @@ class RelatorioElegantePDF:
                         nome_escola,
                         row["Cidade_Escola"],
                         (
-                            row["DE_Responsavel"][:25] + "..."
-                            if len(row["DE_Responsavel"]) > 25
-                            else row["DE_Responsavel"]
+                            row["Nome_Diretoria"][:25] + "..."
+                            if len(row["Nome_Diretoria"]) > 25
+                            else row["Nome_Diretoria"]
                         ),
                         f"{dist:.1f}" if dist > 0 else "N/A",
                         row["Zona"],
@@ -450,16 +444,14 @@ class RelatorioElegantePDF:
         print("Gerando Relatório PDF Detalhado...")
 
         # Ler dados
-        df = pd.read_excel(
-            "dados/excel/distancias_escolas_diretorias_completo_63_corrigido.xlsx"
-        )
+        df = pd.read_excel("distancias_escolas_diretorias_completo_63_corrigido.xlsx")
 
         # Criar gráficos
         self.criar_graficos(df)
 
         # Configurar documento em paisagem
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        arquivo_nome = f"relatorios/pdf/Relatorio_Paisagem_Escolas_{timestamp}.pdf"
+        arquivo_nome = f"Relatorio_Paisagem_Escolas_{timestamp}.pdf"
         doc = SimpleDocTemplate(
             arquivo_nome,
             pagesize=landscape(A4),

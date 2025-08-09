@@ -1,0 +1,62 @@
+{
+  "ASSIS": {
+    "supervisor": "Ruth Maria Gonçalves Barbieri",
+    "diretorias": "ADAMANTINA\nPRESIDENTE PRUDENTE\nMIRANTE DO PARANAPANEMA\nOURINHOS\nTUPA\nASSIS\nSANTO ANASTACIO\n",
+    "quantidade_des": 0
+  },
+  "FRANCA": {
+    "supervisor": "Elisa Helena Meleti Reis",
+    "diretorias": "JABOTICABAL\nFRANCA\nTAQUARITINGA\nSERTAOZINHO\nCATANDUVA\nBARRETOS\nSAO JOAQUIM DA BARRA\n",
+    "quantidade_des": 0
+  },
+  "MARILIA": {
+    "supervisor": "Maria José Gonçalves de Oliveria",
+    "diretorias": "AVARE\nBAURU\nBOTUCATU\nJAU\nLINS\nMARILIA\nPIRAJU\n",
+    "quantidade_des": 0
+  },
+  "CAMPINAS": {
+    "supervisor": "Cláudia Helena Brito Pedrozo",
+    "diretorias": "AMERICANA\nJUNDIAI\nPIRACICABA\nBRAGANCA PAULISTA\nCAMPINAS LESTE\nCAMPINAS OESTE\nCAPIVARI\nSUMARE\n",
+    "quantidade_des": 0
+  },
+  "Centro (SP)": {
+    "supervisor": "Fabio Cesar Severino",
+    "diretorias": "LESTE 5\nCENTRO OESTE\nCENTRO\nLESTE 1\nNORTE 1\nNORTE 2 LESTE 4\n",
+    "quantidade_des": 0
+  },
+  "Fernandópolis": {
+    "supervisor": "HELDER MACEDO DE HELD",
+    "diretorias": "JALES\nARACATUBA\nBIRIGUI\nPENAPOLIS\nANDRADINA\nFERNANDOPOLIS\nVOTUPORANGA\nJOSE BONIFACIO\nSAO JOSE DO RIO PRETO\n",
+    "quantidade_des": 0
+  },
+  "São José dos Campos": {
+    "supervisor": "Maria Beatriz Salles de Oliveira",
+    "diretorias": "MOGI DAS CRUZES\nSAO JOSE DOS CAMPOS\nCARAGUATATUBA\nTAUBATE\nPINDAMONHANGABA\nGUARATINGUETA\nJACAREI\n",
+    "quantidade_des": 0
+  },
+  "Carapicuíba": {
+    "supervisor": "Roseli da Silva Cordeiro Ruiz",
+    "diretorias": "MIRACATU\nREGISTRO\nSANTOS\nSÃO VICENTE\nCARAPICUIBA\nITAPECERICA DA SERRA\nITAPEVI\nOSASCO\nTABOÃO DA SERRA\n",
+    "quantidade_des": 0
+  },
+  "Sorocaba": {
+    "supervisor": "Fabiana Lopes de Lima Antunes Dias",
+    "diretorias": "ITAPEVA\nITAPETININGA\nITARARE\nSAO ROQUE\nVOTORANTIM\nAPIAI\nSOROCABA\nITU\n",
+    "quantidade_des": 0
+  },
+  "Mauá": {
+    "supervisor": "Guacira Garcia de Gusmão        ",
+    "diretorias": "SAO BERNARDO DO CAMPO\nSUL 1\nSUL 2\nSUL 3\nMAUA\nCENTRO SUL\nDIADEMA\nSANTO ANDRE\n",
+    "quantidade_des": 0
+  },
+  "LIMEIRA": {
+    "supervisor": "Ana Carolina Garcia Alves",
+    "diretorias": "LIMEIRA\nMOGI MIRIM\nSAO JOAO DA BOA VISTA\nARARAQUARA\nPIRASSUNUNGA\nRIBEIRAO PRETO\nSAO CARLOS\n",
+    "quantidade_des": 0
+  },
+  "NORTE 2 (SP)": {
+    "supervisor": "Sandro Roberto Da Silva",
+    "diretorias": "CAIEIRAS\nITAQUAQUECETUBA\nGUARULHOS SUL\nGUARULHOS NORTE\nSUZANO\nLESTE 3\nLESTE 2\n",
+    "quantidade_des": 0
+  }
+}
