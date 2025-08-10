@@ -1,0 +1,9 @@
+Metadados explicando as planilha do CITEM,que é a base principal das escolas que atendemos.
+
+TIPOESC
+
+3 = CEEJAs
+6 = CEL JTO A EE (Centro de Estudos de Línguas e suporte educacional especializado através do AEE)
+
+
+python -m http.server 8000

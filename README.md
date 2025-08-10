@@ -1,339 +1,265 @@
-# 🏛️ SISTEMA DE GESTÃO - ESCOLAS INDÍGENAS E QUILOMBOLAS
+# � Dashboard Escolas Indígenas e Quilombolas
 
-## 📋 Visão Geral
+**Sistema integrado de monitoramento e análise de escolas indígenas e quilombolas do Estado de São Paulo**
 
-Este sistema centraliza informações sobre **63 escolas indígenas e quilombolas** do estado de São Paulo, incluindo:
-
-- 📍 Localização geográfica precisa
-- 🚗 Dados de frota por diretoria de ensino
-- 📊 Relatórios executivos automatizados
-- 🌐 Dashboard interativo para visualização
+[![Status](https://img.shields.io/badge/Status-Operacional-brightgreen.svg)]()
+[![Versão](https://img.shields.io/badge/Versão-2.0-blue.svg)]()
+[![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)]()
 
 ---
 
-## 🎯 STATUS ATUAL
+## 🎯 **Visão Geral**
 
-### ✅ **SISTEMA COMPLETAMENTE SINCRONIZADO**
+Dashboard interativo desenvolvido para visualizar e analisar dados de **63 escolas indígenas e quilombolas** distribuídas em **91 Unidades Regionais de Ensino** do Estado de São Paulo. O sistema oferece mapas interativos, estatísticas em tempo real e análise da frota de transporte escolar.
 
-| Componente          | Escolas | Status        | Última Atualização |
-| ------------------- | ------- | ------------- | ------------------ |
-| **Dashboard Web**   | 63      | ✅ Ativo      | 08/08/2025         |
-| **Base de Dados**   | 63      | ✅ Íntegra    | 08/08/2025         |
-| **Relatório Excel** | 63      | ✅ Atualizado | 08/08/2025         |
-| **Relatório PDF**   | 63      | ✅ Gerado     | 08/08/2025         |
-
-### 📊 **Estatísticas Principais**
-
-- **Total de Escolas**: 63
-- **Escolas Indígenas**: 43
-- **Escolas Quilombolas/Assentamentos**: 20
-- **Diretorias de Ensino**: 19
-- **Total de Veículos**: 172
-- **Metodologia de Distância**: Haversine (precisão ±0.1km)
-
-## 📐 Metodologia de Cálculo de Distâncias
-
-### 🌍 Fórmula de Haversine
-
-Este sistema utiliza a **Fórmula de Haversine** para calcular as distâncias entre escolas e diretorias de ensino. Esta é a metodologia padrão internacional para cálculos geodésicos precisos.
-
-**Características da Fórmula de Haversine:**
-
-- ✅ **Tipo:** Distância geodésica (linha reta na superfície terrestre)
-- ✅ **Precisão:** Considera a curvatura da Terra
-- ✅ **Padrão:** Utilizada em sistemas GPS e navegação
-- ✅ **Sistema:** Coordenadas WGS84 em graus decimais
-- ✅ **Raio Terra:** 6.371 km (raio médio)
-
-### 📊 Fórmula Matemática
-
-```
-a = sin²(Δφ/2) + cos φ1 ⋅ cos φ2 ⋅ sin²(Δλ/2)
-c = 2 ⋅ atan2(√a, √(1−a))
-d = R ⋅ c
-```
-
-Onde:
-
-- `φ` = latitude
-- `λ` = longitude
-- `R` = raio da Terra (6.371 km)
-- `Δφ` = diferença de latitudes
-- `Δλ` = diferença de longitudes
-
-### 🗺️ Diferenças com Outras Medições
-
-- **Haversine (nosso sistema):** Distância geodésica "em linha reta"
-- **Google Maps:** Distância rodoviária seguindo estradas
-- **Diferença esperada:** 10-20km é normal e aceitável
-
-### ✅ Validação
-
-- **Total validado:** 59 escolas
-- **Precisão:** 100% das distâncias verificadas
-- **Método:** Recálculo automático com fórmula Haversine
-- **Tolerância:** ±0,1 km
+### ✨ **Principais Funcionalidades**
+- 🗺️ **Mapas interativos** com coordenadas precisas do estado
+- � **Dashboard dinâmico** com estatísticas em tempo real  
+- 🚌 **Análise de frota** por tipo de veículo (S-1, S-2, S-2 4x4)
+- 🔍 **Sistema de busca** e filtros avançados
+- � **Interface responsiva** para desktop e mobile
+- 🎨 **Visualizações gráficas** interativas
 
 ---
 
-## 📋 Arquivos do Projeto
+## �️ **Arquitetura Modular**
 
-### Dados de Entrada
+O projeto foi completamente reestruturado com arquitetura modular para facilitar manutenção e expansão:
 
-- **`ENDERECO_ESCOLAS_062025 (1).csv`** - Base de dados com todas as escolas do estado
-- **`diretorias_ensino_completo.xlsx`** - Endereços das 91 diretorias de ensino
+```
+📦 escolas_indigina_quilo_assent/
+├── 📄 dashboard_integrado.html          # Interface principal
+├── 📁 static/js/modules/               # Módulos JavaScript
+│   ├── 📊 data-loader.js              # Carregamento dinâmico
+│   ├── 🎨 ui-components.js            # Interface e componentes
+│   ├── 🗺️ map-components.js           # Mapas e coordenadas
+│   ├── 📈 charts.js                   # Gráficos e visualizações
+│   ├── 🎛️ events.js                   # Event listeners
+│   ├── 🚀 dashboard-main.js           # Inicialização
+│   └── 🌐 coordinates-loader.js       # Sistema de coordenadas
+├── 📁 dados/                          # Datasets e mapeamentos
+│   ├── 📋 dados_escolas_atualizados.json
+│   ├── 🚌 dados_veiculos_atualizados.json
+│   ├── 👥 dados_supervisao_atualizados.json
+│   └── 🏛️ mapeamento_unidades_regionais.json
+├── 📁 static/js/                      # Coordenadas geográficas
+│   ├── 🌍 coordenadas_simples.js      # Contorno básico (56K pontos)
+│   └── 🌍 coordenadas_completa.js     # Contorno detalhado
+└── 📁 docs/                          # Documentação
+    └── 📝 CHANGELOG.md               # Histórico de mudanças
+```
 
-### Scripts Python
+---
 
-- **`calcular_distancias.py`** - Script principal que calcula as distâncias
-- **`converter_dados.py`** - Converte dados do Excel para formato web
-- **`gerar_relatorio_excel.py`** - Gera relatório Excel sucinto e organizado
-- **`gerar_relatorio_pdf.py`** - Gera relatório PDF detalhado e elegante
-- **`gerar_relatorios.py`** - Menu interativo para escolher tipo de relatório
+## � **Como Executar**
 
-### Visualizações Web
+### **Pré-requisitos**
+- Python 3.12+ instalado
+- Navegador web moderno (Chrome, Firefox, Edge)
 
-- **`index.html`** - Mapa original das escolas indígenas (42 escolas)
-- **`distancias_escolas.html`** - Nova visualização com distâncias (59 escolas)
+### **Inicialização Rápida**
 
-### Arquivos Gerados
-
-- **`distancias_escolas_diretorias.xlsx`** - Planilha com todas as distâncias calculadas
-- **`diretorias_com_coordenadas.xlsx`** - Coordenadas geocodificadas das diretorias
-- **`Relatorio_Completo_Escolas_Diretorias.xlsx`** - Relatório Excel abrangente (12+ colunas)
-- **`Relatorio_Paisagem_Escolas_YYYYMMDD_HHMMSS.pdf`** - Relatório PDF em orientação paisagem
-
-## 🎯 Critérios de Filtragem
-
-O projeto identifica escolas por tipo usando o campo `TIPOESC`:
-
-- **TIPOESC = 10**: Escolas Indígenas ✅
-- **TIPOESC = 36**: Escolas Quilombolas/Assentamentos ✅
-
-> **Nota**: Centros Socioeducativos (TIPOESC = 34) foram excluídos por não se enquadrarem no escopo.
-
-## 📊 Resultados Encontrados
-
-### Estatísticas Gerais
-
-- **Total de escolas**: 59
-- **Escolas Indígenas**: 43
-- **Escolas Quilombolas/Assentamentos**: 16
-- **Distância média**: 50.56 km
-- **Distância mínima**: 12.63 km
-- **Distância máxima**: 285.90 km
-
-### Distribuição por Tipo
-
-| Tipo                      | Quantidade | Percentual |
-| ------------------------- | ---------- | ---------- |
-| Indígenas                 | 43         | 72.9%      |
-| Quilombolas/Assentamentos | 16         | 27.1%      |
-
-## 🚀 Como Usar
-
-### 1. Executar Cálculo de Distâncias
-
+1. **Clone ou baixe o repositório**
 ```bash
-python calcular_distancias.py
+git clone [repository-url]
+cd escolas_indigina_quilo_assent
 ```
 
-O script irá:
-
-1. Filtrar escolas indígenas e quilombolas/assentamentos
-2. Geocodificar endereços das diretorias de ensino
-3. Relacionar cada escola com sua diretoria responsável
-4. Calcular distâncias geodésicas
-5. Gerar arquivo Excel com resultados
-
-### 2. Atualizar Visualização Web
-
+2. **Inicie o servidor Python**
 ```bash
-python converter_dados.py
+python -m http.server 8000
 ```
 
-Este script converte os dados do Excel para o formato da página web.
-
-### 3. Gerar Relatórios
-
-```bash
-python gerar_relatorios.py
+3. **Acesse o dashboard**
+```
+http://localhost:8000/dashboard_integrado.html
 ```
 
-Este script oferece um menu interativo para gerar:
+### **URLs Disponíveis**
+- 🏠 **Dashboard Principal:** `http://localhost:8000/dashboard_integrado.html`
+- 📊 **Dados JSON:** `http://localhost:8000/dados/`
+- 🗺️ **Recursos estáticos:** `http://localhost:8000/static/`
 
-- **Relatório Excel**: Sucinto e organizado em abas por tipo de escola
-- **Relatório PDF**: Detalhado com gráficos e layout elegante para impressão
-- **Ambos**: Gera os dois formatos simultaneamente
+---
 
-### 4. Visualizar Resultados
+## 📊 **Dados do Sistema**
 
-Abra o arquivo `distancias_escolas.html` em um navegador para ver:
+### **Estatísticas Gerais**
+- 📚 **63 Escolas** (Indígenas e Quilombolas)
+- 🏛️ **91 Unidades Regionais de Ensino** (URE)
+- 🚌 **39 Veículos** de transporte escolar
+- 👥 **19 Supervisões** de ensino
+- 📍 **Precisão GPS:** ±0.1km (Sistema WGS84)
 
-- Mapa interativo com escolas e diretorias
-- Lista filtrada por tipo de escola
-- Busca por nome ou cidade
-- Visualização de conexões escola-diretoria
-- Estatísticas em tempo real
+### **Distribuição por Tipo**
+- 🏘️ **Escolas Indígenas:** [Quantidade exata exibida no dashboard]
+- 🌿 **Escolas Quilombolas:** [Quantidade exata exibida no dashboard]
 
-## � Tipos de Relatórios Disponíveis
+### **Frota de Veículos**
+- 🚐 **S-1:** Veículos pequenos (até 20 passageiros)
+- 🚌 **S-2:** Ônibus médio (21-44 passageiros)
+- 🚛 **S-2 4x4:** Ônibus para terrenos difíceis
 
-### 1. Relatório Excel Completo (`Relatorio_Completo_Escolas_Diretorias.xlsx`)
+---
 
-**Características:**
+## 🗺️ **Sistema de Mapas**
 
-- 📊 **Resumo Executivo**: Estatísticas gerais e rankings
-- 🔴 **Aba Escolas Indígenas**: Lista completa com dados abrangentes
-- 🟢 **Aba Quilombolas/Assentamentos**: Lista específica deste tipo
-- 📋 **Aba Todas as Escolas**: Visão consolidada
-- 🎨 **Formatação Profissional**: Cores por prioridade, bordas e indicadores visuais
+### **Recursos dos Mapas**
+- 🌍 **Coordenadas do Estado:** Contorno completo de São Paulo
+- 📍 **Marcadores inteligentes:** Escolas e Unidades Regionais
+- 🔄 **Modo tela cheia:** Visualização expandida
+- 🎯 **Popups informativos:** Detalhes ao clicar
+- 🔗 **Conexões visuais:** Linhas escola-diretoria
 
-**12+ Colunas incluídas:**
+### **Controles Disponíveis**
+- ⚡ **Coordenadas Simples:** Contorno básico (performance)
+- 🎨 **Coordenadas Completas:** Contorno detalhado com municípios
+- 🔍 **Zoom dinâmico:** Navegação suave
+- 📱 **Touch friendly:** Funciona em dispositivos móveis
 
-```
-• Nome da Escola ✅
-• Endereço Completo da Escola ✅ (logradouro, número, bairro, CEP)
-• Tipo de Escola (Indígena/Quilombola/Assentamento) ✅
-• Cidade da Escola ✅
-• Zona (Rural/Urbana) ✅
-• Diretoria Responsável ✅
-• Endereço Completo da Diretoria ✅ (logradouro, número, bairro, cidade, CEP)
-• Cidade da Diretoria ✅
-• Distância (km) ✅ - Calculada geodesicamente
-• Classificação da Distância (Alta/Média/Baixa) ✅
-• Prioridade de Atenção (ALTA/MÉDIA/BAIXA) ✅
-• Coordenadas da Escola (Latitude, Longitude) ✅
-• Coordenadas da Diretoria (Latitude, Longitude) ✅
-• Código da DE ✅
-• Observações automáticas ✅
-```
+---
 
-**Exemplo completo de dados por escola:**
+## 🏛️ **Unidades Regionais de Ensino (URE)**
 
-```
-Nome: JOAO CARREIRA
-Endereço Escola: PRIMAVERA, SN, CAMBIRA, CEP: 16900970
-Tipo: Quilombola/Assentamento
-Cidade: ANDRADINA
-Zona: Rural
-Diretoria: Andradina
-Endereço Diretoria: 10a Rua R Regente Feijo, 2160, Vila Mineira, Andradina, SP, CEP: 16901908
-Cidade Diretoria: Andradina
-Distância: 16.1 km
-Classificação: Baixa (<50km)
-Prioridade: BAIXA - Adequada
-Coordenadas Escola: -21,0112896, -51,46931458
-Coordenadas Diretoria: -20.896505, -51.3742765
-```
+### **Atualização 2025**
+O sistema foi atualizado para refletir a nova nomenclatura oficial:
+- **Antes:** DIRETORIA DE ENSINO DE [CIDADE]  
+- **Agora:** UNIDADE REGIONAL DE ENSINO DE [CIDADE]
 
-### 2. Relatório PDF Paisagem (`Relatorio_Paisagem_Escolas_YYYYMMDD_HHMMSS.pdf`)
+### **Siglas Oficiais (Exemplos)**
+| Unidade Regional | Sigla | Região |
+|-----------------|-------|---------|
+| Adamantina | ADA | Oeste |
+| Americana | AME | Campinas |
+| Araraquara | ARA | Central |
+| Barretos | BAT | Norte |
+| Campinas Leste | CLT | Metropolitana |
+| Campinas Oeste | COE | Metropolitana |
+| Santos | SAN | Baixada |
+| São José dos Campos | SJC | Vale do Paraíba |
 
-**Características:**
+*[Total de 91 URE com siglas oficiais]*
 
-- 📄 **Orientação Paisagem**: Melhor aproveitamento do espaço A4
-- 📄 **Capa Institucional**: Informações gerais e data do relatório
-- 📈 **Análise Estatística**: Gráficos expandidos (16x6 polegadas)
-- 📊 **Gráfico Pizza**: Proporção entre tipos de escola
-- 📊 **Histograma**: Distribuição das distâncias
-- 📊 **Ranking Diretorias**: Top 10 com maiores distâncias médias (16x8 polegadas)
-- 📋 **Tabelas Expandidas**: 6 colunas com mais informações
-- 🎨 **Layout Elegante**: Otimizado para impressão panorâmica
+---
 
-**Vantagens da orientação paisagem:**
+## 🔧 **Funcionalidades Técnicas**
 
-- ✅ Tabelas mais legíveis com 6 colunas
-- ✅ Gráficos expandidos para melhor visualização
-- ✅ Nomes completos das escolas (até 45 caracteres)
-- ✅ Mais espaço para diretorias (até 25 caracteres)
-- ✅ Coluna adicional para Zona (Rural/Urbana)
+### **Carregamento Dinâmico**
+- ⚡ **Fetch API:** Dados carregados assincronamente
+- 📦 **ES6 Modules:** Arquitetura modular moderna
+- 🎯 **Event-driven:** Sistema baseado em eventos
+- 💾 **Cache inteligente:** Otimização de performance
 
-## �🗂️ Estrutura dos Dados
+### **Interatividade**
+- 🔍 **Busca em tempo real:** Por nome de escola
+- 🎛️ **Filtros dinâmicos:** Indígena/Quilombola/Todos
+- 📊 **Gráficos interativos:** Charts.js integrado
+- 🗺️ **Mapas responsivos:** Leaflet.js otimizado
 
-### Planilha de Resultados (`distancias_escolas_diretorias.xlsx`)
+### **Compatibilidade**
+- 🌐 **Cross-browser:** Chrome, Firefox, Safari, Edge
+- 📱 **Mobile-first:** Design responsivo
+- ♿ **Acessibilidade:** Suporte a leitores de tela
+- 🎨 **Temas:** Interface moderna e limpa
 
-| Campo               | Descrição                           |
-| ------------------- | ----------------------------------- |
-| Nome_Escola         | Nome da escola                      |
-| Tipo_Escola         | Indígena ou Quilombola/Assentamento |
-| Cidade_Escola       | Município da escola                 |
-| DE_Responsavel      | Diretoria de Ensino responsável     |
-| Zona                | Rural ou Urbana                     |
-| Latitude_Escola     | Coordenada da escola                |
-| Longitude_Escola    | Coordenada da escola                |
-| Nome_Diretoria      | Nome da diretoria                   |
-| Cidade_Diretoria    | Município da diretoria              |
-| Latitude_Diretoria  | Coordenada da diretoria             |
-| Longitude_Diretoria | Coordenada da diretoria             |
-| Distancia_KM        | Distância calculada em quilômetros  |
+---
 
-## 📍 Exemplos de Resultados
+## 📁 **Estrutura de Arquivos**
 
-### Escolas com Menores Distâncias
+### **Principais Componentes**
 
-1. **CRECHE ANTONIO CARLOS FERREIRA** (Birigui) - 12.63 km
-2. **JOAO CARREIRA** (Andradina) - 16.1 km
-3. **ALDEIA NIMUENDAJU** (Avaí) - 30.08 km
+#### **Frontend (Interface)**
+- `dashboard_integrado.html` - Interface principal
+- `static/css/` - Estilos e temas
+- `static/js/modules/` - Módulos JavaScript
 
-### Escolas com Maiores Distâncias
+#### **Backend (Dados)**
+- `dados/*.json` - Datasets principais
+- `static/js/coordenadas_*.js` - Dados geográficos
+- `dados/mapeamento_unidades_regionais.json` - Mapeamento URE
 
-1. **ALDEIA KOPENOTI** (Avaí) - 285.90 km ⚠️
-2. **ALDEIA GWYRA PEPO** (São Paulo) - 115.78 km
-3. **ALDEIA YWY PYHAU** (Barão de Antonina) - 87.43 km
+#### **Documentação**
+- `README.md` - Este arquivo
+- `docs/CHANGELOG.md` - Histórico detalhado
+- `GUIA_RAPIDO.md` - Guia de uso rápido
 
-> **Observação**: A escola "ALDEIA KOPENOTI" apresenta distância muito alta (285.90 km), possivelmente devido a erro nos dados de localização.
+---
 
-## 🛠️ Dependências
+## 🛠️ **Desenvolvimento e Manutenção**
 
-```bash
-pip install pandas openpyxl geopy reportlab matplotlib seaborn
-```
+### **Adicionando Novas Escolas**
+1. Edite `dados/dados_escolas_atualizados.json`
+2. Adicione coordenadas GPS precisas
+3. Vincule à URE correspondente
+4. Teste no dashboard local
 
-## 📈 Funcionalidades da Visualização Web
+### **Atualizando Frota**
+1. Modifique `dados/dados_veiculos_atualizados.json`
+2. Mantenha tipologia S-1, S-2, S-2 4x4
+3. Vincule à supervisão correta
 
-### Mapa Interativo
+### **Personalizando Interface**
+- Módulos independentes facilitam customização
+- CSS responsivo em `static/css/`
+- Cores e temas configuráveis
 
-- Marcadores diferenciados por tipo de escola
-- Popup com informações detalhadas
-- Visualização de conexões escola-diretoria
-- Zoom automático para conexões
+---
 
-### Filtros e Busca
+## 🔗 **Tecnologias Utilizadas**
 
-- Filtro por tipo de escola (Todas/Indígenas/Quilombolas)
-- Busca por nome da escola, cidade ou diretoria
-- Atualização em tempo real
+- **Frontend:** HTML5, CSS3, JavaScript ES6+
+- **Mapas:** Leaflet.js + OpenStreetMap
+- **Gráficos:** Chart.js
+- **Backend:** Python HTTP Server
+- **Dados:** JSON + GeoJSON
+- **Coordenadas:** Sistema WGS84
 
-### Informações Estatísticas
+---
 
-- Total de escolas por tipo
-- Distância média calculada
-- Indicadores visuais de distância (perto/médio/longe)
+## 📞 **Suporte e Contribuição**
 
-## 🎨 Códigos de Cores
+### **Reportar Problemas**
+- 🐛 Issues técnicos
+- 📊 Inconsistências de dados
+- 💡 Sugestões de melhorias
 
-- **🔴 Vermelho**: Escolas Indígenas
-- **🟢 Verde**: Escolas Quilombolas/Assentamentos
-- **🔵 Azul**: Diretorias de Ensino
-- **🟡 Amarelo**: Linhas de conexão (temporárias)
+### **Contribuir**
+1. Fork do repositório
+2. Crie branch para feature (`git checkout -b feature/nova-funcionalidade`)
+3. Commit das mudanças (`git commit -am 'Adiciona nova funcionalidade'`)
+4. Push para branch (`git push origin feature/nova-funcionalidade`)
+5. Abra Pull Request
 
-## 📝 Metodologia
+---
 
-1. **Filtragem**: Seleção de escolas pelos códigos TIPOESC corretos
-2. **Geocodificação**: Conversão de endereços em coordenadas geográficas
-3. **Relacionamento**: Vinculação escola-diretoria baseada no campo DE
-4. **Cálculo**: Distância geodésica usando fórmula de Haversine
-5. **Visualização**: Interface web interativa com Leaflet.js
+## 📄 **Licença e Uso**
 
-## ⚠️ Observações Importantes
+Este projeto é destinado ao monitoramento de escolas indígenas e quilombolas do Estado de São Paulo. Uso educacional e institucional permitido com devida atribuição.
 
-- Algumas diretorias podem não ter endereços exatos, usando coordenadas da cidade
-- Distâncias são calculadas "em linha reta" (geodésica)
-- Para rotas reais, seria necessário usar APIs de roteamento
-- Dados de coordenadas podem conter inconsistências nos arquivos originais
+---
 
-## 📞 Próximos Passos Sugeridos
+## 🎉 **Changelog Recente**
 
-1. **Validação de Dados**: Revisar coordenadas com distâncias muito altas
-2. **Roteamento Real**: Integrar com API do Google Maps para rotas reais
-3. **Relatórios**: Gerar relatórios específicos por diretoria
-4. **Dashboard**: Criar painel administrativo para acompanhamento
+### **Versão 2.0 (Agosto 2025)**
+- ✅ Arquitetura modular implementada
+- ✅ Sistema de coordenadas dinâmico
+- ✅ Atualização para URE (91 unidades)
+- ✅ Performance otimizada
+- ✅ Mapas fullscreen funcionais
+- ✅ Documentação completa
+
+[Ver histórico completo em docs/CHANGELOG.md](docs/CHANGELOG.md)
+
+---
+
+<div align="center">
+
+**🏫 Dashboard Escolas Indígenas e Quilombolas**  
+*Monitoramento inteligente para educação inclusiva*
+
+[![Estado de São Paulo](https://img.shields.io/badge/São%20Paulo-91%20URE-green.svg)]()
+[![Escolas](https://img.shields.io/badge/Escolas-63%20Unidades-blue.svg)]()
+[![Status](https://img.shields.io/badge/Sistema-Operacional-success.svg)]()
+
+</div>

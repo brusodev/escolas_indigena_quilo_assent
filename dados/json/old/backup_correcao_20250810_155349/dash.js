@@ -51,7 +51,7 @@ const vehicleDataEmbedded = {
     data_atualizacao: "2025-08-07",
     fonte: "Planilha QUANTIDADE DE VEÍCULOS LOCADOS - DIRETORIAS.xlsx",
     total_diretorias: 91,
-    total_veiculos: 29,
+    total_veiculos: 245,
     tipos_veiculo: {
       "S-1": "Veículo pequeno (até 7 lugares)",
       "S-2": "Veículo médio/grande (8+ lugares)",
@@ -82,7 +82,7 @@ async function loadVehicleData() {
 
     // Usar metadados embebidos como referência para o total
     vehicleMetadata = {
-      total_veiculos: 29,
+      total_veiculos: 245,
       total_diretorias: 91,
       data_atualizacao: "2025-08-07",
     };
@@ -129,51 +129,10 @@ async function loadVehicleData() {
 // 📐 METODOLOGIA: Fórmula Haversine para cálculo geodésico científico
 // ✅ VALIDAÇÃO: 100% das escolas verificadas com precisão ±0,1 km
 // 🔧 CORREÇÕES: KOPENOTI 286.65km → 27.16km (exemplo principal)
-// 📊 FONTE: dados/json/dados_escolas_atualizados.json (carregado dinamicamente)
-// 🗓️ ATUALIZAÇÃO: 10/08/2025
+// 📊 FONTE: distancias_escolas_diretorias_corrigido.xlsx
+// 🗓️ ATUALIZAÇÃO: 08/08/2025
 // ===================================================
-
-// Variável global para dados das escolas (será carregada via fetch)
-let schoolsData = [];
-
-// Função para carregar dados das escolas do JSON
-async function loadSchoolsData() {
-  try {
-    console.log("🔄 Carregando dados das escolas do JSON...");
-    const response = await fetch("dados/json/dados_escolas_atualizados.json");
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    
-    schoolsData = await response.json();
-    console.log(`✅ ${schoolsData.length} escolas carregadas do JSON`);
-    
-    // Verificar tipos
-    const indigenas = schoolsData.filter(s => s.type === 'indigena').length;
-    const quilombolas = schoolsData.filter(s => s.type === 'quilombola').length;
-    console.log(`📊 Tipos: ${indigenas} indígenas + ${quilombolas} quilombolas`);
-    
-    return schoolsData;
-  } catch (error) {
-    console.error("❌ Erro ao carregar dados das escolas:", error);
-    
-    // Fallback: usar dados mínimos em caso de erro
-    schoolsData = [
-      {
-        name: "ERRO - Dados não carregados",
-        type: "erro",
-        city: "N/A",
-        diretoria: "N/A",
-        distance: 0,
-        lat: -23.5,
-        lng: -46.6
-      }
-    ];
-    
-    return schoolsData;
-  }
-}
+const schoolsData = [
   {
     name: "JOAO CARREIRA",
     type: "quilombola",
@@ -1080,7 +1039,7 @@ async function loadSchoolsData() {
 // Calcular estatísticas
 function calculateStats() {
   // Usar o total de veículos dos metadados se disponível, senão calcular
-  let totalvehicles = 39;
+  let totalVehicles = 0;
 
   // Calcular veículos relevantes - apenas das diretorias que atendem as escolas
   const diretorias_escolas = [...new Set(schoolsData.map((s) => s.diretoria))];

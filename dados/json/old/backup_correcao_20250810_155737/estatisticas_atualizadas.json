@@ -1,0 +1,33 @@
+{
+  "ultima_atualizacao": "2025-08-10T15:56:15.064835",
+  "resumo": {
+    "total_escolas": 63,
+    "total_veiculos_diretorias_relevantes": 29,
+    "total_diretorias_atendendo_escolas": 14,
+    "tipos_escola": {
+      "quilombola": 26,
+      "indigena": 37
+    }
+  },
+  "detalhamento": {
+    "Andradina": 2,
+    "Apiai": 2,
+    "Avare": 2,
+    "Bauru": 2,
+    "Caraguatatuba": 2,
+    "Itapeva": 2,
+    "Lins": 2,
+    "Miracatu": 2,
+    "Mirante do Paranapanema": 2,
+    "Norte 1": 1,
+    "Registro": 3,
+    "Santos": 3,
+    "Sul 3": 1,
+    "SÃO VICENTE": 3
+  },
+  "observacoes": [
+    "Dados corrigidos automaticamente em 2025-08-10 15:56:15",
+    "Dashboard atualizado para mostrar 29 veículos",
+    "Contagem considera apenas diretorias que atendem escolas indígenas/quilombolas"
+  ]
+}

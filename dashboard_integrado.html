@@ -11,11 +11,11 @@ DADOS ATUALIZADOS E METODOLOGIA CIENTÍFICA:
 ✅ KOPENOTI: validado em 27.16 km (referência de precisão)
 ✅ Sistema de coordenadas: WGS84 (padrão internacional)
 ✅ Precisão: ±0,1 km (certificada cientificamente)
-✅ 43 Escolas Indígenas + 20 Escolas Quilombolas/Assentamentos = 63 TOTAL
+✅ 37 Escolas Indígenas + 26 Escolas Quilombolas/Assentamentos = 63 TOTAL
 
 FONTES DE DADOS ATUALIZADAS:
 - Escolas: distancias_escolas_diretorias_completo_63_corrigido.xlsx
-- Veículos: dados_veiculos_diretorias.json (40 veículos nas diretorias relevantes)
+- Veículos: dados_veiculos_diretorias.json (39 veículos nas diretorias relevantes)
 - Diretorias: 19 Diretorias de Ensino responsáveis (todas com veículos)
 - Metodologia: Haversine implementada e documentada
 
@@ -32,9 +32,21 @@ Status: PRODUÇÃO (dados das 63 escolas validados)
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+
+  <!-- Coordenadas do Estado -->
   <script type="module" src="static/js/coordenadas_completa.js"></script>
   <script type="module" src="static/js/coordenadas_simples.js"></script>
-  <script type="module" src="static/js/dash.js" defer></script>
+  <script src="static/js/modules/coordinates-loader.js"></script>
+
+  <!-- Módulos do Dashboard -->
+  <script src="static/js/modules/data-loader.js"></script>
+  <script src="static/js/modules/ui-components.js"></script>
+  <script src="static/js/modules/map-components.js"></script>
+  <script src="static/js/modules/charts.js"></script>
+  <script src="static/js/modules/events.js"></script>
+
+  <!-- Dashboard Principal -->
+  <script src="static/js/dashboard-main.js"></script>
   <link rel="stylesheet" href="static/css/dash.css">
 </head>
 
@@ -52,7 +64,7 @@ Status: PRODUÇÃO (dados das 63 escolas validados)
         <div class="stat-label">Total de Escolas</div>
       </div>
       <div class="stat-card veiculos">
-        <div class="stat-number" id="total-vehicles">40</div>
+        <div class="stat-number" id="total-vehicles">39</div>
         <div class="stat-label">Veículos Disponíveis</div>
       </div>
       <div class="stat-card diretorias">
@@ -130,19 +142,20 @@ Status: PRODUÇÃO (dados das 63 escolas validados)
           <h4>Legenda</h4>
           <div class="legend-item">
             <div class="legend-icon indigena-marker"></div>
-            <span>Escola Indígena (43 escolas)</span>
+            <span>🔴 Escola Indígena (<span id="indigena-count">0</span> escolas)</span>
           </div>
           <div class="legend-item">
             <div class="legend-icon quilombola-marker"></div>
-            <span>Escola Quilombola/Assentamento (20 escolas)</span>
+            <span>🟠 Escola Quilombola/Assentamento (<span id="quilombola-count">0</span> escolas)</span>
           </div>
           <div class="legend-item">
             <div class="legend-icon diretoria-marker"></div>
-            <span>Diretoria de Ensino (19 DEs com 40 com veículos no total 🚗)</span>
+            <span>🔵 Diretoria de Ensino (<span id="diretorias-count">0</span> DEs com <span
+                id="veiculos-legend-count">0</span> veículos)</span>
           </div>
           <div class="legend-item">
             <div class="legend-icon sao-paulo-polygon"></div>
-            <span>Estado de São Paulo (área de cobertura)</span>
+            <span>📍 Linhas conectam escolas às diretorias responsáveis</span>
           </div>
         </div>
 
@@ -198,8 +211,8 @@ Status: PRODUÇÃO (dados das 63 escolas validados)
         </button>
       </div>
     </div>
-    <div id="map-fullscreen" class="fullscreen-map">
-      <!-- Mapa será movido para cá -->
+    <div id="map-fullscreen-container" class="fullscreen-map">
+      <!-- Mapa será criado aqui -->
     </div>
   </div>
 

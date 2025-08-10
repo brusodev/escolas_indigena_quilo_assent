@@ -1,9 +1,39 @@
 {
-  "total_escolas": 59,
-  "escolas_indigenas": 37,
-  "escolas_quilombolas": 22,
-  "total_veiculos": 172,
-  "diretorias_com_veiculos": 91,
-  "escolas_alta_prioridade": 16,
-  "distancia_media": 50.5
+  "ultima_atualizacao": "2025-08-10T15:57:37.486156",
+  "resumo": {
+    "total_escolas": 63,
+    "total_veiculos_diretorias_relevantes": 39,
+    "total_diretorias_atendendo_escolas": 19,
+    "tipos_escola": {
+      "quilombola": 26,
+      "indigena": 37
+    }
+  },
+  "detalhamento": {
+    "Andradina": 2,
+    "Apiai": 2,
+    "Avare": 2,
+    "Bauru": 2,
+    "Caraguatatuba": 2,
+    "Itapeva": 2,
+    "Itarare": 2,
+    "Lins": 2,
+    "Miracatu": 2,
+    "Mirante do Paranapanema": 2,
+    "Norte 1": 1,
+    "Penapolis": 2,
+    "Registro": 3,
+    "Santo Anastacio": 2,
+    "Santos": 3,
+    "Sao Bernardo do Campo": 2,
+    "SÃO VICENTE": 3,
+    "Sul 3": 1,
+    "Tupa": 2
+  },
+  "observacoes": [
+    "Dados corrigidos automaticamente em 2025-08-10 15:57:37",
+    "Dashboard atualizado para mostrar 39 veículos",
+    "Contagem considera apenas diretorias que atendem escolas indígenas/quilombolas",
+    "Normalização de nomes aplicada para correspondência de acentos"
+  ]
 }

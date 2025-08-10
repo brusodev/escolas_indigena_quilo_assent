@@ -1,0 +1,472 @@
+{
+  "metadata": {
+    "descricao": "Mapeamento das antigas Diretorias de Ensino para as novas Unidades Regionais de Ensino",
+    "data_criacao": "2025-08-10",
+    "versao": "1.1",
+    "total_unidades": 91,
+    "observacoes": "Mudança de nomenclatura: 'DIRETORIA DE ENSINO DE [CIDADE]' → 'UNIDADE REGIONAL DE ENSINO DE [CIDADE]'"
+  },
+  "unidades_regionais": {
+    "ADAMANTINA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ADAMANTINA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ADAMANTINA",
+      "sigla": "ADA"
+    },
+    "AMERICANA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE AMERICANA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE AMERICANA",
+      "sigla": "AME"
+    },
+    "ANDRADINA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ANDRADINA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ANDRADINA",
+      "sigla": "AND"
+    },
+    "APIAI": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE APIAÍ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE APIAÍ",
+      "sigla": "API"
+    },
+    "ARACATUBA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ARAÇATUBA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ARAÇATUBA",
+      "sigla": "ARC"
+    },
+    "ARARAQUARA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ARARAQUARA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ARARAQUARA",
+      "sigla": "ARA"
+    },
+    "ASSIS": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ASSIS",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ASSIS",
+      "sigla": "ASS"
+    },
+    "AVARE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE AVARÉ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE AVARÉ",
+      "sigla": "AVA"
+    },
+    "BARRETOS": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE BARRETOS",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE BARRETOS",
+      "sigla": "BAT"
+    },
+    "BAURU": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE BAURU",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE BAURU",
+      "sigla": "BAU"
+    },
+    "BIRIGUI": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE BIRIGUI",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE BIRIGUI",
+      "sigla": "BIR"
+    },
+    "BOTUCATU": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE BOTUCATU",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE BOTUCATU",
+      "sigla": "BOT"
+    },
+    "BRAGANCA_PAULISTA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE BRAGANÇA PAULISTA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE BRAGANÇA PAULISTA",
+      "sigla": "BPT"
+    },
+    "CAIEIRAS": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE CAIEIRAS",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE CAIEIRAS",
+      "sigla": "CAI"
+    },
+    "CAMPINAS_LESTE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE CAMPINAS LESTE",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE CAMPINAS LESTE",
+      "sigla": "CLT"
+    },
+    "CAMPINAS_OESTE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE CAMPINAS OESTE",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE CAMPINAS OESTE",
+      "sigla": "COE"
+    },
+    "CAPIVARI": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE CAPIVARI",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE CAPIVARI",
+      "sigla": "CAP"
+    },
+    "CARAGUATATUBA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE CARAGUATATUBA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE CARAGUATATUBA",
+      "sigla": "CGT"
+    },
+    "CARAPICUIBA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE CARAPICUÍBA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE CARAPICUÍBA",
+      "sigla": "CAR"
+    },
+    "CATANDUVA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE CATANDUVA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE CATANDUVA",
+      "sigla": "CAT"
+    },
+    "CENTRO": {
+      "nome_antigo": "DIRETORIA DE ENSINO CENTRO",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO CENTRO",
+      "sigla": "CTR"
+    },
+    "CENTRO_OESTE": {
+      "nome_antigo": "DIRETORIA DE ENSINO CENTRO OESTE",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO CENTRO OESTE",
+      "sigla": "CTO"
+    },
+    "CENTRO_SUL": {
+      "nome_antigo": "DIRETORIA DE ENSINO CENTRO SUL",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO CENTRO SUL",
+      "sigla": "CTS"
+    },
+    "DIADEMA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE DIADEMA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE DIADEMA",
+      "sigla": "DIA"
+    },
+    "FERNANDOPOLIS": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE FERNANDÓPOLIS",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE FERNANDÓPOLIS",
+      "sigla": "FER"
+    },
+    "FRANCA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE FRANCA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE FRANCA",
+      "sigla": "FRA"
+    },
+    "GUARATINGUETA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE GUARATINGUETÁ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE GUARATINGUETÁ",
+      "sigla": "GTG"
+    },
+    "GUARULHOS_NORTE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE GUARULHOS NORTE",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE GUARULHOS NORTE",
+      "sigla": "GNO"
+    },
+    "GUARULHOS_SUL": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE GUARULHOS SUL",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE GUARULHOS SUL",
+      "sigla": "GSU"
+    },
+    "ITAPECERICA_DA_SERRA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ITAPECERICA DA SERRA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ITAPECERICA DA SERRA",
+      "sigla": "ITS"
+    },
+    "ITAPETININGA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ITAPETININGA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ITAPETININGA",
+      "sigla": "ITN"
+    },
+    "ITAPEVA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ITAPEVA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ITAPEVA",
+      "sigla": "ITV"
+    },
+    "ITAPEVI": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ITAPEVI",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ITAPEVI",
+      "sigla": "ITP"
+    },
+    "ITAQUAQUECETUBA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ITAQUAQUECETUBA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ITAQUAQUECETUBA",
+      "sigla": "ITQ"
+    },
+    "ITARARE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ITARARÉ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ITARARÉ",
+      "sigla": "ITR"
+    },
+    "ITU": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE ITU",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE ITU",
+      "sigla": "ITU"
+    },
+    "JABOTICABAL": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE JABOTICABAL",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE JABOTICABAL",
+      "sigla": "JAB"
+    },
+    "JACAREI": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE JACAREÍ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE JACAREÍ",
+      "sigla": "JAC"
+    },
+    "JALES": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE JALES",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE JALES",
+      "sigla": "JAL"
+    },
+    "JAU": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE JAÚ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE JAÚ",
+      "sigla": "JAU"
+    },
+    "JOSE_BONIFACIO": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE JOSÉ BONIFÁCIO",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE JOSÉ BONIFÁCIO",
+      "sigla": "JBO"
+    },
+    "JUNDIAI": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE JUNDIAÍ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE JUNDIAÍ",
+      "sigla": "JND"
+    },
+    "LESTE_1": {
+      "nome_antigo": "DIRETORIA DE ENSINO LESTE 1",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO LESTE 1",
+      "sigla": "LT1"
+    },
+    "LESTE_2": {
+      "nome_antigo": "DIRETORIA DE ENSINO LESTE 2",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO LESTE 2",
+      "sigla": "LT2"
+    },
+    "LESTE_3": {
+      "nome_antigo": "DIRETORIA DE ENSINO LESTE 3",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO LESTE 3",
+      "sigla": "LT3"
+    },
+    "LESTE_4": {
+      "nome_antigo": "DIRETORIA DE ENSINO LESTE 4",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO LESTE 4",
+      "sigla": "LT4"
+    },
+    "LESTE_5": {
+      "nome_antigo": "DIRETORIA DE ENSINO LESTE 5",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO LESTE 5",
+      "sigla": "LT5"
+    },
+    "LIMEIRA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE LIMEIRA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE LIMEIRA",
+      "sigla": "LIM"
+    },
+    "LINS": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE LINS",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE LINS",
+      "sigla": "LIN"
+    },
+    "MARILIA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE MARÍLIA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE MARÍLIA",
+      "sigla": "MAR"
+    },
+    "MAUA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE MAUÁ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE MAUÁ",
+      "sigla": "MAU"
+    },
+    "MIRACATU": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE MIRACATU",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE MIRACATU",
+      "sigla": "MIR"
+    },
+    "MIRANTE_DO_PARANAPANEMA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE MIRANTE DO PARANAPANEMA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE MIRANTE DO PARANAPANEMA",
+      "sigla": "MPA"
+    },
+    "MOGI_DAS_CRUZES": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE MOGI DAS CRUZES",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE MOGI DAS CRUZES",
+      "sigla": "MGC"
+    },
+    "MOGI_MIRIM": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE MOGI MIRIM",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE MOGI MIRIM",
+      "sigla": "MGM"
+    },
+    "NORTE_1": {
+      "nome_antigo": "DIRETORIA DE ENSINO NORTE 1",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO NORTE 1",
+      "sigla": "NT1"
+    },
+    "NORTE_2": {
+      "nome_antigo": "DIRETORIA DE ENSINO NORTE 2",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO NORTE 2",
+      "sigla": "NT2"
+    },
+    "OSASCO": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE OSASCO",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE OSASCO",
+      "sigla": "OSC"
+    },
+    "OURINHOS": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE OURINHOS",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE OURINHOS",
+      "sigla": "OUR"
+    },
+    "PENAPOLIS": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE PENÁPOLIS",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE PENÁPOLIS",
+      "sigla": "PEN"
+    },
+    "PINDAMONHANGABA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE PINDAMONHANGABA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE PINDAMONHANGABA",
+      "sigla": "PDM"
+    },
+    "PIRACICABA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE PIRACICABA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE PIRACICABA",
+      "sigla": "PIR"
+    },
+    "PIRAJU": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE PIRAJU",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE PIRAJU",
+      "sigla": "PJU"
+    },
+    "PIRASSUNUNGA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE PIRASSUNUNGA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE PIRASSUNUNGA",
+      "sigla": "PRS"
+    },
+    "PRESIDENTE_PRUDENTE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE PRESIDENTE PRUDENTE",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE PRESIDENTE PRUDENTE",
+      "sigla": "PPR"
+    },
+    "REGISTRO": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE REGISTRO",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE REGISTRO",
+      "sigla": "REG"
+    },
+    "RIBEIRAO_PRETO": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE RIBEIRÃO PRETO",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE RIBEIRÃO PRETO",
+      "sigla": "RPT"
+    },
+    "SANTO_ANASTACIO": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SANTO ANASTÁCIO",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SANTO ANASTÁCIO",
+      "sigla": "SAT"
+    },
+    "SANTO_ANDRE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SANTO ANDRÉ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SANTO ANDRÉ",
+      "sigla": "STA"
+    },
+    "SANTOS": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SANTOS",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SANTOS",
+      "sigla": "SAN"
+    },
+    "SAO_BERNARDO_DO_CAMPO": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SÃO BERNARDO DO CAMPO",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SÃO BERNARDO DO CAMPO",
+      "sigla": "SBC"
+    },
+    "SAO_CARLOS": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SÃO CARLOS",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SÃO CARLOS",
+      "sigla": "SCL"
+    },
+    "SAO_JOAO_DA_BOA_VISTA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SÃO JOÃO DA BOA VISTA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SÃO JOÃO DA BOA VISTA",
+      "sigla": "SJV"
+    },
+    "SAO_JOAQUIM_DA_BARRA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SÃO JOAQUIM DA BARRA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SÃO JOAQUIM DA BARRA",
+      "sigla": "SJB"
+    },
+    "SAO_JOSE_DO_RIO_PRETO": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SÃO JOSÉ DO RIO PRETO",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SÃO JOSÉ DO RIO PRETO",
+      "sigla": "SJR"
+    },
+    "SAO_JOSE_DOS_CAMPOS": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SÃO JOSÉ DOS CAMPOS",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SÃO JOSÉ DOS CAMPOS",
+      "sigla": "SJC"
+    },
+    "SAO_ROQUE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SÃO ROQUE",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SÃO ROQUE",
+      "sigla": "SRQ"
+    },
+    "SAO_VICENTE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SÃO VICENTE",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SÃO VICENTE",
+      "sigla": "SVI"
+    },
+    "SERTAOZINHO": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SERTÃOZINHO",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SERTÃOZINHO",
+      "sigla": "SER"
+    },
+    "SOROCABA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SOROCABA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SOROCABA",
+      "sigla": "SOR"
+    },
+    "SUL_1": {
+      "nome_antigo": "DIRETORIA DE ENSINO SUL 1",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO SUL 1",
+      "sigla": "SU1"
+    },
+    "SUL_2": {
+      "nome_antigo": "DIRETORIA DE ENSINO SUL 2",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO SUL 2",
+      "sigla": "SU2"
+    },
+    "SUL_3": {
+      "nome_antigo": "DIRETORIA DE ENSINO SUL 3",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO SUL 3",
+      "sigla": "SU3"
+    },
+    "SUMARE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SUMARÉ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SUMARÉ",
+      "sigla": "SUM"
+    },
+    "SUZANO": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE SUZANO",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE SUZANO",
+      "sigla": "SUZ"
+    },
+    "TABOAO_DA_SERRA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE TABOÃO DA SERRA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE TABOÃO DA SERRA",
+      "sigla": "TAB"
+    },
+    "TAQUARITINGA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE TAQUARITINGA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE TAQUARITINGA",
+      "sigla": "TAQ"
+    },
+    "TAUBATE": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE TAUBATÉ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE TAUBATÉ",
+      "sigla": "TAU"
+    },
+    "TUPA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE TUPÃ",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE TUPÃ",
+      "sigla": "TUP"
+    },
+    "VOTORANTIM": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE VOTORANTIM",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE VOTORANTIM",
+      "sigla": "VOT"
+    },
+    "VOTUPORANGA": {
+      "nome_antigo": "DIRETORIA DE ENSINO DE VOTUPORANGA",
+      "nome_novo": "UNIDADE REGIONAL DE ENSINO DE VOTUPORANGA",
+      "sigla": "VTP"
+    }
+  },
+  "instrucoes_uso": {
+    "como_usar": "Este arquivo mapeia as antigas nomenclaturas das Diretorias de Ensino para as novas Unidades Regionais de Ensino",
+    "estrutura": "Cada entrada contém: nome_antigo, nome_novo e sigla oficial",
+    "aplicacao": "Use as siglas para exibição nos mapas e interfaces, mantendo compatibilidade com dados existentes",
+    "validacao": "Total de 91 Unidades Regionais de Ensino conforme lista oficial"
+  }
+}
