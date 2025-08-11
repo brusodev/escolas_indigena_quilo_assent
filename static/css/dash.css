@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
   color: #333;
@@ -417,7 +417,7 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-.indigena-marker {
+/* .indigena-marker {
   background-color: #e74c3c;
 }
 
@@ -427,12 +427,12 @@ body {
 
 .diretoria-marker {
   background-color: #3498db;
-}
+} */
 
 .sao-paulo-polygon {
-  background: linear-gradient(45deg, #2E86C1, #AED6F1);
+  background: linear-gradient(45deg, #2e86c1, #aed6f1);
   border-radius: 3px;
-  border: 2px dashed #2E86C1;
+  border: 2px dashed #2e86c1;
   opacity: 0.8;
 }
 
@@ -473,7 +473,7 @@ body {
   background: #ecf0f1;
   padding: 2px 6px;
   border-radius: 4px;
-  font-family: "Courier New", monospace;
+  font-family: 'Courier New', monospace;
   color: #e74c3c;
   font-weight: bold;
 }
@@ -669,17 +669,17 @@ body {
     grid-template-columns: 1fr;
     gap: 8px;
   }
-  
+
   .fullscreen-header {
     padding: 12px 15px;
     flex-direction: column;
     gap: 10px;
   }
-  
+
   .fullscreen-header h2 {
     font-size: 1.2em;
   }
-  
+
   .exit-btn {
     padding: 8px 16px;
     font-size: 0.8em;

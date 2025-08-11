@@ -84,7 +84,7 @@ Status: PRODUÇÃO (dados das 63 escolas validados)
     <!-- Gráficos de Análise -->
     <div class="charts-container" style="grid-template-columns: 1fr 1fr 1fr;">
       <div class="chart-panel">
-        <h3>📊 Veículos vs Demanda por Diretoria</h3>
+        <h3>📊 Veículos vs Escolas por Diretoria</h3>
         <div class="chart-container">
           <canvas id="vehicleChart"></canvas>
         </div>
@@ -96,7 +96,7 @@ Status: PRODUÇÃO (dados das 63 escolas validados)
         </div>
       </div>
       <div class="chart-panel">
-        <h3>🚗 Distribuição de Veículos</h3>
+        <h3>🚗 Distribuição Tipo de Escola</h3>
         <div class="chart-container">
           <canvas id="vehicleDistributionChart"></canvas>
         </div>
@@ -141,21 +141,21 @@ Status: PRODUÇÃO (dados das 63 escolas validados)
         <div class="legend">
           <h4>Legenda</h4>
           <div class="legend-item">
-            <div class="legend-icon indigena-marker"></div>
+            <!-- <div class="legend-icon indigena-marker"></div> -->
             <span>🔴 Escola Indígena (<span id="indigena-count">0</span> escolas)</span>
           </div>
           <div class="legend-item">
-            <div class="legend-icon quilombola-marker"></div>
+            <!-- <div class="legend-icon quilombola-marker"></div> -->
             <span>🟠 Escola Quilombola/Assentamento (<span id="quilombola-count">0</span> escolas)</span>
           </div>
           <div class="legend-item">
-            <div class="legend-icon diretoria-marker"></div>
+            <!-- <div class="legend-icon diretoria-marker"></div> -->
             <span>🔵 Diretoria de Ensino (<span id="diretorias-count">0</span> DEs com <span
                 id="veiculos-legend-count">0</span> veículos)</span>
           </div>
           <div class="legend-item">
             <div class="legend-icon sao-paulo-polygon"></div>
-            <span>📍 Linhas conectam escolas às diretorias responsáveis</span>
+            <span>Linhas conectam escolas às diretorias responsáveis</span>
           </div>
         </div>
 
