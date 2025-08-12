@@ -1,0 +1,4169 @@
+[
+  {
+    "id": 1,
+    "nome": "ADAMANTINA",
+    "sigla": "ADA",
+    "total_escolas": 53,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 33,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 14,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Alameda Braulio Molina Frias, 120, Vila Cicma, Adamantina, SP, CEP: 17800000",
+    "logradouro": "Alameda Braulio Molina Frias",
+    "numero": "120",
+    "bairro": "Vila Cicma",
+    "cidade": "Adamantina",
+    "cep": "17800000",
+    "telefone": "(18) 3502-2313, (18) 99763-6638",
+    "email": "deada@educacao.sp.gov.br",
+    "dirigente": "Irmes Mary Moreno Roque Mattara",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 2,
+    "nome": "AMERICANA",
+    "sigla": "AME",
+    "total_escolas": 81,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 79,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Duque de Caxias, 600, Vila Santa Catarina, Americana, SP, CEP: 13466320",
+    "logradouro": "Rua R Duque de Caxias",
+    "numero": "600",
+    "bairro": "Vila Santa Catarina",
+    "cidade": "Americana",
+    "cep": "13466320",
+    "telefone": "(19) 3471-6105, (19) 3471-6134, (19) 3471-6138, (19) 3471-6141, (19) 3471-6144, (19) 3471-6147, (19) 3471-6148, (19) 3471-6158, (19) 3471-6160, (19) 3...",
+    "email": "deame@educacao.sp.gov.br",
+    "dirigente": "Haroldo Ramos Teixeira",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 3,
+    "nome": "ANDRADINA",
+    "sigla": "AND",
+    "total_escolas": 32,
+    "tipos_escola": {
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "8": {
+        "quantidade": 22,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 8,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "36": {
+        "quantidade": 1,
+        "nome": "QUILOMBOLA",
+        "descricao": "Escola Quilombola",
+        "categoria": "Educação Étnica"
+      }
+    },
+    "endereco_completo": "10a Rua R Regente Feijo, 2160, Vila Mineira, Andradina, SP, CEP: 16901908",
+    "logradouro": "10a Rua R Regente Feijo",
+    "numero": "2160",
+    "bairro": "Vila Mineira",
+    "cidade": "Andradina",
+    "cep": "16901908",
+    "telefone": "(18) 3702-1313, (18) 3702-1428, (18) 3702-1430",
+    "email": "deand@educacao.sp.gov.br",
+    "dirigente": "Natalie Roncaglia Scandelai",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 4,
+    "nome": "APIAI",
+    "sigla": "APIA",
+    "total_escolas": 37,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 34,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "31": {
+        "quantidade": 2,
+        "nome": "ASSENTAMENTO",
+        "descricao": "Escola de Assentamento Rural",
+        "categoria": "Educação Rural"
+      }
+    },
+    "endereco_completo": "Rua Major Augusto Francisco Rios Carneiro, 96, Centro, Apiai, SP, CEP: 18320000",
+    "logradouro": "Rua Major Augusto Francisco Rios Carneiro",
+    "numero": "96",
+    "bairro": "Centro",
+    "cidade": "Apiai",
+    "cep": "18320000",
+    "telefone": "nan",
+    "email": "deapiai@educacao.sp.gov.br",
+    "dirigente": "Giovana Aparecida Santini Casagrande",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 5,
+    "nome": "ARACATUBA",
+    "sigla": "ARAC",
+    "total_escolas": 42,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 32,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 3,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 3,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Antonio Joao, 130, Jd Bandeirantes, Aracatuba, SP, CEP: 16015530",
+    "logradouro": "Rua R Antonio Joao",
+    "numero": "130",
+    "bairro": "Jd Bandeirantes",
+    "cidade": "Aracatuba",
+    "cep": "16015530",
+    "telefone": "(18) 3607-7410, (18) 3607-7423, (18) 3607-7447, (18) 3607-7450, (18) 3607-7462, (18) 3607-8785, (18) 3607-8786",
+    "email": "dearc@educacao.sp.gov.br",
+    "dirigente": "Marcelo Bevilaqua",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 6,
+    "nome": "ARARAQUARA",
+    "sigla": "ARA",
+    "total_escolas": 70,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 59,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 4,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 3,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Goncalves Dias, 291, Centro, Araraquara, SP, CEP: 14801290",
+    "logradouro": "Rua R Goncalves Dias",
+    "numero": "291",
+    "bairro": "Centro",
+    "cidade": "Araraquara",
+    "cep": "14801290",
+    "telefone": "(16) 3301-1091, (16) 3301-1099, (16) 3301-7352",
+    "email": "deara@educacao.sp.gov.br",
+    "dirigente": "Eliza Redondo Ferreira",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 7,
+    "nome": "ASSIS",
+    "sigla": "ASS",
+    "total_escolas": 50,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 41,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 4,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 5,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Padre Gusmoes, 828, Vila Sta Cecilia, Assis, SP, CEP: 19806081",
+    "logradouro": "Rua Rua Padre Gusmoes",
+    "numero": "828",
+    "bairro": "Vila Sta Cecilia",
+    "cidade": "Assis",
+    "cep": "19806081",
+    "telefone": "(18) 3302-1406",
+    "email": "deass@educacao.sp.gov.br",
+    "dirigente": "Telma Aparecida Luciano Alves",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 8,
+    "nome": "AVARE",
+    "sigla": "AVAR",
+    "total_escolas": 39,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 23,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 7,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 4,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "36": {
+        "quantidade": 1,
+        "nome": "QUILOMBOLA",
+        "descricao": "Escola Quilombola",
+        "categoria": "Educação Étnica"
+      }
+    },
+    "endereco_completo": "Avenida Av Pref Misael Eufrasio Leal, 857, Vila Ayres, Avare, SP, CEP: 18705050",
+    "logradouro": "Avenida Av Pref Misael Eufrasio Leal",
+    "numero": "857",
+    "bairro": "Vila Ayres",
+    "cidade": "Avare",
+    "cep": "18705050",
+    "telefone": "nan",
+    "email": "deava@educacao.sp.gov.br",
+    "dirigente": "Henrique Riguetto Rodrigues",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 9,
+    "nome": "BARRETOS",
+    "sigla": "BAT",
+    "total_escolas": 38,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 31,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "7": {
+        "quantidade": 3,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Avcel Silvestre de Lima, 475, Bairro Nogueira, Barretos, SP, CEP: 14783282",
+    "logradouro": "Avenida Avcel Silvestre de Lima",
+    "numero": "475",
+    "bairro": "Bairro Nogueira",
+    "cidade": "Barretos",
+    "cep": "14783282",
+    "telefone": "(17) 3321-0123, (17) 3321-0125, (17) 3321-0126, (17) 3321-0136, (17) 3321-0159, (17) 3321-0171, (17) 3321-0113, (17) 3321-0133, (17) 3321-0134, (17) 3...",
+    "email": "debat@educacao.sp.gov.br",
+    "dirigente": "Bruno Henrique Bertin",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 10,
+    "nome": "BAURU",
+    "sigla": "BAU",
+    "total_escolas": 101,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 79,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "10": {
+        "quantidade": 4,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "15": {
+        "quantidade": 10,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 3,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Campos Salles, 9 - 43, Vila Falcao, Bauru, SP, CEP: 17050000",
+    "logradouro": "Rua Campos Salles",
+    "numero": "9 - 43",
+    "bairro": "Vila Falcao",
+    "cidade": "Bauru",
+    "cep": "17050000",
+    "telefone": "(14) 3108-0020, (14) 3108-0023, (14) 3108-0024, (14) 3108-0007, (14) 3108-0008, (14) 3108-0009, (14) 3108-0010, (14) 3108-0011, (14) 3108-0014, (14) 3...",
+    "email": "debau@educacao.sp.gov.br",
+    "dirigente": "Adriana Elizabeth Silva Aquino",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 11,
+    "nome": "BIRIGUI",
+    "sigla": "BIR",
+    "total_escolas": 25,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 23,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Joao Galo, 1000, Centro, Birigui, SP, CEP: 16200086",
+    "logradouro": "Rua Joao Galo",
+    "numero": "1000",
+    "bairro": "Centro",
+    "cidade": "Birigui",
+    "cep": "16200086",
+    "telefone": "(18) 3634-9003, (18) 3634-9021, (18) 3634-9023, (18) 3634-9028, (18) 3634-9031, (18) 3634-9050, (18) 3634-9051, (18) 3634-9052",
+    "email": "debir@educacao.sp.gov.br",
+    "dirigente": "Priscila de Lourdes Barrionuevo",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 12,
+    "nome": "BOTUCATU",
+    "sigla": "BOT",
+    "total_escolas": 43,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 34,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "7": {
+        "quantidade": 3,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Praca Praca da Bandeira, Sn, S/N, Centro, Botucatu, SP, CEP: 18603341",
+    "logradouro": "Praca Praca da Bandeira, Sn",
+    "numero": "S/N",
+    "bairro": "Centro",
+    "cidade": "Botucatu",
+    "cep": "18603341",
+    "telefone": "(14) 3811-1762, (14) 3811-1765, (14) 3811-3204, (14) 3811-3215, (14) 3811-3216, (14) 3811-3221, (14) 3811-3219, (14) 3811-3220, (14) 3811-3222, (14) 3...",
+    "email": "debot@educacao.sp.gov.br",
+    "dirigente": "Arnaldo Dias de Almeida",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 13,
+    "nome": "BRAGANCA PAULISTA",
+    "sigla": "BPT",
+    "total_escolas": 69,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 65,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida R Jose Gomes Rocha Leal, 1757, Centro, Braganca Paulista, SP, CEP: 12900301",
+    "logradouro": "Avenida R Jose Gomes Rocha Leal",
+    "numero": "1757",
+    "bairro": "Centro",
+    "cidade": "Braganca Paulista",
+    "cep": "12900301",
+    "telefone": "nan",
+    "email": "debpt@educacao.sp.gov.br",
+    "dirigente": "Flavia Shirakashi Seimandi",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 14,
+    "nome": "CAIEIRAS",
+    "sigla": "CAI",
+    "total_escolas": 82,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 67,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 4,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 3,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 7,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Av Prof Carvalho Pinto, 159 - 1?, Regiao Central, Caieiras, SP, CEP: 7700210",
+    "logradouro": "Avenida Av Prof Carvalho Pinto",
+    "numero": "159 - 1?",
+    "bairro": "Regiao Central",
+    "cidade": "Caieiras",
+    "cep": "7700210",
+    "telefone": "(11) 4442-8621, (11) 4442-8638, (11) 4442-8639, (11) 4442-8616, (11) 4442-8623, (11) 4442-8624, (11) 4442-8626, (11) 4442-8628, (11) 4442-8822, (11) 4...",
+    "email": "decaiat@educacao.sp.gov.br",
+    "dirigente": "Sueli Rodrigues dos Santos Rego",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 15,
+    "nome": "CAMPINAS LESTE",
+    "sigla": "CLT",
+    "total_escolas": 83,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 77,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 2,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Rafael Sampaio, 485, Vila Rossi, Campinas Leste, SP, CEP: 13023240",
+    "logradouro": "Rua R Rafael Sampaio",
+    "numero": "485",
+    "bairro": "Vila Rossi",
+    "cidade": "Campinas Leste",
+    "cep": "13023240",
+    "telefone": "(19) 3741-4115, (19) 3741-4117, (19) 3741-4130, (19) 3741-4134, (19) 3741-4154, (19) 3741-6631",
+    "email": "nan",
+    "dirigente": "Nivaldo Vicente",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 16,
+    "nome": "CAMPINAS OESTE",
+    "sigla": "COE",
+    "total_escolas": 99,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 97,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Candido Mota, 186, Br Fundacao Casa Popular, Campinas Oeste, SP, CEP: 13031385",
+    "logradouro": "Rua R Candido Mota",
+    "numero": "186",
+    "bairro": "Br Fundacao Casa Popular",
+    "cidade": "Campinas Oeste",
+    "cep": "13031385",
+    "telefone": "(19) 3772-2739, (19) 3772-2790, (19) 3772-2791, (19) 3772-2792, (19) 3772-2793, (19) 3772-2794, (19) 3772-2637, (19) 3772-2750, (19) 3772-2751, (19) 3...",
+    "email": "decoe@educacao.sp.gov.br",
+    "dirigente": "Patricia Adolf Lutz",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 17,
+    "nome": "CAPIVARI",
+    "sigla": "CAP",
+    "total_escolas": 40,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 39,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Regente Feijo, 773, Centro, Capivari, SP, CEP: 13360000",
+    "logradouro": "Rua Rua Regente Feijo",
+    "numero": "773",
+    "bairro": "Centro",
+    "cidade": "Capivari",
+    "cep": "13360000",
+    "telefone": "(19) 3491-9220, (19) 3491-9226, (19) 3491-9232, (19) 3491-9206, (19) 3491-9209, (19) 3491-9221, (19) 3491-9234, (19) 3491-9235, (19) 3491-9245, (19) 3...",
+    "email": "decap@educacao.sp.gov.br",
+    "dirigente": "Jose Roberto da Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 18,
+    "nome": "CARAGUATATUBA",
+    "sigla": "CGT",
+    "total_escolas": 43,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 36,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "10": {
+        "quantidade": 2,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "31": {
+        "quantidade": 1,
+        "nome": "ASSENTAMENTO",
+        "descricao": "Escola de Assentamento Rural",
+        "categoria": "Educação Rural"
+      }
+    },
+    "endereco_completo": "Avenida Av Alagoas, 539, Indaia, Caraguatatuba, SP, CEP: 11665160",
+    "logradouro": "Avenida Av Alagoas",
+    "numero": "539",
+    "bairro": "Indaia",
+    "cidade": "Caraguatatuba",
+    "cep": "11665160",
+    "telefone": "(12) 3886-3613, (12) 3886-3665, (12) 3886-3667, (12) 3886-3674, (12) 3886-3683, (12) 3886-3690, (12) 3886-3604, (12) 3886-3605, (12) 3886-3606, (12) 3...",
+    "email": "decgt@educacao.sp.gov.br",
+    "dirigente": "Jonas Ferreira da Costa",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 19,
+    "nome": "CARAPICUIBA",
+    "sigla": "CARP",
+    "total_escolas": 85,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 82,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "10a Rua Bom Jesus do Amparo, 2 - PREDIO ESCOLAR, Conjunto Habitacional Presidente Castelo Branco, Carapicuiba, SP, CEP: 6329250",
+    "logradouro": "10a Rua Bom Jesus do Amparo",
+    "numero": "2 - PREDIO ESCOLAR",
+    "bairro": "Conjunto Habitacional Presidente Castelo Branco",
+    "cidade": "Carapicuiba",
+    "cep": "6329250",
+    "telefone": "(11) 4185-8222, (11) 4185-8245, (11) 4185-8246, (11) 4185-8211, (11) 4185-8214, (11) 4185-8224, (11) 4185-8230, (11) 4185-8877, (11) 4185-8881, (11) 4...",
+    "email": "decar@educacao.sp.gov.br",
+    "dirigente": "Hilton Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 20,
+    "nome": "CATANDUVA",
+    "sigla": "CAT",
+    "total_escolas": 29,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 27,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Recife, 1113, Centro, Catanduva, SP, CEP: 15801260",
+    "logradouro": "Rua Recife",
+    "numero": "1113",
+    "bairro": "Centro",
+    "cidade": "Catanduva",
+    "cep": "15801260",
+    "telefone": "nan",
+    "email": "decatna@educacao.sp.gov.br",
+    "dirigente": "Alessandra Queiroz Gomes",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 21,
+    "nome": "CENTRO",
+    "sigla": "CTR",
+    "total_escolas": 72,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 57,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "9": {
+        "quantidade": 4,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 4,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 3,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida R Olavo Fontoura, 2222 - 1 ANDAR, Vila Baruel, Centro, SP, CEP: 2510110",
+    "logradouro": "Avenida R Olavo Fontoura",
+    "numero": "2222 - 1 ANDAR",
+    "bairro": "Vila Baruel",
+    "cidade": "Centro",
+    "cep": "2510110",
+    "telefone": "(11) 3855-3634, (11) 3855-3635, (11) 3855-3636, (11) 3855-3638, (11) 3855-3639, (11) 3855-3642, (11) 3855-3647, (11) 3855-3620, (11) 3855-3622, (11) 3...",
+    "email": "dectr@educacao.sp.gov.br",
+    "dirigente": "Carlos Luis da Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 22,
+    "nome": "CENTRO OESTE",
+    "sigla": "CTO",
+    "total_escolas": 101,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 69,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "7": {
+        "quantidade": 23,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 5,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Rio Branco, 1260, Campos Eliseos, Centro Oeste, SP, CEP: 1206001",
+    "logradouro": "Avenida Rio Branco",
+    "numero": "1260",
+    "bairro": "Campos Eliseos",
+    "cidade": "Centro Oeste",
+    "cep": "1206001",
+    "telefone": "(11) 3866-3510, (11) 3866-3517, (11) 3866-3518, (11) 3866-3601, (11) 3866-3602, (11) 3866-3603, (11) 3866-3800, (11) 3866-3801, (11) 3866-3802, (11) 3...",
+    "email": "decto@educacao.sp.gov.br",
+    "dirigente": "Jane Rubia Adami da Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 23,
+    "nome": "CENTRO SUL",
+    "sigla": "CTS",
+    "total_escolas": 87,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 71,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "7": {
+        "quantidade": 12,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Dom Antonio Galvao, 95, Vila Gumercindo, Centro Sul, SP, CEP: 4123040",
+    "logradouro": "Rua R Dom Antonio Galvao",
+    "numero": "95",
+    "bairro": "Vila Gumercindo",
+    "cidade": "Centro Sul",
+    "cep": "4123040",
+    "telefone": "nan",
+    "email": "dects@educacao.sp.gov.br",
+    "dirigente": "Maria Isabel Faria",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 24,
+    "nome": "DIADEMA",
+    "sigla": "DIA",
+    "total_escolas": 59,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 57,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Cristovao Jaques, 116, Vila Nogueira, Diadema, SP, CEP: 9942190",
+    "logradouro": "Rua Rua Cristovao Jaques",
+    "numero": "116",
+    "bairro": "Vila Nogueira",
+    "cidade": "Diadema",
+    "cep": "9942190",
+    "telefone": "nan",
+    "email": "dediama@educacao.sp.gov.br",
+    "dirigente": "Soraia Nahas",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 25,
+    "nome": "FERNANDOPOLIS",
+    "sigla": "FER",
+    "total_escolas": 25,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 25,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      }
+    },
+    "endereco_completo": "Rua Amapa, 933, Jardim America, Fernandopolis, SP, CEP: 15600000",
+    "logradouro": "Rua Amapa",
+    "numero": "933",
+    "bairro": "Jardim America",
+    "cidade": "Fernandopolis",
+    "cep": "15600000",
+    "telefone": "(17) 3463-8045, (17) 3463-8052, (17) 3463-8058, (17) 3463-8019, (17) 3463-8063, (17) 3463-8064, (17) 3463-8065, (17) 3463-8066, (17) 3463-8068, (17) 3...",
+    "email": "defer@educacao.sp.gov.br",
+    "dirigente": "Maria Aparecida Mendonca",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 26,
+    "nome": "FRANCA",
+    "sigla": "FRA",
+    "total_escolas": 80,
+    "tipos_escola": {
+      "6": {
+        "quantidade": 7,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "8": {
+        "quantidade": 68,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 2,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Benedito Maniglia, 200, Vila Chico Julio, Franca, SP, CEP: 14405245",
+    "logradouro": "Rua Rua Benedito Maniglia",
+    "numero": "200",
+    "bairro": "Vila Chico Julio",
+    "cidade": "Franca",
+    "cep": "14405245",
+    "telefone": "(16) 3111-4218, (16) 3111-9917, (16) 3111-9938, (16) 3111-4204, (16) 3111-9910, (16) 3111-9913, (16) 3111-9939, (16) 3111-9942, (16) 3111-9926, (16) 3...",
+    "email": "defra@educacao.sp.gov.br",
+    "dirigente": "Silma Rodrigues de Oliveira Leite",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 27,
+    "nome": "GUARATINGUETA",
+    "sigla": "GUAR",
+    "total_escolas": 66,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 59,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Tamandare, 145, Centro, Guaratingueta, SP, CEP: 12501150",
+    "logradouro": "Rua Rua Tamandare",
+    "numero": "145",
+    "bairro": "Centro",
+    "cidade": "Guaratingueta",
+    "cep": "12501150",
+    "telefone": "(12) 3128-3055, (12) 3128-3057, (12) 3128-3059, (12) 3128-3211, (12) 3128-3212, (12) 3128-3213, (12) 3128-3229, (12) 3128-3236, (12) 3128-3263, (12) 3...",
+    "email": "dergtg@educacao.sp.gov.br",
+    "dirigente": "Renata Regina dos Santos",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 28,
+    "nome": "GUARULHOS NORTE",
+    "sigla": "GNO",
+    "total_escolas": 91,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 86,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 3,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rcristobal Claudio Elillo, 278, Parque Cecap, Guarulhos Norte, SP, CEP: 7190065",
+    "logradouro": "Rua Rcristobal Claudio Elillo",
+    "numero": "278",
+    "bairro": "Parque Cecap",
+    "cidade": "Guarulhos Norte",
+    "cep": "7190065",
+    "telefone": "(11) 2461-5692, (11) 2461-5786, (11) 2461-5688, (11) 2461-5699, (11) 2461-5773, (11) 2461-5777, (11) 2461-5778, (11) 2461-5779, (11) 2461-5687, (11) 2...",
+    "email": "degno@educacao.sp.gov.br",
+    "dirigente": "Marcelo Fernandes da Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 29,
+    "nome": "GUARULHOS SUL",
+    "sigla": "GSU",
+    "total_escolas": 86,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 82,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "2a Avenida Emilio Ribas, 940, Vila Tijuco, Guarulhos Sul, SP, CEP: 7011010",
+    "logradouro": "2a Avenida Emilio Ribas",
+    "numero": "940",
+    "bairro": "Vila Tijuco",
+    "cidade": "Guarulhos Sul",
+    "cep": "7011010",
+    "telefone": "nan",
+    "email": "degsu@educacao.sp.gov.br",
+    "dirigente": "Maria Aparecida do Nascimento Barretos",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 30,
+    "nome": "ITAPECERICA DA SERRA",
+    "sigla": "ITS",
+    "total_escolas": 67,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 63,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Av, 15 DE NOVEMBRO, 1668 - 1 ANDAR, Centro, Itapecerica da Serra, SP, CEP: 6850100",
+    "logradouro": "Avenida Av",
+    "numero": "15 DE NOVEMBRO, 1668 - 1 ANDAR",
+    "bairro": "Centro",
+    "cidade": "Itapecerica da Serra",
+    "cep": "6850100",
+    "telefone": "nan",
+    "email": "deits@educacao.sp.gov.br",
+    "dirigente": "Eden Leticia Abes Moraes",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 31,
+    "nome": "ITAPETININGA",
+    "sigla": "ITN",
+    "total_escolas": 59,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 51,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 5,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Sao Marcos, 100, Jardim Paulista, Itapetininga, SP, CEP: 18214410",
+    "logradouro": "Rua Rua Sao Marcos",
+    "numero": "100",
+    "bairro": "Jardim Paulista",
+    "cidade": "Itapetininga",
+    "cep": "18214410",
+    "telefone": "(15) 3275-9672, (15) 3275-9631, (15) 3275-9625, (15) 3275-9623, (15) 3275-9624, (15) 3275-9647, (15) 3275-9654",
+    "email": "deitn@educacao.sp.gov.br",
+    "dirigente": "Elizete Ribeiro Ponsi Petelinkar",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 32,
+    "nome": "ITAPEVA",
+    "sigla": "ITV",
+    "total_escolas": 23,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 20,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "36": {
+        "quantidade": 1,
+        "nome": "QUILOMBOLA",
+        "descricao": "Escola Quilombola",
+        "categoria": "Educação Étnica"
+      }
+    },
+    "endereco_completo": "Rua Rtorquato Raimundo, 96, Jardim Ferrari, Itapeva, SP, CEP: 18405010",
+    "logradouro": "Rua Rtorquato Raimundo",
+    "numero": "96",
+    "bairro": "Jardim Ferrari",
+    "cidade": "Itapeva",
+    "cep": "18405010",
+    "telefone": "(15) 3526-6203, (15) 3526-6204, (15) 3526-6215, (15) 3526-6221, (15) 3526-6222, (15) 3526-6231, (15) 3526-6234, (15) 3526-6201, (15) 3526-6202, (15) 3...",
+    "email": "deitv@educacao.sp.gov.br",
+    "dirigente": "Andre Dias de Oliveira",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 33,
+    "nome": "ITAPEVI",
+    "sigla": "ITP",
+    "total_escolas": 57,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 57,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      }
+    },
+    "endereco_completo": "Avenida Presidente Vargas, 974, Jardim Nova Itapevi, Itapevi, SP, CEP: 6694040",
+    "logradouro": "Avenida Presidente Vargas",
+    "numero": "974",
+    "bairro": "Jardim Nova Itapevi",
+    "cidade": "Itapevi",
+    "cep": "6694040",
+    "telefone": "nan",
+    "email": "deitp@educacao.sp.gov.br",
+    "dirigente": "Milena Rodrigues Furtado Garzesi",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 34,
+    "nome": "ITAQUAQUECETUBA",
+    "sigla": "ITQ",
+    "total_escolas": 65,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 59,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Jundiai, 84, Vila Monte Belo, Itaquaquecetuba, SP, CEP: 8577320",
+    "logradouro": "Rua Jundiai",
+    "numero": "84",
+    "bairro": "Vila Monte Belo",
+    "cidade": "Itaquaquecetuba",
+    "cep": "8577320",
+    "telefone": "(11) 4732-9170, (11) 4732-9516, (11) 4732-9141, (11) 4732-9142, (11) 4732-9143, (11) 4732-9519, (11) 4732-9520, (11) 4732-9521, (11) 4732-9541, (11) 4...",
+    "email": "deitq@educacao.sp.gov.br",
+    "dirigente": "Viviane Araujo de Melo",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 35,
+    "nome": "ITARARE",
+    "sigla": "ITAR",
+    "total_escolas": 31,
+    "tipos_escola": {
+      "10": {
+        "quantidade": 4,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "8": {
+        "quantidade": 25,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "36": {
+        "quantidade": 1,
+        "nome": "QUILOMBOLA",
+        "descricao": "Escola Quilombola",
+        "categoria": "Educação Étnica"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Dr Rubens Lobo Ribeiro, 310, Cruzeiro, Itarare, SP, CEP: 18460540",
+    "logradouro": "Rua Dr Rubens Lobo Ribeiro",
+    "numero": "310",
+    "bairro": "Cruzeiro",
+    "cidade": "Itarare",
+    "cep": "18460540",
+    "telefone": "(15) 3531-8012, (15) 3531-8013, (15) 3531-8016, (15) 3531-8045, (15) 3531-8052, (15) 3531-8032, (15) 3531-8001, (15) 3531-8003, (15) 3531-8004, (15) 3...",
+    "email": "deitr@educacao.sp.gov.br",
+    "dirigente": "Carla Ceriani",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 36,
+    "nome": "ITU",
+    "sigla": "ITU",
+    "total_escolas": 58,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 53,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Praca Praca Almeida Junior, 10, Vila Nova, Itu, SP, CEP: 13309049",
+    "logradouro": "Praca Praca Almeida Junior",
+    "numero": "10",
+    "bairro": "Vila Nova",
+    "cidade": "Itu",
+    "cep": "13309049",
+    "telefone": "(11) 4813-7660, (11) 4813-7626, (11) 4813-7641, (11) 4813-7642, (11) 4813-7662, (11) 4813-7663, (11) 4813-7671, (11) 4813-7601, (11) 4813-7603, (11) 4...",
+    "email": "deitu@educacao.sp.gov.br",
+    "dirigente": "Mireile Outero Rigo Tardeli",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 37,
+    "nome": "JABOTICABAL",
+    "sigla": "JAB",
+    "total_escolas": 33,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 27,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Praca Praca Dr Joaquim Batista, 204, Centro, Jaboticabal, SP, CEP: 14870090",
+    "logradouro": "Praca Praca Dr Joaquim Batista",
+    "numero": "204",
+    "bairro": "Centro",
+    "cidade": "Jaboticabal",
+    "cep": "14870090",
+    "telefone": "(16) 3209-2346, (16) 3209-2358, (16) 3209-2360, (16) 3209-2361, (16) 3209-2386, (16) 3209-2394, (16) 3209-2392, (16) 3209-2345, (16) 3209-2350, (16) 3...",
+    "email": "dejab@educacao.sp.gov.br",
+    "dirigente": "Jussara Aparecida Ferreira Destri",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 38,
+    "nome": "JACAREI",
+    "sigla": "JACA",
+    "total_escolas": 63,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 58,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Santa Rosa, 51, Centro, Jacarei, SP, CEP: 12308390",
+    "logradouro": "Rua R Santa Rosa",
+    "numero": "51",
+    "bairro": "Centro",
+    "cidade": "Jacarei",
+    "cep": "12308390",
+    "telefone": "(12) 3954-2631, (12) 3954-2637, (12) 3954-2682, (12) 3954-2647, (12) 3954-2648, (12) 3954-2649, (12) 3954-2651, (12) 3954-2652, (12) 3954-2653, (12) 3...",
+    "email": "dejacnit@educacao.sp.gov.br",
+    "dirigente": "Sergio Buzelin da Costa",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 39,
+    "nome": "JALES",
+    "sigla": "JAL",
+    "total_escolas": 35,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 33,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Oito, 2315, Centro, Jales, SP, CEP: 15700066",
+    "logradouro": "Rua R Oito",
+    "numero": "2315",
+    "bairro": "Centro",
+    "cidade": "Jales",
+    "cep": "15700066",
+    "telefone": "(17) 3622-0005, (17) 3622-0010, (17) 3622-0011, (17) 3622-0051, (17) 3622-0055, (17) 3622-0056, (17) 3622-0002, (17) 3622-0031, (17) 3622-0032, (17) 3...",
+    "email": "dejal@educacao.sp.gov.br",
+    "dirigente": "Geraldo Niza da Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 40,
+    "nome": "JAU",
+    "sigla": "JAU",
+    "total_escolas": 55,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 48,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 2,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Tenente Lopes, 633, Centro, Jau, SP, CEP: 17201460",
+    "logradouro": "Rua R Tenente Lopes",
+    "numero": "633",
+    "bairro": "Centro",
+    "cidade": "Jau",
+    "cep": "17201460",
+    "telefone": "(14) 3601-0823, (14) 3601-0824, (14) 3601-0825, (14) 3601-0826, (14) 3601-0827, (14) 3601-0828, (14) 3601-0829, (14) 3601-0830, (14) 3601-0831, (14) 3...",
+    "email": "dejau@educacao.sp.gov.br",
+    "dirigente": "Pedro Eduardo Lopes",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 41,
+    "nome": "JOSE BONIFACIO",
+    "sigla": "JOSB",
+    "total_escolas": 29,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 29,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      }
+    },
+    "endereco_completo": "Avenida R Ademar de Barros, 356, Centro, Jose Bonifacio, SP, CEP: 15200000",
+    "logradouro": "Avenida R Ademar de Barros",
+    "numero": "356",
+    "bairro": "Centro",
+    "cidade": "Jose Bonifacio",
+    "cep": "15200000",
+    "telefone": "nan",
+    "email": "dejbo@educacao.sp.gov.br",
+    "dirigente": "Karen Vicentini",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 42,
+    "nome": "JUNDIAI",
+    "sigla": "JUND",
+    "total_escolas": 74,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 71,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Vinte e Tres de Maio, 541, Vila Vianelo, Jundiai, SP, CEP: 13207070",
+    "logradouro": "Rua Rua Vinte e Tres de Maio",
+    "numero": "541",
+    "bairro": "Vila Vianelo",
+    "cidade": "Jundiai",
+    "cep": "13207070",
+    "telefone": "(11) 4523-6400, (11) 4523-6724, (11) 4523-6744, (11) 4523-6773, (11) 4523-6775, (11) 4523-6782, (11) 4523-6783, (11) 4523-6799",
+    "email": "dejnd@educacao.sp.gov.br",
+    "dirigente": "Valdete Ramos de Oliveira Melo",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 43,
+    "nome": "LESTE 1",
+    "sigla": "LT1",
+    "total_escolas": 87,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 85,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Caetano de Campos, 220, Tatuape, Leste 1, SP, CEP: 3088010",
+    "logradouro": "Rua R Caetano de Campos",
+    "numero": "220",
+    "bairro": "Tatuape",
+    "cidade": "Leste 1",
+    "cep": "3088010",
+    "telefone": "(11) 2090-2401, (11) 2090-2410, (11) 2090-2420, (11) 2090-5812, (11) 2090-5813, (11) 2090-5832, (11) 2090-5835, (11) 2090-5836, (11) 2090-5868, (11) 2...",
+    "email": "delt1@educacao.sp.gov.br",
+    "dirigente": "Fabiana Quartarollo Martins",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 44,
+    "nome": "LESTE 2",
+    "sigla": "LT2",
+    "total_escolas": 92,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 89,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Mohamad Ibrahim Saled, 319, Cidade Nova Sao Miguel, Leste 2, SP, CEP: 8042130",
+    "logradouro": "Rua R Mohamad Ibrahim Saled",
+    "numero": "319",
+    "bairro": "Cidade Nova Sao Miguel",
+    "cidade": "Leste 2",
+    "cep": "8042130",
+    "telefone": "nan",
+    "email": "delt2@educacao.sp.gov.br",
+    "dirigente": "Erbert Lincoln Aureliano",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 45,
+    "nome": "LESTE 3",
+    "sigla": "LT3",
+    "total_escolas": 74,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 72,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Isabel Urbina, 200, Conjunto Residencial Jose Bonifacio, Leste 3, SP, CEP: 8253210",
+    "logradouro": "Rua R Isabel Urbina",
+    "numero": "200",
+    "bairro": "Conjunto Residencial Jose Bonifacio",
+    "cidade": "Leste 3",
+    "cep": "8253210",
+    "telefone": "(11) 2523-7047, (11) 2523-7049, (11) 2523-7050, (11) 2523-7066, (11) 2523-7067, (11) 2523-7079, (11) 2523-7080, (11) 2523-7081, (11) 2523-7082, (11) 2...",
+    "email": "delt3@educacao.sp.gov.br",
+    "dirigente": "Alice Venchiarutti",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 46,
+    "nome": "LESTE 4",
+    "sigla": "LT4",
+    "total_escolas": 75,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 72,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Dona Matilde, 35, Vila Matilde, Leste 4, SP, CEP: 3512000",
+    "logradouro": "Rua R Dona Matilde",
+    "numero": "35",
+    "bairro": "Vila Matilde",
+    "cidade": "Leste 4",
+    "cep": "3512000",
+    "telefone": "(11) 2082-9409, (11) 2082-9410, (11) 2082-9412, (11) 2082-9413, (11) 2082-9414, (11) 2082-9415, (11) 2082-9418, (11) 2082-9420, (11) 2082-9446, (11) 2...",
+    "email": "delt4@educacao.sp.gov.br",
+    "dirigente": "Erica Simoes Yoshida",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 47,
+    "nome": "LESTE 5",
+    "sigla": "LT5",
+    "total_escolas": 87,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 72,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 8,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Celso de Azevedo Marques, 502, Parque da Mooca, Leste 5, SP, CEP: 3122010",
+    "logradouro": "Rua R Celso de Azevedo Marques",
+    "numero": "502",
+    "bairro": "Parque da Mooca",
+    "cidade": "Leste 5",
+    "cep": "3122010",
+    "telefone": "(11) 2602-1242, (11) 2602-1255, (11) 2602-1263, (11) 2602-1265, (11) 2602-1278, (11) 2602-1286, (11) 2602-1292, (11) 2602-1299, (11) 2602-2736, (11) 2...",
+    "email": "delt5@educacao.sp.gov.br",
+    "dirigente": "Luciana Gibim Lazaro Damasio",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 48,
+    "nome": "LIMEIRA",
+    "sigla": "LIM",
+    "total_escolas": 79,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 72,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 4,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Cesarino Ferreira, 145, Vila Piza, Limeira, SP, CEP: 13486159",
+    "logradouro": "Rua Cesarino Ferreira",
+    "numero": "145",
+    "bairro": "Vila Piza",
+    "cidade": "Limeira",
+    "cep": "13486159",
+    "telefone": "(19) 3404-2953, (19) 3404-2976, (19) 3404-2977, (19) 3404-2978, (19) 3404-2979, (19) 3404-2991, (19) 3404-2952, (19) 3451-3113",
+    "email": "delim@educacao.sp.gov.br",
+    "dirigente": "Gilssara Cavalcanti de Lima Bandeira",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 49,
+    "nome": "LINS",
+    "sigla": "LIN",
+    "total_escolas": 47,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 36,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 3,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "36": {
+        "quantidade": 1,
+        "nome": "QUILOMBOLA",
+        "descricao": "Escola Quilombola",
+        "categoria": "Educação Étnica"
+      }
+    },
+    "endereco_completo": "Rua R Luiz Gama, 681, Centro, Lins, SP, CEP: 16400080",
+    "logradouro": "Rua R Luiz Gama",
+    "numero": "681",
+    "bairro": "Centro",
+    "cidade": "Lins",
+    "cep": "16400080",
+    "telefone": "(14) 3533-2843, (14) 3533-2844, (14) 3533-2845, (14) 3533-2847, (14) 3533-2870, (14) 3533-2871, (14) 3533-2872, (14) 3533-2880, (14) 3533-2881, (14) 3...",
+    "email": "delin@educacao.sp.gov.br",
+    "dirigente": "Talita Falleiros Melo Vasconcelos",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 50,
+    "nome": "MARILIA",
+    "sigla": "MARI",
+    "total_escolas": 72,
+    "tipos_escola": {
+      "15": {
+        "quantidade": 6,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "8": {
+        "quantidade": 57,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 3,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Av Pedro de Toledo, 542, Centro, Marilia, SP, CEP: 17509020",
+    "logradouro": "Avenida Av Pedro de Toledo",
+    "numero": "542",
+    "bairro": "Centro",
+    "cidade": "Marilia",
+    "cep": "17509020",
+    "telefone": "(14) 3402-8254, (14) 3402-8255, (14) 3402-8300",
+    "email": "demar@educacao.sp.gov.br",
+    "dirigente": "Ana Luiza Bernardo Guimaraes",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 51,
+    "nome": "MAUA",
+    "sigla": "MAUA",
+    "total_escolas": 107,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 102,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Alvares Machado, 194, Vila Bocaina, Maua, SP, CEP: 9310020",
+    "logradouro": "Rua R Alvares Machado",
+    "numero": "194",
+    "bairro": "Vila Bocaina",
+    "cidade": "Maua",
+    "cep": "9310020",
+    "telefone": "(11) 4547-9535, (11) 4547-9553, (11) 4547-9555, (11) 4547-9557, (11) 4547-9565, (11) 4547-9599, (11) 4547-9750, (11) 4547-9751, (11) 4547-9757, (11) 4...",
+    "email": "demau@educacao.sp.gov.br",
+    "dirigente": "Lucimara Batista Freire",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 52,
+    "nome": "MIRACATU",
+    "sigla": "MIR",
+    "total_escolas": 40,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 30,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "10": {
+        "quantidade": 8,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Dona Evarista Castro Ferreira, S/n, Centro, Miracatu, SP, CEP: 11850000",
+    "logradouro": "Avenida Dona Evarista Castro Ferreira, S/n",
+    "numero": "nan",
+    "bairro": "Centro",
+    "cidade": "Miracatu",
+    "cep": "11850000",
+    "telefone": "(13) 3847-7080, (13) 3847-7081, (13) 3847-7087, (13) 3847-7088, (13) 3847-7204, (13) 3847-7206",
+    "email": "demir@educacao.sp.gov.br",
+    "dirigente": "Willyan Soares da Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 53,
+    "nome": "MIRANTE DO PARANAPANEMA",
+    "sigla": "MPA",
+    "total_escolas": 31,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 19,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "36": {
+        "quantidade": 10,
+        "nome": "QUILOMBOLA",
+        "descricao": "Escola Quilombola",
+        "categoria": "Educação Étnica"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Antonio Erisvaldo da Silva, 597, Vila Vasconcelos, Mirante do Paranapanema, SP, CEP: 19260000",
+    "logradouro": "Rua Rua Antonio Erisvaldo da Silva",
+    "numero": "597",
+    "bairro": "Vila Vasconcelos",
+    "cidade": "Mirante do Paranapanema",
+    "cep": "19260000",
+    "telefone": "(18) 3991-9672, (18) 3991-9673, (18) 3991-9791, (18) 3991-9794, (18) 3991-9795, (18) 3991-9796, (18) 3991-9675, (18) 3991-9687, (18) 3991-9689, (18) 3...",
+    "email": "dempa@educacao.sp.gov.br",
+    "dirigente": "Camila Aparecida Santi Ramos",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 54,
+    "nome": "MOGI DAS CRUZES",
+    "sigla": "MGC",
+    "total_escolas": 70,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 66,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Dr Antonio Candido Vieira, 511, Centro, Mogi das Cruzes, SP, CEP: 8780030",
+    "logradouro": "Rua Dr Antonio Candido Vieira",
+    "numero": "511",
+    "bairro": "Centro",
+    "cidade": "Mogi das Cruzes",
+    "cep": "8780030",
+    "telefone": "nan",
+    "email": "demgc@educacao.sp.gov.br",
+    "dirigente": "Roselaine Batalha Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 55,
+    "nome": "MOGI MIRIM",
+    "sigla": "MGM",
+    "total_escolas": 77,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 73,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Av Santo Antonio, 248, Centro, Mogi Mirim, SP, CEP: 13800030",
+    "logradouro": "Avenida Av Santo Antonio",
+    "numero": "248",
+    "bairro": "Centro",
+    "cidade": "Mogi Mirim",
+    "cep": "13800030",
+    "telefone": "(19) 3805-9361, (19) 3805-9373, (19) 3805-9375, (19) 3805-9339, (19) 3805-9340, (19) 3805-9344, (19) 3805-9349, (19) 3805-9351, (19) 3805-9385, (19) 3...",
+    "email": "demgm@educacao.sp.gov.br",
+    "dirigente": "Edna Regina Gallano de Campos",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 56,
+    "nome": "NORTE 1",
+    "sigla": "NT1",
+    "total_escolas": 101,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 97,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "10": {
+        "quantidade": 1,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Faustolo, 281, Agua Branca, Norte 1, SP, CEP: 5041000",
+    "logradouro": "Rua Faustolo",
+    "numero": "281",
+    "bairro": "Agua Branca",
+    "cidade": "Norte 1",
+    "cep": "5041000",
+    "telefone": "(11) 3803-5101, (11) 3868-9753, (11) 3868-9786, (11) 3803-5112, (11) 3803-5115, (11) 3803-5126, (11) 3868-9760, (11) 3868-9777, (11) 3868-9780",
+    "email": "dent1@educacao.sp.gov.br",
+    "dirigente": "Fernando Teruel",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 57,
+    "nome": "NORTE 2",
+    "sigla": "NT2",
+    "total_escolas": 70,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 68,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Plinio Pasqui, 217, Parada Inglesa, Norte 2, SP, CEP: 2244030",
+    "logradouro": "Rua R Plinio Pasqui",
+    "numero": "217",
+    "bairro": "Parada Inglesa",
+    "cidade": "Norte 2",
+    "cep": "2244030",
+    "telefone": "(11) 2209-7329, (11) 2209-7351, (11) 2209-7352, (11) 2209-7353, (11) 2209-7355, (11) 2209-7356, (11) 2209-7357, (11) 2209-7358, (11) 2209-7330, (11) 2...",
+    "email": "dent2@educacao.sp.gov.br",
+    "dirigente": "Geandro de Oliveira",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 58,
+    "nome": "OSASCO",
+    "sigla": "OSC",
+    "total_escolas": 57,
+    "tipos_escola": {
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "8": {
+        "quantidade": 51,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Geraldo Moran, 271, Jardim Umuarama, Osasco, SP, CEP: 6030060",
+    "logradouro": "Rua R Geraldo Moran",
+    "numero": "271",
+    "bairro": "Jardim Umuarama",
+    "cidade": "Osasco",
+    "cep": "6030060",
+    "telefone": "(11) 2284-8107, (11) 2284-8109, (11) 2284-8126, (11) 2284-8149, (11) 2284-8152, (11) 2284-8159, (11) 2284-8319, (11) 2284-8320, (11) 2284-8101, (11) 2...",
+    "email": "deosc@educacao.sp.gov.br",
+    "dirigente": "Ariovaldo Guinther",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 59,
+    "nome": "OURINHOS",
+    "sigla": "OUR",
+    "total_escolas": 36,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 32,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Nove de Julho, 528, Centro, Ourinhos, SP, CEP: 19900071",
+    "logradouro": "Rua Nove de Julho",
+    "numero": "528",
+    "bairro": "Centro",
+    "cidade": "Ourinhos",
+    "cep": "19900071",
+    "telefone": "(14) 3302-2703, (14) 3302-2704, (14) 3302-2705, (14) 3302-2721, (14) 3302-2722, (14) 3302-2723, (14) 3302-2724, (14) 3302-2725, (14) 3302-2747, (14) 3...",
+    "email": "deourna@educacao.sp.gov.br",
+    "dirigente": "Elton Antonio Simao",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 60,
+    "nome": "PENAPOLIS",
+    "sigla": "PENA",
+    "total_escolas": 20,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 16,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "10": {
+        "quantidade": 1,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Alvaro Gomes, 181 - A, Parque Residencial Monreal, Penapolis, SP, CEP: 16303460",
+    "logradouro": "Avenida Alvaro Gomes",
+    "numero": "181 - A",
+    "bairro": "Parque Residencial Monreal",
+    "cidade": "Penapolis",
+    "cep": "16303460",
+    "telefone": "nan",
+    "email": "depen@educacao.sp.gov.br",
+    "dirigente": "Angelica Aparecida Silva de Lima",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 61,
+    "nome": "PINDAMONHANGABA",
+    "sigla": "PDM",
+    "total_escolas": 51,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 42,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 4,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 5,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Soldado Roberto Marcondes, 324, Jdrosely, Pindamonhangaba, SP, CEP: 12410660",
+    "logradouro": "Rua R Soldado Roberto Marcondes",
+    "numero": "324",
+    "bairro": "Jdrosely",
+    "cidade": "Pindamonhangaba",
+    "cep": "12410660",
+    "telefone": "(12) 3649-0153, (12) 3649-0154, (12) 3649-0155, (12) 3649-0033, (12) 3649-0034, (12) 3649-0035, (12) 3649-0036, (12) 3649-0037, (12) 3649-0038, (12) 3...",
+    "email": "depdm@educacao.sp.gov.br",
+    "dirigente": "Luis Gustavo Martins de Souza",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 62,
+    "nome": "PIRACICABA",
+    "sigla": "PIR",
+    "total_escolas": 75,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 68,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 3,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Joao Sampaio, 666, Sao Dimas, Piracicaba, SP, CEP: 13416383",
+    "logradouro": "Rua R Joao Sampaio",
+    "numero": "666",
+    "bairro": "Sao Dimas",
+    "cidade": "Piracicaba",
+    "cep": "13416383",
+    "telefone": "(19) 3437-3343, (19) 3437-3350, (19) 3437-3356, (19) 3437-3358, (19) 3437-3395, (19) 3437-3654, (19) 3437-3656, (19) 3437-3660, (19) 3437-3675, (19) 3...",
+    "email": "depir@educacao.sp.gov.br",
+    "dirigente": "Carlos Eduardo Alves Guimaraes Fontana",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 63,
+    "nome": "PIRAJU",
+    "sigla": "PJU",
+    "total_escolas": 17,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 15,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Praca Professor Paulo Henrique, 155, Vila Sao Jose, Piraju, SP, CEP: 18800000",
+    "logradouro": "Praca Professor Paulo Henrique",
+    "numero": "155",
+    "bairro": "Vila Sao Jose",
+    "cidade": "Piraju",
+    "cep": "18800000",
+    "telefone": "(14) 3352-6006, (14) 3352-6008, (14) 3352-6043, (14) 3352-6035, (14) 3352-6036, (14) 3352-6037, (14) 3352-6038, (14) 3352-6110, (14) 3352-6016, (14) 3...",
+    "email": "depju@educacao.sp.gov.br",
+    "dirigente": "Elaine Maria Nocera Kaizer",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 64,
+    "nome": "PIRASSUNUNGA",
+    "sigla": "PRS",
+    "total_escolas": 51,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 50,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "6a Avenida Prudente de Moraes, 2900, Centro, Pirassununga, SP, CEP: 13630907",
+    "logradouro": "6a Avenida Prudente de Moraes",
+    "numero": "2900",
+    "bairro": "Centro",
+    "cidade": "Pirassununga",
+    "cep": "13630907",
+    "telefone": "(19) 3565-9050, (19) 3565-9051, (19) 3565-9052, (19) 3565-9053, (19) 3565-9054, (19) 3565-9055, (19) 3565-9056, (19) 3565-9057, (19) 3565-9001, (19) 3...",
+    "email": "deprs@educacao.sp.gov.br",
+    "dirigente": "Denise Camargo Gomide",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 65,
+    "nome": "PRESIDENTE PRUDENTE",
+    "sigla": "PPR",
+    "total_escolas": 50,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 44,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 3,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Manoel Goulart, 2651, Vila Santa Helena, Presidente Prudente, SP, CEP: 19060000",
+    "logradouro": "Avenida Manoel Goulart",
+    "numero": "2651",
+    "bairro": "Vila Santa Helena",
+    "cidade": "Presidente Prudente",
+    "cep": "19060000",
+    "telefone": "(18) 3226-3772",
+    "email": "deppr@educacao.sp.gov.br",
+    "dirigente": "Rone Leite Andrea",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 66,
+    "nome": "REGISTRO",
+    "sigla": "REG",
+    "total_escolas": 52,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 39,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "10": {
+        "quantidade": 9,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "31": {
+        "quantidade": 1,
+        "nome": "ASSENTAMENTO",
+        "descricao": "Escola de Assentamento Rural",
+        "categoria": "Educação Rural"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Vitoria, 465, Jardim America, Registro, SP, CEP: 11900000",
+    "logradouro": "Rua Rua Vitoria",
+    "numero": "465",
+    "bairro": "Jardim America",
+    "cidade": "Registro",
+    "cep": "11900000",
+    "telefone": "(13) 3828-1206, (13) 3828-1467, (13) 3828-1471, (13) 3828-1203, (13) 3828-1204, (13) 3828-1205, (13) 3828-1242, (13) 3828-1243, (13) 3828-1244, (13) 3...",
+    "email": "dereg@educacao.sp.gov.br",
+    "dirigente": "Claudia Ferreira Pitsch Simoni",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 67,
+    "nome": "RIBEIRAO PRETO",
+    "sigla": "RIBP",
+    "total_escolas": 116,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 101,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 5,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 5,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Av Nove de Julho, 378, Higienopolis, Ribeirao Preto, SP, CEP: 14025000",
+    "logradouro": "Avenida Av Nove de Julho",
+    "numero": "378",
+    "bairro": "Higienopolis",
+    "cidade": "Ribeirao Preto",
+    "cep": "14025000",
+    "telefone": "nan",
+    "email": "derptcie@educacao.sp.gov.br",
+    "dirigente": "Marcela Aleixo da Silva Zapparolli",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 68,
+    "nome": "SANTO ANASTACIO",
+    "sigla": "STAN",
+    "total_escolas": 29,
+    "tipos_escola": {
+      "15": {
+        "quantidade": 4,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "8": {
+        "quantidade": 23,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "36": {
+        "quantidade": 1,
+        "nome": "QUILOMBOLA",
+        "descricao": "Escola Quilombola",
+        "categoria": "Educação Étnica"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Praca Praca Doutor Nilmo Jose Sirio, 59, Centro, Santo Anastacio, SP, CEP: 19360023",
+    "logradouro": "Praca Praca Doutor Nilmo Jose Sirio",
+    "numero": "59",
+    "bairro": "Centro",
+    "cidade": "Santo Anastacio",
+    "cep": "19360023",
+    "telefone": "(18) 3256-8030, (18) 3256-8070, (18) 3256-8075, (18) 3256-8005, (18) 3256-8006, (18) 3256-8014, (18) 3256-8015, (18) 3256-8016, (18) 3256-8017, (18) 3...",
+    "email": "desat@educacao.sp.gov.br",
+    "dirigente": "Geralda Helenice Augusta Rocha",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 69,
+    "nome": "SANTO ANDRE",
+    "sigla": "STAN",
+    "total_escolas": 73,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 70,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R das Figueiras, 1245, Bairro Jardim, Santo Andre, SP, CEP: 9080370",
+    "logradouro": "Rua R das Figueiras",
+    "numero": "1245",
+    "bairro": "Bairro Jardim",
+    "cidade": "Santo Andre",
+    "cep": "9080370",
+    "telefone": "nan",
+    "email": "destanrm@educacao.sp.gov.br",
+    "dirigente": "Ariane Aparecida Butrico",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 70,
+    "nome": "SANTOS",
+    "sigla": "SAN",
+    "total_escolas": 82,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 72,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "10": {
+        "quantidade": 1,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 4,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 3,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Dr Guedes Coelho, 107, Encruzilhada, Santos, SP, CEP: 11050231",
+    "logradouro": "Rua R Dr Guedes Coelho",
+    "numero": "107",
+    "bairro": "Encruzilhada",
+    "cidade": "Santos",
+    "cep": "11050231",
+    "telefone": "(13) 3202-2402, (13) 3202-2403, (13) 3202-2414, (13) 3202-2415, (13) 3202-2423, (13) 3202-2454, (13) 3202-2419, (13) 3202-2424, (13) 3202-2425, (13) 3...",
+    "email": "desan@educacao.sp.gov.br",
+    "dirigente": "Vanessa de Oliveira Dias",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 71,
+    "nome": "SAO BERNARDO DO CAMPO",
+    "sigla": "SBCA",
+    "total_escolas": 83,
+    "tipos_escola": {
+      "10": {
+        "quantidade": 1,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "8": {
+        "quantidade": 78,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Princesa Maria da Gloria, 176, Nova Petropolis, Sao Bernardo do Campo, SP, CEP: 9771130",
+    "logradouro": "Rua R Princesa Maria da Gloria",
+    "numero": "176",
+    "bairro": "Nova Petropolis",
+    "cidade": "Sao Bernardo do Campo",
+    "cep": "9771130",
+    "telefone": "nan",
+    "email": "nan",
+    "dirigente": "Vanderlete Maria Lozano Chiuffa Correra",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 72,
+    "nome": "SAO CARLOS",
+    "sigla": "SCAR",
+    "total_escolas": 52,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 46,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Consjoaquim Delfino, 180, Jd Centenario, Sao Carlos, SP, CEP: 13564160",
+    "logradouro": "Rua R Consjoaquim Delfino",
+    "numero": "180",
+    "bairro": "Jd Centenario",
+    "cidade": "Sao Carlos",
+    "cep": "13564160",
+    "telefone": "nan",
+    "email": "nan",
+    "dirigente": "Debora Gonzalez Costa Blanco",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 73,
+    "nome": "SAO JOAO DA BOA VISTA",
+    "sigla": "SJBV",
+    "total_escolas": 77,
+    "tipos_escola": {
+      "15": {
+        "quantidade": 3,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "8": {
+        "quantidade": 69,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 5,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Riachuelo, 444, Centro, Sao Joao da Boa Vista, SP, CEP: 13870234",
+    "logradouro": "Rua Riachuelo",
+    "numero": "444",
+    "bairro": "Centro",
+    "cidade": "Sao Joao da Boa Vista",
+    "cep": "13870234",
+    "telefone": "(19) 3638-0332, (19) 3638-0310, (19) 3638-0313, (19) 3638-0314, (19) 3638-0315, (19) 3638-0317, (19) 3638-0319, (19) 3638-0322, (19) 3638-0323, (19) 3...",
+    "email": "desjv@educacao.sp.gov.br",
+    "dirigente": "Silvia Helena Dalbon Barbosa",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 74,
+    "nome": "SAO JOAQUIM DA BARRA",
+    "sigla": "SJBA",
+    "total_escolas": 21,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 20,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Sao Paulo, 1305, Centro, Sao Joaquim da Barra, SP, CEP: 14600000",
+    "logradouro": "Rua Sao Paulo",
+    "numero": "1305",
+    "bairro": "Centro",
+    "cidade": "Sao Joaquim da Barra",
+    "cep": "14600000",
+    "telefone": "(16) 3115-1027, (16) 3115-1041, (16) 3115-1011, (16) 3115-1013, (16) 3115-1019, (16) 3115-1025, (16) 3115-1028, (16) 3115-1029, (16) 3115-1007, (16) 3...",
+    "email": "desjbarra@educacao.sp.gov.br",
+    "dirigente": "Alessandra Helena Gimenes Nardi",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 75,
+    "nome": "SAO JOSE DO RIO PRETO",
+    "sigla": "SJRP",
+    "total_escolas": 56,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 49,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 3,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Maximiano Mendes, 55, Vila Ercilia, Sao Jose do Rio Preto, SP, CEP: 15014190",
+    "logradouro": "Rua R Maximiano Mendes",
+    "numero": "55",
+    "bairro": "Vila Ercilia",
+    "cidade": "Sao Jose do Rio Preto",
+    "cep": "15014190",
+    "telefone": "nan",
+    "email": "desjr@educacao.sp.gov.br",
+    "dirigente": "Dinamarca da Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 76,
+    "nome": "SAO JOSE DOS CAMPOS",
+    "sigla": "SJCA",
+    "total_escolas": 66,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 59,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Porto Principe, 100, Vila Rubi, Sao Jose dos Campos, SP, CEP: 12245572",
+    "logradouro": "Rua R Porto Principe",
+    "numero": "100",
+    "bairro": "Vila Rubi",
+    "cidade": "Sao Jose dos Campos",
+    "cep": "12245572",
+    "telefone": "(12) 3519-4231, (12) 3519-4296, (12) 3519-4919, (12) 3519-4214, (12) 3519-4215, (12) 3519-4217, (12) 3519-4227, (12) 3519-4228, (12) 3519-4258, (12) 3...",
+    "email": "desjc@educacao.sp.gov.br",
+    "dirigente": "Ellen Patricia da Conceicao",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 77,
+    "nome": "SAO ROQUE",
+    "sigla": "SROQ",
+    "total_escolas": 33,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 31,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Av Tiradentes, 148, Centro, Sao Roque, SP, CEP: 18130470",
+    "logradouro": "Avenida Av Tiradentes",
+    "numero": "148",
+    "bairro": "Centro",
+    "cidade": "Sao Roque",
+    "cep": "18130470",
+    "telefone": "(11) 4719-9206, (11) 4719-9203, (11) 4719-9205, (11) 4719-9238, (11) 4719-9239, (11) 4719-9207, (11) 4719-9219, (11) 4719-9220, (11) 4719-9233, (11) 4...",
+    "email": "desrq@educacao.sp.gov.br",
+    "dirigente": "Luciane de Camargo Mendes",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 78,
+    "nome": "SAO VICENTE",
+    "sigla": "SVIC",
+    "total_escolas": 90,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 65,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "10": {
+        "quantidade": 9,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "6": {
+        "quantidade": 4,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 4,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 4,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 2,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Joao Ramalho, 378, Centro, Sao Vicente, SP, CEP: 11310050",
+    "logradouro": "Rua R Joao Ramalho",
+    "numero": "378",
+    "bairro": "Centro",
+    "cidade": "Sao Vicente",
+    "cep": "11310050",
+    "telefone": "nan",
+    "email": "desvi@educacao.sp.gov.br",
+    "dirigente": "Joelma Aparecida Alves da Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 79,
+    "nome": "SERTAOZINHO",
+    "sigla": "SERT",
+    "total_escolas": 31,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 26,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Dr Pio Dufles, 865, Jardim Sumare, Sertaozinho, SP, CEP: 14170680",
+    "logradouro": "Rua Rua Dr Pio Dufles",
+    "numero": "865",
+    "bairro": "Jardim Sumare",
+    "cidade": "Sertaozinho",
+    "cep": "14170680",
+    "telefone": "(16) 3946-1503, (16) 3946-1559, (16) 3946-1570, (16) 3946-1530, (16) 3946-1531, (16) 3946-1535, (16) 3946-1536, (16) 3946-1543, (16) 3946-1544, (16) 3...",
+    "email": "deser@educacao.sp.gov.br",
+    "dirigente": "Regina Aparecida Pieruchi",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 80,
+    "nome": "SOROCABA",
+    "sigla": "SOR",
+    "total_escolas": 91,
+    "tipos_escola": {
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "8": {
+        "quantidade": 79,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "34": {
+        "quantidade": 3,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 2,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Manoel G Santos Neto, 45, Jardim Pagliato, Sorocaba, SP, CEP: 18046154",
+    "logradouro": "Rua Manoel G Santos Neto",
+    "numero": "45",
+    "bairro": "Jardim Pagliato",
+    "cidade": "Sorocaba",
+    "cep": "18046154",
+    "telefone": "(15) 3212-6154, (15) 3212-6143, (15) 3212-6111, (15) 3212-6147, (15) 3212-6163, (15) 3212-9424, (15) 3212-6115, (15) 3212-6145, (15) 3212-6156, (15) 3...",
+    "email": "desor@educacao.sp.gov.br",
+    "dirigente": "Rossenilda Gomes Farias",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 81,
+    "nome": "SUL 1",
+    "sigla": "SU1",
+    "total_escolas": 88,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 86,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Pensilvania, 115, Cidade Moncoes, Sul 1, SP, CEP: 4564000",
+    "logradouro": "Rua Pensilvania",
+    "numero": "115",
+    "bairro": "Cidade Moncoes",
+    "cidade": "Sul 1",
+    "cep": "4564000",
+    "telefone": "(11) 5094-4103, (11) 5094-4116, (11) 5094-4126, (11) 5094-4127, (11) 5094-4128, (11) 5094-5963",
+    "email": "desu1@educacao.sp.gov.br",
+    "dirigente": "Reinaldo Inacio de Lima",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 82,
+    "nome": "SUL 2",
+    "sigla": "SU2",
+    "total_escolas": 93,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 91,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Rua Antonio Comparato, 60, Campo Belo Capital, Sul 2, SP, CEP: 4605030",
+    "logradouro": "Rua Rua Antonio Comparato",
+    "numero": "60",
+    "bairro": "Campo Belo Capital",
+    "cidade": "Sul 2",
+    "cep": "4605030",
+    "telefone": "nan",
+    "email": "desu2@educacao.sp.gov.br",
+    "dirigente": "Rosangela Novaes Martins",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 83,
+    "nome": "SUL 3",
+    "sigla": "SU3",
+    "total_escolas": 107,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 101,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "10": {
+        "quantidade": 2,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "15": {
+        "quantidade": 1,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida R Alcindo Ferreira, 4, Jardim Cruzeiro Cidade Dutra, Sul 3, SP, CEP: 4803170",
+    "logradouro": "Avenida R Alcindo Ferreira",
+    "numero": "4",
+    "bairro": "Jardim Cruzeiro Cidade Dutra",
+    "cidade": "Sul 3",
+    "cep": "4803170",
+    "telefone": "(11) 5660-1300",
+    "email": "desu3@educacao.sp.gov.br",
+    "dirigente": "Eonice Domingos da Silva",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 84,
+    "nome": "SUMARE",
+    "sigla": "SUMA",
+    "total_escolas": 74,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 68,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 4,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 2,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Luis Jose Duarte, 333, Jardim Carlos Basso, Sumare, SP, CEP: 13170020",
+    "logradouro": "Rua R Luis Jose Duarte",
+    "numero": "333",
+    "bairro": "Jardim Carlos Basso",
+    "cidade": "Sumare",
+    "cep": "13170020",
+    "telefone": "(19) 3803-1631, (19) 3803-1632, (19) 3803-1648",
+    "email": "desum@educacao.sp.gov.br",
+    "dirigente": "Rita de Cassia Goncales",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 85,
+    "nome": "SUZANO",
+    "sigla": "SUZ",
+    "total_escolas": 64,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 62,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "7": {
+        "quantidade": 1,
+        "nome": "HOSPITALAR",
+        "descricao": "Escola Hospitalar",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Av Mogi das Cruzes, 175, Jardim Imperador, Suzano, SP, CEP: 8673010",
+    "logradouro": "Avenida Av Mogi das Cruzes",
+    "numero": "175",
+    "bairro": "Jardim Imperador",
+    "cidade": "Suzano",
+    "cep": "8673010",
+    "telefone": "nan",
+    "email": "desuz@educacao.sp.gov.br",
+    "dirigente": "Leonardo Hernandez Felicio",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 86,
+    "nome": "TABOAO DA SERRA",
+    "sigla": "TABS",
+    "total_escolas": 71,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 71,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      }
+    },
+    "endereco_completo": "Rua Joao Slavieiro, 65, Jardim da Gloria, Taboao da Serra, SP, CEP: 6767470",
+    "logradouro": "Rua Joao Slavieiro",
+    "numero": "65",
+    "bairro": "Jardim da Gloria",
+    "cidade": "Taboao da Serra",
+    "cep": "6767470",
+    "telefone": "(11) 4788-3705, (11) 4788-3712, (11) 4788-3713, (11) 4788-3714, (11) 4788-3721, (11) 4788-3726, (11) 4788-3728, (11) 4788-3736",
+    "email": "detab@educacao.sp.gov.br",
+    "dirigente": "Juliana Cristina Garcia Schirrmann",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 87,
+    "nome": "TAQUARITINGA",
+    "sigla": "TAQ",
+    "total_escolas": 40,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 37,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 3,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Avenida Avenida Heitor Alves Gomes, 230, Jardim Beatriz, Taquaritinga, SP, CEP: 15902180",
+    "logradouro": "Avenida Avenida Heitor Alves Gomes",
+    "numero": "230",
+    "bairro": "Jardim Beatriz",
+    "cidade": "Taquaritinga",
+    "cep": "15902180",
+    "telefone": "nan",
+    "email": "detaq@educacao.sp.gov.br",
+    "dirigente": "Carlos Benedito Gabriel",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 88,
+    "nome": "TAUBATE",
+    "sigla": "TAUB",
+    "total_escolas": 49,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 43,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "34": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+        "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+        "categoria": "Educação Especial"
+      },
+      "9": {
+        "quantidade": 1,
+        "nome": "SOCIOEDUCATIVO",
+        "descricao": "Centro de Atendimento Socioeducativo",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 2,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Praca Praca, 8 DE MAIO, 28, Centro, Taubate, SP, CEP: 12020260",
+    "logradouro": "Praca Praca",
+    "numero": "8 DE MAIO, 28",
+    "bairro": "Centro",
+    "cidade": "Taubate",
+    "cep": "12020260",
+    "telefone": "(12) 3625-0776, (12) 3625-0778, (12) 3625-0725, (12) 3625-0727, (12) 3625-0728, (12) 3625-0729, (12) 3625-0743, (12) 3625-0744, (12) 3625-0756, (12) 3...",
+    "email": "detau@educacao.sp.gov.br",
+    "dirigente": "Valeria Mara Rodrigues Coura dos Santos",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 89,
+    "nome": "TUPA",
+    "sigla": "TUPA",
+    "total_escolas": 36,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 33,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "10": {
+        "quantidade": 1,
+        "nome": "INDÍGENA",
+        "descricao": "Escola Indígena",
+        "categoria": "Educação Étnica"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Praca Praca da Bandeira, 900, Centro, Tupa, SP, CEP: 17600380",
+    "logradouro": "Praca Praca da Bandeira",
+    "numero": "900",
+    "bairro": "Centro",
+    "cidade": "Tupa",
+    "cep": "17600380",
+    "telefone": "(14) 3404-3118, (14) 3404-3158, (14) 3404-3139, (14) 3404-3140, (14) 3404-3141, (14) 3404-3142, (14) 3404-3144, (14) 3404-3156, (14) 3404-3157, (14) 3...",
+    "email": "detup@educacao.sp.gov.br",
+    "dirigente": "Cesar Lucas Vendrame",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 90,
+    "nome": "VOTORANTIM",
+    "sigla": "VOT",
+    "total_escolas": 51,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 40,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "6": {
+        "quantidade": 7,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      },
+      "15": {
+        "quantidade": 3,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua Sete de Setembro, 311, Parque Bela Vista, Votorantim, SP, CEP: 18110420",
+    "logradouro": "Rua Sete de Setembro",
+    "numero": "311",
+    "bairro": "Parque Bela Vista",
+    "cidade": "Votorantim",
+    "cep": "18110420",
+    "telefone": "(15) 3353-9600, (15) 3353-9601, (15) 3353-7800, (15) 3353-7800, (15) 3353-7825, (15) 3353-7835, (15) 3353-7846, (15) 3353-7850, (15) 3353-7817, (15) 3...",
+    "email": "devot@educacao.sp.gov.br",
+    "dirigente": "Tereza Leonor Aparecida Barros Guimaraes Milano",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  },
+  {
+    "id": 91,
+    "nome": "VOTUPORANGA",
+    "sigla": "VTP",
+    "total_escolas": 34,
+    "tipos_escola": {
+      "8": {
+        "quantidade": 29,
+        "nome": "REGULAR",
+        "descricao": "Escola Regular",
+        "categoria": "Educação Regular"
+      },
+      "15": {
+        "quantidade": 3,
+        "nome": "PENITENCIÁRIA",
+        "descricao": "Escola Penitenciária",
+        "categoria": "Educação Especial"
+      },
+      "3": {
+        "quantidade": 1,
+        "nome": "CEEJA",
+        "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+        "categoria": "Educação Especial"
+      },
+      "6": {
+        "quantidade": 1,
+        "nome": "CEL JTO",
+        "descricao": "Centro de Línguas",
+        "categoria": "Educação Especial"
+      }
+    },
+    "endereco_completo": "Rua R Brasilia, 3430, Vale do Sol, Votuporanga, SP, CEP: 15500278",
+    "logradouro": "Rua R Brasilia",
+    "numero": "3430",
+    "bairro": "Vale do Sol",
+    "cidade": "Votuporanga",
+    "cep": "15500278",
+    "telefone": "(17) 3426-8721, (17) 3426-8722, (17) 3426-8723, (17) 3426-8725, (17) 3426-8726, (17) 3426-8727, (17) 3426-8728, (17) 3426-8756, (17) 3426-8758, (17) 3...",
+    "email": "devtp@educacao.sp.gov.br",
+    "dirigente": "Marcelaine de Oliveira Ferreira",
+    "coordenadas": {
+      "latitude": null,
+      "longitude": null
+    }
+  }
+]

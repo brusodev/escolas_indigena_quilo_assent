@@ -1,0 +1,19 @@
+{
+  "created_at": "2025-08-11T23:30:00",
+  "description": "Bases de dados padronizadas para migração Flask + SQLAlchemy",
+  "version": "1.0",
+  "entities": {
+    "escolas": {
+      "count": 5582,
+      "description": "Unidades escolares de todos os tipos"
+    },
+    "diretorias": {
+      "count": 91,
+      "description": "Diretorias de Ensino"
+    },
+    "veiculos": {
+      "count": 172,
+      "description": "Veículos para transporte escolar"
+    }
+  }
+}

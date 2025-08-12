@@ -1,0 +1,52 @@
+{
+  "3": {
+    "nome": "CEEJA",
+    "descricao": "Centro Estadual de Educação de Jovens e Adultos",
+    "categoria": "Educação Especial"
+  },
+  "6": {
+    "nome": "CEL JTO",
+    "descricao": "Centro de Línguas",
+    "categoria": "Educação Especial"
+  },
+  "7": {
+    "nome": "HOSPITALAR",
+    "descricao": "Escola Hospitalar",
+    "categoria": "Educação Especial"
+  },
+  "8": {
+    "nome": "REGULAR",
+    "descricao": "Escola Regular",
+    "categoria": "Educação Regular"
+  },
+  "9": {
+    "nome": "SOCIOEDUCATIVO",
+    "descricao": "Centro de Atendimento Socioeducativo",
+    "categoria": "Educação Especial"
+  },
+  "10": {
+    "nome": "INDÍGENA",
+    "descricao": "Escola Indígena",
+    "categoria": "Educação Étnica"
+  },
+  "15": {
+    "nome": "PENITENCIÁRIA",
+    "descricao": "Escola Penitenciária",
+    "categoria": "Educação Especial"
+  },
+  "31": {
+    "nome": "ASSENTAMENTO",
+    "descricao": "Escola de Assentamento Rural",
+    "categoria": "Educação Rural"
+  },
+  "34": {
+    "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+    "descricao": "Centro de Atendimento Socioeducativo para Adolescente",
+    "categoria": "Educação Especial"
+  },
+  "36": {
+    "nome": "QUILOMBOLA",
+    "descricao": "Escola Quilombola",
+    "categoria": "Educação Étnica"
+  }
+}

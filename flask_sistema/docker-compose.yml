@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+      - DATABASE_URL=postgresql://sistema_escolas:senha123@db:5432/escolas_sistema
+    depends_on:
+      - db
+    volumes:
+      - .:/app
+      - ./data:/app/data
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: sistema_escolas
+      POSTGRES_PASSWORD: senha123
+      POSTGRES_DB: escolas_sistema
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./data/sql:/docker-entrypoint-initdb.d
+
+volumes:
+  postgres_data:

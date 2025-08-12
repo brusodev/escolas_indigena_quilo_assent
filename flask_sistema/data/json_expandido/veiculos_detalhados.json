@@ -1,0 +1,2095 @@
+{
+  "CENTRO": {
+    "diretoria": "CENTRO",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "CENTRO OESTE": {
+    "diretoria": "CENTRO OESTE",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "NORTE 1": {
+    "diretoria": "NORTE 1",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "NORTE 2": {
+    "diretoria": "NORTE 2",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "LESTE 1": {
+    "diretoria": "LESTE 1",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "LESTE 2": {
+    "diretoria": "LESTE 2",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "LESTE 3": {
+    "diretoria": "LESTE 3",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "LESTE 4": {
+    "diretoria": "LESTE 4",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "LESTE 5": {
+    "diretoria": "LESTE 5",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "CENTRO SUL": {
+    "diretoria": "CENTRO SUL",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "SUL 1": {
+    "diretoria": "SUL 1",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "SUL 2": {
+    "diretoria": "SUL 2",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "SUL 3": {
+    "diretoria": "SUL 3",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "GUARULHOS NORTE": {
+    "diretoria": "GUARULHOS NORTE",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "GUARULHOS SUL": {
+    "diretoria": "GUARULHOS SUL",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "ITAQUAQUECETUBA": {
+    "diretoria": "ITAQUAQUECETUBA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "MOGI DAS CRUZES": {
+    "diretoria": "MOGI DAS CRUZES",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "SUZANO": {
+    "diretoria": "SUZANO",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "DIADEMA": {
+    "diretoria": "DIADEMA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "MAUÁ": {
+    "diretoria": "MAUÁ",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "SANTO ANDRÉ": {
+    "diretoria": "SANTO ANDRÉ",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "SÃO BERNARDO DO CAMPO": {
+    "diretoria": "SÃO BERNARDO DO CAMPO",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "CAIEIRAS": {
+    "diretoria": "CAIEIRAS",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "CARAPICUÍBA": {
+    "diretoria": "CARAPICUÍBA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "ITAPECERICA DA SERRA": {
+    "diretoria": "ITAPECERICA DA SERRA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "ITAPEVI": {
+    "diretoria": "ITAPEVI",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "OSASCO": {
+    "diretoria": "OSASCO",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "TABOÃO DA SERRA": {
+    "diretoria": "TABOÃO DA SERRA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "ANDRADINA": {
+    "diretoria": "ANDRADINA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "ARAÇATUBA": {
+    "diretoria": "ARAÇATUBA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "BIRIGUI": {
+    "diretoria": "BIRIGUI",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "FERNANDÓPÓLIS": {
+    "diretoria": "FERNANDÓPÓLIS",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "JALES": {
+    "diretoria": "JALES",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "PENÁPOLIS": {
+    "diretoria": "PENÁPOLIS",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "VOTUPORANGA": {
+    "diretoria": "VOTUPORANGA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "ARARAQUARA": {
+    "diretoria": "ARARAQUARA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "FRANCA": {
+    "diretoria": "FRANCA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "JABOTICABAL": {
+    "diretoria": "JABOTICABAL",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "PIRASSUNUNGA": {
+    "diretoria": "PIRASSUNUNGA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "RIBEIRÃO PRETO": {
+    "diretoria": "RIBEIRÃO PRETO",
+    "total_veiculos": 3,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 45
+  },
+  "SÃO CARLOS": {
+    "diretoria": "SÃO CARLOS",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "SÃO JOAQUIM DA BARRA": {
+    "diretoria": "SÃO JOAQUIM DA BARRA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "SERTÃOZINHO": {
+    "diretoria": "SERTÃOZINHO",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "ADAMANTINA": {
+    "diretoria": "ADAMANTINA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "ASSIS": {
+    "diretoria": "ASSIS",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "MIRANTE DO PARANAPANEMA": {
+    "diretoria": "MIRANTE DO PARANAPANEMA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "OURINHOS": {
+    "diretoria": "OURINHOS",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "PRESIDENTE PRUDENTE": {
+    "diretoria": "PRESIDENTE PRUDENTE",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "SANTO ANASTÁCIO": {
+    "diretoria": "SANTO ANASTÁCIO",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 1,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 22
+  },
+  "TUPÃ": {
+    "diretoria": "TUPÃ",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "APIAI": {
+    "diretoria": "APIAI",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "ITAPETININGA": {
+    "diretoria": "ITAPETININGA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "ITAPEVA": {
+    "diretoria": "ITAPEVA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "ITARARÉ": {
+    "diretoria": "ITARARÉ",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "ITU": {
+    "diretoria": "ITU",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "SÃO ROQUE": {
+    "diretoria": "SÃO ROQUE",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "SOROCABA": {
+    "diretoria": "SOROCABA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "VOTORANTIM": {
+    "diretoria": "VOTORANTIM",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "BRAGANCA PAULISTA": {
+    "diretoria": "BRAGANCA PAULISTA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "CAMPINAS LESTE": {
+    "diretoria": "CAMPINAS LESTE",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "CAMPINAS OESTE": {
+    "diretoria": "CAMPINAS OESTE",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "JUNDIAI": {
+    "diretoria": "JUNDIAI",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "MOGI MIRIM": {
+    "diretoria": "MOGI MIRIM",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "SÃO JOÃO DA BOA VISTA": {
+    "diretoria": "SÃO JOÃO DA BOA VISTA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "MIRACATU": {
+    "diretoria": "MIRACATU",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "REGISTRO": {
+    "diretoria": "REGISTRO",
+    "total_veiculos": 3,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 45
+  },
+  "SANTOS": {
+    "diretoria": "SANTOS",
+    "total_veiculos": 3,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 45
+  },
+  "SÃO VICENTE": {
+    "diretoria": "SÃO VICENTE",
+    "total_veiculos": 3,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 45
+  },
+  "CARAGUATATUBA": {
+    "diretoria": "CARAGUATATUBA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "GUARATINGUETA": {
+    "diretoria": "GUARATINGUETA",
+    "total_veiculos": 3,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 45
+  },
+  "JACAREI": {
+    "diretoria": "JACAREI",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "PINDAMONHANGABA": {
+    "diretoria": "PINDAMONHANGABA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "SAO JOSE DOS CAMPOS": {
+    "diretoria": "SAO JOSE DOS CAMPOS",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "TAUBATE": {
+    "diretoria": "TAUBATE",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "BARRETOS": {
+    "diretoria": "BARRETOS",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "CATANDUVA": {
+    "diretoria": "CATANDUVA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "JOSÉ BONIFACIO": {
+    "diretoria": "JOSÉ BONIFACIO",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "SÃO JOSÉ DO RIO PRETO": {
+    "diretoria": "SÃO JOSÉ DO RIO PRETO",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "TAQUARITINGA": {
+    "diretoria": "TAQUARITINGA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "AVARE": {
+    "diretoria": "AVARE",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "BAURU": {
+    "diretoria": "BAURU",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": true,
+    "capacidade_total_estimada": 30
+  },
+  "BOTUCATU": {
+    "diretoria": "BOTUCATU",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "JAU": {
+    "diretoria": "JAU",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "LINS": {
+    "diretoria": "LINS",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "MARILIA": {
+    "diretoria": "MARILIA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "PIRAJU": {
+    "diretoria": "PIRAJU",
+    "total_veiculos": 1,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 1,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 15
+  },
+  "AMERICANA": {
+    "diretoria": "AMERICANA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "CAPIVARI": {
+    "diretoria": "CAPIVARI",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "LIMEIRA": {
+    "diretoria": "LIMEIRA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "PIRACICABA": {
+    "diretoria": "PIRACICABA",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  },
+  "SUMARÉ": {
+    "diretoria": "SUMARÉ",
+    "total_veiculos": 2,
+    "veiculos_por_tipo": {
+      "S-1": {
+        "quantidade": 0,
+        "descricao": "Veículo pequeno (até 7 lugares)",
+        "categoria": "pequeno"
+      },
+      "S-2": {
+        "quantidade": 2,
+        "descricao": "Veículo médio/grande (8+ lugares)",
+        "categoria": "medio_grande"
+      },
+      "S-2 4X4": {
+        "quantidade": 0,
+        "descricao": "Veículo médio/grande com tração 4x4",
+        "categoria": "medio_grande_4x4"
+      }
+    },
+    "necessidade_especial": false,
+    "capacidade_total_estimada": 30
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-08-12T00:10:22.230789",
+  "resumo_geral": {
+    "total_escolas": 5582,
+    "total_diretorias": 89,
+    "total_regioes_supervisao": 12,
+    "total_veiculos": 172
+  },
+  "estatisticas_por_tipo": {
+    "escolas_indigenas": 43,
+    "escolas_quilombolas": 16,
+    "escolas_regulares": 4964
+  },
+  "veiculos_por_tipo": {
+    "S-1": 26,
+    "S-2": 128,
+    "S-2_4X4": 18
+  },
+  "diretorias_com_mais_escolas": [
+    [
+      "Centro",
+      260
+    ],
+    [
+      "Ribeirao Preto",
+      116
+    ],
+    [
+      "Maua",
+      107
+    ],
+    [
+      "Sul 3",
+      107
+    ],
+    [
+      "Bauru",
+      101
+    ],
+    [
+      "Norte 1",
+      101
+    ],
+    [
+      "Campinas Oeste",
+      99
+    ],
+    [
+      "Sul 2",
+      93
+    ],
+    [
+      "Leste 2",
+      92
+    ],
+    [
+      "Guarulhos Norte",
+      91
+    ]
+  ],
+  "diretorias_com_mais_veiculos": [
+    [
+      "RIBEIRÃO PRETO",
+      3
+    ],
+    [
+      "REGISTRO",
+      3
+    ],
+    [
+      "SANTOS",
+      3
+    ],
+    [
+      "SÃO VICENTE",
+      3
+    ],
+    [
+      "GUARATINGUETA",
+      3
+    ],
+    [
+      "GUARULHOS NORTE",
+      2
+    ],
+    [
+      "GUARULHOS SUL",
+      2
+    ],
+    [
+      "ITAQUAQUECETUBA",
+      2
+    ],
+    [
+      "MOGI DAS CRUZES",
+      2
+    ],
+    [
+      "SUZANO",
+      2
+    ]
+  ]
+}

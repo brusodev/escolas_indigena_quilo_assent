@@ -1,0 +1,77 @@
+{
+  "data_atualizacao": "2025-08-12T00:34:27.228174",
+  "total_escolas": 5582,
+  "total_diretorias": 91,
+  "total_tipos_escola": 10,
+  "estatisticas_por_tipo": {
+    "3": {
+      "nome": "CEEJA",
+      "quantidade": 43,
+      "percentual": 0.77
+    },
+    "6": {
+      "nome": "CEL JTO",
+      "quantidade": 165,
+      "percentual": 2.96
+    },
+    "7": {
+      "nome": "HOSPITALAR",
+      "quantidade": 71,
+      "percentual": 1.27
+    },
+    "8": {
+      "nome": "REGULAR",
+      "quantidade": 4964,
+      "percentual": 88.93
+    },
+    "9": {
+      "nome": "SOCIOEDUCATIVO",
+      "quantidade": 36,
+      "percentual": 0.64
+    },
+    "10": {
+      "nome": "INDÍGENA",
+      "quantidade": 43,
+      "percentual": 0.77
+    },
+    "15": {
+      "nome": "PENITENCIÁRIA",
+      "quantidade": 163,
+      "percentual": 2.92
+    },
+    "31": {
+      "nome": "ASSENTAMENTO",
+      "quantidade": 4,
+      "percentual": 0.07
+    },
+    "34": {
+      "nome": "SOCIOEDUCATIVO ADOLESCENTE",
+      "quantidade": 77,
+      "percentual": 1.38
+    },
+    "36": {
+      "nome": "QUILOMBOLA",
+      "quantidade": 16,
+      "percentual": 0.29
+    }
+  },
+  "estatisticas_por_diretoria": {},
+  "resumo_por_categoria": {
+    "Educação Regular": {
+      "quantidade": 4964,
+      "percentual": 88.93
+    },
+    "Educação Especial": {
+      "quantidade": 555,
+      "percentual": 9.94
+    },
+    "Educação Étnica": {
+      "quantidade": 59,
+      "percentual": 1.06
+    },
+    "Educação Rural": {
+      "quantidade": 4,
+      "percentual": 0.07
+    }
+  }
+}

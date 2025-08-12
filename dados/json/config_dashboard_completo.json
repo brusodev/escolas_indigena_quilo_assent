@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "data_atualizacao": "2025-08-11 22:37:31",
+    "versao": "2.0 - CITEM Completo",
+    "total_escolas": 5582,
+    "fonte": "CITEM - Base Completa 5.582 escolas"
+  },
+  "tipos_escola": {
+    "regular": 4964,
+    "indigena": 43,
+    "quilombola": 16,
+    "assentamento": 4,
+    "ceeja": 43,
+    "cel_jto": 165,
+    "hospitalar": 71,
+    "escola_penitenciaria": 163,
+    "centro_atend_socioeduc": 36,
+    "centro_atend_soc_educ_adolesc": 77
+  },
+  "configuracao": {
+    "mapa_inicial": {
+      "centro_lat": -23.5,
+      "centro_lng": -46.6,
+      "zoom": 7
+    },
+    "filtros_disponiveis": [
+      "regular",
+      "indigena",
+      "quilombola",
+      "assentamento",
+      "ceeja",
+      "cel_jto",
+      "hospitalar",
+      "escola_penitenciaria",
+      "centro_atend_socioeduc",
+      "centro_atend_soc_educ_adolesc"
+    ],
+    "cores_tipos": {
+      "indigena": "#8B4513",
+      "quilombola": "#800080",
+      "assentamento": "#228B22",
+      "regular": "#4169E1",
+      "ceeja": "#FF6347",
+      "cel_jto": "#FF8C00",
+      "hospitalar": "#DC143C",
+      "penitenciaria": "#2F4F4F",
+      "socioeduc": "#9932CC",
+      "socioeduc_adolesc": "#8A2BE2"
+    }
+  }
+}

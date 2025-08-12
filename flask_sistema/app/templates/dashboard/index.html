@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestão Escolar - Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .stat-card h3 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-card p {
+            color: #666;
+            font-weight: 500;
+        }
+        
+        .section {
+            background: white;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: #f8f9fa;
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .section-header h2 {
+            color: #495057;
+            font-size: 1.3rem;
+        }
+        
+        .section-content {
+            padding: 1.5rem;
+        }
+        
+        .api-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .api-link {
+            display: block;
+            padding: 1rem;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #495057;
+            transition: all 0.3s ease;
+        }
+        
+        .api-link:hover {
+            background: #e9ecef;
+            border-color: #667eea;
+            color: #667eea;
+        }
+        
+        .api-link strong {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .api-link small {
+            color: #6c757d;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #6c757d;
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 1rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #6c757d;
+            border-top: 1px solid #e9ecef;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏫 Sistema de Gestão Escolar</h1>
+        <p>Dashboard - Estado de São Paulo | SQLite → PostgreSQL Ready</p>
+    </div>
+
+    <div class="container">
+        <!-- Estatísticas Básicas -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3 id="total-escolas">-</h3>
+                <p>Escolas Cadastradas</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="total-diretorias">-</h3>
+                <p>Diretorias de Ensino</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="total-veiculos">-</h3>
+                <p>Veículos de Transporte</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="total-supervisores">-</h3>
+                <p>Supervisores Ativos</p>
+            </div>
+        </div>
+
+        <!-- APIs Disponíveis -->
+        <div class="section">
+            <div class="section-header">
+                <h2>🔗 APIs Disponíveis</h2>
+            </div>
+            <div class="section-content">
+                <div class="api-links">
+                    <a href="/dados/escolas" class="api-link" target="_blank">
+                        <strong>📚 Dados das Escolas</strong>
+                        <small>JSON com todas as 5,582 escolas</small>
+                    </a>
+                    <a href="/dados/diretorias" class="api-link" target="_blank">
+                        <strong>🏛️ Dados das Diretorias</strong>
+                        <small>JSON com as 91 diretorias</small>
+                    </a>
+                    <a href="/dados/veiculos" class="api-link" target="_blank">
+                        <strong>🚗 Dados dos Veículos</strong>
+                        <small>JSON com os 172 veículos</small>
+                    </a>
+                    <a href="/dados/estatisticas" class="api-link" target="_blank">
+                        <strong>📊 Estatísticas Gerais</strong>
+                        <small>Resumos e totais por categoria</small>
+                    </a>
+                    <a href="/health" class="api-link" target="_blank">
+                        <strong>💚 Health Check</strong>
+                        <small>Status do sistema</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Status do Sistema -->
+        <div class="section">
+            <div class="section-header">
+                <h2>⚙️ Status do Sistema</h2>
+            </div>
+            <div class="section-content">
+                <div id="system-status" class="loading">
+                    Carregando informações do sistema...
+                </div>
+            </div>
+        </div>
+
+        <!-- Escolas por Tipo -->
+        <div class="section">
+            <div class="section-header">
+                <h2>📊 Distribuição de Escolas por Tipo</h2>
+            </div>
+            <div class="section-content">
+                <div id="escolas-tipo" class="loading">
+                    Carregando dados...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Sistema Flask + SQLAlchemy + SQLite | Preparado para PostgreSQL</p>
+        <p>Dados: 5,582 escolas • 91 diretorias • 172 veículos</p>
+    </div>
+
+    <script>
+        // Carregar estatísticas básicas
+        async function loadStats() {
+            try {
+                const response = await fetch('/dados/estatisticas');
+                const data = await response.json();
+                
+                document.getElementById('total-escolas').textContent = data.total_escolas || 0;
+                document.getElementById('total-diretorias').textContent = data.total_diretorias || 0;
+                document.getElementById('total-veiculos').textContent = data.total_veiculos || 0;
+                document.getElementById('total-supervisores').textContent = data.total_supervisores || 0;
+                
+                // Mostrar escolas por tipo
+                if (data.escolas_por_tipo) {
+                    const escolasTipoDiv = document.getElementById('escolas-tipo');
+                    let html = '<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">';
+                    
+                    for (const [tipo, total] of Object.entries(data.escolas_por_tipo)) {
+                        html += `
+                            <div style="background: #f8f9fa; padding: 1rem; border-radius: 6px; text-align: center;">
+                                <h4 style="color: #667eea; font-size: 1.5rem; margin-bottom: 0.5rem;">${total}</h4>
+                                <p style="color: #666; font-weight: 500;">${tipo}</p>
+                            </div>
+                        `;
+                    }
+                    
+                    html += '</div>';
+                    escolasTipoDiv.innerHTML = html;
+                }
+                
+                // Status do sistema
+                document.getElementById('system-status').innerHTML = `
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                        <div style="text-align: center;">
+                            <div style="color: #28a745; font-size: 1.5rem; margin-bottom: 0.5rem;">✅</div>
+                            <strong>Banco SQLite</strong><br>
+                            <small>Funcionando</small>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="color: #28a745; font-size: 1.5rem; margin-bottom: 0.5rem;">✅</div>
+                            <strong>APIs REST</strong><br>
+                            <small>Disponíveis</small>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="color: #28a745; font-size: 1.5rem; margin-bottom: 0.5rem;">✅</div>
+                            <strong>Dados Importados</strong><br>
+                            <small>5,582 escolas</small>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="color: #ffc107; font-size: 1.5rem; margin-bottom: 0.5rem;">🔄</div>
+                            <strong>PostgreSQL</strong><br>
+                            <small>Migração futura</small>
+                        </div>
+                    </div>
+                `;
+                
+            } catch (error) {
+                console.error('Erro ao carregar dados:', error);
+                document.getElementById('system-status').innerHTML = `
+                    <div class="error">
+                        ❌ Erro ao carregar dados do sistema. Verifique se o banco foi inicializado com: python setup_sqlite.py init
+                    </div>
+                `;
+            }
+        }
+
+        // Carregar dados quando a página estiver pronta
+        document.addEventListener('DOMContentLoaded', loadStats);
+    </script>
+</body>
+</html>

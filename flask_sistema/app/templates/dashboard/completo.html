@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Completo - Diretorias de Ensino SP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card.success {
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+        }
+        
+        .stat-card.warning {
+            background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+        }
+        
+        .stat-card.info {
+            background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+        }
+        
+        .stat-card.danger {
+            background: linear-gradient(135deg, #f44336 0%, #d32f2f 100%);
+        }
+        
+        .table-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .spinner-container {
+            text-align: center;
+            padding: 50px;
+        }
+        
+        .navbar-brand {
+            font-weight: bold;
+        }
+        
+        .btn-custom {
+            border-radius: 25px;
+            padding: 10px 25px;
+        }
+        
+        .badge-custom {
+            font-size: 0.9em;
+            padding: 8px 12px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-school"></i> Sistema Completo - Diretorias SP
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="/api/relatorio/completo" target="_blank">
+                    <i class="fas fa-download"></i> Exportar JSON
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <!-- Estatísticas Gerais -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="stat-card success">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h3 id="total-diretorias">-</h3>
+                            <p class="mb-0">Diretorias</p>
+                        </div>
+                        <div class="align-self-center">
+                            <i class="fas fa-building fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card info">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h3 id="total-escolas">-</h3>
+                            <p class="mb-0">Escolas</p>
+                        </div>
+                        <div class="align-self-center">
+                            <i class="fas fa-school fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card warning">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h3 id="total-veiculos">-</h3>
+                            <p class="mb-0">Veículos</p>
+                        </div>
+                        <div class="align-self-center">
+                            <i class="fas fa-bus fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card danger">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h3 id="total-supervisores">-</h3>
+                            <p class="mb-0">Supervisores</p>
+                        </div>
+                        <div class="align-self-center">
+                            <i class="fas fa-users fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Distribuição de Escolas -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="table-container">
+                    <h5><i class="fas fa-chart-pie text-primary"></i> Tipos de Escolas</h5>
+                    <div class="mb-2">
+                        <span class="badge bg-success badge-custom">
+                            <span id="escolas-regulares">-</span> Regulares
+                        </span>
+                    </div>
+                    <div class="mb-2">
+                        <span class="badge bg-warning badge-custom">
+                            <span id="escolas-indigenas">-</span> Indígenas
+                        </span>
+                    </div>
+                    <div class="mb-2">
+                        <span class="badge bg-info badge-custom">
+                            <span id="escolas-quilombolas">-</span> Quilombolas
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="table-container">
+                    <h5><i class="fas fa-crown text-primary"></i> Top 5 Diretorias</h5>
+                    <div class="table-responsive">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Diretoria</th>
+                                    <th>Escolas</th>
+                                    <th>Veículos</th>
+                                    <th>Indígenas</th>
+                                    <th>Quilombolas</th>
+                                </tr>
+                            </thead>
+                            <tbody id="top-diretorias">
+                                <tr><td colspan="5" class="text-center">Carregando...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabs de Conteúdo -->
+        <ul class="nav nav-tabs" id="mainTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="diretorias-tab" data-bs-toggle="tab" data-bs-target="#diretorias" type="button">
+                    <i class="fas fa-building"></i> Diretorias
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="veiculos-tab" data-bs-toggle="tab" data-bs-target="#veiculos" type="button">
+                    <i class="fas fa-bus"></i> Veículos
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="supervisores-tab" data-bs-toggle="tab" data-bs-target="#supervisores" type="button">
+                    <i class="fas fa-users"></i> Supervisores
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="mainTabsContent">
+            <!-- Tab Diretorias -->
+            <div class="tab-pane fade show active" id="diretorias" role="tabpanel">
+                <div class="table-container mt-3">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5><i class="fas fa-building text-primary"></i> Todas as Diretorias</h5>
+                        <input type="text" class="form-control w-25" id="filtro-diretorias" placeholder="Filtrar diretorias...">
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Escolas</th>
+                                    <th>Veículos</th>
+                                    <th>Supervisor</th>
+                                    <th>Região</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tabela-diretorias">
+                                <tr><td colspan="6" class="text-center">Carregando...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Veículos -->
+            <div class="tab-pane fade" id="veiculos" role="tabpanel">
+                <div class="table-container mt-3">
+                    <h5><i class="fas fa-bus text-primary"></i> Veículos por Diretoria</h5>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-warning">
+                                <tr>
+                                    <th>Diretoria</th>
+                                    <th>Total</th>
+                                    <th>S-1 (Pequeno)</th>
+                                    <th>S-2 (Médio/Grande)</th>
+                                    <th>S-2 4X4</th>
+                                    <th>Capacidade Total</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tabela-veiculos">
+                                <tr><td colspan="6" class="text-center">Carregando...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Supervisores -->
+            <div class="tab-pane fade" id="supervisores" role="tabpanel">
+                <div class="table-container mt-3">
+                    <h5><i class="fas fa-users text-primary"></i> Supervisores Regionais</h5>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-danger">
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Região</th>
+                                    <th>Diretorias</th>
+                                    <th>Escolas</th>
+                                    <th>Veículos</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tabela-supervisores">
+                                <tr><td colspan="5" class="text-center">Carregando...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Detalhes Diretoria -->
+    <div class="modal fade" id="modalDetalhes" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Detalhes da Diretoria</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="conteudo-modal">
+                    <div class="spinner-container">
+                        <div class="spinner-border text-primary" role="status"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Carregar dados ao inicializar
+        document.addEventListener('DOMContentLoaded', function() {
+            carregarEstatisticas();
+            carregarDiretorias();
+            carregarVeiculos();
+            carregarSupervisores();
+        });
+
+        async function carregarEstatisticas() {
+            try {
+                const response = await fetch('/api/estatisticas/sistema');
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    document.getElementById('total-diretorias').textContent = data.totais_gerais.diretorias;
+                    document.getElementById('total-escolas').textContent = data.totais_gerais.escolas.toLocaleString();
+                    document.getElementById('total-veiculos').textContent = data.totais_gerais.veiculos;
+                    document.getElementById('total-supervisores').textContent = data.totais_gerais.supervisores;
+                    
+                    document.getElementById('escolas-regulares').textContent = data.distribuicao_escolas.regulares.toLocaleString();
+                    document.getElementById('escolas-indigenas').textContent = data.distribuicao_escolas.indigenas;
+                    document.getElementById('escolas-quilombolas').textContent = data.distribuicao_escolas.quilombolas;
+                    
+                    // Top diretorias
+                    const tbody = document.getElementById('top-diretorias');
+                    tbody.innerHTML = '';
+                    
+                    data.top_diretorias.slice(0, 5).forEach(dir => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td><strong>${dir.nome}</strong></td>
+                            <td><span class="badge bg-primary">${dir.total_escolas}</span></td>
+                            <td><span class="badge bg-warning">${dir.total_veiculos}</span></td>
+                            <td><span class="badge bg-success">${dir.escolas_indigenas}</span></td>
+                            <td><span class="badge bg-info">${dir.escolas_quilombolas}</span></td>
+                        `;
+                        tbody.appendChild(row);
+                    });
+                }
+            } catch (error) {
+                console.error('Erro ao carregar estatísticas:', error);
+            }
+        }
+
+        async function carregarDiretorias() {
+            try {
+                const response = await fetch('/api/diretorias/completas');
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    const tbody = document.getElementById('tabela-diretorias');
+                    tbody.innerHTML = '';
+                    
+                    data.diretorias.forEach(dir => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td><strong>${dir.nome}</strong></td>
+                            <td>
+                                <span class="badge bg-primary">${dir.total_escolas}</span>
+                                <small class="text-muted">
+                                    (${dir.escolas_indigenas}i, ${dir.escolas_quilombolas}q)
+                                </small>
+                            </td>
+                            <td>
+                                <span class="badge bg-warning">${dir.total_veiculos}</span>
+                                <small class="text-muted">
+                                    (${dir.veiculos_s1 + dir.veiculos_s2 + dir.veiculos_s2_4x4})
+                                </small>
+                            </td>
+                            <td>${dir.supervisor || 'Não informado'}</td>
+                            <td><small>${dir.regiao_supervisao || '-'}</small></td>
+                            <td>
+                                <button class="btn btn-sm btn-outline-primary btn-custom" 
+                                        onclick="verDetalhes('${dir.nome}')">
+                                    <i class="fas fa-eye"></i> Ver
+                                </button>
+                            </td>
+                        `;
+                        tbody.appendChild(row);
+                    });
+                    
+                    // Adicionar filtro
+                    const filtro = document.getElementById('filtro-diretorias');
+                    filtro.addEventListener('input', function() {
+                        const termo = this.value.toLowerCase();
+                        const linhas = tbody.querySelectorAll('tr');
+                        
+                        linhas.forEach(linha => {
+                            const texto = linha.textContent.toLowerCase();
+                            linha.style.display = texto.includes(termo) ? '' : 'none';
+                        });
+                    });
+                }
+            } catch (error) {
+                console.error('Erro ao carregar diretorias:', error);
+            }
+        }
+
+        async function carregarVeiculos() {
+            try {
+                const response = await fetch('/api/veiculos/detalhados');
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    const tbody = document.getElementById('tabela-veiculos');
+                    tbody.innerHTML = '';
+                    
+                    data.veiculos_por_diretoria.forEach(dir => {
+                        const s1 = dir.veiculos.find(v => v.tipo === 'S-1')?.quantidade || 0;
+                        const s2 = dir.veiculos.find(v => v.tipo === 'S-2')?.quantidade || 0;
+                        const s2_4x4 = dir.veiculos.find(v => v.tipo === 'S-2 4X4')?.quantidade || 0;
+                        
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td><strong>${dir.nome}</strong></td>
+                            <td><span class="badge bg-primary">${dir.total_veiculos}</span></td>
+                            <td><span class="badge bg-success">${s1}</span></td>
+                            <td><span class="badge bg-warning">${s2}</span></td>
+                            <td><span class="badge bg-danger">${s2_4x4}</span></td>
+                            <td><small>${dir.capacidade_total} lugares</small></td>
+                        `;
+                        tbody.appendChild(row);
+                    });
+                }
+            } catch (error) {
+                console.error('Erro ao carregar veículos:', error);
+            }
+        }
+
+        async function carregarSupervisores() {
+            try {
+                const response = await fetch('/api/supervisores/completos');
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    const tbody = document.getElementById('tabela-supervisores');
+                    tbody.innerHTML = '';
+                    
+                    data.supervisores.forEach(sup => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td><strong>${sup.nome}</strong></td>
+                            <td>${sup.regiao}</td>
+                            <td><span class="badge bg-info">${sup.quantidade_diretorias}</span></td>
+                            <td><span class="badge bg-primary">${sup.total_escolas.toLocaleString()}</span></td>
+                            <td><span class="badge bg-warning">${sup.total_veiculos}</span></td>
+                        `;
+                        tbody.appendChild(row);
+                    });
+                }
+            } catch (error) {
+                console.error('Erro ao carregar supervisores:', error);
+            }
+        }
+
+        async function verDetalhes(nomeDiretoria) {
+            const modal = new bootstrap.Modal(document.getElementById('modalDetalhes'));
+            const conteudo = document.getElementById('conteudo-modal');
+            
+            conteudo.innerHTML = `
+                <div class="spinner-container">
+                    <div class="spinner-border text-primary" role="status"></div>
+                    <p class="mt-2">Carregando detalhes...</p>
+                </div>
+            `;
+            
+            modal.show();
+            
+            try {
+                const response = await fetch(`/api/diretorias/${encodeURIComponent(nomeDiretoria)}/detalhes`);
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    const dir = data.diretoria;
+                    
+                    conteudo.innerHTML = `
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6><i class="fas fa-info-circle text-primary"></i> Informações Gerais</h6>
+                                <table class="table table-sm">
+                                    <tr><td><strong>Nome:</strong></td><td>${dir.nome}</td></tr>
+                                    <tr><td><strong>Total de Escolas:</strong></td><td>${dir.total_escolas}</td></tr>
+                                    <tr><td><strong>Escolas Indígenas:</strong></td><td>${dir.escolas_indigenas}</td></tr>
+                                    <tr><td><strong>Escolas Quilombolas:</strong></td><td>${dir.escolas_quilombolas}</td></tr>
+                                    <tr><td><strong>Escolas Regulares:</strong></td><td>${dir.escolas_regulares}</td></tr>
+                                    <tr><td><strong>Supervisor:</strong></td><td>${dir.supervisor || 'Não informado'}</td></tr>
+                                    <tr><td><strong>Região:</strong></td><td>${dir.regiao_supervisao || 'Não informado'}</td></tr>
+                                </table>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><i class="fas fa-bus text-warning"></i> Veículos</h6>
+                                <div class="mb-3">
+                                    ${dir.veiculos.map(v => `
+                                        <div class="mb-2">
+                                            <span class="badge bg-secondary">${v.tipo}</span>
+                                            <strong>${v.quantidade}x</strong> - ${v.descricao}
+                                            <small class="text-muted">(${v.capacidade_estimada} lugares cada)</small>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                                <p><strong>Capacidade Total:</strong> ${dir.capacidade_total_veiculos} lugares</p>
+                            </div>
+                        </div>
+                        
+                        <hr>
+                        
+                        <h6><i class="fas fa-school text-success"></i> Escolas (${dir.escolas.length})</h6>
+                        <div class="table-responsive" style="max-height: 300px; overflow-y: auto;">
+                            <table class="table table-sm table-striped">
+                                <thead class="table-light sticky-top">
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>Tipo</th>
+                                        <th>Cidade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${dir.escolas.map(e => `
+                                        <tr>
+                                            <td>${e.nome}</td>
+                                            <td>
+                                                <span class="badge ${
+                                                    e.tipo === 'indigena' ? 'bg-warning' :
+                                                    e.tipo === 'quilombola' ? 'bg-info' : 'bg-success'
+                                                }">${e.tipo}</span>
+                                            </td>
+                                            <td>${e.cidade}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    `;
+                } else {
+                    conteudo.innerHTML = `
+                        <div class="alert alert-danger">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Erro ao carregar detalhes: ${data.message}
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                conteudo.innerHTML = `
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Erro ao conectar com o servidor: ${error.message}
+                    </div>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

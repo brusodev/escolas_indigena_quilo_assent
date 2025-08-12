@@ -1,0 +1,199 @@
+/* ===================================================
+   EXTENSÕES CSS PARA DASHBOARD CITEM COMPLETO
+   =================================================== */
+
+/* Seção de Filtros por Tipo */
+.filters-section {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.filters-section h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.type-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.type-filter-btn {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.type-filter-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-color: #007bff;
+}
+
+.type-filter-btn.active {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: white;
+  border-color: #0056b3;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+.type-filter-btn .filter-icon {
+  margin-right: 8px;
+  font-size: 1.1em;
+}
+
+.type-filter-btn .filter-text {
+  font-weight: 600;
+}
+
+/* Cores específicas para cada tipo de escola */
+.type-filter-btn[data-type="indigena"]:hover,
+.type-filter-btn[data-type="indigena"].active {
+  background: linear-gradient(135deg, #8B4513 0%, #654321 100%);
+  border-color: #654321;
+}
+
+.type-filter-btn[data-type="quilombola"]:hover,
+.type-filter-btn[data-type="quilombola"].active {
+  background: linear-gradient(135deg, #800080 0%, #660066 100%);
+  border-color: #660066;
+}
+
+.type-filter-btn[data-type="assentamento"]:hover,
+.type-filter-btn[data-type="assentamento"].active {
+  background: linear-gradient(135deg, #228B22 0%, #1a6b1a 100%);
+  border-color: #1a6b1a;
+}
+
+.type-filter-btn[data-type="regular"]:hover,
+.type-filter-btn[data-type="regular"].active {
+  background: linear-gradient(135deg, #4169E1 0%, #1e3a8a 100%);
+  border-color: #1e3a8a;
+}
+
+.type-filter-btn[data-type="ceeja"]:hover,
+.type-filter-btn[data-type="ceeja"].active {
+  background: linear-gradient(135deg, #FF6347 0%, #cc2e1f 100%);
+  border-color: #cc2e1f;
+}
+
+.type-filter-btn[data-type="cel_jto"]:hover,
+.type-filter-btn[data-type="cel_jto"].active {
+  background: linear-gradient(135deg, #FF8C00 0%, #cc7000 100%);
+  border-color: #cc7000;
+}
+
+.type-filter-btn[data-type="hospitalar"]:hover,
+.type-filter-btn[data-type="hospitalar"].active {
+  background: linear-gradient(135deg, #DC143C 0%, #a00f2e 100%);
+  border-color: #a00f2e;
+}
+
+.type-filter-btn[data-type="penitenciaria"]:hover,
+.type-filter-btn[data-type="penitenciaria"].active {
+  background: linear-gradient(135deg, #2F4F4F 0%, #1c2f2f 100%);
+  border-color: #1c2f2f;
+}
+
+.type-filter-btn[data-type="socioeduc"]:hover,
+.type-filter-btn[data-type="socioeduc"].active {
+  background: linear-gradient(135deg, #9932CC 0%, #7026a3 100%);
+  border-color: #7026a3;
+}
+
+/* Estatísticas expandidas */
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.stat-card.tipos {
+  background: linear-gradient(135deg, #ff7675 0%, #fd79a8 100%);
+}
+
+.stat-card.coordenadas {
+  background: linear-gradient(135deg, #00b894 0%, #00a085 100%);
+}
+
+.stat-card.regulares {
+  background: linear-gradient(135deg, #4169E1 0%, #1e3a8a 100%);
+}
+
+/* Legenda expandida do mapa */
+.map-legend {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+
+.legend-item .legend-icon {
+  margin-right: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .type-filters {
+    grid-template-columns: 1fr;
+  }
+  
+  .type-filter-btn {
+    justify-content: center;
+  }
+  
+  .stats-section {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+/* Contador de escolas visíveis */
+.fullscreen-stats {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-right: 15px;
+}
+
+/* Animações para transições */
+.type-filter-btn,
+.stat-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.type-filter-btn:active {
+  transform: translateY(0);
+}
+
+/* Melhorias no contraste e acessibilidade */
+.type-filter-btn:focus {
+  outline: 2px solid #ffc107;
+  outline-offset: 2px;
+}
+
+.type-filter-btn.active:focus {
+  outline-color: #fff;
+}
