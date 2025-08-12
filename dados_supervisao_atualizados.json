@@ -21,7 +21,7 @@
   },
   "Centro (SP)": {
     "supervisor": "Fabio Cesar Severino",
-    "diretorias": "LESTE 5\nCENTRO OESTE\nCENTRO\nLESTE 1\nNORTE 1\nNORTE 2 LESTE 4\n",
+    "diretorias": "LESTE 5\nCENTRO OESTE\nCENTRO\nLESTE 1\nNORTE 1\nNORTE 2 \nLESTE 4\n",
     "quantidade_des": 0
   },
   "Fernandópolis": {
@@ -45,7 +45,7 @@
     "quantidade_des": 0
   },
   "Mauá": {
-    "supervisor": "Guacira Garcia de Gusmão        ",
+    "supervisor": "Guacira Garcia de Gusmão",
     "diretorias": "SAO BERNARDO DO CAMPO\nSUL 1\nSUL 2\nSUL 3\nMAUA\nCENTRO SUL\nDIADEMA\nSANTO ANDRE\n",
     "quantidade_des": 0
   },
