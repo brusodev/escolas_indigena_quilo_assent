@@ -1,0 +1,4622 @@
+[
+  {
+    "codigo": 985429,
+    "codigo_mec": "35985429",
+    "nome": "CEL JTO A EE FLEURIDES CAVALINI MENECHINO PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "VITORIO ROMANINI",
+      "numero": "99",
+      "complemento": "RUA",
+      "cep": "17800000",
+      "bairro": "VILA CICMA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ADAMANTINA",
+      "distrito": "ADAMANTINA",
+      "codigo_ibge": 3500105,
+      "latitude": -21.69190025,
+      "longitude": -51.07099915
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31112
+    }
+  },
+  {
+    "codigo": 458090,
+    "codigo_mec": "35458090",
+    "nome": "CEL JTO A EE ENGENHEIRO ISAC PEREIRA GARCEZ",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "VENDRAMIM",
+      "numero": "92",
+      "complemento": "",
+      "cep": "17900000",
+      "bairro": "",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "DRACENA",
+      "distrito": "DRACENA",
+      "codigo_ibge": 3514403,
+      "latitude": -21.48459053,
+      "longitude": -51.53144073
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31276
+    }
+  },
+  {
+    "codigo": 985430,
+    "codigo_mec": "35985430",
+    "nome": "CEL JTO A EE OSVALDO MARTINS",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "OCTAVIO PONTELLI",
+      "numero": "39",
+      "complemento": "RUA",
+      "cep": "17700000",
+      "bairro": "VILA ANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "OSVALDO CRUZ",
+      "distrito": "OSVALDO CRUZ",
+      "codigo_ibge": 3534609,
+      "latitude": -21.80074116,
+      "longitude": -50.87097429
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31616
+    }
+  },
+  {
+    "codigo": 458168,
+    "codigo_mec": "35458168",
+    "nome": "CEL JTO A EE PROF JOAO PEDRO DO NASCIMENTO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA ESPIRITO SANTO",
+      "numero": "137",
+      "complemento": "RUA",
+      "cep": "18322128",
+      "bairro": "CORDEIROPOLIS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "APIAI",
+      "distrito": "APIAI",
+      "codigo_ibge": 3502705,
+      "latitude": -24.52505493,
+      "longitude": -48.84099197
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "APIAI",
+      "situacao": 1,
+      "vinculo": 38878
+    }
+  },
+  {
+    "codigo": 985417,
+    "codigo_mec": "35985417",
+    "nome": "CEL JTO A EE MANOEL BENTO DA CRUZ",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CARLOS GOMES",
+      "numero": "732",
+      "complemento": "RUA",
+      "cep": "16010713",
+      "bairro": "HIGIENOPOLIS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARACATUBA",
+      "distrito": "ARACATUBA",
+      "codigo_ibge": 3502804,
+      "latitude": -21.21179962,
+      "longitude": -50.44400024
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARACATUBA",
+      "situacao": 1,
+      "vinculo": 29798
+    }
+  },
+  {
+    "codigo": 458173,
+    "codigo_mec": "35458173",
+    "nome": "CEL JTO A EE DINORA MARCONDES GOMES PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "EMILIA GALLI",
+      "numero": "549",
+      "complemento": "",
+      "cep": "14820015",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "AMERICO BRASILIENSE",
+      "distrito": "AMERICO BRASILIENSE",
+      "codigo_ibge": 3501707,
+      "latitude": -21.72921944,
+      "longitude": -48.10251999
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARARAQUARA",
+      "situacao": 1,
+      "vinculo": 21830
+    }
+  },
+  {
+    "codigo": 462020,
+    "codigo_mec": "35462020",
+    "nome": "CEL JTO A MARIA ISABEL RODRIGUES ORSO PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "JOSE LOGATTI",
+      "numero": "909",
+      "complemento": "RUA",
+      "cep": "14806344",
+      "bairro": "JARDIM ROBERTO SELMI DEI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARARAQUARA",
+      "distrito": "ARARAQUARA",
+      "codigo_ibge": 3503208,
+      "latitude": -21.73190043,
+      "longitude": -48.15520201
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARARAQUARA",
+      "situacao": 1,
+      "vinculo": 435697
+    }
+  },
+  {
+    "codigo": 985314,
+    "codigo_mec": "35985314",
+    "nome": "CEL JTO A EE JOAO MANOEL DO AMARAL",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "LA SALLE",
+      "numero": "490",
+      "complemento": "AVENIDA",
+      "cep": "14802384",
+      "bairro": "JARDIM PRIMAVERA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARARAQUARA",
+      "distrito": "ARARAQUARA",
+      "codigo_ibge": 3503208,
+      "latitude": -21.77499962,
+      "longitude": -48.17300034
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARARAQUARA",
+      "situacao": 1,
+      "vinculo": 22073
+    }
+  },
+  {
+    "codigo": 447341,
+    "codigo_mec": "35447341",
+    "nome": "CEL JTO A EE HENRIQUE MORATO PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CESARIO MOTTA",
+      "numero": "468",
+      "complemento": "RUA",
+      "cep": "15990050",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MATAO",
+      "distrito": "MATAO",
+      "codigo_ibge": 3529302,
+      "latitude": -21.60318947,
+      "longitude": -48.36943054
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARARAQUARA",
+      "situacao": 1,
+      "vinculo": 24946
+    }
+  },
+  {
+    "codigo": 428760,
+    "codigo_mec": "35428760",
+    "nome": "CEL JTO A EE PROF CARLOS ALBERTO DE OLIVEIRA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DOUTOR LUIZ PIZZA",
+      "numero": "220",
+      "complemento": "RUA",
+      "cep": "19814350",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ASSIS",
+      "distrito": "ASSIS",
+      "codigo_ibge": 3504008,
+      "latitude": -22.65979958,
+      "longitude": -50.41400146
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ASSIS",
+      "situacao": 1,
+      "vinculo": 33285
+    }
+  },
+  {
+    "codigo": 10347,
+    "codigo_mec": "35010347",
+    "nome": "CEL  EE RACHID JABUR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DA SAUDADE",
+      "numero": "193",
+      "complemento": "",
+      "cep": "19880063",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CANDIDO MOTA",
+      "distrito": "CANDIDO MOTA",
+      "codigo_ibge": 3510005,
+      "latitude": -22.74072456,
+      "longitude": -50.39132309
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ASSIS",
+      "situacao": 1,
+      "vinculo": 33030
+    }
+  },
+  {
+    "codigo": 985485,
+    "codigo_mec": "35985485",
+    "nome": "CEL JTO A EE MARIA APARECIDA GALHARINI DOS SANTOS PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA RITA ALDEIDA DE SOUZA NUCCI",
+      "numero": "33",
+      "complemento": "",
+      "cep": "19840420",
+      "bairro": "JARDIM SANTA ANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MARACAI",
+      "distrito": "MARACAI",
+      "codigo_ibge": 3528809,
+      "latitude": -22.61434937,
+      "longitude": -50.65995026
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ASSIS",
+      "situacao": 1,
+      "vinculo": 905999
+    }
+  },
+  {
+    "codigo": 341010,
+    "codigo_mec": "35341010",
+    "nome": "CEL JTO A EE ADALGISA CAVEZZALE DE CAMPOS PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "FRANCISCO CARDOSO DOS SANTOS",
+      "numero": "450",
+      "complemento": "",
+      "cep": "19973158",
+      "bairro": "PARANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PALMITAL",
+      "distrito": "PALMITAL",
+      "codigo_ibge": 3535309,
+      "latitude": -22.79264069,
+      "longitude": -50.2221489
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ASSIS",
+      "situacao": 1,
+      "vinculo": 34162
+    }
+  },
+  {
+    "codigo": 985521,
+    "codigo_mec": "35985521",
+    "nome": "CEL JTO A EE DIVA FIGUEIREDO DA SILVEIRA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SIQUEIRA CAMPOS",
+      "numero": "1319",
+      "complemento": "",
+      "cep": "19703001",
+      "bairro": "VILA AFFINI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PARAGUACU PAULISTA",
+      "distrito": "PARAGUACU PAULISTA",
+      "codigo_ibge": 3535507,
+      "latitude": -22.42066002,
+      "longitude": -50.57953262
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ASSIS",
+      "situacao": 1,
+      "vinculo": 33327
+    }
+  },
+  {
+    "codigo": 985272,
+    "codigo_mec": "35985272",
+    "nome": "CEL JTO A EE JOAO CRUZ",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PREFEITO PAULO NOVAES",
+      "numero": "871",
+      "complemento": "AVENIDA",
+      "cep": "18705000",
+      "bairro": "JARDIM AMERICA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "AVARE",
+      "distrito": "AVARE",
+      "codigo_ibge": 3504503,
+      "latitude": -23.09810066,
+      "longitude": -48.92789841
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 14497
+    }
+  },
+  {
+    "codigo": 433559,
+    "codigo_mec": "35433559",
+    "nome": "CEL JTO A EE ANTONIO OLYMPIO DOUTOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "FRANCISCO BARRETO",
+      "numero": "65",
+      "complemento": "PRACA",
+      "cep": "14780059",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BARRETOS",
+      "distrito": "BARRETOS",
+      "codigo_ibge": 3505500,
+      "latitude": -20.55661011,
+      "longitude": -48.56858826
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BARRETOS",
+      "situacao": 1,
+      "vinculo": 22469
+    }
+  },
+  {
+    "codigo": 458193,
+    "codigo_mec": "35458193",
+    "nome": "CEL JTO A EE ENOCH GARCIA LEAL",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "AV 7",
+      "numero": "1040",
+      "complemento": "PRACA",
+      "cep": "14790000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUAIRA",
+      "distrito": "GUAIRA",
+      "codigo_ibge": 3517406,
+      "latitude": -20.31823921,
+      "longitude": -48.31700897
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BARRETOS",
+      "situacao": 1,
+      "vinculo": 22238
+    }
+  },
+  {
+    "codigo": 433561,
+    "codigo_mec": "35433561",
+    "nome": "CEL JTO A EE ANTONIO AUGUSTO REIS NEVES DOUTOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DOUTOR ANDRADE E SILVA",
+      "numero": "925",
+      "complemento": "PRACA",
+      "cep": "15400340",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "OLIMPIA",
+      "distrito": "OLIMPIA",
+      "codigo_ibge": 3533908,
+      "latitude": -20.7451992,
+      "longitude": -48.91069031
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BARRETOS",
+      "situacao": 1,
+      "vinculo": 28071
+    }
+  },
+  {
+    "codigo": 985582,
+    "codigo_mec": "35985582",
+    "nome": "CEL JTO A EE CHRISTINO CABRAL PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "GERSON FRANCA QUADRA",
+      "numero": "19165",
+      "complemento": "RUA",
+      "cep": "17010260",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BAURU",
+      "distrito": "BAURU",
+      "codigo_ibge": 3506003,
+      "latitude": -22.33279991,
+      "longitude": -49.07444
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 25598
+    }
+  },
+  {
+    "codigo": 458211,
+    "codigo_mec": "35458211",
+    "nome": "CEL JTO A EE VIRGILIO CAPOANI",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "JOSE PAULINO DA SILVA",
+      "numero": "61",
+      "complemento": "",
+      "cep": "18682070",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "LENCOIS PAULISTA",
+      "distrito": "LENCOIS PAULISTA",
+      "codigo_ibge": 3526803,
+      "latitude": -22.60396957,
+      "longitude": -48.80287933
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 25896
+    }
+  },
+  {
+    "codigo": 433640,
+    "codigo_mec": "35433640",
+    "nome": "CEL JTO A EE REGINA VALARINI VIEIRA PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA ROBERTO CLARK",
+      "numero": "357",
+      "complemento": "RUA",
+      "cep": "16200043",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BIRIGUI",
+      "distrito": "BIRIGUI",
+      "codigo_ibge": 3506508,
+      "latitude": -21.2874794,
+      "longitude": -50.3386879
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BIRIGUI",
+      "situacao": 1,
+      "vinculo": 30272
+    }
+  },
+  {
+    "codigo": 458260,
+    "codigo_mec": "35458260",
+    "nome": "CEL JTO EE SOPHIA GABRIEL DE OLIVEIRA PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ARCHIMEDES GURGEL",
+      "numero": "SN",
+      "complemento": "PREDIO ESCOLAR",
+      "cep": "18605131",
+      "bairro": "CONJUNTO HABITACIONAL HUMBERTO POPOLO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BOTUCATU",
+      "distrito": "BOTUCATU",
+      "codigo_ibge": 3507506,
+      "latitude": -22.91684914,
+      "longitude": -48.44107819
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BOTUCATU",
+      "situacao": 1,
+      "vinculo": 900266
+    }
+  },
+  {
+    "codigo": 458284,
+    "codigo_mec": "35458284",
+    "nome": "CEL JTO A EE LUIZ CAMPACCI",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "AMADEU MEUCCI",
+      "numero": "200",
+      "complemento": "PREDIO ESCOLAR",
+      "cep": "18500000",
+      "bairro": "VILA CAMPACCI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "LARANJAL PAULISTA",
+      "distrito": "LARANJAL PAULISTA",
+      "codigo_ibge": 3526407,
+      "latitude": -23.05570984,
+      "longitude": -47.83678818
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BOTUCATU",
+      "situacao": 1,
+      "vinculo": 16559
+    }
+  },
+  {
+    "codigo": 499729,
+    "codigo_mec": "35499729",
+    "nome": "CEL JTO A EE OTTO WEISZFLOG",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "LUIZ CELSO BERTI",
+      "numero": "179",
+      "complemento": "",
+      "cep": "7713002",
+      "bairro": "REGIAO CENTRAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAIEIRAS",
+      "distrito": "CAIEIRAS",
+      "codigo_ibge": 3509007,
+      "latitude": -23.36469078,
+      "longitude": -46.75093079
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5629
+    }
+  },
+  {
+    "codigo": 458405,
+    "codigo_mec": "35458405",
+    "nome": "CEL JTO A EE SUZANA DIAS",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PROFESSOR WALTER RIBAS DE ANDRADE",
+      "numero": "169",
+      "complemento": "",
+      "cep": "7752000",
+      "bairro": "AGUA FRIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAJAMAR",
+      "distrito": "CAJAMAR",
+      "codigo_ibge": 3509205,
+      "latitude": -23.36128998,
+      "longitude": -46.87277985
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5538
+    }
+  },
+  {
+    "codigo": 985659,
+    "codigo_mec": "35985659",
+    "nome": "CEL JTO A EE LENITA CORREA CAMARGO PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DAS MAGNOLIAS",
+      "numero": "39",
+      "complemento": "",
+      "cep": "7990100",
+      "bairro": "BELEM CAPELA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCISCO MORATO",
+      "distrito": "FRANCISCO MORATO",
+      "codigo_ibge": 3516309,
+      "latitude": -23.28181076,
+      "longitude": -46.7407608
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 916869
+    }
+  },
+  {
+    "codigo": 499742,
+    "codigo_mec": "35499742",
+    "nome": "CEL JTO A EE BENEDITO FAGUNDES MARQUES PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DOS COQUEIROS",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "7850320",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCO DA ROCHA",
+      "distrito": "FRANCO DA ROCHA",
+      "codigo_ibge": 3516408,
+      "latitude": -23.33239937,
+      "longitude": -46.72655106
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5712
+    }
+  },
+  {
+    "codigo": 985600,
+    "codigo_mec": "35985600",
+    "nome": "CEL JTO A EE ORLANDO SIGNORELLI",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "TRINTA E DOIS",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "13054632",
+      "bairro": "DIC VI CONJUNTO HABITACIONAL SANTO DIAS SILVA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAMPINAS",
+      "distrito": "CAMPINAS OESTE",
+      "codigo_ibge": 3509502,
+      "latitude": -22.97820091,
+      "longitude": -47.13162994
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAMPINAS OESTE",
+      "situacao": 1,
+      "vinculo": 45676
+    }
+  },
+  {
+    "codigo": 458612,
+    "codigo_mec": "35458612",
+    "nome": "CEL JTO A EE MANOEL DA COSTA NEVES PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RESK COURY",
+      "numero": "27",
+      "complemento": "",
+      "cep": "13390100",
+      "bairro": "JARDIM BOM JESUS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIO DAS PEDRAS",
+      "distrito": "RIO DAS PEDRAS",
+      "codigo_ibge": 3544004,
+      "latitude": -22.84300995,
+      "longitude": -47.6015892
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAPIVARI",
+      "situacao": 1,
+      "vinculo": 21155
+    }
+  },
+  {
+    "codigo": 407410,
+    "codigo_mec": "35407410",
+    "nome": "CEL JTO A EE WILLIAN RODRIGUES REBUA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "AMAZONAS",
+      "numero": "1660",
+      "complemento": "AVENIDA",
+      "cep": "6327270",
+      "bairro": "CONJUNTO HABITACIONAL PRESIDENTE CASTELO BRANCO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CARAPICUIBA",
+      "distrito": "CARAPICUIBA",
+      "codigo_ibge": 3510609,
+      "latitude": -23.5312,
+      "longitude": -46.8224
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CARAPICUIBA",
+      "situacao": 1,
+      "vinculo": 9854
+    }
+  },
+  {
+    "codigo": 985223,
+    "codigo_mec": "35985223",
+    "nome": "CEL JTO A EE PEDRO CASEMIRO LEITE PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PROFESSOR JOSE BARRETO",
+      "numero": "2011",
+      "complemento": "AVENIDA",
+      "cep": "6703000",
+      "bairro": "PORTAO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "COTIA",
+      "distrito": "COTIA",
+      "codigo_ibge": 3513009,
+      "latitude": -23.60110092,
+      "longitude": -46.90819931
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CARAPICUIBA",
+      "situacao": 1,
+      "vinculo": 35488
+    }
+  },
+  {
+    "codigo": 363613,
+    "codigo_mec": "35363613",
+    "nome": "CEL JTO A EE BARAO DO RIO BRANCO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ROOSEVELT",
+      "numero": "143",
+      "complemento": "PRACA",
+      "cep": "15801185",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CATANDUVA",
+      "distrito": "CATANDUVA",
+      "codigo_ibge": 3511102,
+      "latitude": -21.1375,
+      "longitude": -48.9797
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CATANDUVA",
+      "situacao": 1,
+      "vinculo": 26670
+    }
+  },
+  {
+    "codigo": 458788,
+    "codigo_mec": "35458788",
+    "nome": "CEL JTO A EE MARIO FLORENCE PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DA SAUDADE",
+      "numero": "45",
+      "complemento": "",
+      "cep": "14965008",
+      "bairro": "JARDIM DAS ACACIAS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "NOVO HORIZONTE",
+      "distrito": "NOVO HORIZONTE",
+      "codigo_ibge": 3533502,
+      "latitude": -21.4711895,
+      "longitude": -49.21809006
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CATANDUVA",
+      "situacao": 1,
+      "vinculo": 27923
+    }
+  },
+  {
+    "codigo": 985107,
+    "codigo_mec": "35985107",
+    "nome": "CEL JTO A EE MAURO DE OLIVEIRA PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PEDRO SOARES ALMEIDA",
+      "numero": "134",
+      "complemento": "RUA",
+      "cep": "5029030",
+      "bairro": "VILA ANGLO BRASILEIRA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "PERDIZES",
+      "codigo_ibge": 3550308,
+      "latitude": -23.54224968,
+      "longitude": -46.69512939
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 3554
+    }
+  },
+  {
+    "codigo": 985028,
+    "codigo_mec": "35985028",
+    "nome": "CEL JTO A EE BUENOS AIRES",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DOUTOR OLAVO EGIDIO",
+      "numero": "1008",
+      "complemento": "RUA",
+      "cep": "2037001",
+      "bairro": "SANTANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "SANTANA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5005476,
+      "longitude": -46.6162508
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 942
+    }
+  },
+  {
+    "codigo": 431850,
+    "codigo_mec": "35431850",
+    "nome": "CEL JTO A EE ANHANGUERA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ANTONIO RAPOSO",
+      "numero": "87",
+      "complemento": "",
+      "cep": "5074020",
+      "bairro": "LAPA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "LAPA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.52169037,
+      "longitude": -46.70569992
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3384
+    }
+  },
+  {
+    "codigo": 985132,
+    "codigo_mec": "35985132",
+    "nome": "CEL JTO A EE RUI BLOEM",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DOS BOGARIS",
+      "numero": "244",
+      "complemento": "RUA",
+      "cep": "4047020",
+      "bairro": "MIRANDOPOLIS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "SAUDE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.6103,
+      "longitude": -46.6449
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4832
+    }
+  },
+  {
+    "codigo": 985120,
+    "codigo_mec": "35985120",
+    "nome": "CEL JTO A EE ALEXANDRE DE GUSMAO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CISPLATINA",
+      "numero": "298",
+      "complemento": "RUA",
+      "cep": "4211040",
+      "bairro": "IPIRANGA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "IPIRANGA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.58818054,
+      "longitude": -46.60432816
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4479
+    }
+  },
+  {
+    "codigo": 498634,
+    "codigo_mec": "35498634",
+    "nome": "CEL JTO A EE ROOSEVELT PRESIDENTE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SAO JOAQUIM",
+      "numero": "120",
+      "complemento": "RUA",
+      "cep": "1508000",
+      "bairro": "LIBERDADE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "LIBERDADE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.56187057,
+      "longitude": -46.6375885
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4340
+    }
+  },
+  {
+    "codigo": 985788,
+    "codigo_mec": "35985788",
+    "nome": "CEL JTO A EE JULIA MACEDO PANTOJA PROFESSORA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ASSUPA",
+      "numero": "200",
+      "complemento": "RUA",
+      "cep": "3137050",
+      "bairro": "VILA PRUDENTE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA PRUDENTE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5797596,
+      "longitude": -46.57653046
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 1958
+    }
+  },
+  {
+    "codigo": 6271,
+    "codigo_mec": "35006271",
+    "nome": "CEL JTO A EE JOAO DE FARIA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ANTONIO PRADO",
+      "numero": "3078",
+      "complemento": "",
+      "cep": "14460000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CRISTAIS PAULISTA",
+      "distrito": "CRISTAIS PAULISTA",
+      "codigo_ibge": 3513207,
+      "latitude": -20.40358925,
+      "longitude": -47.42314911
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 22861
+    }
+  },
+  {
+    "codigo": 10781,
+    "codigo_mec": "35010781",
+    "nome": "CEL JTO A EE PROF? MARIA PIA SILVA CASTRO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA ANTONIO BRENTINI",
+      "numero": "851",
+      "complemento": "",
+      "cep": "14409360",
+      "bairro": "PARQUE DO HORTO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCA",
+      "distrito": "FRANCA",
+      "codigo_ibge": 3516200,
+      "latitude": -20.48782921,
+      "longitude": -47.4026413
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 916110
+    }
+  },
+  {
+    "codigo": 458831,
+    "codigo_mec": "35458831",
+    "nome": "CEL JTO A EE SUDARIO FERREIRA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CLOVIS VIEIRA DE ANDRADE",
+      "numero": "915",
+      "complemento": "",
+      "cep": "14407080",
+      "bairro": "JARDIM PORTINARI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCA",
+      "distrito": "FRANCA",
+      "codigo_ibge": 3516200,
+      "latitude": -20.49979973,
+      "longitude": -47.41619873
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 900667
+    }
+  },
+  {
+    "codigo": 498981,
+    "codigo_mec": "35498981",
+    "nome": "CEL JTO A EE PROF HELIO PALERMO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ALFREDO CASALE",
+      "numero": "1090",
+      "complemento": "RUA",
+      "cep": "14406515",
+      "bairro": "VILA REZENDE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCA",
+      "distrito": "FRANCA",
+      "codigo_ibge": 3516200,
+      "latitude": -20.53023911,
+      "longitude": -47.43173981
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 47454
+    }
+  },
+  {
+    "codigo": 499511,
+    "codigo_mec": "35499511",
+    "nome": "CEL JTO A EE PEDRO NUNES DA ROCHA PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "JOVIANO SOARES",
+      "numero": "2650",
+      "complemento": "RUA",
+      "cep": "14403216",
+      "bairro": "VILA EUROPA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCA",
+      "distrito": "FRANCA",
+      "codigo_ibge": 3516200,
+      "latitude": -20.5605,
+      "longitude": -47.3944
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 39007
+    }
+  },
+  {
+    "codigo": 985818,
+    "codigo_mec": "35985818",
+    "nome": "CEL JTO A EE TORQUATO CALEIRO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "LIBERO BADARO",
+      "numero": "1150",
+      "complemento": "RUA",
+      "cep": "14400570",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCA",
+      "distrito": "FRANCA",
+      "codigo_ibge": 3516200,
+      "latitude": -20.5322,
+      "longitude": -47.3991
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 23127
+    }
+  },
+  {
+    "codigo": 458892,
+    "codigo_mec": "35458892",
+    "nome": "CEL JTO A EE HENRIQUE LESPINASSE PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CORONEL ANTONIO BELTRUDES",
+      "numero": "4620",
+      "complemento": "RUA",
+      "cep": "14420000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITIRAPUA",
+      "distrito": "ITIRAPUA",
+      "codigo_ibge": 3523701,
+      "latitude": -20.6384,
+      "longitude": -47.2212
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 23059
+    }
+  },
+  {
+    "codigo": 985260,
+    "codigo_mec": "35985260",
+    "nome": "CEL JTO A EE OSVALDO CRUZ",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "OTAVIO RAMOS CAPITAO",
+      "numero": "593",
+      "complemento": "RUA",
+      "cep": "12701360",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CRUZEIRO",
+      "distrito": "CRUZEIRO",
+      "codigo_ibge": 3513405,
+      "latitude": -22.57349968,
+      "longitude": -44.96170044
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARATINGUETA",
+      "situacao": 1,
+      "vinculo": 12506
+    }
+  },
+  {
+    "codigo": 459203,
+    "codigo_mec": "35459203",
+    "nome": "CEL JTO A EE PAULO VIRGINIO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "20 DE ABRIL",
+      "numero": "134",
+      "complemento": "",
+      "cep": "12530000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CUNHA",
+      "distrito": "CUNHA",
+      "codigo_ibge": 3513603,
+      "latitude": -23.07559013,
+      "longitude": -44.95719147
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARATINGUETA",
+      "situacao": 1,
+      "vinculo": 12774
+    }
+  },
+  {
+    "codigo": 985557,
+    "codigo_mec": "35985557",
+    "nome": "CEL JTO A EE RODRIGUES ALVES CONSELHEIRO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "VISCONDE DE GUARATINGUETA",
+      "numero": "224",
+      "complemento": "RUA",
+      "cep": "12501290",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARATINGUETA",
+      "distrito": "GUARATINGUETA",
+      "codigo_ibge": 3518404,
+      "latitude": -22.81900024,
+      "longitude": -45.19480133
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARATINGUETA",
+      "situacao": 1,
+      "vinculo": 12661
+    }
+  },
+  {
+    "codigo": 407331,
+    "codigo_mec": "35407331",
+    "nome": "CEL JTO A EE CONRADO SIVILA ALSINA PADRE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "BOM CLIMA",
+      "numero": "556",
+      "complemento": "AVENIDA",
+      "cep": "7196220",
+      "bairro": "JARDIM BOM CLIMA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARULHOS",
+      "distrito": "GUARULHOS NORTE",
+      "codigo_ibge": 3518800,
+      "latitude": -23.45105934,
+      "longitude": -46.51794052
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARULHOS NORTE",
+      "situacao": 1,
+      "vinculo": 5873
+    }
+  },
+  {
+    "codigo": 985673,
+    "codigo_mec": "35985673",
+    "nome": "CEL JTO A EE ALICE CHUERY PROFESSORA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ANTONIO CAMARGO",
+      "numero": "130",
+      "complemento": "RUA",
+      "cep": "7114360",
+      "bairro": "JARDIM SAO JORGE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARULHOS",
+      "distrito": "GUARULHOS SUL",
+      "codigo_ibge": 3518800,
+      "latitude": -23.46251733,
+      "longitude": -46.52192058
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARULHOS SUL",
+      "situacao": 1,
+      "vinculo": 6208
+    }
+  },
+  {
+    "codigo": 434848,
+    "codigo_mec": "35434848",
+    "nome": "CEL JTO A EE NATERCIA CREMM DE MORAES PEDRO PROFESSORA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "MANDAGUARI",
+      "numero": "150",
+      "complemento": "RUA",
+      "cep": "6866220",
+      "bairro": "PARQUE JANDAIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITAPECERICA DA SERRA",
+      "distrito": "ITAPECERICA DA SERRA",
+      "codigo_ibge": 3522208,
+      "latitude": -23.75658035,
+      "longitude": -46.79330826
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPECERICA DA SERRA",
+      "situacao": 1,
+      "vinculo": 923308
+    }
+  },
+  {
+    "codigo": 985697,
+    "codigo_mec": "35985697",
+    "nome": "CEL JTO A EE ASA BRANCA DA SERRA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ALMERINDO PEREIRA BUENO",
+      "numero": "202",
+      "complemento": "",
+      "cep": "6871030",
+      "bairro": "JARDIM NISALVES",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITAPECERICA DA SERRA",
+      "distrito": "ITAPECERICA DA SERRA",
+      "codigo_ibge": 3522208,
+      "latitude": -23.72023201,
+      "longitude": -46.85767365
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPECERICA DA SERRA",
+      "situacao": 1,
+      "vinculo": 918659
+    }
+  },
+  {
+    "codigo": 6419,
+    "codigo_mec": "35006419",
+    "nome": "CEL JTO A EE OREDO RODRIGUES DA CRUZ",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "31 DE MARCO",
+      "numero": "111",
+      "complemento": "",
+      "cep": "6950000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JUQUITIBA",
+      "distrito": "JUQUITIBA",
+      "codigo_ibge": 3526209,
+      "latitude": -23.92980003,
+      "longitude": -47.07180023
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPECERICA DA SERRA",
+      "situacao": 1,
+      "vinculo": 10157
+    }
+  },
+  {
+    "codigo": 444339,
+    "codigo_mec": "35444339",
+    "nome": "CEL JTO A EE PEIXOTO GOMIDE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PEIXOTO GOMIDE",
+      "numero": "198",
+      "complemento": "RUA",
+      "cep": "18201600",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITAPETININGA",
+      "distrito": "ITAPETININGA",
+      "codigo_ibge": 3522307,
+      "latitude": -23.5872,
+      "longitude": -48.0475
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPETININGA",
+      "situacao": 1,
+      "vinculo": 15040
+    }
+  },
+  {
+    "codigo": 459288,
+    "codigo_mec": "35459288",
+    "nome": "CEL JTO A EE CHICO PEREIRA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SANTO ANTONIO",
+      "numero": "249",
+      "complemento": "RUA",
+      "cep": "18275010",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TATUI",
+      "distrito": "TATUI",
+      "codigo_ibge": 3554003,
+      "latitude": -23.34974289,
+      "longitude": -47.85482788
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPETININGA",
+      "situacao": 1,
+      "vinculo": 16639
+    }
+  },
+  {
+    "codigo": 459495,
+    "codigo_mec": "35459495",
+    "nome": "CEL JTO A EE RAUL VENTURELLI DR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "YOITI IKEDA",
+      "numero": "170",
+      "complemento": "RUA",
+      "cep": "18305485",
+      "bairro": "JARDIM CRUZEIRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAPAO BONITO",
+      "distrito": "CAPAO BONITO",
+      "codigo_ibge": 3510203,
+      "latitude": -24.00931182,
+      "longitude": -48.3431341
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPEVA",
+      "situacao": 1,
+      "vinculo": 15222
+    }
+  },
+  {
+    "codigo": 388300,
+    "codigo_mec": "35388300",
+    "nome": "CEL JTO A EE PROF? ZULMIRA DE OLIVEIRA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CAPAO BONITO",
+      "numero": "99",
+      "complemento": "",
+      "cep": "18400690",
+      "bairro": "VILA BOM JESUS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITAPEVA",
+      "distrito": "ITAPEVA",
+      "codigo_ibge": 3522406,
+      "latitude": -23.97569084,
+      "longitude": -48.87813187
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPEVA",
+      "situacao": 1,
+      "vinculo": 15544
+    }
+  },
+  {
+    "codigo": 458545,
+    "codigo_mec": "35458545",
+    "nome": "CEL JTO A EE ZILDA BRACONI AMADOR PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "BATATAIS",
+      "numero": "38",
+      "complemento": "RUA",
+      "cep": "8577440",
+      "bairro": "VILA BARTIRA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITAQUAQUECETUBA",
+      "distrito": "ITAQUAQUECETUBA",
+      "codigo_ibge": 3523107,
+      "latitude": -23.4817,
+      "longitude": -46.3711
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAQUAQUECETUBA",
+      "situacao": 1,
+      "vinculo": 7079
+    }
+  },
+  {
+    "codigo": 446026,
+    "codigo_mec": "35446026",
+    "nome": "CEL JTO A EE PAULO EDUARDO OLINTHO REHDER JORNALISTA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SAO FRANCISCO",
+      "numero": "280",
+      "complemento": "RUA",
+      "cep": "8561610",
+      "bairro": "JARDIM RUTH",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "POA",
+      "distrito": "POA",
+      "codigo_ibge": 3539806,
+      "latitude": -23.53120041,
+      "longitude": -46.34379959
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAQUAQUECETUBA",
+      "situacao": 1,
+      "vinculo": 913418
+    }
+  },
+  {
+    "codigo": 441430,
+    "codigo_mec": "35441430",
+    "nome": "CEL JTO A EE TOME TEIXEIRA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "XV DE NOVEMBRO",
+      "numero": "120",
+      "complemento": "",
+      "cep": "18460007",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITARARE",
+      "distrito": "ITARARE",
+      "codigo_ibge": 3523206,
+      "latitude": -24.11577988,
+      "longitude": -49.33880997
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITARARE",
+      "situacao": 1,
+      "vinculo": 15325
+    }
+  },
+  {
+    "codigo": 985648,
+    "codigo_mec": "35985648",
+    "nome": "CEL JTO A EE REGENTE FEIJO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ANDRADAS",
+      "numero": "412",
+      "complemento": "RUA",
+      "cep": "13300170",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITU",
+      "distrito": "ITU",
+      "codigo_ibge": 3523909,
+      "latitude": -23.2649,
+      "longitude": -47.3012
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITU",
+      "situacao": 1,
+      "vinculo": 15748
+    }
+  },
+  {
+    "codigo": 459549,
+    "codigo_mec": "35459549",
+    "nome": "CEL JTO A EE SECKLER MONSENHOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "MONSENHOR SECKLER",
+      "numero": "59",
+      "complemento": "",
+      "cep": "18540075",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PORTO FELIZ",
+      "distrito": "PORTO FELIZ",
+      "codigo_ibge": 3540606,
+      "latitude": -23.21036911,
+      "longitude": -47.52029037
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITU",
+      "situacao": 1,
+      "vinculo": 15714
+    }
+  },
+  {
+    "codigo": 434036,
+    "codigo_mec": "35434036",
+    "nome": "CEL JTO A EE ACYLINO AMARAL GURGEL PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "WINSTON CHURCHIL",
+      "numero": "490",
+      "complemento": "",
+      "cep": "13321370",
+      "bairro": "BELA VISTA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SALTO",
+      "distrito": "SALTO",
+      "codigo_ibge": 3545209,
+      "latitude": -23.19213867,
+      "longitude": -47.29026794
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITU",
+      "situacao": 1,
+      "vinculo": 15817
+    }
+  },
+  {
+    "codigo": 433548,
+    "codigo_mec": "35433548",
+    "nome": "CEL JTO A EE PARAISO CAVALCANTI DOUTOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ORLANDO FRANCA DE CARVALHO PROFESSOR",
+      "numero": "265",
+      "complemento": "RUA",
+      "cep": "14701070",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BEBEDOURO",
+      "distrito": "BEBEDOURO",
+      "codigo_ibge": 3506102,
+      "latitude": -20.95493452,
+      "longitude": -48.48495071
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JABOTICABAL",
+      "situacao": 1,
+      "vinculo": 22724
+    }
+  },
+  {
+    "codigo": 459562,
+    "codigo_mec": "35459562",
+    "nome": "CEL JTO A EE JOSE PACIFICO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "FERES SADALLA",
+      "numero": "330",
+      "complemento": "",
+      "cep": "14845000",
+      "bairro": "VILA GARAVELLO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARIBA",
+      "distrito": "GUARIBA",
+      "codigo_ibge": 3518602,
+      "latitude": -21.36150932,
+      "longitude": -48.23200607
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JABOTICABAL",
+      "situacao": 1,
+      "vinculo": 23590
+    }
+  },
+  {
+    "codigo": 985326,
+    "codigo_mec": "35985326",
+    "nome": "CEL JTO A EE AURELIO ARROBAS MARTINS",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SAO SEBASTIAO",
+      "numero": "294",
+      "complemento": "RUA",
+      "cep": "14870290",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JABOTICABAL",
+      "distrito": "JABOTICABAL",
+      "codigo_ibge": 3524303,
+      "latitude": -21.2546696,
+      "longitude": -48.3197339
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JABOTICABAL",
+      "situacao": 1,
+      "vinculo": 23565
+    }
+  },
+  {
+    "codigo": 9455,
+    "codigo_mec": "35009455",
+    "nome": "CEL JTO EE PROF ESLI GARCIA DINIZ",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA MARANHAO",
+      "numero": "27",
+      "complemento": "",
+      "cep": "7402165",
+      "bairro": "JARDIM PLANALTO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARUJA",
+      "distrito": "ARUJA",
+      "codigo_ibge": 3503901,
+      "latitude": -23.39760208,
+      "longitude": -46.31914902
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JACAREI",
+      "situacao": 1,
+      "vinculo": 6403
+    }
+  },
+  {
+    "codigo": 459586,
+    "codigo_mec": "35459586",
+    "nome": "CEL JTO A EE FRANCISCO F FERREIRA DA SILVA PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "NOVE DE JULHO",
+      "numero": "473",
+      "complemento": "AVENIDA",
+      "cep": "12327682",
+      "bairro": "JARDIM PEREIRA DO AMPARO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JACAREI",
+      "distrito": "JACAREI",
+      "codigo_ibge": 3524402,
+      "latitude": -23.2996006,
+      "longitude": -45.96879959
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JACAREI",
+      "situacao": 1,
+      "vinculo": 36341
+    }
+  },
+  {
+    "codigo": 985715,
+    "codigo_mec": "35985715",
+    "nome": "CEL JTO A EE DOM ARTUR HORSTHUIS",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "20",
+      "numero": "2939",
+      "complemento": "RUA",
+      "cep": "15700118",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JALES",
+      "distrito": "JALES",
+      "codigo_ibge": 3524808,
+      "latitude": -20.26338581,
+      "longitude": -50.54814774
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JALES",
+      "situacao": 1,
+      "vinculo": 27224
+    }
+  },
+  {
+    "codigo": 985806,
+    "codigo_mec": "35985806",
+    "nome": "CEL JTO A EE ITAEL DE MATOS PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "OITO",
+      "numero": "764",
+      "complemento": "RUA",
+      "cep": "15775000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SANTA FE DO SUL",
+      "distrito": "SANTA FE DO SUL",
+      "codigo_ibge": 3546603,
+      "latitude": -20.20897318,
+      "longitude": -50.92279965
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JALES",
+      "situacao": 1,
+      "vinculo": 28400
+    }
+  },
+  {
+    "codigo": 459598,
+    "codigo_mec": "35459598",
+    "nome": "CEL JTO A EE JOSE ALVES MIRA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "TIRADENTES",
+      "numero": "644",
+      "complemento": "",
+      "cep": "17300013",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "DOIS CORREGOS",
+      "distrito": "DOIS CORREGOS",
+      "codigo_ibge": 3514106,
+      "latitude": -22.36949921,
+      "longitude": -48.38280106
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JAU",
+      "situacao": 1,
+      "vinculo": 25768
+    }
+  },
+  {
+    "codigo": 985831,
+    "codigo_mec": "35985831",
+    "nome": "CEL JTO A EE JOSE CONTI",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "JOSE MICHEL MUCARE",
+      "numero": "801",
+      "complemento": "",
+      "cep": "17350298",
+      "bairro": "JARDIM NOVO ESTILO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "IGARACU DO TIETE",
+      "distrito": "IGARACU DO TIETE",
+      "codigo_ibge": 3520004,
+      "latitude": -22.50901985,
+      "longitude": -48.56333923
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JAU",
+      "situacao": 1,
+      "vinculo": 25963
+    }
+  },
+  {
+    "codigo": 985348,
+    "codigo_mec": "35985348",
+    "nome": "CEL JTO A EE MAJOR PRADO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "LOURENCO PRADO",
+      "numero": "503",
+      "complemento": "RUA",
+      "cep": "17201000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JAU",
+      "distrito": "JAU",
+      "codigo_ibge": 3525300,
+      "latitude": -22.29450035,
+      "longitude": -48.55799866
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JAU",
+      "situacao": 1,
+      "vinculo": 25616
+    }
+  },
+  {
+    "codigo": 985797,
+    "codigo_mec": "35985797",
+    "nome": "CEL JTO A EE MARIA DE LOURDES FRANCA SILVEIRA PROFESSORA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PEDRO NANO",
+      "numero": "175",
+      "complemento": "RUA",
+      "cep": "13218160",
+      "bairro": "JARDIM PACAEMBU",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JUNDIAI",
+      "distrito": "JUNDIAI",
+      "codigo_ibge": 3525904,
+      "latitude": -23.18670082,
+      "longitude": -46.8655014
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JUNDIAI",
+      "situacao": 1,
+      "vinculo": 19446
+    }
+  },
+  {
+    "codigo": 985065,
+    "codigo_mec": "35985065",
+    "nome": "CEL JTO A EE ERMELINO MATARAZZO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ABEL TAVARES",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "3810110",
+      "bairro": "JARDIM BELEM",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "ERMELINO MATARAZZO",
+      "codigo_ibge": 3550308,
+      "latitude": -23.49283028,
+      "longitude": -46.47016144
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 1",
+      "situacao": 1,
+      "vinculo": 2835
+    }
+  },
+  {
+    "codigo": 985053,
+    "codigo_mec": "35985053",
+    "nome": "CEL JTO A EE NOSSA SENHORA DA PENHA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PADRE BENEDITO DE CAMARGO",
+      "numero": "762",
+      "complemento": "RUA",
+      "cep": "3604000",
+      "bairro": "PENHA DE FRANCA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "PENHA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.52128983,
+      "longitude": -46.54801941
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 1",
+      "situacao": 1,
+      "vinculo": 2513
+    }
+  },
+  {
+    "codigo": 458272,
+    "codigo_mec": "35458272",
+    "nome": "CEL JTO A EE DOM PEDRO I",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "AMERICO GOMES DA COSTA",
+      "numero": "59",
+      "complemento": "RUA",
+      "cep": "8010120",
+      "bairro": "VILA AMERICANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "SAO MIGUEL",
+      "codigo_ibge": 3550308,
+      "latitude": -23.49468183,
+      "longitude": -46.44078542
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 2",
+      "situacao": 1,
+      "vinculo": 2914
+    }
+  },
+  {
+    "codigo": 985089,
+    "codigo_mec": "35985089",
+    "nome": "CEL JTO A EE FADLO HAIDAR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "MURMURIOS DA TARDE",
+      "numero": "200",
+      "complemento": "RUA",
+      "cep": "8253580",
+      "bairro": "CONJUNTO RESIDENCIAL JOSE BONIFACIO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JOSE BONIFACIO",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5534181,
+      "longitude": -46.4440347
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 3",
+      "situacao": 1,
+      "vinculo": 44337
+    }
+  },
+  {
+    "codigo": 411875,
+    "codigo_mec": "35411875",
+    "nome": "CEL JTO A EE DONA ZALINA ROLIM",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "LUIS CARLOS DOUTOR",
+      "numero": "740",
+      "complemento": "RUA",
+      "cep": "3505000",
+      "bairro": "VILA ARICANDUVA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA MATILDE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.535,
+      "longitude": -46.5441
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 4",
+      "situacao": 1,
+      "vinculo": 2471
+    }
+  },
+  {
+    "codigo": 985041,
+    "codigo_mec": "35985041",
+    "nome": "CEL JTO A EE JOAO DIAS DA SILVEIRA PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SOUSA BREVES",
+      "numero": "80",
+      "complemento": "RUA",
+      "cep": "3069060",
+      "bairro": "VILA ZILDA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "TATUAPE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.53513908,
+      "longitude": -46.56386948
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 5",
+      "situacao": 1,
+      "vinculo": 2008
+    }
+  },
+  {
+    "codigo": 458296,
+    "codigo_mec": "35458296",
+    "nome": "CEL JTO A EE JOSE MARQUES DA CRUZ PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ARACE",
+      "numero": "563",
+      "complemento": "RUA",
+      "cep": "3362050",
+      "bairro": "VILA FORMOSA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA FORMOSA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.56166077,
+      "longitude": -46.54230881
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 5",
+      "situacao": 1,
+      "vinculo": 2203
+    }
+  },
+  {
+    "codigo": 985685,
+    "codigo_mec": "35985685",
+    "nome": "CEL JTO A EE PAULO EGYDIO O CARVALHO SENADOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ARARITAGUABA",
+      "numero": "1264",
+      "complemento": "RUA",
+      "cep": "2122011",
+      "bairro": "VILA MARIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA MARIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.51498524,
+      "longitude": -46.58197854
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 5",
+      "situacao": 1,
+      "vinculo": 673
+    }
+  },
+  {
+    "codigo": 985776,
+    "codigo_mec": "35985776",
+    "nome": "CEL JTO A EE CASTELO BRANCO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PIAUI",
+      "numero": "472",
+      "complemento": "RUA",
+      "cep": "13480406",
+      "bairro": "VILA CLAUDIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "LIMEIRA",
+      "distrito": "LIMEIRA",
+      "codigo_ibge": 3526902,
+      "latitude": -22.5727,
+      "longitude": -47.4021
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LIMEIRA",
+      "situacao": 1,
+      "vinculo": 20229
+    }
+  },
+  {
+    "codigo": 449106,
+    "codigo_mec": "35449106",
+    "nome": "CEL JTO A EE FERNANDO COSTA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "NOVE DE JULHO",
+      "numero": "1276",
+      "complemento": "RUA",
+      "cep": "16400111",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "LINS",
+      "distrito": "LINS",
+      "codigo_ibge": 3527108,
+      "latitude": -21.6737,
+      "longitude": -49.7603
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LINS",
+      "situacao": 1,
+      "vinculo": 26116
+    }
+  },
+  {
+    "codigo": 985491,
+    "codigo_mec": "35985491",
+    "nome": "CEL JTO A EE PROFA LYDIA YVONE GOMES MARQUES",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "FAUSTINA",
+      "numero": "568",
+      "complemento": "",
+      "cep": "17404280",
+      "bairro": "LABIENOPOLIS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GARCA",
+      "distrito": "GARCA",
+      "codigo_ibge": 3516705,
+      "latitude": -22.21784019,
+      "longitude": -49.65671921
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33388
+    }
+  },
+  {
+    "codigo": 985508,
+    "codigo_mec": "35985508",
+    "nome": "CEL JTO A EE BALTAZAR DE GODOY MOREIRA PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA VINTE E QUATRO DE DEZEMBRO",
+      "numero": "2687",
+      "complemento": "",
+      "cep": "17506030",
+      "bairro": "SOMENZARI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MARILIA",
+      "distrito": "MARILIA",
+      "codigo_ibge": 3529005,
+      "latitude": -22.20108986,
+      "longitude": -49.95922852
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33856
+    }
+  },
+  {
+    "codigo": 459768,
+    "codigo_mec": "35459768",
+    "nome": "CEL JTO A EE CULTURA E LIBERDADE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DOUTOR JOSE DE MOURA RESENDE",
+      "numero": "400",
+      "complemento": "",
+      "cep": "17580053",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "POMPEIA",
+      "distrito": "POMPEIA",
+      "codigo_ibge": 3540002,
+      "latitude": -22.10886002,
+      "longitude": -50.17707062
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33625
+    }
+  },
+  {
+    "codigo": 458570,
+    "codigo_mec": "35458570",
+    "nome": "CEL JTO A EE OLAVO HANSEN",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "BENEDITA FRANCA DA VEIGA DONA",
+      "numero": "155",
+      "complemento": "AVENIDA",
+      "cep": "9330620",
+      "bairro": "VILA LISBOA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MAUA",
+      "distrito": "MAUA",
+      "codigo_ibge": 3529401,
+      "latitude": -23.66320038,
+      "longitude": -46.43119812
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MAUA",
+      "situacao": 1,
+      "vinculo": 37312
+    }
+  },
+  {
+    "codigo": 985570,
+    "codigo_mec": "35985570",
+    "nome": "CEL JTO A EE MARLENE CAMARGO RIBEIRO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "OTAVIO PEREIRA",
+      "numero": "121",
+      "complemento": "RUA",
+      "cep": "9360510",
+      "bairro": "JARDIM ANCHIETA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MAUA",
+      "distrito": "MAUA",
+      "codigo_ibge": 3529401,
+      "latitude": -23.68370056,
+      "longitude": -46.46250153
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MAUA",
+      "situacao": 1,
+      "vinculo": 41973
+    }
+  },
+  {
+    "codigo": 459781,
+    "codigo_mec": "35459781",
+    "nome": "CEL JTO A EE ARMANDO GONCALVES PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DONA EVARISTA DE CASTRO FERREIRA",
+      "numero": "8",
+      "complemento": "PRACA",
+      "cep": "11850000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MIRACATU",
+      "distrito": "MIRACATU",
+      "codigo_ibge": 3529906,
+      "latitude": -24.2829895,
+      "longitude": -47.45140076
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRACATU",
+      "situacao": 1,
+      "vinculo": 34873
+    }
+  },
+  {
+    "codigo": 459859,
+    "codigo_mec": "35459859",
+    "nome": "CEL JTO A EE JOSE QUIRINO CAVALCANTE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "JOAO AUGUSTO DE ALMEIDA",
+      "numero": "1659",
+      "complemento": "RUA",
+      "cep": "19260000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MIRANTE DO PARANAPANEMA",
+      "distrito": "MIRANTE DO PARANAPANEMA",
+      "codigo_ibge": 3530201,
+      "latitude": -22.2988,
+      "longitude": -51.9065
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 32906
+    }
+  },
+  {
+    "codigo": 459948,
+    "codigo_mec": "35459948",
+    "nome": "CEL JTO A EE ARTHUR RIBEIRO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "MARIA RIBEIRO LOPES",
+      "numero": "815",
+      "complemento": "",
+      "cep": "19280000",
+      "bairro": "VILA FURLAN",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TEODORO SAMPAIO",
+      "distrito": "TEODORO SAMPAIO",
+      "codigo_ibge": 3554300,
+      "latitude": -22.5381813,
+      "longitude": -52.16386032
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 32177
+    }
+  },
+  {
+    "codigo": 458594,
+    "codigo_mec": "35458594",
+    "nome": "CEL JTO A EE FIRMINO LADEIRA PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "BRASIL",
+      "numero": "840",
+      "complemento": "AVENIDA",
+      "cep": "8717260",
+      "bairro": "MOGI MODERNO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MOGI DAS CRUZES",
+      "distrito": "MOGI DAS CRUZES",
+      "codigo_ibge": 3530607,
+      "latitude": -23.5367,
+      "longitude": -46.188
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MOGI DAS CRUZES",
+      "situacao": 1,
+      "vinculo": 6725
+    }
+  },
+  {
+    "codigo": 985752,
+    "codigo_mec": "35985752",
+    "nome": "CEL JTO A EE FRANCISCO FERREIRA LOPES",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DOUTOR DEODATO WERTHEIMER",
+      "numero": "426",
+      "complemento": "RUA",
+      "cep": "8710430",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MOGI DAS CRUZES",
+      "distrito": "MOGI DAS CRUZES",
+      "codigo_ibge": 3530607,
+      "latitude": -23.5146,
+      "longitude": -46.1966
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MOGI DAS CRUZES",
+      "situacao": 1,
+      "vinculo": 6713
+    }
+  },
+  {
+    "codigo": 985004,
+    "codigo_mec": "35985004",
+    "nome": "CEL JTO A EE ANTONIO C C GUIMARAES FILHO PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "MUTINGA",
+      "numero": "5071",
+      "complemento": "AVENIDA",
+      "cep": "5110000",
+      "bairro": "JARDIM SANTO ELIAS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JAGUARA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.50484085,
+      "longitude": -46.75820923
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "NORTE 1",
+      "situacao": 1,
+      "vinculo": 188
+    }
+  },
+  {
+    "codigo": 985016,
+    "codigo_mec": "35985016",
+    "nome": "CEL JTO A EE ALBINO CESAR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CAJAMAR",
+      "numero": "5",
+      "complemento": "RUA",
+      "cep": "2308090",
+      "bairro": "VILA MAZZEI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "TUCURUVI",
+      "codigo_ibge": 3550308,
+      "latitude": -23.47693062,
+      "longitude": -46.60660934
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "NORTE 2",
+      "situacao": 1,
+      "vinculo": 1173
+    }
+  },
+  {
+    "codigo": 458314,
+    "codigo_mec": "35458314",
+    "nome": "CEL JTO A EE VERIDIANA CAMACHO CARVALHO GOMES PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CARLOS DOS SANTOS",
+      "numero": "781",
+      "complemento": "RUA",
+      "cep": "2234000",
+      "bairro": "JARDIM BRASIL ZONA NORTE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA MEDEIROS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.47979927,
+      "longitude": -46.57300186
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "NORTE 2",
+      "situacao": 1,
+      "vinculo": 37783
+    }
+  },
+  {
+    "codigo": 9537,
+    "codigo_mec": "35009537",
+    "nome": "CEL PROF ORLANDO GERIBOLA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SOCIEDADE ESPORTIVA PALMEIRAS",
+      "numero": "284",
+      "complemento": "",
+      "cep": "6132340",
+      "bairro": "BUSSOCABA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "OSASCO",
+      "distrito": "OSASCO",
+      "codigo_ibge": 3534401,
+      "latitude": -23.56472015,
+      "longitude": -46.79426956
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "OSASCO",
+      "situacao": 1,
+      "vinculo": 46619
+    }
+  },
+  {
+    "codigo": 9542,
+    "codigo_mec": "35009542",
+    "nome": "CEL PAULO FREIRE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PASSAREDO",
+      "numero": "400",
+      "complemento": "",
+      "cep": "6236700",
+      "bairro": "ALIANCA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "OSASCO",
+      "distrito": "OSASCO",
+      "codigo_ibge": 3534401,
+      "latitude": -23.50885963,
+      "longitude": -46.78348923
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "OSASCO",
+      "situacao": 1,
+      "vinculo": 923096
+    }
+  },
+  {
+    "codigo": 985235,
+    "codigo_mec": "35985235",
+    "nome": "CEL JTO A EE ANTONIO RAPOSO TAVARES",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "VINTE E UM DE DEZEMBRO",
+      "numero": "22",
+      "complemento": "PRACA",
+      "cep": "6097080",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "OSASCO",
+      "distrito": "OSASCO",
+      "codigo_ibge": 3534401,
+      "latitude": -23.5273,
+      "longitude": -46.7788
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "OSASCO",
+      "situacao": 1,
+      "vinculo": 11095
+    }
+  },
+  {
+    "codigo": 363625,
+    "codigo_mec": "35363625",
+    "nome": "CEL JTO A EE DOMINGOS CAMERLINGO CALO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DE DUQUE CAXIAS",
+      "numero": "558",
+      "complemento": "",
+      "cep": "19911621",
+      "bairro": "VILA RECREIO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "OURINHOS",
+      "distrito": "OURINHOS",
+      "codigo_ibge": 3534708,
+      "latitude": -22.97038078,
+      "longitude": -49.86727142
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "OURINHOS",
+      "situacao": 1,
+      "vinculo": 33923
+    }
+  },
+  {
+    "codigo": 460230,
+    "codigo_mec": "35460230",
+    "nome": "CEL JTO A EE LEONIDAS DO AMARAL VIEIRA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SAO SEBASTIAO",
+      "numero": "831",
+      "complemento": "",
+      "cep": "18900039",
+      "bairro": "",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SANTA CRUZ DO RIO PARDO",
+      "distrito": "SANTA CRUZ DO RIO PARDO",
+      "codigo_ibge": 3546405,
+      "latitude": -22.89793015,
+      "longitude": -49.62356949
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "OURINHOS",
+      "situacao": 1,
+      "vinculo": 34253
+    }
+  },
+  {
+    "codigo": 460242,
+    "codigo_mec": "35460242",
+    "nome": "CEL JTO A EE ADELINO PETERS",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DOUTOR ANTONIO DEFINE",
+      "numero": "1280",
+      "complemento": "RUA",
+      "cep": "16300017",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PENAPOLIS",
+      "distrito": "PENAPOLIS",
+      "codigo_ibge": 3537305,
+      "latitude": -21.42000008,
+      "longitude": -50.07500839
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PENAPOLIS",
+      "situacao": 1,
+      "vinculo": 30442
+    }
+  },
+  {
+    "codigo": 460254,
+    "codigo_mec": "35460254",
+    "nome": "CEL JTO A EE THEODORO CORREA CINTRA PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "JOAQUIM CORREA CINTRA",
+      "numero": "365",
+      "complemento": "AVENIDA",
+      "cep": "12460000",
+      "bairro": "V PAULISTA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAMPOS DO JORDAO",
+      "distrito": "CAMPOS DO JORDAO",
+      "codigo_ibge": 3509700,
+      "latitude": -22.73830032,
+      "longitude": -45.58649826
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PINDAMONHANGABA",
+      "situacao": 1,
+      "vinculo": 13286
+    }
+  },
+  {
+    "codigo": 460278,
+    "codigo_mec": "35460278",
+    "nome": "CEL JTO A EE ALFREDO PUJOL DOUTOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PRUDENTE DE MORAES",
+      "numero": "376",
+      "complemento": "RUA",
+      "cep": "12400230",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PINDAMONHANGABA",
+      "distrito": "PINDAMONHANGABA",
+      "codigo_ibge": 3538006,
+      "latitude": -22.92361069,
+      "longitude": -45.45859146
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PINDAMONHANGABA",
+      "situacao": 1,
+      "vinculo": 13390
+    }
+  },
+  {
+    "codigo": 474770,
+    "codigo_mec": "35474770",
+    "nome": "CEL JTO A EE ANTONIA CARLOTA GOMES PROFESSORA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "LUIZ DO PARAITINGA SAO",
+      "numero": "30",
+      "complemento": "RUA",
+      "cep": "12414260",
+      "bairro": "CIDADE NOVA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PINDAMONHANGABA",
+      "distrito": "PINDAMONHANGABA",
+      "codigo_ibge": 3538006,
+      "latitude": -22.9497509,
+      "longitude": -45.40517044
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PINDAMONHANGABA",
+      "situacao": 1,
+      "vinculo": 908058
+    }
+  },
+  {
+    "codigo": 460291,
+    "codigo_mec": "35460291",
+    "nome": "CEL JTO A EE MANUEL CABRAL",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PRAIA DA REPUBLICA",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "12120008",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TREMEMBE",
+      "distrito": "TREMEMBE",
+      "codigo_ibge": 3554805,
+      "latitude": -22.96231079,
+      "longitude": -45.54487991
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PINDAMONHANGABA",
+      "situacao": 1,
+      "vinculo": 14230
+    }
+  },
+  {
+    "codigo": 460357,
+    "codigo_mec": "35460357",
+    "nome": "CEL JTO A EE ELIAS DE MELLO AYRES PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "FERNANDO FEBELIANO DA COSTA",
+      "numero": "429",
+      "complemento": "RUA",
+      "cep": "13416250",
+      "bairro": "ALEMAES",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PIRACICABA",
+      "distrito": "PIRACICABA",
+      "codigo_ibge": 3538709,
+      "latitude": -22.72909063,
+      "longitude": -47.64451341
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PIRACICABA",
+      "situacao": 1,
+      "vinculo": 20825
+    }
+  },
+  {
+    "codigo": 460382,
+    "codigo_mec": "35460382",
+    "nome": "CEL JTO A EE JOAQUIM GUILHERME MOREIRA PORTO DR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SAO VICENTE DE PAULA",
+      "numero": "453",
+      "complemento": "",
+      "cep": "18803044",
+      "bairro": "VILA CANTIZANI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PIRAJU",
+      "distrito": "PIRAJU",
+      "codigo_ibge": 3538808,
+      "latitude": -23.20166969,
+      "longitude": -49.38114166
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PIRAJU",
+      "situacao": 1,
+      "vinculo": 34320
+    }
+  },
+  {
+    "codigo": 460485,
+    "codigo_mec": "35460485",
+    "nome": "CEL JTO A EE JOAO GOMES MARTINS CORONEL",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PADRE JOAO SCHNEIDER",
+      "numero": "980",
+      "complemento": "RUA",
+      "cep": "19500000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MARTINOPOLIS",
+      "distrito": "MARTINOPOLIS",
+      "codigo_ibge": 3529203,
+      "latitude": -22.1479702,
+      "longitude": -51.17673874
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PRESIDENTE PRUDENTE",
+      "situacao": 1,
+      "vinculo": 32505
+    }
+  },
+  {
+    "codigo": 985442,
+    "codigo_mec": "35985442",
+    "nome": "CEL JTO A EE MONSENHOR SARRION",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "MARCONDES FILHO",
+      "numero": "93",
+      "complemento": "RUA",
+      "cep": "19013160",
+      "bairro": "VILA ROBERTO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PRESIDENTE PRUDENTE",
+      "distrito": "PRESIDENTE PRUDENTE",
+      "codigo_ibge": 3541406,
+      "latitude": -22.1337,
+      "longitude": -51.3919
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PRESIDENTE PRUDENTE",
+      "situacao": 1,
+      "vinculo": 32074
+    }
+  },
+  {
+    "codigo": 985533,
+    "codigo_mec": "35985533",
+    "nome": "CEL JTO A EE FABIO BARRETO DOUTOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CLARA GIANOTI DE SOUZA",
+      "numero": "257",
+      "complemento": "RUA",
+      "cep": "11900000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "REGISTRO",
+      "distrito": "REGISTRO",
+      "codigo_ibge": 3542602,
+      "latitude": -24.49629974,
+      "longitude": -47.84700012
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 35130
+    }
+  },
+  {
+    "codigo": 460461,
+    "codigo_mec": "35460461",
+    "nome": "CEL JTO A EE ALBERTO SANTOS DUMONT",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "MACHADO DE ASSIS",
+      "numero": "761",
+      "complemento": "RUA",
+      "cep": "14050490",
+      "bairro": "VILA TIBERIO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PRETO",
+      "distrito": "RIBEIRAO PRETO",
+      "codigo_ibge": 3543402,
+      "latitude": -21.16348839,
+      "longitude": -47.82318878
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 23851
+    }
+  },
+  {
+    "codigo": 985193,
+    "codigo_mec": "35985193",
+    "nome": "CEL JTO A EE PROF AMARAL WAGNER",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ALIADOS",
+      "numero": "332",
+      "complemento": "RUA",
+      "cep": "9210210",
+      "bairro": "VILA SAO PEDRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SANTO ANDRE",
+      "distrito": "SANTO ANDRE",
+      "codigo_ibge": 3547809,
+      "latitude": -23.64178085,
+      "longitude": -46.52872086
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTO ANDRE",
+      "situacao": 1,
+      "vinculo": 8540
+    }
+  },
+  {
+    "codigo": 460370,
+    "codigo_mec": "35460370",
+    "nome": "CEL JTO A PROFA THEREZA SILVEIRA DE ALMEIDA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SANTO ANTONIO",
+      "numero": "41",
+      "complemento": "",
+      "cep": "11440080",
+      "bairro": "JARDIM SAO MIGUEL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARUJA",
+      "distrito": "GUARUJA",
+      "codigo_ibge": 3518701,
+      "latitude": -23.98339081,
+      "longitude": -46.2455101
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTOS",
+      "situacao": 1,
+      "vinculo": 11502
+    }
+  },
+  {
+    "codigo": 460345,
+    "codigo_mec": "35460345",
+    "nome": "CEL JTO A EE MARCILIO DIAS",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ERNESTINA AMADEU SANTOS",
+      "numero": "50",
+      "complemento": "RUA",
+      "cep": "11450160",
+      "bairro": "VILA ALICE VICENTE DE CARVALHO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARUJA",
+      "distrito": "VICENTE DE CARVALHO",
+      "codigo_ibge": 3518701,
+      "latitude": -23.93873978,
+      "longitude": -46.30181885
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTOS",
+      "situacao": 1,
+      "vinculo": 11575
+    }
+  },
+  {
+    "codigo": 564801,
+    "codigo_mec": "35564801",
+    "nome": "CEL JTO A ZULMIRA CAMPOS",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "MARECHAL EURICO GASPAR DUTRA",
+      "numero": "SN",
+      "complemento": "PRACA",
+      "cep": "11088260",
+      "bairro": "JARDIM CASTELO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SANTOS",
+      "distrito": "SANTOS",
+      "codigo_ibge": 3548500,
+      "latitude": -23.94370079,
+      "longitude": -46.38230133
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTOS",
+      "situacao": 1,
+      "vinculo": 46760
+    }
+  },
+  {
+    "codigo": 985594,
+    "codigo_mec": "35985594",
+    "nome": "CEL JTO A EE OLGA CURY",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ALEXANDRE FLEMING",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "11040010",
+      "bairro": "APARECIDA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SANTOS",
+      "distrito": "SANTOS",
+      "codigo_ibge": 3548500,
+      "latitude": -23.97439957,
+      "longitude": -46.31069946
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTOS",
+      "situacao": 1,
+      "vinculo": 46164
+    }
+  },
+  {
+    "codigo": 985200,
+    "codigo_mec": "35985200",
+    "nome": "CEL JTO A EE 20 DE AGOSTO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "KENNEDY",
+      "numero": "919",
+      "complemento": "AVENIDA",
+      "cep": "9726263",
+      "bairro": "JARDIM DO MAR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO BERNARDO DO CAMPO",
+      "distrito": "SAO BERNARDO DO CAMPO",
+      "codigo_ibge": 3548708,
+      "latitude": -23.68149948,
+      "longitude": -46.55770111
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO BERNARDO DO CAMPO",
+      "situacao": 1,
+      "vinculo": 9283
+    }
+  },
+  {
+    "codigo": 985211,
+    "codigo_mec": "35985211",
+    "nome": "CEL JTO A EE IDALINA MACEDO COSTA SODRE DONA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CONSELHEIRO LAFAYETTE",
+      "numero": "619",
+      "complemento": "RUA",
+      "cep": "9550000",
+      "bairro": "SANTA PAULA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO CAETANO DO SUL",
+      "distrito": "SAO CAETANO DO SUL",
+      "codigo_ibge": 3548807,
+      "latitude": -23.62112999,
+      "longitude": -46.55118942
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO BERNARDO DO CAMPO",
+      "situacao": 1,
+      "vinculo": 9581
+    }
+  },
+  {
+    "codigo": 457711,
+    "codigo_mec": "35457711",
+    "nome": "CEL JTO A EE ALVARO GUIAO DOUTOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SAO CARLOS",
+      "numero": "2190",
+      "complemento": "AVENIDA",
+      "cep": "13560001",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO CARLOS",
+      "distrito": "SAO CARLOS",
+      "codigo_ibge": 3548906,
+      "latitude": -22.01391983,
+      "longitude": -47.89051819
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO CARLOS",
+      "situacao": 1,
+      "vinculo": 24512
+    }
+  },
+  {
+    "codigo": 459902,
+    "codigo_mec": "35459902",
+    "nome": "CEL JTO A EE GERALDO LOURENCO PADRE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "XV DE NOVEMBRO",
+      "numero": "1228",
+      "complemento": "",
+      "cep": "13860015",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "AGUAI",
+      "distrito": "AGUAI",
+      "codigo_ibge": 3500303,
+      "latitude": -22.0580101,
+      "longitude": -46.97158813
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOAO DA BOA VISTA",
+      "situacao": 1,
+      "vinculo": 20527
+    }
+  },
+  {
+    "codigo": 460000,
+    "codigo_mec": "35460000",
+    "nome": "CEL JTO A EE LEME CARDEAL",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PRACA PRESIDENTE KENNEDY",
+      "numero": "36",
+      "complemento": "RUA",
+      "cep": "13990092",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ESPIRITO SANTO DO PINHAL",
+      "distrito": "ESPIRITO SANTO DO PINHAL",
+      "codigo_ibge": 3515186,
+      "latitude": -22.19735336,
+      "longitude": -46.74365616
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOAO DA BOA VISTA",
+      "situacao": 1,
+      "vinculo": 20357
+    }
+  },
+  {
+    "codigo": 460011,
+    "codigo_mec": "35460011",
+    "nome": "CEL JTO A EE JUSTINO GOMES DE CASTRO MAESTRO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "GOIAS",
+      "numero": "142",
+      "complemento": "RUA",
+      "cep": "13731080",
+      "bairro": "VILA LAMBARI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MOCOCA",
+      "distrito": "MOCOCA",
+      "codigo_ibge": 3530508,
+      "latitude": -21.4664,
+      "longitude": -47.0141
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOAO DA BOA VISTA",
+      "situacao": 1,
+      "vinculo": 19012
+    }
+  },
+  {
+    "codigo": 460205,
+    "codigo_mec": "35460205",
+    "nome": "CEL JTO A EE DONIZETTI TAVARES DE LIMA PE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA CORONEL MANOEL DE SOUZA MEIRELLES",
+      "numero": "124",
+      "complemento": "RUA",
+      "cep": "13710047",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TAMBAU",
+      "distrito": "TAMBAU",
+      "codigo_ibge": 3553302,
+      "latitude": -21.70423889,
+      "longitude": -47.27180862
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOAO DA BOA VISTA",
+      "situacao": 1,
+      "vinculo": 19008
+    }
+  },
+  {
+    "codigo": 459872,
+    "codigo_mec": "35459872",
+    "nome": "CEL JTO A EE BENJAMIN BASTOS",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "WASHINGTON LUIZ",
+      "numero": "492",
+      "complemento": "RUA",
+      "cep": "13880000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "VARGEM GRANDE DO SUL",
+      "distrito": "VARGEM GRANDE DO SUL",
+      "codigo_ibge": 3556404,
+      "latitude": -21.82909966,
+      "longitude": -46.8905983
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOAO DA BOA VISTA",
+      "situacao": 1,
+      "vinculo": 19021
+    }
+  },
+  {
+    "codigo": 459720,
+    "codigo_mec": "35459720",
+    "nome": "CEL JTO A EE MANOEL GOUVEIA DE LIMA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ESPIRITO SANTO",
+      "numero": "599",
+      "complemento": "RUA",
+      "cep": "14600000",
+      "bairro": "BAIXADA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO JOAQUIM DA BARRA",
+      "distrito": "SAO JOAQUIM DA BARRA",
+      "codigo_ibge": 3549409,
+      "latitude": -20.57568072,
+      "longitude": -47.85493812
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOAQUIM DA BARRA",
+      "situacao": 1,
+      "vinculo": 24715
+    }
+  },
+  {
+    "codigo": 985399,
+    "codigo_mec": "35985399",
+    "nome": "CEL JTO A EE FRANCISCO MARQUES PINTO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PAULO ARAUJO",
+      "numero": "153",
+      "complemento": "",
+      "cep": "15440000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "NOVA GRANADA",
+      "distrito": "NOVA GRANADA",
+      "codigo_ibge": 3533007,
+      "latitude": -20.5301,
+      "longitude": -49.3201
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DO RIO PRETO",
+      "situacao": 1,
+      "vinculo": 27820
+    }
+  },
+  {
+    "codigo": 985405,
+    "codigo_mec": "35985405",
+    "nome": "CEL JTO A EE MONSENHOR GONCALVES",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DOUTOR PRESCILIANO PINTO",
+      "numero": "940",
+      "complemento": "RUA",
+      "cep": "15025100",
+      "bairro": "BOA VISTA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO JOSE DO RIO PRETO",
+      "distrito": "SAO JOSE DO RIO PRETO",
+      "codigo_ibge": 3549805,
+      "latitude": -20.80699921,
+      "longitude": -49.38629913
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DO RIO PRETO",
+      "situacao": 1,
+      "vinculo": 28708
+    }
+  },
+  {
+    "codigo": 460497,
+    "codigo_mec": "35460497",
+    "nome": "CEL JTO A EE JOSE VIEIRA MACEDO PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "IPIAU",
+      "numero": "162",
+      "complemento": "RUA",
+      "cep": "12230750",
+      "bairro": "JARDIM SATELITE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO JOSE DOS CAMPOS",
+      "distrito": "SAO JOSE DOS CAMPOS",
+      "codigo_ibge": 3549904,
+      "latitude": -23.23089981,
+      "longitude": -45.88819885
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DOS CAMPOS",
+      "situacao": 1,
+      "vinculo": 13560
+    }
+  },
+  {
+    "codigo": 985259,
+    "codigo_mec": "35985259",
+    "nome": "CEL JTO A EE ESTEVAM FERRI PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CANTIDIO MIRAGAIA",
+      "numero": "100",
+      "complemento": "RUA",
+      "cep": "12215110",
+      "bairro": "MONTE CASTELO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO JOSE DOS CAMPOS",
+      "distrito": "SAO JOSE DOS CAMPOS",
+      "codigo_ibge": 3549904,
+      "latitude": -23.18300056,
+      "longitude": -45.87469864
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DOS CAMPOS",
+      "situacao": 1,
+      "vinculo": 23462
+    }
+  },
+  {
+    "codigo": 466165,
+    "codigo_mec": "35466165",
+    "nome": "CEL JTO A EE MARIA ANGERAMI SCALAMANDRE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "QUATRO",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "18150000",
+      "bairro": "JARDIM NOVA IBIUNA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "IBIUNA",
+      "distrito": "IBIUNA",
+      "codigo_ibge": 3519709,
+      "latitude": -23.65893936,
+      "longitude": -47.21342087
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO ROQUE",
+      "situacao": 1,
+      "vinculo": 16044
+    }
+  },
+  {
+    "codigo": 985624,
+    "codigo_mec": "35985624",
+    "nome": "CEL JTO A EE BENEDITO CALIXTO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUI BARBOSA",
+      "numero": "180",
+      "complemento": "RUA",
+      "cep": "11740000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITANHAEM",
+      "distrito": "ITANHAEM",
+      "codigo_ibge": 3522109,
+      "latitude": -24.18280029,
+      "longitude": -46.78630066
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 12002
+    }
+  },
+  {
+    "codigo": 464004,
+    "codigo_mec": "35464004",
+    "nome": "CEL JTO A EE AIDA LEDA BAUER DAVIES PROFESSORA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SILVANO RIBEIRO DIROZ",
+      "numero": "200",
+      "complemento": "AVENIDA",
+      "cep": "11730000",
+      "bairro": "VILA ARENS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MONGAGUA",
+      "distrito": "MONGAGUA",
+      "codigo_ibge": 3531100,
+      "latitude": -24.09477043,
+      "longitude": -46.62728119
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 45160
+    }
+  },
+  {
+    "codigo": 435752,
+    "codigo_mec": "35435752",
+    "nome": "CEL JTO A EE REYNALDO KUNTZ BUSCH DOUTOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "GUARANI",
+      "numero": "31",
+      "complemento": "PRACA",
+      "cep": "11701170",
+      "bairro": "BOQUEIRAO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PRAIA GRANDE",
+      "distrito": "PRAIA GRANDE",
+      "codigo_ibge": 3541000,
+      "latitude": -24.00815964,
+      "longitude": -46.41741943
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 12359
+    }
+  },
+  {
+    "codigo": 985247,
+    "codigo_mec": "35985247",
+    "nome": "CEL JTO A EE MARTIM AFONSO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "JOSE BONIFACIO",
+      "numero": "102",
+      "complemento": "RUA",
+      "cep": "11310080",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO VICENTE",
+      "distrito": "SAO VICENTE",
+      "codigo_ibge": 3551009,
+      "latitude": -23.96920013,
+      "longitude": -46.38349915
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 12212
+    }
+  },
+  {
+    "codigo": 459264,
+    "codigo_mec": "35459264",
+    "nome": "CEL JTO A EE NESTOR GOMES DE ARAUJO PROF",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SANTOS DUMONT",
+      "numero": "297",
+      "complemento": "",
+      "cep": "14120000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "DUMONT",
+      "distrito": "DUMONT",
+      "codigo_ibge": 3514601,
+      "latitude": -21.23737907,
+      "longitude": -47.97232819
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SERTAOZINHO",
+      "situacao": 1,
+      "vinculo": 23528
+    }
+  },
+  {
+    "codigo": 459173,
+    "codigo_mec": "35459173",
+    "nome": "CEL JTO A EE JOSEPHA CASTRO PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "JOAO DOS REIS",
+      "numero": "297",
+      "complemento": "RUA",
+      "cep": "14180000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PONTAL",
+      "distrito": "PONTAL",
+      "codigo_ibge": 3540200,
+      "latitude": -21.02440071,
+      "longitude": -48.04069901
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SERTAOZINHO",
+      "situacao": 1,
+      "vinculo": 22561
+    }
+  },
+  {
+    "codigo": 9914,
+    "codigo_mec": "35009914",
+    "nome": "CEL  JOAQUIM IZIDORO MARINS PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "DOLORES BRUNO",
+      "numero": "432",
+      "complemento": "",
+      "cep": "18065400",
+      "bairro": "VILA ANGELICA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SOROCABA",
+      "distrito": "SOROCABA",
+      "codigo_ibge": 3552205,
+      "latitude": -23.48143959,
+      "longitude": -47.48215103
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SOROCABA",
+      "situacao": 1,
+      "vinculo": 16093
+    }
+  },
+  {
+    "codigo": 417427,
+    "codigo_mec": "35417427",
+    "nome": "CEL JTO A EE JULIO PRESTES DE ALBUQUERQUE DOUTOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "EUGENIO SALERNO DOUTOR",
+      "numero": "203",
+      "complemento": "AVENIDA",
+      "cep": "18035430",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SOROCABA",
+      "distrito": "SOROCABA",
+      "codigo_ibge": 3552205,
+      "latitude": -23.50084812,
+      "longitude": -47.46840446
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SOROCABA",
+      "situacao": 1,
+      "vinculo": 16160
+    }
+  },
+  {
+    "codigo": 985284,
+    "codigo_mec": "35985284",
+    "nome": "CEL JTO A EE ANTONIO PADILHA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PROFESSOR TOLEDO",
+      "numero": "77",
+      "complemento": "RUA",
+      "cep": "18035110",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SOROCABA",
+      "distrito": "SOROCABA",
+      "codigo_ibge": 3552205,
+      "latitude": -23.5023,
+      "longitude": -47.4622
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SOROCABA",
+      "situacao": 1,
+      "vinculo": 16433
+    }
+  },
+  {
+    "codigo": 5029,
+    "codigo_mec": "35005029",
+    "nome": "CEL JTO A EE MEXICO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "LEONEL DA GAMA BELES",
+      "numero": "82",
+      "complemento": "",
+      "cep": "4403360",
+      "bairro": "VILA JOANIZA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "CIDADE ADEMAR",
+      "codigo_ibge": 3550308,
+      "latitude": -23.67324066,
+      "longitude": -46.65953064
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUL 1",
+      "situacao": 1,
+      "vinculo": 5113
+    }
+  },
+  {
+    "codigo": 482341,
+    "codigo_mec": "35482341",
+    "nome": "CEL JTO A EE PLINIO NEGRAO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "BRAGANCA PAULISTA",
+      "numero": "575",
+      "complemento": "RUA",
+      "cep": "4727001",
+      "bairro": "VILA CRUZEIRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "SANTO AMARO",
+      "codigo_ibge": 3550308,
+      "latitude": -23.641828,
+      "longitude": -46.7153072
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUL 1",
+      "situacao": 1,
+      "vinculo": 5198
+    }
+  },
+  {
+    "codigo": 985156,
+    "codigo_mec": "35985156",
+    "nome": "CEL JTO A EE LEOPOLDO SANTANA PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "MANOEL DUARTE OLIVEIRA",
+      "numero": "151",
+      "complemento": "RUA",
+      "cep": "5859100",
+      "bairro": "CAPAO REDONDO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "CAPAO REDONDO",
+      "codigo_ibge": 3550308,
+      "latitude": -23.66856003,
+      "longitude": -46.76675034
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUL 2",
+      "situacao": 1,
+      "vinculo": 5010
+    }
+  },
+  {
+    "codigo": 29828,
+    "codigo_mec": "35029828",
+    "nome": "CEL JTO A EE LAERTE RAMOS PROF DR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ANIBAL DOS ANJOS CARVALHO",
+      "numero": "5",
+      "complemento": "RUA",
+      "cep": "4810050",
+      "bairro": "VILA SANTA MARIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "CIDADE DUTRA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.71260071,
+      "longitude": -46.69490051
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUL 3",
+      "situacao": 1,
+      "vinculo": 37448
+    }
+  },
+  {
+    "codigo": 458351,
+    "codigo_mec": "35458351",
+    "nome": "CEL JTO A EE ESTHER GARCIA PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ANTONIO CARLOS B DOS SANTOS",
+      "numero": "858",
+      "complemento": "AVENIDA",
+      "cep": "4856070",
+      "bairro": "JARDIM MYRNA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "GRAJAU",
+      "codigo_ibge": 3550308,
+      "latitude": -23.74782944,
+      "longitude": -46.69760132
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUL 3",
+      "situacao": 1,
+      "vinculo": 46361
+    }
+  },
+  {
+    "codigo": 985168,
+    "codigo_mec": "35985168",
+    "nome": "CEL JTO A EE PAULINO NUNES ESPOSO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "SADAMU INOUE",
+      "numero": "365",
+      "complemento": "AVENIDA",
+      "cep": "4865005",
+      "bairro": "JARDIM CASA GRANDE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "PARELHEIROS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.7764,
+      "longitude": -46.7227
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUL 3",
+      "situacao": 1,
+      "vinculo": 5307
+    }
+  },
+  {
+    "codigo": 459112,
+    "codigo_mec": "35459112",
+    "nome": "CEL JTO A EE LIOMAR FREITAS CAMARA PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "EDNA APARECIDA BAMPA FONSECA",
+      "numero": "29",
+      "complemento": "RUA",
+      "cep": "13183150",
+      "bairro": "VILA REAL CONTINUACAO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "HORTOLANDIA",
+      "distrito": "HORTOLANDIA",
+      "codigo_ibge": 3519071,
+      "latitude": -22.85339928,
+      "longitude": -47.21649933
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUMARE",
+      "situacao": 1,
+      "vinculo": 39858
+    }
+  },
+  {
+    "codigo": 985727,
+    "codigo_mec": "35985727",
+    "nome": "CEL JTO A EE JAYME DE BARROS CAMARA DOM",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "JOSE MANCINI",
+      "numero": "501",
+      "complemento": "AVENIDA",
+      "cep": "13170040",
+      "bairro": "JARDIM CARLOS BASSO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SUMARE",
+      "distrito": "SUMARE",
+      "codigo_ibge": 3552403,
+      "latitude": -22.827,
+      "longitude": -47.2676
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUMARE",
+      "situacao": 1,
+      "vinculo": 17036
+    }
+  },
+  {
+    "codigo": 985181,
+    "codigo_mec": "35985181",
+    "nome": "CEL JTO A EE RAUL BRASIL PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "JOSE GARCIA DE SOUZA",
+      "numero": "251",
+      "complemento": "",
+      "cep": "8673040",
+      "bairro": "PARQUE SUZANO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SUZANO",
+      "distrito": "SUZANO",
+      "codigo_ibge": 3552502,
+      "latitude": -23.53420067,
+      "longitude": -46.3158989
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUZANO",
+      "situacao": 1,
+      "vinculo": 6981
+    }
+  },
+  {
+    "codigo": 459100,
+    "codigo_mec": "35459100",
+    "nome": "CEL JTO A EE IRACEMA DE OLIVEIRA CARLOS",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "ENGENHEIRO IVANIL FRANCISCHINI",
+      "numero": "15920",
+      "complemento": "",
+      "cep": "14943464",
+      "bairro": "JARDIM IZOLINA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "IBITINGA",
+      "distrito": "IBITINGA",
+      "codigo_ibge": 3519600,
+      "latitude": -21.76273918,
+      "longitude": -48.83784866
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TAQUARITINGA",
+      "situacao": 1,
+      "vinculo": 47491
+    }
+  },
+  {
+    "codigo": 985338,
+    "codigo_mec": "35985338",
+    "nome": "CEL JTO A EE ANTONIO MORAES BARROS DR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "PRUDENTE DE MORAIS",
+      "numero": "607",
+      "complemento": "RUA",
+      "cep": "14900000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITAPOLIS",
+      "distrito": "ITAPOLIS",
+      "codigo_ibge": 3522703,
+      "latitude": -21.59889984,
+      "longitude": -48.81240082
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TAQUARITINGA",
+      "situacao": 1,
+      "vinculo": 24922
+    }
+  },
+  {
+    "codigo": 985545,
+    "codigo_mec": "35985545",
+    "nome": "CEL JTO A EE 9 DE JULHO",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "MARIO ROSARIO LAPENTA",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "15902016",
+      "bairro": "JARDIM CONTENDAS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TAQUARITINGA",
+      "distrito": "TAQUARITINGA",
+      "codigo_ibge": 3553708,
+      "latitude": -21.4008007,
+      "longitude": -48.50424957
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TAQUARITINGA",
+      "situacao": 1,
+      "vinculo": 24880
+    }
+  },
+  {
+    "codigo": 985740,
+    "codigo_mec": "35985740",
+    "nome": "CEL JTO A EE MINISTRO JOSE MOURA RESENDE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "GONCALVES DIAS",
+      "numero": "356",
+      "complemento": "RUA",
+      "cep": "12280015",
+      "bairro": "VILA SANTOS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CACAPAVA",
+      "distrito": "CACAPAVA",
+      "codigo_ibge": 3508504,
+      "latitude": -23.09320068,
+      "longitude": -45.69960022
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TAUBATE",
+      "situacao": 1,
+      "vinculo": 14148
+    }
+  },
+  {
+    "codigo": 985512,
+    "codigo_mec": "35985512",
+    "nome": "CEL JTO A EE INDIA VANUIRE",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "GUARANIS",
+      "numero": "1271",
+      "complemento": "RUA",
+      "cep": "17600400",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TUPA",
+      "distrito": "TUPA",
+      "codigo_ibge": 3555000,
+      "latitude": -21.93504906,
+      "longitude": -50.51678848
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TUPA",
+      "situacao": 1,
+      "vinculo": 34617
+    }
+  },
+  {
+    "codigo": 458697,
+    "codigo_mec": "35458697",
+    "nome": "CEL JTO A EE MARIA ANGELICA BAILLOT PROFA",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA MANOEL VIEIRA",
+      "numero": "587",
+      "complemento": "ESTRADA",
+      "cep": "18190001",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARACOIABA DA SERRA",
+      "distrito": "ARACOIABA DA SERRA",
+      "codigo_ibge": 3502903,
+      "latitude": -23.50884056,
+      "longitude": -47.60781097
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 16901
+    }
+  },
+  {
+    "codigo": 458715,
+    "codigo_mec": "35458715",
+    "nome": "CEL JTO A EE PEDRO DIAS DE CAMPOS CEL",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA JOAO FELIPE",
+      "numero": "200",
+      "complemento": "RUA",
+      "cep": "18195067",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAPELA DO ALTO",
+      "distrito": "CAPELA DO ALTO",
+      "codigo_ibge": 3510302,
+      "latitude": -23.47328949,
+      "longitude": -47.73522186
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 16913
+    }
+  },
+  {
+    "codigo": 446973,
+    "codigo_mec": "35446973",
+    "nome": "CEL JTO A EE CARLOS AUGUSTO DE CAMARGO PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA CAPITAO VICENTE GARCIA",
+      "numero": "296",
+      "complemento": "",
+      "cep": "18170080",
+      "bairro": "VILA SAO JOAO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PIEDADE",
+      "distrito": "PIEDADE",
+      "codigo_ibge": 3537800,
+      "latitude": -23.71594048,
+      "longitude": -47.41865921
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 16883
+    }
+  },
+  {
+    "codigo": 458752,
+    "codigo_mec": "35458752",
+    "nome": "CEL JTO A EE ODILON BATISTA JORDAO VER",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA CORONEL MORAES CUNHA",
+      "numero": "969",
+      "complemento": "AVENIDA",
+      "cep": "18185011",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PILAR DO SUL",
+      "distrito": "PILAR DO SUL",
+      "codigo_ibge": 3537909,
+      "latitude": -23.81832314,
+      "longitude": -47.71630478
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 16780
+    }
+  },
+  {
+    "codigo": 458855,
+    "codigo_mec": "35458855",
+    "nome": "CEL JTO A EE AFONSO VERGUEIRO DOUTOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "RUA ANTONIO RODRIGUES SIMOES",
+      "numero": "310",
+      "complemento": "RUA",
+      "cep": "18160019",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SALTO DE PIRAPORA",
+      "distrito": "SALTO DE PIRAPORA",
+      "codigo_ibge": 3545308,
+      "latitude": -23.64786911,
+      "longitude": -47.57559204
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 16846
+    }
+  },
+  {
+    "codigo": 458922,
+    "codigo_mec": "35458922",
+    "nome": "CEL JTO A EE JOAO ROSA CEL",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "AVENIDA SANTA CATARINA",
+      "numero": "57",
+      "complemento": "AVENIDA",
+      "cep": "18180025",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TAPIRAI",
+      "distrito": "TAPIRAI",
+      "codigo_ibge": 3553500,
+      "latitude": -23.96216202,
+      "longitude": -47.50448608
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 16871
+    }
+  },
+  {
+    "codigo": 438030,
+    "codigo_mec": "35438030",
+    "nome": "CEL JTO A EE DANIEL VERANO PROFESSOR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "CARLOS LUVISON",
+      "numero": "180",
+      "complemento": "RUA",
+      "cep": "18110435",
+      "bairro": "PARQUE BELA VISTA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "VOTORANTIM",
+      "distrito": "VOTORANTIM",
+      "codigo_ibge": 3557006,
+      "latitude": -23.54482079,
+      "longitude": -47.45349884
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 16809
+    }
+  },
+  {
+    "codigo": 985739,
+    "codigo_mec": "35985739",
+    "nome": "CEL JTO A EE JOSE MANOEL LOBO DR",
+    "tipo_codigo": 6,
+    "tipo_nome": "CEL_JTO",
+    "endereco": {
+      "logradouro": "AMAZONAS",
+      "numero": "2829",
+      "complemento": "RUA",
+      "cep": "15505208",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "VOTUPORANGA",
+      "distrito": "VOTUPORANGA",
+      "codigo_ibge": 3557105,
+      "latitude": -20.42749977,
+      "longitude": -49.97370148
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTUPORANGA",
+      "situacao": 1,
+      "vinculo": 28988
+    }
+  }
+]

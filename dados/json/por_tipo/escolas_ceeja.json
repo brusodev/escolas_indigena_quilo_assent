@@ -1,0 +1,1206 @@
+[
+  {
+    "codigo": 980055,
+    "codigo_mec": "35980055",
+    "nome": "CEEJA ALDA MARANGONI FRANCA PROFA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "RIACHUELO",
+      "numero": "700",
+      "complemento": "RUA",
+      "cep": "13466290",
+      "bairro": "VILA SANTA CATARINA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "AMERICANA",
+      "distrito": "AMERICANA",
+      "codigo_ibge": 3501608,
+      "latitude": -22.75160027,
+      "longitude": -47.32849884
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AMERICANA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 11044,
+    "codigo_mec": "35011044",
+    "nome": "CEEJA DE ANDRADINA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "RUA TAMANDARE",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "16900114",
+      "bairro": "VILA SANCHES",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ANDRADINA",
+      "distrito": "ANDRADINA",
+      "codigo_ibge": 3502101,
+      "latitude": -20.91013145,
+      "longitude": -51.3854866
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ANDRADINA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 565076,
+    "codigo_mec": "35565076",
+    "nome": "CEEJA DE ARACATUBA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "AMERICA DO NORTE",
+      "numero": "225",
+      "complemento": "RUA",
+      "cep": "16021295",
+      "bairro": "JUSSARA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARACATUBA",
+      "distrito": "ARACATUBA",
+      "codigo_ibge": 3502804,
+      "latitude": -21.22448921,
+      "longitude": -50.45658112
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARACATUBA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 497277,
+    "codigo_mec": "35497277",
+    "nome": "CEEJA DE AVARE",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "MISAEL EUFRASIO LEAL PREFEITO",
+      "numero": "857",
+      "complemento": "AVENIDA",
+      "cep": "18705050",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "AVARE",
+      "distrito": "AVARE",
+      "codigo_ibge": 3504503,
+      "latitude": -23.09522057,
+      "longitude": -48.92764664
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 498166,
+    "codigo_mec": "35498166",
+    "nome": "DORIVAL THOMAZ DA COSTA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "28",
+      "numero": "2814",
+      "complemento": "",
+      "cep": "14783218",
+      "bairro": "FORTALEZA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BARRETOS",
+      "distrito": "BARRETOS",
+      "codigo_ibge": 3505500,
+      "latitude": -20.57275009,
+      "longitude": -48.56425858
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BARRETOS",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980067,
+    "codigo_mec": "35980067",
+    "nome": "CEEJA TANCREDO NEVES PRESIDENTE",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "CARLOS DE CAMPOS QUADRA",
+      "numero": "510",
+      "complemento": "RUA",
+      "cep": "17050290",
+      "bairro": "VILA SOUTO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BAURU",
+      "distrito": "BAURU",
+      "codigo_ibge": 3506003,
+      "latitude": -22.32654381,
+      "longitude": -49.09186172
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 477229,
+    "codigo_mec": "35477229",
+    "nome": "CEEJA DE BOTUCATU",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "PRACA ARCHIMEDES GURGEL",
+      "numero": "85",
+      "complemento": "PREDIO ESCOLAR",
+      "cep": "18605131",
+      "bairro": "CONJUNTO HABITACIONAL HUMBERTO POPOLO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BOTUCATU",
+      "distrito": "BOTUCATU",
+      "codigo_ibge": 3507506,
+      "latitude": -22.91672134,
+      "longitude": -48.44067764
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BOTUCATU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980122,
+    "codigo_mec": "35980122",
+    "nome": "CEEJA JEANETTE ANDRADE GODOY AGUILA MARTINS PROFESSORA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "DOS NHAMBIQUARAS",
+      "numero": "2",
+      "complemento": "RUA",
+      "cep": "13081450",
+      "bairro": "VILA COSTA E SILVA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAMPINAS",
+      "distrito": "CAMPINAS LESTE",
+      "codigo_ibge": 3509502,
+      "latitude": -22.8614502,
+      "longitude": -47.06756592
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAMPINAS LESTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980158,
+    "codigo_mec": "35980158",
+    "nome": "CEEJA PAULO DECOURT",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "AMELIA BUENO CAMARGO",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "13088649",
+      "bairro": "JARDIM SANTANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAMPINAS",
+      "distrito": "CAMPINAS LESTE",
+      "codigo_ibge": 3509502,
+      "latitude": -22.85621071,
+      "longitude": -47.04201889
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAMPINAS LESTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 498051,
+    "codigo_mec": "35498051",
+    "nome": "CEEJA DE CARAGUATATUBA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "VINTE DE ABRIL",
+      "numero": "125",
+      "complemento": "RUA",
+      "cep": "11677200",
+      "bairro": "MASSAGUACU",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CARAGUATATUBA",
+      "distrito": "CARAGUATATUBA",
+      "codigo_ibge": 3510500,
+      "latitude": -23.57894325,
+      "longitude": -45.32210922
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CARAGUATATUBA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 4914,
+    "codigo_mec": "35004914",
+    "nome": "CEEJA DE CARAPICUIBA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "RUA JOAO FASOLI",
+      "numero": "410",
+      "complemento": "",
+      "cep": "6343000",
+      "bairro": "JARDIM MARILU",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CARAPICUIBA",
+      "distrito": "CARAPICUIBA",
+      "codigo_ibge": 3510609,
+      "latitude": -23.57201195,
+      "longitude": -46.83376312
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CARAPICUIBA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 10323,
+    "codigo_mec": "35010323",
+    "nome": "CEEJA  DE ITAPECERICA DA SERRA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "PERSIA",
+      "numero": "1130",
+      "complemento": "",
+      "cep": "6852220",
+      "bairro": "PARQUE PARAISO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITAPECERICA DA SERRA",
+      "distrito": "ITAPECERICA DA SERRA",
+      "codigo_ibge": 3522208,
+      "latitude": -23.70849037,
+      "longitude": -46.85774994
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPECERICA DA SERRA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 497988,
+    "codigo_mec": "35497988",
+    "nome": "CEEJA DE POA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "CRISCIUMA",
+      "numero": "29",
+      "complemento": "RUA",
+      "cep": "8563540",
+      "bairro": "VILA CRISTELO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "POA",
+      "distrito": "POA",
+      "codigo_ibge": 3539806,
+      "latitude": -23.53399086,
+      "longitude": -46.34767914
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAQUAQUECETUBA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980161,
+    "codigo_mec": "35980161",
+    "nome": "CEEJA HERNANI NOBRE PROFESSOR",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "LUCAS EVANGELISTA",
+      "numero": "1670",
+      "complemento": "RUA",
+      "cep": "14701420",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BEBEDOURO",
+      "distrito": "BEBEDOURO",
+      "codigo_ibge": 3506102,
+      "latitude": -20.95249939,
+      "longitude": -48.48880005
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JABOTICABAL",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 5870,
+    "codigo_mec": "35005870",
+    "nome": "CEEJA DE SANTA ISABEL",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "LEOPOLDO DA CUNHA LIMA",
+      "numero": "157",
+      "complemento": "LANIFICIO",
+      "cep": "7500000",
+      "bairro": "LANIFICIO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SANTA ISABEL",
+      "distrito": "SANTA ISABEL",
+      "codigo_ibge": 3546801,
+      "latitude": -23.32556915,
+      "longitude": -46.23041153
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JACAREI",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 482468,
+    "codigo_mec": "35482468",
+    "nome": "CEEJA PROFESSORA SILVIA MARIA GOMES PEREIRA LIMA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "AV DOUTOR QUINZINHO",
+      "numero": "754",
+      "complemento": "AVENIDA",
+      "cep": "17211478",
+      "bairro": "JARDIM JORGE ATALLA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JAU",
+      "distrito": "JAU",
+      "codigo_ibge": 3525300,
+      "latitude": -22.30192947,
+      "longitude": -48.53919983
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JAU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980018,
+    "codigo_mec": "35980018",
+    "nome": "CEEJA CLARA MANTELLI DONA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "ALCANTARA MACHADO",
+      "numero": "4188",
+      "complemento": "AVENIDA",
+      "cep": "3302000",
+      "bairro": "QUARTA PARADA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BELEM",
+      "codigo_ibge": 3550308,
+      "latitude": -23.54320908,
+      "longitude": -46.58592987
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 5",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 497976,
+    "codigo_mec": "35497976",
+    "nome": "CEEJA DE LINS",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "OSWALDO CRUZ",
+      "numero": "512",
+      "complemento": "RUA",
+      "cep": "16400060",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "LINS",
+      "distrito": "LINS",
+      "codigo_ibge": 3527108,
+      "latitude": -21.67631912,
+      "longitude": -49.75199127
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LINS",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980043,
+    "codigo_mec": "35980043",
+    "nome": "CEEJA SEBASTIANA ULIAN PESSINE PROFA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "VINTE E QUATRO DE DEZEMBRO",
+      "numero": "162",
+      "complemento": "RUA",
+      "cep": "17501460",
+      "bairro": "BARBOSA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MARILIA",
+      "distrito": "MARILIA",
+      "codigo_ibge": 3529005,
+      "latitude": -22.22249985,
+      "longitude": -49.9504509
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980134,
+    "codigo_mec": "35980134",
+    "nome": "CEEJA VALBERTO FUSARI",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "RUBIAO JUNIOR",
+      "numero": "283",
+      "complemento": "RUA",
+      "cep": "9424050",
+      "bairro": "CENTRO ALTO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PIRES",
+      "distrito": "RIBEIRAO PIRES",
+      "codigo_ibge": 3543303,
+      "latitude": -23.71450043,
+      "longitude": -46.41740036
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MAUA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 474824,
+    "codigo_mec": "35474824",
+    "nome": "CEEJA DE MIRACATU",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "DONA EVARISTA DE CASTRO FERREIRA",
+      "numero": "S/N",
+      "complemento": "CEEJA DE MIRACATU",
+      "cep": "11850000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MIRACATU",
+      "distrito": "MIRACATU",
+      "codigo_ibge": 3529906,
+      "latitude": -24.28582001,
+      "longitude": -47.45858002
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRACATU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 498026,
+    "codigo_mec": "35498026",
+    "nome": "CEEJA DE MOGI DAS CRUZES",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "RUA DOM ANTONIO CANDIDO DE ALVARENGA",
+      "numero": "511",
+      "complemento": "RUA",
+      "cep": "8780070",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MOGI DAS CRUZES",
+      "distrito": "MOGI DAS CRUZES",
+      "codigo_ibge": 3530607,
+      "latitude": -23.52438164,
+      "longitude": -46.18565369
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MOGI DAS CRUZES",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 4862,
+    "codigo_mec": "35004862",
+    "nome": "CEEJA DEPUTADO GUILHERME DE OLIVEIRA GOMES",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "HIPOLITO DA SILVA",
+      "numero": "36",
+      "complemento": "",
+      "cep": "6075150",
+      "bairro": "CIPAVA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "OSASCO",
+      "distrito": "OSASCO",
+      "codigo_ibge": 3534401,
+      "latitude": -23.54722977,
+      "longitude": -46.78853989
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "OSASCO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 497769,
+    "codigo_mec": "35497769",
+    "nome": "CEEJA PROFESSOR JOAO SEGURA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "SANTA CASA",
+      "numero": "1595",
+      "complemento": "",
+      "cep": "16300304",
+      "bairro": "VILA SAO JOAO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PENAPOLIS",
+      "distrito": "PENAPOLIS",
+      "codigo_ibge": 3537305,
+      "latitude": -21.41647911,
+      "longitude": -50.06521988
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PENAPOLIS",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980171,
+    "codigo_mec": "35980171",
+    "nome": "CEEJA ANTONIO JOSE FALCONE PROFESSOR",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "DO ROSARIO",
+      "numero": "781",
+      "complemento": "",
+      "cep": "13400183",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PIRACICABA",
+      "distrito": "PIRACICABA",
+      "codigo_ibge": 3538709,
+      "latitude": -22.72272682,
+      "longitude": -47.65047073
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PIRACICABA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 497824,
+    "codigo_mec": "35497824",
+    "nome": "CEEJA DE PIRAJU",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "DOUTOR WASHINGTON OSORIO DE OLIVEIRA",
+      "numero": "1115",
+      "complemento": "",
+      "cep": "18803052",
+      "bairro": "VILA PIRATININGA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PIRAJU",
+      "distrito": "PIRAJU",
+      "codigo_ibge": 3538808,
+      "latitude": -23.20051956,
+      "longitude": -49.38291931
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PIRAJU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 5904,
+    "codigo_mec": "35005904",
+    "nome": "CENTRO DE EDUCACAO DE JOVENS E ADULTOS DE PIRASSUNUNGA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "JOSE BONIFACIO",
+      "numero": "325",
+      "complemento": "",
+      "cep": "13630010",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PIRASSUNUNGA",
+      "distrito": "PIRASSUNUNGA",
+      "codigo_ibge": 3539301,
+      "latitude": -21.99700546,
+      "longitude": -47.42388153
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PIRASSUNUNGA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980201,
+    "codigo_mec": "35980201",
+    "nome": "CEEJA JOSE LIBANIO FILHO PROFESSOR",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "CLAUDIONOR SANDOVAL",
+      "numero": "875",
+      "complemento": "RUA",
+      "cep": "19023200",
+      "bairro": "VILA ROSA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PRESIDENTE PRUDENTE",
+      "distrito": "PRESIDENTE PRUDENTE",
+      "codigo_ibge": 3541406,
+      "latitude": -22.11520958,
+      "longitude": -51.40156174
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PRESIDENTE PRUDENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980031,
+    "codigo_mec": "35980031",
+    "nome": "CEEJA RICARDO JOSE POCI MENDES",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "ERIC VERHULST",
+      "numero": "30",
+      "complemento": "RUA",
+      "cep": "11900000",
+      "bairro": "VILA CABRAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "REGISTRO",
+      "distrito": "REGISTRO",
+      "codigo_ibge": 3542602,
+      "latitude": -24.49687004,
+      "longitude": -47.83866882
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980024,
+    "codigo_mec": "35980024",
+    "nome": "CEEJA CECILIA DULTRA CARAM PROFESSORA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "GUARUJA",
+      "numero": "1159",
+      "complemento": "RUA",
+      "cep": "14090283",
+      "bairro": "JARDIM PAULISTANO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PRETO",
+      "distrito": "RIBEIRAO PRETO",
+      "codigo_ibge": 3543402,
+      "latitude": -21.17584991,
+      "longitude": -47.7870903
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 11052,
+    "codigo_mec": "35011052",
+    "nome": "CENTRO ESTADUAL DE EDUCACAO DE JOVENS E ADULTOS  CEEJA DE PRESIDENTE VENCESLAU",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "RUA ALMIRANTE BARROSO",
+      "numero": "35",
+      "complemento": "",
+      "cep": "19406014",
+      "bairro": "VILA ORIENTAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PRESIDENTE VENCESLAU",
+      "distrito": "PRESIDENTE VENCESLAU",
+      "codigo_ibge": 3541505,
+      "latitude": -21.86956024,
+      "longitude": -51.84046173
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTO ANASTACIO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 482473,
+    "codigo_mec": "35482473",
+    "nome": "CEEJA LUIZ CARLOS ROMAZZINI",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "DAS VIOLETAS",
+      "numero": "374",
+      "complemento": "",
+      "cep": "11432270",
+      "bairro": "JARDIM PRIMAVERA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARUJA",
+      "distrito": "GUARUJA",
+      "codigo_ibge": 3518701,
+      "latitude": -23.98545837,
+      "longitude": -46.27156067
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTOS",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980080,
+    "codigo_mec": "35980080",
+    "nome": "CEEJA MARIA APARECIDA PASQUALETO FIGUEIREDO",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "DOUTOR EPITACIO PESSOA",
+      "numero": "432",
+      "complemento": "AVENIDA",
+      "cep": "11030600",
+      "bairro": "APARECIDA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SANTOS",
+      "distrito": "SANTOS",
+      "codigo_ibge": 3548500,
+      "latitude": -23.97920036,
+      "longitude": -46.31029892
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTOS",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980092,
+    "codigo_mec": "35980092",
+    "nome": "CEEJA ARCHIMEDES JOSE BAVA PROFESSOR DOUTOR",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "AFONSO SCHIMIDTH",
+      "numero": "1171",
+      "complemento": "AVENIDA",
+      "cep": "11087001",
+      "bairro": "CASTELO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SANTOS",
+      "distrito": "SANTOS",
+      "codigo_ibge": 3548500,
+      "latitude": -23.94395065,
+      "longitude": -46.38230896
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTOS",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980195,
+    "codigo_mec": "35980195",
+    "nome": "CEEJA DE SAO JOSE DOS CAMPOS",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "CLAUDINO PRISCO",
+      "numero": "343",
+      "complemento": "RUA",
+      "cep": "12211139",
+      "bairro": "VILA NOVA CRISTINA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO JOSE DOS CAMPOS",
+      "distrito": "SAO JOSE DOS CAMPOS",
+      "codigo_ibge": 3549904,
+      "latitude": -23.15707016,
+      "longitude": -45.89136887
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DOS CAMPOS",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 4953,
+    "codigo_mec": "35004953",
+    "nome": "CEEJA DE PERUIBE",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "AVENIDA SAO JOAO",
+      "numero": "635",
+      "complemento": "",
+      "cep": "11750000",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PERUIBE",
+      "distrito": "PERUIBE",
+      "codigo_ibge": 3537602,
+      "latitude": -24.32135391,
+      "longitude": -47.0001564
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980183,
+    "codigo_mec": "35980183",
+    "nome": "CEEJA MAX DADA GALLIZZI",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "GUARANI",
+      "numero": "31",
+      "complemento": "",
+      "cep": "11701170",
+      "bairro": "BOQUEIRAO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PRAIA GRANDE",
+      "distrito": "PRAIA GRANDE",
+      "codigo_ibge": 3541000,
+      "latitude": -24.00851059,
+      "longitude": -46.41669846
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980109,
+    "codigo_mec": "35980109",
+    "nome": "CEEJA NORBERTO SOARES RAMOS PROFESSOR",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "ASSIS MACHADO",
+      "numero": "920",
+      "complemento": "RUA",
+      "cep": "18020258",
+      "bairro": "VILA ASSIS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SOROCABA",
+      "distrito": "SOROCABA",
+      "codigo_ibge": 3552205,
+      "latitude": -23.5088253,
+      "longitude": -47.4473114
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SOROCABA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 4963,
+    "codigo_mec": "35004963",
+    "nome": "CEEJA SINHA PANTOJA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "SIMAO DE LEMOS",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "5816220",
+      "bairro": "RECANTO SANTO ANTONIO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JARDIM SAO LUIS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.66783524,
+      "longitude": -46.74071121
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUL 2",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980146,
+    "codigo_mec": "35980146",
+    "nome": "CEEJA CICERO DE ALVARENGA MONSENHOR",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "NOVE DE JULHO",
+      "numero": "382",
+      "complemento": "AVENIDA",
+      "cep": "12020200",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TAUBATE",
+      "distrito": "TAUBATE",
+      "codigo_ibge": 3554102,
+      "latitude": -23.02500916,
+      "longitude": -45.56439972
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TAUBATE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 11045,
+    "codigo_mec": "35011045",
+    "nome": "CEEJA DE TUPA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "AVENIDA TAPUIAS",
+      "numero": "907",
+      "complemento": "",
+      "cep": "17600260",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TUPA",
+      "distrito": "TUPA",
+      "codigo_ibge": 3555000,
+      "latitude": -21.93770981,
+      "longitude": -50.51343918
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TUPA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 980213,
+    "codigo_mec": "35980213",
+    "nome": "PROFESSORA MERTILA LARCHER DE MORAES",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "PEDRO TRINCA",
+      "numero": "66",
+      "complemento": "RUA",
+      "cep": "18110250",
+      "bairro": "JARDIM ICATU",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "VOTORANTIM",
+      "distrito": "VOTORANTIM",
+      "codigo_ibge": 3557006,
+      "latitude": -23.54178047,
+      "longitude": -47.45505142
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 5910,
+    "codigo_mec": "35005910",
+    "nome": "CEEJA DE VOTUPORANGA",
+    "tipo_codigo": 3,
+    "tipo_nome": "CEEJA",
+    "endereco": {
+      "logradouro": "TIBAGI",
+      "numero": "3352",
+      "complemento": "",
+      "cep": "15500007",
+      "bairro": "PATRIMONIO NOVO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "VOTUPORANGA",
+      "distrito": "VOTUPORANGA",
+      "codigo_ibge": 3557105,
+      "latitude": -20.42728043,
+      "longitude": -49.97434998
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTUPORANGA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  }
+]

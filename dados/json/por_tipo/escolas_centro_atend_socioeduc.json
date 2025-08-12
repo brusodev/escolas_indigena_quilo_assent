@@ -1,0 +1,1010 @@
+[
+  {
+    "codigo": 354569,
+    "codigo_mec": "35354569",
+    "nome": "CENTRO DE ATENDIMENTO SOC EDUC AO ADOLESC IRAPURU I CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "MUNICIPAL",
+      "numero": "3",
+      "complemento": "IRV KM 6",
+      "cep": "17880000",
+      "bairro": "PATURY",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "IRAPURU",
+      "distrito": "IRAPURU",
+      "codigo_ibge": 3521606,
+      "latitude": -21.52055508,
+      "longitude": -51.31761074
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 30958
+    }
+  },
+  {
+    "codigo": 193069,
+    "codigo_mec": "35193069",
+    "nome": "CENTRO ATEND SOCIOEDUC ADOLESCENTE  ARACA  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "GOULART",
+      "numero": "SN",
+      "complemento": "KM 145",
+      "cep": "16060280",
+      "bairro": "FAZENDA DO ESTADO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ARACATUBA",
+      "distrito": "ARACATUBA",
+      "codigo_ibge": 3502804,
+      "latitude": -21.19617081,
+      "longitude": -50.41693878
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARACATUBA",
+      "situacao": 1,
+      "vinculo": 29877
+    }
+  },
+  {
+    "codigo": 193012,
+    "codigo_mec": "35193012",
+    "nome": "CENTRO ATEND SOCIOEDUC AO ADOLESCENTE DE ARARAQUARA CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "JOSE GORLA",
+      "numero": "145",
+      "complemento": "AVENIDA",
+      "cep": "14808585",
+      "bairro": "CONDOMINIO SATELITE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARARAQUARA",
+      "distrito": "ARARAQUARA",
+      "codigo_ibge": 3503208,
+      "latitude": -21.80023956,
+      "longitude": -48.11618042
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARARAQUARA",
+      "situacao": 1,
+      "vinculo": 47405
+    }
+  },
+  {
+    "codigo": 464090,
+    "codigo_mec": "35464090",
+    "nome": "CENTRO ATEND SOCIOED AO ADOLESCENTE DE ARARAQUARA CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "JOSE GORLA",
+      "numero": "2",
+      "complemento": "AVENIDA",
+      "cep": "14808585",
+      "bairro": "CONDOMINIO SATELITE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARARAQUARA",
+      "distrito": "ARARAQUARA",
+      "codigo_ibge": 3503208,
+      "latitude": -21.80038123,
+      "longitude": -48.11624251
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARARAQUARA",
+      "situacao": 1,
+      "vinculo": 907728
+    }
+  },
+  {
+    "codigo": 336836,
+    "codigo_mec": "35336836",
+    "nome": "CENTRO DE ATEND SOCIOEDUC AO ADOLESC FEMININO ANITA GARIBALDI  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "S/N",
+      "complemento": "RODOVIA SP245  KM245",
+      "cep": "18769899",
+      "bairro": "AREA RURAL DE CERQUEIRA CESAR",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CERQUEIRA CESAR",
+      "distrito": "CERQUEIRA CESAR",
+      "codigo_ibge": 3511409,
+      "latitude": -23.05179977,
+      "longitude": -49.13364029
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 14527
+    }
+  },
+  {
+    "codigo": 349446,
+    "codigo_mec": "35349446",
+    "nome": "CENTRO ATEND SOCIOED ADOLESC DE CERQUEIRA CESAR IIICIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "S/N",
+      "complemento": "RODOVIA SP245  KM215",
+      "cep": "18769899",
+      "bairro": "AREA RURAL DE CERQUEIRA CESAR",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CERQUEIRA CESAR",
+      "distrito": "CERQUEIRA CESAR",
+      "codigo_ibge": 3511409,
+      "latitude": -23.05129051,
+      "longitude": -49.13290024
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 14527
+    }
+  },
+  {
+    "codigo": 128272,
+    "codigo_mec": "35128272",
+    "nome": "CENTRO ATEND SOCIO EDUC ADOLESCENTE DE BAURU CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "LUCIO LUCIANO QUADRA",
+      "numero": "KM231",
+      "complemento": "AVENIDA",
+      "cep": "17033530",
+      "bairro": "NUCLEO RESIDENCIAL PRESIDENTE GEISEL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BAURU",
+      "distrito": "BAURU",
+      "codigo_ibge": 3506003,
+      "latitude": -22.33506012,
+      "longitude": -49.0200882
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 49657
+    }
+  },
+  {
+    "codigo": 296703,
+    "codigo_mec": "35296703",
+    "nome": "CENTRO ATEND SOCIOEDUC AO ADOLESCENTE DE BOTUCATUCIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "JOSE ITALO BACCHI",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "18606851",
+      "bairro": "JARDIM AEROPORTO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BOTUCATU",
+      "distrito": "BOTUCATU",
+      "codigo_ibge": 3507506,
+      "latitude": -22.92627716,
+      "longitude": -48.46232986
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BOTUCATU",
+      "situacao": 1,
+      "vinculo": 917312
+    }
+  },
+  {
+    "codigo": 297677,
+    "codigo_mec": "35297677",
+    "nome": "CENTRO ATEND SOCIOEDUC AO ADOLESCENTE DE ATIBAIACIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "ZINIAS",
+      "numero": "230",
+      "complemento": "ROD FERNAO DIAS KM 27",
+      "cep": "12954622",
+      "bairro": "CHACARAS FERNAO DIAS",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ATIBAIA",
+      "distrito": "ATIBAIA",
+      "codigo_ibge": 3504107,
+      "latitude": -23.040945,
+      "longitude": -46.540851
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BRAGANCA PAULISTA",
+      "situacao": 1,
+      "vinculo": 42584
+    }
+  },
+  {
+    "codigo": 7474,
+    "codigo_mec": "35007474",
+    "nome": "CENTRO DE ATENDIMENTO INICIAL E PROVISORIO JACARANDA  CAIP JACARANDA",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "DO GOVERNO",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "7859340",
+      "bairro": "POUSO ALEGRE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCO DA ROCHA",
+      "distrito": "FRANCO DA ROCHA",
+      "codigo_ibge": 3516408,
+      "latitude": -23.33460999,
+      "longitude": -46.6844101
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5666
+    }
+  },
+  {
+    "codigo": 498671,
+    "codigo_mec": "35498671",
+    "nome": "CENTRO DE ATEND SOCIOEDUC AO ADOLESCENTE ANDORINHAS CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "ALADINO SELMI COMENDADOR",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "13069096",
+      "bairro": "VILA SAN MARTIN",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAMPINAS",
+      "distrito": "CAMPINAS LESTE",
+      "codigo_ibge": 3509502,
+      "latitude": -22.84679985,
+      "longitude": -47.13840103
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAMPINAS LESTE",
+      "situacao": 1,
+      "vinculo": 65626
+    }
+  },
+  {
+    "codigo": 432748,
+    "codigo_mec": "35432748",
+    "nome": "CENTRO DE ATEND SOCIOED AO ADOLES DE CARAGUATATUBA  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "DO PIRASSUNUNGA",
+      "numero": "600",
+      "complemento": "",
+      "cep": "11670403",
+      "bairro": "BARRANCO ALTO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CARAGUATATUBA",
+      "distrito": "CARAGUATATUBA",
+      "codigo_ibge": 3510500,
+      "latitude": -23.70152092,
+      "longitude": -45.48591995
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CARAGUATATUBA",
+      "situacao": 1,
+      "vinculo": 11400
+    }
+  },
+  {
+    "codigo": 483485,
+    "codigo_mec": "35483485",
+    "nome": "CENTRO DE ATEND SOCIO EDUC AO ADOLESC RUTH PISTORI CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "ESTADO",
+      "numero": "1949",
+      "complemento": "AVENIDA",
+      "cep": "1107000",
+      "bairro": "BOM RETIRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BOM RETIRO",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5325083,
+      "longitude": -46.6251047
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 1659
+    }
+  },
+  {
+    "codigo": 70981,
+    "codigo_mec": "35070981",
+    "nome": "CENTRO DE ATEND SOCIOED AO ADOLESCENTE RIO TURIASSU  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "PIRATININGA",
+      "numero": "85",
+      "complemento": "1? E 2? ANDAR",
+      "cep": "3042001",
+      "bairro": "BRAS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BRAS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.54597092,
+      "longitude": -46.62020111
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 1659
+    }
+  },
+  {
+    "codigo": 298633,
+    "codigo_mec": "35298633",
+    "nome": "CENTRO DE ATEND SOCIOED AO ADOLESCENTE RIO TOCANTINS CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "PIRATININGA",
+      "numero": "85",
+      "complemento": "RUA",
+      "cep": "3042001",
+      "bairro": "BRAS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BRAS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5460126,
+      "longitude": -46.6203451
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 1659
+    }
+  },
+  {
+    "codigo": 559672,
+    "codigo_mec": "35559672",
+    "nome": "CENTRO DE ATEND SOCIOEDUC AO ADOLESCENTE ITAPARICA  CIP6",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "CORONEL MURSA",
+      "numero": "618",
+      "complemento": "RUA",
+      "cep": "3043050",
+      "bairro": "BRAS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BRAS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.54829025,
+      "longitude": -46.61537933
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 1659
+    }
+  },
+  {
+    "codigo": 11296,
+    "codigo_mec": "35011296",
+    "nome": "CENTRO DE ATENDIMENTO INICIAL E PROVISORIO SAO FRANCISCO  CAIP SAO FRANCISCO",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "AVENIDA DOUTORA RUTH CARDOSO",
+      "numero": "1233",
+      "complemento": "",
+      "cep": "5310000",
+      "bairro": "VILA LEOPOLDINA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA LEOPOLDINA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.53092957,
+      "longitude": -46.74670029
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3542
+    }
+  },
+  {
+    "codigo": 11217,
+    "codigo_mec": "35011217",
+    "nome": "CENTRO ATEND SOCIOEDUC AO ADOLESC DE FRANCA  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "AVENIDA DOUTOR SIDNEY ROMEU DE ANDRADE",
+      "numero": "3250",
+      "complemento": "AVENIDA",
+      "cep": "14409652",
+      "bairro": "JARDIM MARAMBAIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCA",
+      "distrito": "FRANCA",
+      "codigo_ibge": 3516200,
+      "latitude": -20.46859932,
+      "longitude": -47.41212082
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 65997
+    }
+  },
+  {
+    "codigo": 444352,
+    "codigo_mec": "35444352",
+    "nome": "CENTRO DE ATEND SOCIOEDUC AO ADOLESC LORENA  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "CHIQUITO DE AQUINO",
+      "numero": "KM 002",
+      "complemento": "ESTRADA",
+      "cep": "12612550",
+      "bairro": "SANTA LUCRECIA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LORENA",
+      "distrito": "LORENA",
+      "codigo_ibge": 3527207,
+      "latitude": -22.76930046,
+      "longitude": -45.1009407
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARATINGUETA",
+      "situacao": 1,
+      "vinculo": 12944
+    }
+  },
+  {
+    "codigo": 406156,
+    "codigo_mec": "35406156",
+    "nome": "CENTRO ATEND SOCIOED AO ADOLESC SERRA DA CANTAREIRA CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "HIPOLITO MINISTRO",
+      "numero": "3750",
+      "complemento": "",
+      "cep": "7250010",
+      "bairro": "CIDADE ARACILIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARULHOS",
+      "distrito": "GUARULHOS SUL",
+      "codigo_ibge": 3518800,
+      "latitude": -23.42464066,
+      "longitude": -46.37020111
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARULHOS SUL",
+      "situacao": 1,
+      "vinculo": 6452
+    }
+  },
+  {
+    "codigo": 338060,
+    "codigo_mec": "35338060",
+    "nome": "CENTRO ATEND SOCIO ED ADOLESCENTE ITAQUAQUECETUBA I CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "JOSE CARLOS FERREIRA",
+      "numero": "178",
+      "complemento": "ESTRADA",
+      "cep": "8580815",
+      "bairro": "JARDIM IPE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITAQUAQUECETUBA",
+      "distrito": "ITAQUAQUECETUBA",
+      "codigo_ibge": 3523107,
+      "latitude": -23.44087791,
+      "longitude": -46.34817505
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAQUAQUECETUBA",
+      "situacao": 1,
+      "vinculo": 912335
+    }
+  },
+  {
+    "codigo": 299169,
+    "codigo_mec": "35299169",
+    "nome": "CENTRO DE ATEND SOCIOEDUC ADOLESCENTE DE JACAREI  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "PRESIDENTE DUTRA",
+      "numero": "",
+      "complemento": "",
+      "cep": "12335010",
+      "bairro": "PARQUE MEIA LUA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "JACAREI",
+      "distrito": "JACAREI",
+      "codigo_ibge": 3524402,
+      "latitude": -23.31599998,
+      "longitude": -46.0786705
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JACAREI",
+      "situacao": 1,
+      "vinculo": 127292
+    }
+  },
+  {
+    "codigo": 432684,
+    "codigo_mec": "35432684",
+    "nome": "CENTRO DE ATEND SOCIOED AO ADOLESC VITORIA REGIA LINS  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "DAVID EID",
+      "numero": "KM 1,5",
+      "complemento": "RODOVIA",
+      "cep": "16401490",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LINS",
+      "distrito": "LINS",
+      "codigo_ibge": 3527108,
+      "latitude": -21.63768776,
+      "longitude": -49.73333843
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LINS",
+      "situacao": 1,
+      "vinculo": 26177
+    }
+  },
+  {
+    "codigo": 148519,
+    "codigo_mec": "35148519",
+    "nome": "CENTRO ATEND SOCIOEDUC AO ADOLESCENTE DE MARILIA  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "SP 333",
+      "numero": "KM 343",
+      "complemento": "",
+      "cep": "17500970",
+      "bairro": "AMADEU AMARAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MARILIA",
+      "distrito": "MARILIA",
+      "codigo_ibge": 3529005,
+      "latitude": -22.29942131,
+      "longitude": -50.0253334
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33698
+    }
+  },
+  {
+    "codigo": 295152,
+    "codigo_mec": "35295152",
+    "nome": "CENTRO DE ATEND SOCIOEDUC AO ADOLESCENTE DE MAUACIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "JOAO XXIII PAPA",
+      "numero": "3905",
+      "complemento": "AVENIDA",
+      "cep": "9370800",
+      "bairro": "VILA NOEMIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MAUA",
+      "distrito": "MAUA",
+      "codigo_ibge": 3529401,
+      "latitude": -23.69743919,
+      "longitude": -46.47948837
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MAUA",
+      "situacao": 1,
+      "vinculo": 7648
+    }
+  },
+  {
+    "codigo": 295772,
+    "codigo_mec": "35295772",
+    "nome": "CENTRO ATEND SOCIOEDUC ADOLESCENTE  PIRACICABA  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "LAERCIO CORTE  SP 147  KM 138 S/N  VILA AREAO",
+      "numero": "S/N",
+      "complemento": "KM 1385",
+      "cep": "13440020",
+      "bairro": "SANTA ROSA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PIRACICABA",
+      "distrito": "PIRACICABA",
+      "codigo_ibge": 3538709,
+      "latitude": -22.69849014,
+      "longitude": -47.60918045
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PIRACICABA",
+      "situacao": 1,
+      "vinculo": 920800
+    }
+  },
+  {
+    "codigo": 10506,
+    "codigo_mec": "35010506",
+    "nome": "CENTRO ATEND SOCIOED ADOLESCENTE    CENTRO DE INTERNACAO PROVISORIA CANDIDO PORTINARI CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "RODOVIA GEOVANA APARECIDA DELIBERTO",
+      "numero": "SN",
+      "complemento": "KM2",
+      "cep": "14034000",
+      "bairro": "JARDIM ITAU",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PRETO",
+      "distrito": "RIBEIRAO PRETO",
+      "codigo_ibge": 3543402,
+      "latitude": -21.18792915,
+      "longitude": -47.86426926
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 911306
+    }
+  },
+  {
+    "codigo": 193124,
+    "codigo_mec": "35193124",
+    "nome": "CENTRO ATEND SOCIOED ADOLESCSANTA EMILA  GUARUJACIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "ADEMAR DE BARROS",
+      "numero": "571",
+      "complemento": "AVENIDA",
+      "cep": "11430000",
+      "bairro": "VL STO ANTONIO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARUJA",
+      "distrito": "GUARUJA",
+      "codigo_ibge": 3518701,
+      "latitude": -23.9921,
+      "longitude": -46.2704
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTOS",
+      "situacao": 1,
+      "vinculo": 49141
+    }
+  },
+  {
+    "codigo": 559398,
+    "codigo_mec": "35559398",
+    "nome": "CENTRO ATEND SOCIOEDUC ADOLESCENTE DE SAO CARLOS  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "AYRTON SALVADOR LEOPOLDINO JUNIOR",
+      "numero": "SN",
+      "complemento": "CHACARA 048",
+      "cep": "13570829",
+      "bairro": "CONJUNTO HABITACIONAL WALDOMIRO LOBBE SOBRINHO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO CARLOS",
+      "distrito": "SAO CARLOS",
+      "codigo_ibge": 3548906,
+      "latitude": -22.04549109,
+      "longitude": -47.88443417
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO CARLOS",
+      "situacao": 1,
+      "vinculo": 907923
+    }
+  },
+  {
+    "codigo": 559945,
+    "codigo_mec": "35559945",
+    "nome": "CENTRO ATEND SOCIOEDUC ADOLESCENTEGRANDES LAGOSCIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "ROD DELCIO CUSTODIO DA SILVA",
+      "numero": "KM 3,5",
+      "complemento": "KM 35",
+      "cep": "15046450",
+      "bairro": "RODOVIA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "SAO JOSE DO RIO PRETO",
+      "distrito": "SAO JOSE DO RIO PRETO",
+      "codigo_ibge": 3549805,
+      "latitude": -20.7404,
+      "longitude": -49.3807
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DO RIO PRETO",
+      "situacao": 1,
+      "vinculo": 908150
+    }
+  },
+  {
+    "codigo": 121617,
+    "codigo_mec": "35121617",
+    "nome": "CENTRO ATEND SOCIOED ADOLESCENTE S JOSE DOS CAMPOSCIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "TAMOIOS",
+      "numero": "KM 12",
+      "complemento": "RODOVIA",
+      "cep": "12228845",
+      "bairro": "BAIRRO DA PERNAMBUCANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO JOSE DOS CAMPOS",
+      "distrito": "SAO JOSE DOS CAMPOS",
+      "codigo_ibge": 3549904,
+      "latitude": -23.21925926,
+      "longitude": -45.87950134
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DOS CAMPOS",
+      "situacao": 1,
+      "vinculo": 13602
+    }
+  },
+  {
+    "codigo": 327712,
+    "codigo_mec": "35327712",
+    "nome": "CENTRO ATEND SOCIOEDUC AO ADOLESCENTE DE PERUIBECIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "SP 55",
+      "numero": "KM340",
+      "complemento": "AVENIDA",
+      "cep": "11750000",
+      "bairro": "ESTANCIA PEROLA NEGRA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PERUIBE",
+      "distrito": "PERUIBE",
+      "codigo_ibge": 3537602,
+      "latitude": -24.28217506,
+      "longitude": -46.99592972
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 45172
+    }
+  },
+  {
+    "codigo": 567577,
+    "codigo_mec": "35567577",
+    "nome": "CENTRO DE ATENDIMENTO SOCIO ED AO ADOLESC PRAIA GRANDE II",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "SETE",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "11713390",
+      "bairro": "ESMERALDA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PRAIA GRANDE",
+      "distrito": "PRAIA GRANDE",
+      "codigo_ibge": 3541000,
+      "latitude": -24.02594948,
+      "longitude": -46.52305984
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 907972
+    }
+  },
+  {
+    "codigo": 296776,
+    "codigo_mec": "35296776",
+    "nome": "CENTRO ATEND SOCIOEDUC ADOLESC DE SOROCABA ICIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "DOUTOR ANTONIO DE SOUZA NETTO",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "18087210",
+      "bairro": "APARECIDINHA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SOROCABA",
+      "distrito": "SOROCABA",
+      "codigo_ibge": 3552205,
+      "latitude": -23.43239975,
+      "longitude": -47.36299896
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SOROCABA",
+      "situacao": 1,
+      "vinculo": 39780
+    }
+  },
+  {
+    "codigo": 448254,
+    "codigo_mec": "35448254",
+    "nome": "CENTRO DE ATEND SOCIEDUC ADOLESCENTE DE SOROCABA IV  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "ANTONIO DE SOUZA NETTO DOUTOR",
+      "numero": "200",
+      "complemento": "AVENIDA",
+      "cep": "18087210",
+      "bairro": "APARECIDINHA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SOROCABA",
+      "distrito": "SOROCABA",
+      "codigo_ibge": 3552205,
+      "latitude": -23.43260002,
+      "longitude": -47.36339951
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SOROCABA",
+      "situacao": 1,
+      "vinculo": 39780
+    }
+  },
+  {
+    "codigo": 411851,
+    "codigo_mec": "35411851",
+    "nome": "CENTRO DE ATEND SOCIOEDUC AO ADOLESC DE TAUBATE  CIP",
+    "tipo_codigo": 9,
+    "tipo_nome": "CENTRO_ATEND_SOCIOEDUC",
+    "endereco": {
+      "logradouro": "AMADOR BUENO DA VEIGA",
+      "numero": "KM 138",
+      "complemento": "AVENIDA",
+      "cep": "12062400",
+      "bairro": "JARDIM JARAGUA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "TAUBATE",
+      "distrito": "TAUBATE",
+      "codigo_ibge": 3554102,
+      "latitude": -23.01032066,
+      "longitude": -45.54896927
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TAUBATE",
+      "situacao": 1,
+      "vinculo": 14023
+    }
+  }
+]

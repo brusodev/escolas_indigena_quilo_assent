@@ -1,0 +1,1990 @@
+[
+  {
+    "codigo": 560066,
+    "codigo_mec": "35560066",
+    "nome": "SANTA CASA DE ARACATUBA CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "FLORIANO PEIXOTO",
+      "numero": "896",
+      "complemento": "RUA",
+      "cep": "16015000",
+      "bairro": "VILA MENDONCA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARACATUBA",
+      "distrito": "ARACATUBA",
+      "codigo_ibge": 3502804,
+      "latitude": -21.20549965,
+      "longitude": -50.42969894
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARACATUBA",
+      "situacao": 1,
+      "vinculo": 29804
+    }
+  },
+  {
+    "codigo": 6442,
+    "codigo_mec": "35006442",
+    "nome": "CLASSE HOSPITALAR DO HOSPITAL DE CANCER INFANTO JUVENIL DE BARRETOS  HOSPITAL DE AMOR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ANTENOR DUARTE VILELA",
+      "numero": "1331",
+      "complemento": "",
+      "cep": "14784400",
+      "bairro": "DOUTOR PAULO PRATA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BARRETOS",
+      "distrito": "BARRETOS",
+      "codigo_ibge": 3505500,
+      "latitude": -20.58901978,
+      "longitude": -48.56923676
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BARRETOS",
+      "situacao": 1,
+      "vinculo": 22214
+    }
+  },
+  {
+    "codigo": 195662,
+    "codigo_mec": "35195662",
+    "nome": "FUNDACAO PIO XII HOSPITAL DO CANCER CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ANTENOR DUARTE VILELA",
+      "numero": "1331",
+      "complemento": "RUA",
+      "cep": "14784400",
+      "bairro": "DOUTOR PAULO PRATA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BARRETOS",
+      "distrito": "BARRETOS",
+      "codigo_ibge": 3505500,
+      "latitude": -20.581,
+      "longitude": -48.5682
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BARRETOS",
+      "situacao": 1,
+      "vinculo": 22214
+    }
+  },
+  {
+    "codigo": 584459,
+    "codigo_mec": "35584459",
+    "nome": "CLASSE HOSPITALAR FUNDACAO PIO XII HOSPITAL DO CANCER",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "RUA ANTENOR DUARTE VILELA",
+      "numero": "1331",
+      "complemento": "",
+      "cep": "14784400",
+      "bairro": "DOUTOR PAULO PRATA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BARRETOS",
+      "distrito": "BARRETOS",
+      "codigo_ibge": 3505500,
+      "latitude": -20.58901978,
+      "longitude": -48.56923676
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BARRETOS",
+      "situacao": 1,
+      "vinculo": 22214
+    }
+  },
+  {
+    "codigo": 6153,
+    "codigo_mec": "35006153",
+    "nome": "CLASSE HOSPITALAR  HOSPITAL ESTADUAL DE BAURU  DR ARNALDO PRADO CURVELLO",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ENGENHEIRO LUIZ EDMUNDO CARRIJO COUBE",
+      "numero": "1100",
+      "complemento": "",
+      "cep": "17033360",
+      "bairro": "NUCLEO RESIDENCIAL PRESIDENTE GEISEL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BAURU",
+      "distrito": "BAURU",
+      "codigo_ibge": 3506003,
+      "latitude": -22.33875084,
+      "longitude": -49.02838135
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 25276
+    }
+  },
+  {
+    "codigo": 4287,
+    "codigo_mec": "35004287",
+    "nome": "HOSPITAL DAS CLINICAS  CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "JOSE ITALO BACCHI",
+      "numero": "",
+      "complemento": "",
+      "cep": "18606851",
+      "bairro": "JARDIM AEROPORTO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BOTUCATU",
+      "distrito": "BOTUCATU",
+      "codigo_ibge": 3507506,
+      "latitude": -22.92642975,
+      "longitude": -48.4634819
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BOTUCATU",
+      "situacao": 1,
+      "vinculo": 14849
+    }
+  },
+  {
+    "codigo": 4196,
+    "codigo_mec": "35004196",
+    "nome": "HOSPITAL DAS CLINICAS  CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "RUBIAO JUNIOR",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "18618970",
+      "bairro": "RUBIAO JUNIOR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BOTUCATU",
+      "distrito": "RUBIAO JUNIOR",
+      "codigo_ibge": 3507506,
+      "latitude": -22.92642975,
+      "longitude": -48.4634819
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BOTUCATU",
+      "situacao": 1,
+      "vinculo": 14849
+    }
+  },
+  {
+    "codigo": 338357,
+    "codigo_mec": "35338357",
+    "nome": "HOSPITAL DAS CLINICAS  CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "RUBIAO JUNIOR",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "18618970",
+      "bairro": "RUBIAO JUNIOR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BOTUCATU",
+      "distrito": "RUBIAO JUNIOR",
+      "codigo_ibge": 3507506,
+      "latitude": -22.89150681,
+      "longitude": -48.4963828
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BOTUCATU",
+      "situacao": 1,
+      "vinculo": 14849
+    }
+  },
+  {
+    "codigo": 300688,
+    "codigo_mec": "35300688",
+    "nome": "ARTHUR GUIMARAES CL HOSP PAV FERNANDINHO STA CASA",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "CESARIO MOTA JUNIOR DOUTOR",
+      "numero": "112",
+      "complemento": "RUA",
+      "cep": "1221020",
+      "bairro": "VILA BUARQUE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "SANTA CECILIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.54269028,
+      "longitude": -46.6489296
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 3487
+    }
+  },
+  {
+    "codigo": 447857,
+    "codigo_mec": "35447857",
+    "nome": "CONJUNTO HOSPITALAR DO MANDAQUI CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "VOLUNTARIOS DA PATRIA",
+      "numero": "4301",
+      "complemento": "RUA",
+      "cep": "2402600",
+      "bairro": "SANTANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "SANTANA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.48506355,
+      "longitude": -46.63156509
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 985
+    }
+  },
+  {
+    "codigo": 586171,
+    "codigo_mec": "35586171",
+    "nome": "CONJUNTO HOSPITALAR DO MANDAQUI CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "VOLUNTARIOS DA PATRIA",
+      "numero": "4301",
+      "complemento": "RUA",
+      "cep": "2402600",
+      "bairro": "SANTANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "SANTANA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.48498917,
+      "longitude": -46.6315918
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 917
+    }
+  },
+  {
+    "codigo": 286709,
+    "codigo_mec": "35286709",
+    "nome": "HOSPITAL DAS CLINICAS FMSP CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ENEAS CARVALHO DE AGUIAR DOUTOR",
+      "numero": "255",
+      "complemento": "AVENIDA",
+      "cep": "5403000",
+      "bairro": "CERQUEIRA CESAR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "ALTO DE PINHEIROS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55509949,
+      "longitude": -46.67169952
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 290816,
+    "codigo_mec": "35290816",
+    "nome": "INSTITUTO DO CORACAO HCFMSP CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ENEAS CARVALHO DE AGUIAR DOUTOR",
+      "numero": "44",
+      "complemento": "AVENIDA",
+      "cep": "5403000",
+      "bairro": "CERQUEIRA CESAR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "ALTO DE PINHEIROS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55509949,
+      "longitude": -46.67169952
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 295115,
+    "codigo_mec": "35295115",
+    "nome": "INSTITUTO DO CORACAO HCFMSP CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ENEAS CARVALHO DE AGUIAR DOUTOR",
+      "numero": "44",
+      "complemento": "AVENIDA",
+      "cep": "5403000",
+      "bairro": "CERQUEIRA CESAR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "ALTO DE PINHEIROS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55680084,
+      "longitude": -46.67150116
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 300731,
+    "codigo_mec": "35300731",
+    "nome": "HOSPITAL DAS CLINICAS FMSP CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "AV DOUTOR ENEAS CARVALHO DE AGUIAR",
+      "numero": "255",
+      "complemento": "AVENIDA",
+      "cep": "5403000",
+      "bairro": "C CESAR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "ALTO DE PINHEIROS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55669975,
+      "longitude": -46.67010117
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 128132,
+    "codigo_mec": "35128132",
+    "nome": "HOSPITAL EMILIO RIBAS CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ARNALDO DOUTOR",
+      "numero": "165",
+      "complemento": "AVENIDA",
+      "cep": "1246000",
+      "bairro": "PACAEMBU",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JARDIM PAULISTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55450058,
+      "longitude": -46.66690063
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 128181,
+    "codigo_mec": "35128181",
+    "nome": "HOSPITAL EMILIO RIBAS CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "AV DR ARNALDO",
+      "numero": "165",
+      "complemento": "AVENIDA",
+      "cep": "1246000",
+      "bairro": "PACAEMBU",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JARDIM PAULISTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55579948,
+      "longitude": -46.66719818
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 128193,
+    "codigo_mec": "35128193",
+    "nome": "HOSPITAL EMILIO RIBAS CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "DR ARNALDO",
+      "numero": "165",
+      "complemento": "AVENIDA",
+      "cep": "1246000",
+      "bairro": "PACAEMBU",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JARDIM PAULISTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55579948,
+      "longitude": -46.66719818
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 287611,
+    "codigo_mec": "35287611",
+    "nome": "INSTITUTO DA CRIANCA PEDRO ALCANTARA HCFMSP CL HOSP",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ENEAS CARVALHO DE AGUIAR DOUTOR",
+      "numero": "255",
+      "complemento": "AVENIDA",
+      "cep": "5403000",
+      "bairro": "CERQUEIRA CESAR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JARDIM PAULISTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55509949,
+      "longitude": -46.67169952
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 287660,
+    "codigo_mec": "35287660",
+    "nome": "INSTITUTO DA CRIANCA PEDRO ALCANTARA HCMFSP CL HOSP",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ENEAS CARVALHO DE AGUIAR DOUTOR",
+      "numero": "255",
+      "complemento": "AVENIDA",
+      "cep": "5403000",
+      "bairro": "CERQUEIRA CESAR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JARDIM PAULISTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55509949,
+      "longitude": -46.67169952
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 455994,
+    "codigo_mec": "35455994",
+    "nome": "ITACI CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "GALENO DE ALMEIDA",
+      "numero": "148",
+      "complemento": "RUA",
+      "cep": "5410030",
+      "bairro": "PINHEIROS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JARDIM PAULISTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55249977,
+      "longitude": -46.6772995
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 456007,
+    "codigo_mec": "35456007",
+    "nome": "ITACI CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "GALENO DE ALMEIDA",
+      "numero": "148",
+      "complemento": "RUA",
+      "cep": "5410030",
+      "bairro": "PINHEIROS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JARDIM PAULISTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55249977,
+      "longitude": -46.6772995
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3517
+    }
+  },
+  {
+    "codigo": 476651,
+    "codigo_mec": "35476651",
+    "nome": "PAULO ROSSI PROF CL HOSPITALAR HOSP SERV PUB ESTADUAL",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "PEDRO DE TOLEDO",
+      "numero": "1800",
+      "complemento": "RUA",
+      "cep": "4039004",
+      "bairro": "VILA CLEMENTINO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "MOEMA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5981,
+      "longitude": -46.6444
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4571
+    }
+  },
+  {
+    "codigo": 559246,
+    "codigo_mec": "35559246",
+    "nome": "PAULO ROSSI PROF CL HOSPITALAR HOSP SERV PUB ESTADUAL",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "R PEDRO DE TOLEDO",
+      "numero": "1800",
+      "complemento": "RUA",
+      "cep": "4039004",
+      "bairro": "VL CLEMENTINO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "MOEMA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5972,
+      "longitude": -46.6544
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4571
+    }
+  },
+  {
+    "codigo": 559258,
+    "codigo_mec": "35559258",
+    "nome": "PAULO ROSSI PROF CL HOSPITALAR HOSP SERV PUB ESTADUAL",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "R PEDRO DE TOLEDO",
+      "numero": "1800",
+      "complemento": "RUA",
+      "cep": "4039004",
+      "bairro": "VL CLEMENTINO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "MOEMA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5972,
+      "longitude": -46.6544
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4571
+    }
+  },
+  {
+    "codigo": 286345,
+    "codigo_mec": "35286345",
+    "nome": "HOSPITAL DARCY VARGAS CL HOSP",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "DOUTOR SERAFICO DE ASSIS CARVALHO",
+      "numero": "34",
+      "complemento": "RUA",
+      "cep": "5690050",
+      "bairro": "MORUMBI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA SONIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.59339905,
+      "longitude": -46.71039963
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4259
+    }
+  },
+  {
+    "codigo": 296739,
+    "codigo_mec": "35296739",
+    "nome": "HOSPITAL DARCY VARGAS CL HOSP",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "SERAFICO DE ASSIS CARVALHO DOUTOR",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "5614040",
+      "bairro": "JARDIM LEONOR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA SONIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5934,
+      "longitude": -46.7107
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4259
+    }
+  },
+  {
+    "codigo": 558187,
+    "codigo_mec": "35558187",
+    "nome": "HOSPITAL DARCY VARGAS CL HOSP",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "R DOUTOR SERAFICO DE ASSIS CARVALHO",
+      "numero": "34",
+      "complemento": "RUA",
+      "cep": "5614040",
+      "bairro": "MORUMBI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA SONIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5934,
+      "longitude": -46.7104
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4259
+    }
+  },
+  {
+    "codigo": 558199,
+    "codigo_mec": "35558199",
+    "nome": "HOSPITAL DARCY VARGAS CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "R DOUTOR SERAFICO DE ASSIS CARVALHO",
+      "numero": "40",
+      "complemento": "RUA",
+      "cep": "5614040",
+      "bairro": "MORUMBI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA SONIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5935,
+      "longitude": -46.7105
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4259
+    }
+  },
+  {
+    "codigo": 558217,
+    "codigo_mec": "35558217",
+    "nome": "HOSPITAL DARCY VARGAS CL HOSP",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "R DOUTOR SERAFICO DE ASSIS CARVALHO",
+      "numero": "34",
+      "complemento": "RUA",
+      "cep": "5614040",
+      "bairro": "MORUMBI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA SONIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5934,
+      "longitude": -46.7104
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4259
+    }
+  },
+  {
+    "codigo": 559155,
+    "codigo_mec": "35559155",
+    "nome": "HOSPITAL DARCY VARGAS CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "R DOUTOR SERAFICO DE ASSIS CARVALHO",
+      "numero": "34",
+      "complemento": "RUA",
+      "cep": "5614040",
+      "bairro": "MORUMBI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA SONIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5934,
+      "longitude": -46.7104
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4259
+    }
+  },
+  {
+    "codigo": 559167,
+    "codigo_mec": "35559167",
+    "nome": "ADOLFO TRIPOLI CL HOSPITALAR DARCY VARGAS",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "R DOUTOR SERAFICO DE ASSIS CARVALHO",
+      "numero": "34",
+      "complemento": "RUA",
+      "cep": "5614040",
+      "bairro": "MORUMBI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA SONIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.59339905,
+      "longitude": -46.71039963
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4259
+    }
+  },
+  {
+    "codigo": 559179,
+    "codigo_mec": "35559179",
+    "nome": "HOSPITAL DARCY VARGAS CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "R DOUTOR SERAFICO DE ASSIS CARVALHO",
+      "numero": "34",
+      "complemento": "RUA",
+      "cep": "5614040",
+      "bairro": "MORUMBI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA SONIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5934,
+      "longitude": -46.7104
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4259
+    }
+  },
+  {
+    "codigo": 577212,
+    "codigo_mec": "35577212",
+    "nome": "HOSPITAL ALBERT EINSTEIN CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "LOURENCO DE AZEVEDO",
+      "numero": "149",
+      "complemento": "RUA",
+      "cep": "5624060",
+      "bairro": "VILA MORSE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA SONIA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.59679985,
+      "longitude": -46.73010254
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 4259
+    }
+  },
+  {
+    "codigo": 483692,
+    "codigo_mec": "35483692",
+    "nome": "REAL E BENEMERITA ASSOC PORT DE BENEFICENCIA CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "MAESTRO CARDIM",
+      "numero": "769",
+      "complemento": "",
+      "cep": "1323900",
+      "bairro": "BELA VISTA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BELA VISTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.56990051,
+      "longitude": -46.64619827
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 3815
+    }
+  },
+  {
+    "codigo": 576529,
+    "codigo_mec": "35576529",
+    "nome": "REAL E BENEMERITA ASSOC PORT DE BENEFICENCIA CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "MAESTRO CARDIM",
+      "numero": "769",
+      "complemento": "",
+      "cep": "1323900",
+      "bairro": "BELA VISTA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BELA VISTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.56990051,
+      "longitude": -46.64619827
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 3815
+    }
+  },
+  {
+    "codigo": 432660,
+    "codigo_mec": "35432660",
+    "nome": "HOSPITAL ANTONIO PRUDENTE CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ANTONIO PRUDENTE PROFESSOR",
+      "numero": "211",
+      "complemento": "RUA",
+      "cep": "1509010",
+      "bairro": "LIBERDADE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "LIBERDADE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5655098,
+      "longitude": -46.63788986
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4340
+    }
+  },
+  {
+    "codigo": 432672,
+    "codigo_mec": "35432672",
+    "nome": "HOSPITAL ANTONIO PRUDENTE CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ANTONIO PRUDENTE PROFESSOR",
+      "numero": "211",
+      "complemento": "RUA",
+      "cep": "1509010",
+      "bairro": "LIBERDADE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "LIBERDADE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5655098,
+      "longitude": -46.63788986
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4340
+    }
+  },
+  {
+    "codigo": 447213,
+    "codigo_mec": "35447213",
+    "nome": "HOSPITAL AC CAMARGO CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "TAMANDARE",
+      "numero": "753",
+      "complemento": "RUA",
+      "cep": "1525001",
+      "bairro": "LIBERDADE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "LIBERDADE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.56528091,
+      "longitude": -46.63587189
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4340
+    }
+  },
+  {
+    "codigo": 447225,
+    "codigo_mec": "35447225",
+    "nome": "HOSPITAL AC CAMARGO CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "TAMANDARE",
+      "numero": "753",
+      "complemento": "RUA",
+      "cep": "1525001",
+      "bairro": "LIBERDADE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "LIBERDADE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.56528091,
+      "longitude": -46.63587189
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4340
+    }
+  },
+  {
+    "codigo": 558230,
+    "codigo_mec": "35558230",
+    "nome": "HOSPITAL ANTONIO PRUDENTE CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ANTONIO PRUDENTE PROFESSOR",
+      "numero": "211",
+      "complemento": "RUA",
+      "cep": "1509010",
+      "bairro": "LIBERDADE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "LIBERDADE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5655098,
+      "longitude": -46.63788986
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4340
+    }
+  },
+  {
+    "codigo": 559271,
+    "codigo_mec": "35559271",
+    "nome": "HOSPITAL ANTONIO PRUDENTE CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ANTONIO PRUDENTE PROFESSOR",
+      "numero": "211",
+      "complemento": "RUA",
+      "cep": "1509010",
+      "bairro": "LIBERDADE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "LIBERDADE",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5655098,
+      "longitude": -46.63788986
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4340
+    }
+  },
+  {
+    "codigo": 432866,
+    "codigo_mec": "35432866",
+    "nome": "HOSPITAL SAO PAULO CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "NAPOLEAO DE BARROS",
+      "numero": "715",
+      "complemento": "RUA",
+      "cep": "4024002",
+      "bairro": "VILA CLEMENTINO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA MARIANA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5983,
+      "longitude": -46.64930729
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4856
+    }
+  },
+  {
+    "codigo": 432908,
+    "codigo_mec": "35432908",
+    "nome": "HOSPITAL SAO PAULO CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "NAPOLEAO DE BARROS",
+      "numero": "715",
+      "complemento": "RUA",
+      "cep": "4024002",
+      "bairro": "VILA CLEMENTINO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA MARIANA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5983,
+      "longitude": -46.64930729
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4856
+    }
+  },
+  {
+    "codigo": 568338,
+    "codigo_mec": "35568338",
+    "nome": "HOSPITAL SAO PAULO CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "NAPOLEAO DE BARROS",
+      "numero": "757",
+      "complemento": "RUA",
+      "cep": "4024000",
+      "bairro": "VILA CLEMENTINO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA MARIANA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.59816067,
+      "longitude": -46.64398583
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4856
+    }
+  },
+  {
+    "codigo": 568348,
+    "codigo_mec": "35568348",
+    "nome": "HOSPITAL SAO PAULO CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "NAPOLEAO DE BARROS",
+      "numero": "757",
+      "complemento": "RUA",
+      "cep": "4024002",
+      "bairro": "VILA CLEMENTINO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA MARIANA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.59814101,
+      "longitude": -46.644
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO SUL",
+      "situacao": 1,
+      "vinculo": 4856
+    }
+  },
+  {
+    "codigo": 433469,
+    "codigo_mec": "35433469",
+    "nome": "HOSPITAL SANTA CASA DE FRANCA CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "PEDRO II DOM",
+      "numero": "1826",
+      "complemento": "PRACA",
+      "cep": "14400715",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCA",
+      "distrito": "FRANCA",
+      "codigo_ibge": 3516200,
+      "latitude": -20.5382,
+      "longitude": -47.399
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 22986
+    }
+  },
+  {
+    "codigo": 440632,
+    "codigo_mec": "35440632",
+    "nome": "HOSPITAL DO CANCER DE FRANCA CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "VARGAS PRESIDENTE",
+      "numero": "2953",
+      "complemento": "AVENIDA",
+      "cep": "14409055",
+      "bairro": "JARDIM DOUTOR ANTONIO PETRAGLIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCA",
+      "distrito": "FRANCA",
+      "codigo_ibge": 3516200,
+      "latitude": -20.53030014,
+      "longitude": -47.38740158
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 900655
+    }
+  },
+  {
+    "codigo": 6677,
+    "codigo_mec": "35006677",
+    "nome": "HOSPITAL GERAL PROFESSOR WALDEMAR DE CARVALHO PINTO FILHO",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "DOS LIRIOS",
+      "numero": "300",
+      "complemento": "",
+      "cep": "7190012",
+      "bairro": "PARQUE CECAP",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARULHOS",
+      "distrito": "GUARULHOS NORTE",
+      "codigo_ibge": 3518800,
+      "latitude": -23.45351982,
+      "longitude": -46.49888992
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARULHOS NORTE",
+      "situacao": 1,
+      "vinculo": 921385
+    }
+  },
+  {
+    "codigo": 72308,
+    "codigo_mec": "35072308",
+    "nome": "HOSPITAL AMARAL CARVALHO CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "DONA SILVERIA",
+      "numero": "150",
+      "complemento": "RUA",
+      "cep": "17210080",
+      "bairro": "CHACARA BRAZ MIRAGLIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JAU",
+      "distrito": "JAU",
+      "codigo_ibge": 3525300,
+      "latitude": -22.29190063,
+      "longitude": -48.55049896
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JAU",
+      "situacao": 1,
+      "vinculo": 25847
+    }
+  },
+  {
+    "codigo": 348363,
+    "codigo_mec": "35348363",
+    "nome": "HOSPITAL AMARAL CARVALHO CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "DONA SILVEIRA",
+      "numero": "150",
+      "complemento": "RUA",
+      "cep": "17210080",
+      "bairro": "CHACARA BRAZ MIRAGLIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JAU",
+      "distrito": "JAU",
+      "codigo_ibge": 3525300,
+      "latitude": -22.29129982,
+      "longitude": -48.54859924
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JAU",
+      "situacao": 1,
+      "vinculo": 25847
+    }
+  },
+  {
+    "codigo": 566901,
+    "codigo_mec": "35566901",
+    "nome": "HOSP GRUPO DE DEFESA DA CRIANCA COM CANCER CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "MANOEL ILDEFONSO ARCHER DE CASTILHO DOUTOR",
+      "numero": "300",
+      "complemento": "AVENIDA",
+      "cep": "13214565",
+      "bairro": "PARQUE DA REPRESA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JUNDIAI",
+      "distrito": "JUNDIAI",
+      "codigo_ibge": 3525904,
+      "latitude": -23.16139984,
+      "longitude": -46.91130066
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JUNDIAI",
+      "situacao": 1,
+      "vinculo": 48297
+    }
+  },
+  {
+    "codigo": 482304,
+    "codigo_mec": "35482304",
+    "nome": "HOSPITAL SANTA MARCELINA CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "MARECHAL TITO",
+      "numero": "6303",
+      "complemento": "AVENIDA",
+      "cep": "8115100",
+      "bairro": "ITAIM PAULISTA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "ITAIM PAULISTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.49198914,
+      "longitude": -46.38972855
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 2",
+      "situacao": 1,
+      "vinculo": 902603
+    }
+  },
+  {
+    "codigo": 572718,
+    "codigo_mec": "35572718",
+    "nome": "HOSPITAL SANTA MARCELINA CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "SARA KUBITSCHECK",
+      "numero": "215",
+      "complemento": "",
+      "cep": "8474000",
+      "bairro": "CONJUNTO HABITACIONAL CASTRO ALVES",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "CIDADE TIRADENTES",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5824337,
+      "longitude": -46.40554428
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 3",
+      "situacao": 1,
+      "vinculo": 904922
+    }
+  },
+  {
+    "codigo": 562048,
+    "codigo_mec": "35562048",
+    "nome": "HOSPITAL SANTA MARCELINA CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ARRAIAL DA ANTA",
+      "numero": "325",
+      "complemento": "RUA",
+      "cep": "8270090",
+      "bairro": "VILA CARMOSINA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "PARQUE DO CARMO",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5574894,
+      "longitude": -46.46165848
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 4",
+      "situacao": 1,
+      "vinculo": 39248
+    }
+  },
+  {
+    "codigo": 38748,
+    "codigo_mec": "35038748",
+    "nome": "HOSP INFANTIL CANDIDO FONTOURA CL HOSP",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "SIQUEIRA BUENO",
+      "numero": "1757",
+      "complemento": "RUA",
+      "cep": "3173010",
+      "bairro": "BELENZINHO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BELEM",
+      "codigo_ibge": 3550308,
+      "latitude": -23.55213928,
+      "longitude": -46.58560944
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 5",
+      "situacao": 1,
+      "vinculo": 1508
+    }
+  },
+  {
+    "codigo": 4543,
+    "codigo_mec": "35004543",
+    "nome": "HOSPITAL CLEMENTE FERREIRA  CAIS  CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "LINSGUAICARA",
+      "numero": "",
+      "complemento": "KM 4",
+      "cep": "16419899",
+      "bairro": "GUAICARA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LINS",
+      "distrito": "LINS",
+      "codigo_ibge": 3527108,
+      "latitude": -21.63678169,
+      "longitude": -49.77377701
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LINS",
+      "situacao": 1,
+      "vinculo": 26116
+    }
+  },
+  {
+    "codigo": 4544,
+    "codigo_mec": "35004544",
+    "nome": "HOSPITAL CLEMENTE FERREIRA  CAIS  CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "LINSGUAICARA",
+      "numero": "",
+      "complemento": "KM 4",
+      "cep": "16419899",
+      "bairro": "GUAICARA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LINS",
+      "distrito": "LINS",
+      "codigo_ibge": 3527108,
+      "latitude": -21.63660622,
+      "longitude": -49.77377319
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LINS",
+      "situacao": 1,
+      "vinculo": 26116
+    }
+  },
+  {
+    "codigo": 63770,
+    "codigo_mec": "35063770",
+    "nome": "HOSPITAL CLEMENTE FERREIRA  CAIS  CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "LINSGUAICARA",
+      "numero": "",
+      "complemento": "",
+      "cep": "16419899",
+      "bairro": "GUAICARA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LINS",
+      "distrito": "LINS",
+      "codigo_ibge": 3527108,
+      "latitude": -21.63660622,
+      "longitude": -49.77377319
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LINS",
+      "situacao": 1,
+      "vinculo": 26116
+    }
+  },
+  {
+    "codigo": 440361,
+    "codigo_mec": "35440361",
+    "nome": "HEMOCENTRO DA FACULDADE DE MEDICINA MARILIA CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "LOURIVAL FREIRE",
+      "numero": "240",
+      "complemento": "RUA",
+      "cep": "17519050",
+      "bairro": "FRAGATA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MARILIA",
+      "distrito": "MARILIA",
+      "codigo_ibge": 3529005,
+      "latitude": -22.22489929,
+      "longitude": -49.93799973
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33736
+    }
+  },
+  {
+    "codigo": 447912,
+    "codigo_mec": "35447912",
+    "nome": "HOSPITAL IRMANDADE STA CASA DE MISERICORDIA CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "AV VICENTE FERREIRA",
+      "numero": "828",
+      "complemento": "",
+      "cep": "17515900",
+      "bairro": "BAIRRO CASCATA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MARILIA",
+      "distrito": "MARILIA",
+      "codigo_ibge": 3529005,
+      "latitude": -22.2133007,
+      "longitude": -49.93889999
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33736
+    }
+  },
+  {
+    "codigo": 559180,
+    "codigo_mec": "35559180",
+    "nome": "HOSPITAL DAS CLINICAS DE MARILIA CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "SAMPAIO VIDAL",
+      "numero": "42",
+      "complemento": "AVENIDA",
+      "cep": "17501441",
+      "bairro": "BARBOSA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MARILIA",
+      "distrito": "MARILIA",
+      "codigo_ibge": 3529005,
+      "latitude": -22.22489929,
+      "longitude": -49.93799973
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33736
+    }
+  },
+  {
+    "codigo": 457383,
+    "codigo_mec": "35457383",
+    "nome": "HOSP CLINICAS RIBEIRAO PRETO CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "BANDEIRANTES",
+      "numero": "3900",
+      "complemento": "AVENIDA",
+      "cep": "14040030",
+      "bairro": "VILA MONTE ALEGRE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PRETO",
+      "distrito": "RIBEIRAO PRETO",
+      "codigo_ibge": 3543402,
+      "latitude": -21.1622,
+      "longitude": -47.853
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 905800
+    }
+  },
+  {
+    "codigo": 457395,
+    "codigo_mec": "35457395",
+    "nome": "HOSPITAL DAS CLINICAS RIBEIRAO PRETO FMSP CL HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "BANDEIRANTES",
+      "numero": "3900",
+      "complemento": "AVENIDA",
+      "cep": "14040030",
+      "bairro": "VILA MONTE ALEGRE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PRETO",
+      "distrito": "RIBEIRAO PRETO",
+      "codigo_ibge": 3543402,
+      "latitude": -21.16220093,
+      "longitude": -47.85279846
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 905800
+    }
+  },
+  {
+    "codigo": 457401,
+    "codigo_mec": "35457401",
+    "nome": "HOSPITAL DAS CLINICAS RIBEIRAO PRETO CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "BANDEIRANTES",
+      "numero": "3900",
+      "complemento": "AVENIDA",
+      "cep": "14040030",
+      "bairro": "VILA MONTE ALEGRE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PRETO",
+      "distrito": "RIBEIRAO PRETO",
+      "codigo_ibge": 3543402,
+      "latitude": -21.1726,
+      "longitude": -47.8595
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 905800
+    }
+  },
+  {
+    "codigo": 457413,
+    "codigo_mec": "35457413",
+    "nome": "HOSPITAL DAS CLINICAS RIBEIRAO PRETO CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "BERNARDINO DE CAMPOS",
+      "numero": "1000",
+      "complemento": "RUA",
+      "cep": "14015130",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PRETO",
+      "distrito": "RIBEIRAO PRETO",
+      "codigo_ibge": 3543402,
+      "latitude": -21.17239952,
+      "longitude": -47.8594017
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 23796
+    }
+  },
+  {
+    "codigo": 457425,
+    "codigo_mec": "35457425",
+    "nome": "HOSPITAL DAS CLINICAS RIBEIRAO PRETO CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "BANDEIRANTES",
+      "numero": "3901",
+      "complemento": "AVENIDA",
+      "cep": "14040030",
+      "bairro": "VILA MONTE ALEGRE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PRETO",
+      "distrito": "RIBEIRAO PRETO",
+      "codigo_ibge": 3543402,
+      "latitude": -21.1729,
+      "longitude": -47.8594
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 905800
+    }
+  },
+  {
+    "codigo": 584095,
+    "codigo_mec": "35584095",
+    "nome": "CLASSE HOSPITALAR HOSPITAL UNIVERSITARIO UFSCAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "LUIZ VAZ DE CAMOES",
+      "numero": "111",
+      "complemento": "RUA",
+      "cep": "13566448",
+      "bairro": "VILA CELINA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO CARLOS",
+      "distrito": "SAO CARLOS",
+      "codigo_ibge": 3548906,
+      "latitude": -21.99277547,
+      "longitude": -47.88834243
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO CARLOS",
+      "situacao": 1,
+      "vinculo": 907923
+    }
+  },
+  {
+    "codigo": 7139,
+    "codigo_mec": "35007139",
+    "nome": "GAAC  GRUPO DE ASSISTENCIA A CRIANCA COM CANCER  CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "MANOEL SALDANHA",
+      "numero": "401",
+      "complemento": "",
+      "cep": "12242330",
+      "bairro": "CONJUNTO RESIDENCIAL VALE DOS PINHEIROS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO JOSE DOS CAMPOS",
+      "distrito": "SAO JOSE DOS CAMPOS",
+      "codigo_ibge": 3549904,
+      "latitude": -23.19784927,
+      "longitude": -45.91220093
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DOS CAMPOS",
+      "situacao": 1,
+      "vinculo": 45470
+    }
+  },
+  {
+    "codigo": 8235,
+    "codigo_mec": "35008235",
+    "nome": "HOSPITAL GPACI",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "ANTONIO MIGUEL PEREIRA",
+      "numero": "45",
+      "complemento": "",
+      "cep": "18030250",
+      "bairro": "JARDIM FACULDADE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SOROCABA",
+      "distrito": "SOROCABA",
+      "codigo_ibge": 3552205,
+      "latitude": -23.51427078,
+      "longitude": -47.46437836
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SOROCABA",
+      "situacao": 1,
+      "vinculo": 16251
+    }
+  },
+  {
+    "codigo": 447183,
+    "codigo_mec": "35447183",
+    "nome": "HOSPITAL DAS CLINICAS AUX DE SUZANO CLASSE HOSPITALAR",
+    "tipo_codigo": 7,
+    "tipo_nome": "HOSPITALAR",
+    "endereco": {
+      "logradouro": "PRUDENTE DE MORAES",
+      "numero": "2200",
+      "complemento": "RUA",
+      "cep": "8610005",
+      "bairro": "VILA AMORIM",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SUZANO",
+      "distrito": "SUZANO",
+      "codigo_ibge": 3552502,
+      "latitude": -23.53860092,
+      "longitude": -46.29389954
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUZANO",
+      "situacao": 1,
+      "vinculo": 908484
+    }
+  }
+]

@@ -1,0 +1,1206 @@
+[
+  {
+    "codigo": 100146,
+    "codigo_mec": "35100146",
+    "nome": "ALDEIA NIMUENDAJU",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "POSTO INDIGENA NIMUENDAJU",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "16680000",
+      "bairro": "ALDEIA NIMUENDAJU",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "AVAI",
+      "distrito": "AVAI",
+      "codigo_ibge": 3504305,
+      "latitude": -22.29116058,
+      "longitude": -49.37730026
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 100195,
+    "codigo_mec": "35100195",
+    "nome": "ALDEIA EKERUA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA EKERUA",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "16680000",
+      "bairro": "ALDEIA EKERUA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "AVAI",
+      "distrito": "AVAI",
+      "codigo_ibge": 3504305,
+      "latitude": -22.2747097,
+      "longitude": -49.37297058
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 100341,
+    "codigo_mec": "35100341",
+    "nome": "ALDEIA TEREGUA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA TEREGUA",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "16680000",
+      "bairro": "LARANJEIRAS",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "AVAI",
+      "distrito": "AVAI",
+      "codigo_ibge": 3504305,
+      "latitude": -22.16006088,
+      "longitude": -49.38312149
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 100110,
+    "codigo_mec": "35100110",
+    "nome": "ALDEIA KOPENOTI",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "16689899",
+      "bairro": "AREA RURAL DE NOGUEIRA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "AVAI",
+      "distrito": "NOGUEIRA",
+      "codigo_ibge": 3504305,
+      "latitude": -23.55051994,
+      "longitude": -46.63330841
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 100201,
+    "codigo_mec": "35100201",
+    "nome": "ALDEIA RENASCER",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "CORCOVADO",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "11682520",
+      "bairro": "CORCOVADO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "UBATUBA",
+      "distrito": "UBATUBA",
+      "codigo_ibge": 3555406,
+      "latitude": -23.47613907,
+      "longitude": -45.19160843
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CARAGUATATUBA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 127152,
+    "codigo_mec": "35127152",
+    "nome": "ALDEIA BOA VISTA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "PROMIRIM",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "11697404",
+      "bairro": "PROMIRIM",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "UBATUBA",
+      "distrito": "UBATUBA",
+      "codigo_ibge": 3555406,
+      "latitude": -23.37615967,
+      "longitude": -44.96944046
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CARAGUATATUBA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 8803,
+    "codigo_mec": "35008803",
+    "nome": "TXONDARO TEKOA  MBAE",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "VICINAL",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "18490000",
+      "bairro": "BAIRRO DOS VITOR",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BARAO DE ANTONINA",
+      "distrito": "BARAO DE ANTONINA",
+      "codigo_ibge": 3505005,
+      "latitude": -23.61064911,
+      "longitude": -49.58242035
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITARARE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 268574,
+    "codigo_mec": "35268574",
+    "nome": "ALDEIA KARUGWA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "VICINAL",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "18490000",
+      "bairro": "BAIRRO DOS VITOR",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BARAO DE ANTONINA",
+      "distrito": "BARAO DE ANTONINA",
+      "codigo_ibge": 3505005,
+      "latitude": -23.60279083,
+      "longitude": -49.58737946
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITARARE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 482419,
+    "codigo_mec": "35482419",
+    "nome": "ALDEIA YWY PYHAU",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "BAIRRO DOS VITOR",
+      "numero": "S/N",
+      "complemento": "RUA",
+      "cep": "18490000",
+      "bairro": "DOS VITOR",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BARAO DE ANTONINA",
+      "distrito": "BARAO DE ANTONINA",
+      "codigo_ibge": 3505005,
+      "latitude": -23.5999794,
+      "longitude": -49.57976913
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITARARE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 306526,
+    "codigo_mec": "35306526",
+    "nome": "ALDEIA TEKOAPORA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "BAIRRO VOLTA GRANDE",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "18480000",
+      "bairro": "VOLTA GRANDE",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITAPORANGA",
+      "distrito": "ITAPORANGA",
+      "codigo_ibge": 3522802,
+      "latitude": -23.6990509,
+      "longitude": -49.54547119
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITARARE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 127164,
+    "codigo_mec": "35127164",
+    "nome": "ALDEIA GWAWIRA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA GWAWIRA",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11920000",
+      "bairro": "SABAUNA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "IGUAPE",
+      "distrito": "IGUAPE",
+      "codigo_ibge": 3520301,
+      "latitude": -24.79512024,
+      "longitude": -47.76939011
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRACATU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 434000,
+    "codigo_mec": "35434000",
+    "nome": "ALDEIA ITAPUA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "MUNICIPAL",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11920000",
+      "bairro": "PRAIA DO LESTE",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "IGUAPE",
+      "distrito": "IGUAPE",
+      "codigo_ibge": 3520301,
+      "latitude": -24.68457985,
+      "longitude": -47.50952148
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRACATU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 566044,
+    "codigo_mec": "35566044",
+    "nome": "TAGUATO AGUIA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "DO ICAPARA",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "11920000",
+      "bairro": "TOCA DO BUGIO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "IGUAPE",
+      "distrito": "IGUAPE",
+      "codigo_ibge": 3520301,
+      "latitude": -24.68473053,
+      "longitude": -47.51789856
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRACATU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 100249,
+    "codigo_mec": "35100249",
+    "nome": "ALDEIA CAPOEIRAO",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA CAPOEIRAO",
+      "numero": "SN",
+      "complemento": "BAIRRO ANA DIAS",
+      "cep": "11760000",
+      "bairro": "KM 93",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITARIRI",
+      "distrito": "ITARIRI",
+      "codigo_ibge": 3523305,
+      "latitude": -24.30809021,
+      "longitude": -47.11671829
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRACATU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 100262,
+    "codigo_mec": "35100262",
+    "nome": "ALDEIA RIO DO AZEITE",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "RIO DO AZEITE",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "11760000",
+      "bairro": "RIO DO AZEITE",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITARIRI",
+      "distrito": "ITARIRI",
+      "codigo_ibge": 3523305,
+      "latitude": -24.33348083,
+      "longitude": -47.17166138
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRACATU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 127176,
+    "codigo_mec": "35127176",
+    "nome": "ALDEIA URUITY",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA URUITY",
+      "numero": "SN",
+      "complemento": "PRACA",
+      "cep": "11850000",
+      "bairro": "BAIRRO MUSACEA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MIRACATU",
+      "distrito": "MIRACATU",
+      "codigo_ibge": 3529906,
+      "latitude": -24.26409912,
+      "longitude": -47.32629013
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRACATU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 194906,
+    "codigo_mec": "35194906",
+    "nome": "ALDEIA DJAIKOATY",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA DJAIKOATY",
+      "numero": "SN",
+      "complemento": "PRACA",
+      "cep": "11850000",
+      "bairro": "BAIRRO LAMBARI",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MIRACATU",
+      "distrito": "MIRACATU",
+      "codigo_ibge": 3529906,
+      "latitude": -24.20033073,
+      "longitude": -47.36891937
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRACATU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 343316,
+    "codigo_mec": "35343316",
+    "nome": "KO E JU",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA INDIGENA AMBA PORA",
+      "numero": "KM 372",
+      "complemento": "",
+      "cep": "11850000",
+      "bairro": "SANTA RITA DO RIBEIRA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MIRACATU",
+      "distrito": "SANTA RITA DO RIBEIRA",
+      "codigo_ibge": 3529906,
+      "latitude": -24.15617943,
+      "longitude": -47.33876038
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRACATU",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 559210,
+    "codigo_mec": "35559210",
+    "nome": "DJEKUPE AMBA ARANDY",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "TURISTICA DO JARAGUA",
+      "numero": "3710",
+      "complemento": "ESTRADA",
+      "cep": "5161000",
+      "bairro": "VILA JARAGUA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "JARAGUA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.46372986,
+      "longitude": -46.75337982
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "NORTE 1",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 395365,
+    "codigo_mec": "35395365",
+    "nome": "INDIA MARIA ROSA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "POSTO INDIGENA ICATU",
+      "numero": "SN",
+      "complemento": "ESCOLA",
+      "cep": "16290000",
+      "bairro": "GUAPORANGA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BRAUNA",
+      "distrito": "BRAUNA",
+      "codigo_ibge": 3507704,
+      "latitude": -21.5655098,
+      "longitude": -50.31747818
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PENAPOLIS",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 9999,
+    "codigo_mec": "35009999",
+    "nome": "ESCOLA ESTADUAL INDIGENA  ALDEIA MAENDUA PORA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "DO ARIRI",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "11990000",
+      "bairro": "SANTA MARIA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CANANEIA",
+      "distrito": "CANANEIA",
+      "codigo_ibge": 3509908,
+      "latitude": -25.03816032,
+      "longitude": -48.14419937
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 100389,
+    "codigo_mec": "35100389",
+    "nome": "ALDEIA SANTA CRUZ",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "PARQUE ESTADUAL DA ILHA DO CARDOSO",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11990000",
+      "bairro": "ILHA DO CARDOSO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CANANEIA",
+      "distrito": "CANANEIA",
+      "codigo_ibge": 3509908,
+      "latitude": -25.1335907,
+      "longitude": -47.9416008
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 100407,
+    "codigo_mec": "35100407",
+    "nome": "ALDEIA RIO BRANCO II",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA RIO BRANCO II",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "11990000",
+      "bairro": "RIO BRANCO II",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CANANEIA",
+      "distrito": "CANANEIA",
+      "codigo_ibge": 3509908,
+      "latitude": -25.03256035,
+      "longitude": -48.04067993
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 495219,
+    "codigo_mec": "35495219",
+    "nome": "ALDEIA TAKUARI TY",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "BAIRRO ACARAU",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11990000",
+      "bairro": "ACARAU",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CANANEIA",
+      "distrito": "CANANEIA",
+      "codigo_ibge": 3509908,
+      "latitude": -25.01310921,
+      "longitude": -47.94667816
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 499523,
+    "codigo_mec": "35499523",
+    "nome": "ALDEIA TAQUARI",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "BAIRRO TAQUARI",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "11960000",
+      "bairro": "TAQUARI",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ELDORADO",
+      "distrito": "ELDORADO",
+      "codigo_ibge": 3514809,
+      "latitude": -24.46722031,
+      "longitude": -48.19955826
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 559076,
+    "codigo_mec": "35559076",
+    "nome": "ALDEIA PINDO TY",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA PINDO  TY",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11930000",
+      "bairro": "LINHA JURUBATUBA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PARIQUERA-ACU",
+      "distrito": "PARIQUERA-ACU",
+      "codigo_ibge": 3536208,
+      "latitude": -24.75048065,
+      "longitude": -47.86373138
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 568430,
+    "codigo_mec": "35568430",
+    "nome": "ALDEIA ARACA MIRIM",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "RIBEIRAO VERMELHO",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11930000",
+      "bairro": "RIBEIRAO VERMELHO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PARIQUERA-ACU",
+      "distrito": "PARIQUERA-ACU",
+      "codigo_ibge": 3536208,
+      "latitude": -24.71689987,
+      "longitude": -47.87017822
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 477783,
+    "codigo_mec": "35477783",
+    "nome": "ALDEIA ITAPU MIRIM",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "BAIRRO VOTUPOCA",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "11900000",
+      "bairro": "BAIRRO VOTUPOCA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "REGISTRO",
+      "distrito": "REGISTRO",
+      "codigo_ibge": 3542602,
+      "latitude": -24.51189041,
+      "longitude": -48.00183868
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 559088,
+    "codigo_mec": "35559088",
+    "nome": "ALDEIA PEGUAO TY",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "PARQUE ESTADUAL INTERVALES",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "11910000",
+      "bairro": "SAIBADELA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "SETE BARRAS",
+      "distrito": "SETE BARRAS",
+      "codigo_ibge": 3551801,
+      "latitude": -24.28780937,
+      "longitude": -48.30912018
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 417439,
+    "codigo_mec": "35417439",
+    "nome": "TXERU BA  E KUA  I",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "TUPI GUARANI",
+      "numero": "1500",
+      "complemento": "",
+      "cep": "11626315",
+      "bairro": "BORACEIA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BERTIOGA",
+      "distrito": "BERTIOGA",
+      "codigo_ibge": 3506359,
+      "latitude": -23.75160027,
+      "longitude": -45.78998947
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTOS",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 7734,
+    "codigo_mec": "35007734",
+    "nome": "CLASSES VINCULADAS A EE OMAR DONATO BASSANI",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "AGUA LIMPA",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "9835100",
+      "bairro": "CURUCUTU",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "SAO BERNARDO DO CAMPO",
+      "distrito": "RIACHO GRANDE",
+      "codigo_ibge": 3548708,
+      "latitude": -23.85606956,
+      "longitude": -46.60800934
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO BERNARDO DO CAMPO",
+      "situacao": 1,
+      "vinculo": 8771
+    }
+  },
+  {
+    "codigo": 100948,
+    "codigo_mec": "35100948",
+    "nome": "ALDEIA RIO BRANCO",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA RIO BRANCO",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "11740000",
+      "bairro": "RIO BRANCO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITANHAEM",
+      "distrito": "ITANHAEM",
+      "codigo_ibge": 3522109,
+      "latitude": -24.14668083,
+      "longitude": -46.80730057
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 469774,
+    "codigo_mec": "35469774",
+    "nome": "ALDEIA TANGARA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "DE ACESSO ANTONIO CALICO",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "11740000",
+      "bairro": "ALDEIA TANGARA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITANHAEM",
+      "distrito": "ITANHAEM",
+      "codigo_ibge": 3522109,
+      "latitude": -24.16555023,
+      "longitude": -46.87303162
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 559097,
+    "codigo_mec": "35559097",
+    "nome": "KUARAY O E A SOL NASCENTE",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA ITAOCA",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11730000",
+      "bairro": "ALDEIA ITAOCA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MONGAGUA",
+      "distrito": "MONGAGUA",
+      "codigo_ibge": 3531100,
+      "latitude": -24.11581039,
+      "longitude": -46.68315125
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 559106,
+    "codigo_mec": "35559106",
+    "nome": "ALDEIA AGUAPEU",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA AGUAPEU",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11730000",
+      "bairro": "AGUAPEU",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MONGAGUA",
+      "distrito": "MONGAGUA",
+      "codigo_ibge": 3531100,
+      "latitude": -24.08580971,
+      "longitude": -46.65306091
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 469786,
+    "codigo_mec": "35469786",
+    "nome": "ALDEIA NHAMANDU MIRIM",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "KM 339",
+      "complemento": "AVENIDA",
+      "cep": "11789899",
+      "bairro": "AREA RURAL DE PERUIBE",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PERUIBE",
+      "distrito": "PERUIBE",
+      "codigo_ibge": 3537602,
+      "latitude": -24.28722954,
+      "longitude": -47.00923157
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 534924,
+    "codigo_mec": "35534924",
+    "nome": "ALDEIA BANANAL",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ARMANDO CUNHA",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11776314",
+      "bairro": "BAMBU",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PERUIBE",
+      "distrito": "PERUIBE",
+      "codigo_ibge": 3537602,
+      "latitude": -24.26161003,
+      "longitude": -46.98276901
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 559118,
+    "codigo_mec": "35559118",
+    "nome": "ALDEIA PIACAGUERA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "ALDEIA PIACAGUERA",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11750000",
+      "bairro": "SANTA CRUZ",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PERUIBE",
+      "distrito": "PERUIBE",
+      "codigo_ibge": 3537602,
+      "latitude": -24.24653053,
+      "longitude": -46.90629959
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 469798,
+    "codigo_mec": "35469798",
+    "nome": "ALDEIA TEKOA MIRIM",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "SERRA DA LEOA",
+      "numero": "SN",
+      "complemento": "PARALELA A RODOVIA GOVERNADOR MARIO COVAS",
+      "cep": "11717900",
+      "bairro": "ALDEIA TEKOA MIRIM",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PRAIA GRANDE",
+      "distrito": "PRAIA GRANDE",
+      "codigo_ibge": 3541000,
+      "latitude": -24.00324059,
+      "longitude": -46.52542877
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 495670,
+    "codigo_mec": "35495670",
+    "nome": "ALDEIA DE PARANAPUA",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "PRAIA DE PARANAPUA",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "11325010",
+      "bairro": "ALDEIA PARANAPUA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO VICENTE",
+      "distrito": "SAO VICENTE",
+      "codigo_ibge": 3551009,
+      "latitude": -23.98343086,
+      "longitude": -46.3825798
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 103100,
+    "codigo_mec": "35103100",
+    "nome": "KRUKUTU",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "GRANJA SAIKI",
+      "numero": "1693",
+      "complemento": "RUA",
+      "cep": "4895000",
+      "bairro": "BARRAGEM",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "PARELHEIROS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.86470985,
+      "longitude": -46.62084961
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUL 3",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 925135,
+    "codigo_mec": "35925135",
+    "nome": "INDIGENA GUARANI GWYRA PEPO",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "JOAO LANG",
+      "numero": "153",
+      "complemento": "ESTRADA",
+      "cep": "4895070",
+      "bairro": "CIPO DO MEIO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "PARELHEIROS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.86746979,
+      "longitude": -46.65039063
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUL 3",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 421868,
+    "codigo_mec": "35421868",
+    "nome": "INDIA VANUIRE",
+    "tipo_codigo": 10,
+    "tipo_nome": "INDIGENA",
+    "endereco": {
+      "logradouro": "POSTO INDIGENA B",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "17630000",
+      "bairro": "PONTE ALTA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ARCO-IRIS",
+      "distrito": "ARCO-IRIS",
+      "codigo_ibge": 3503356,
+      "latitude": -21.79439926,
+      "longitude": -50.38648987
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TUPA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  }
+]

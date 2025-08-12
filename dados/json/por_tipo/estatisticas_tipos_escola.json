@@ -1,0 +1,53 @@
+{
+  "data_processamento": "2025-08-11",
+  "fonte": "ENDERECO_ESCOLAS_062025 (1).csv",
+  "total_escolas": 5582,
+  "total_processadas": 5582,
+  "tipos_escola": {
+    "3": {
+      "nome": "CEEJA",
+      "quantidade": 43
+    },
+    "6": {
+      "nome": "CEL_JTO",
+      "quantidade": 165
+    },
+    "7": {
+      "nome": "HOSPITALAR",
+      "quantidade": 71
+    },
+    "8": {
+      "nome": "REGULAR",
+      "quantidade": 4964
+    },
+    "9": {
+      "nome": "CENTRO_ATEND_SOCIOEDUC",
+      "quantidade": 36
+    },
+    "10": {
+      "nome": "INDIGENA",
+      "quantidade": 43
+    },
+    "15": {
+      "nome": "ESCOLA_PENITENCIARIA",
+      "quantidade": 163
+    },
+    "31": {
+      "nome": "ASSENTAMENTO",
+      "quantidade": 4
+    },
+    "34": {
+      "nome": "CENTRO_ATEND_SOC_EDUC_ADOLESC",
+      "quantidade": 77
+    },
+    "36": {
+      "nome": "QUILOMBOLA",
+      "quantidade": 16
+    }
+  },
+  "metadados": {
+    "encoding": "UTF-8",
+    "formato": "JSON",
+    "estrutura": "padronizada"
+  }
+}

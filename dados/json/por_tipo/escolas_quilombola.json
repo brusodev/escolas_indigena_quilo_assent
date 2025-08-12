@@ -1,0 +1,450 @@
+[
+  {
+    "codigo": 905914,
+    "codigo_mec": "35905914",
+    "nome": "JOAO CARREIRA",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "PRIMAVERA",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "16900970",
+      "bairro": "CAMBIRA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ANDRADINA",
+      "distrito": "ANDRADINA",
+      "codigo_ibge": 3502101,
+      "latitude": -21.0112896,
+      "longitude": -51.46931458
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ANDRADINA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 566032,
+    "codigo_mec": "35566032",
+    "nome": "ASSENTAMENTO ZUMBI DOS PALMARES",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "S/N",
+      "complemento": "PREDIO ESCOLAR",
+      "cep": "18779899",
+      "bairro": "AREA RURAL DE IARAS",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "IARAS",
+      "distrito": "IARAS",
+      "codigo_ibge": 3519253,
+      "latitude": -22.75668907,
+      "longitude": -49.13655853
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 14552
+    }
+  },
+  {
+    "codigo": 905227,
+    "codigo_mec": "35905227",
+    "nome": "EE IDALICIO MENDES  LIMA O SR BAIANO DA AGROVILA I",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "PIRITUBA",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "18400970",
+      "bairro": "13 DE MAIO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITAPEVA",
+      "distrito": "ITAPEVA",
+      "codigo_ibge": 3522406,
+      "latitude": -24.1126194,
+      "longitude": -49.11140823
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPEVA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 919858,
+    "codigo_mec": "35919858",
+    "nome": "AGROVILA III",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "AGROVILA III",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "18440000",
+      "bairro": "AGROVILA III",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITABERA",
+      "distrito": "ITABERA",
+      "codigo_ibge": 3521705,
+      "latitude": -24.01605034,
+      "longitude": -49.08214188
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITARARE",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 911616,
+    "codigo_mec": "35911616",
+    "nome": "COMUNIDADE NOSSA SENHORA APARECIDA",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "BR 153",
+      "numero": "SN",
+      "complemento": "KM 140",
+      "cep": "16370000",
+      "bairro": "FAZENDA REUNIDAS",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PROMISSAO",
+      "distrito": "PROMISSAO",
+      "codigo_ibge": 3541604,
+      "latitude": -21.33078957,
+      "longitude": -49.79145813
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LINS",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 909658,
+    "codigo_mec": "35909658",
+    "nome": "LIDIA SANAE OYA",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "PROJETO AGROVILA ROSANELA",
+      "numero": "SN",
+      "complemento": "ZONA RURAL",
+      "cep": "19275000",
+      "bairro": "AGROVILA ROSANELA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "EUCLIDES DA CUNHA PAULISTA",
+      "distrito": "EUCLIDES DA CUNHA PAULISTA",
+      "codigo_ibge": 3515350,
+      "latitude": -22.57377052,
+      "longitude": -52.47143936
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 918015,
+    "codigo_mec": "35918015",
+    "nome": "MARIA ANTONIA ZANGARINI FERREIRA PROFESSORA",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "GLEBA XV DE NOVEMBRO",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "19275000",
+      "bairro": "SETOR IV",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "EUCLIDES DA CUNHA PAULISTA",
+      "distrito": "EUCLIDES DA CUNHA PAULISTA",
+      "codigo_ibge": 3515350,
+      "latitude": -22.47491074,
+      "longitude": -52.68555069
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 925810,
+    "codigo_mec": "35925810",
+    "nome": "ASSENTAMENTO SANTA CLARA",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "ASSENTAMENTO CHE GUEVARA",
+      "numero": "0",
+      "complemento": "ZONA RURAL",
+      "cep": "19260000",
+      "bairro": "SANTA CLARA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MIRANTE DO PARANAPANEMA",
+      "distrito": "CUIABA PAULISTA",
+      "codigo_ibge": 3530201,
+      "latitude": -22.51530647,
+      "longitude": -52.03659058
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 922559,
+    "codigo_mec": "35922559",
+    "nome": "FAZENDA SAO BENTO",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "HAROLDINA",
+      "numero": "S/N",
+      "complemento": "AREA DE ASSENTAMENTO",
+      "cep": "19260000",
+      "bairro": "ENGENHEIRO VERAS",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MIRANTE DO PARANAPANEMA",
+      "distrito": "MIRANTE DO PARANAPANEMA",
+      "codigo_ibge": 3530201,
+      "latitude": -22.43954086,
+      "longitude": -51.9817009
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 903620,
+    "codigo_mec": "35903620",
+    "nome": "GLEBA XV DE NOVEMBRO",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "GLEBA XV DE NOVEMBRO SII",
+      "numero": "SN",
+      "complemento": "ZONA RURAL",
+      "cep": "19273000",
+      "bairro": "GLEBA XV DE NOVEMBRO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ROSANA",
+      "distrito": "ROSANA",
+      "codigo_ibge": 3544251,
+      "latitude": -22.46820068,
+      "longitude": -52.77148056
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 911860,
+    "codigo_mec": "35911860",
+    "nome": "RIBEIRINHOS",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "GLEBA XV DE NOVEMBRO",
+      "numero": "SN",
+      "complemento": "SETOR III",
+      "cep": "19273000",
+      "bairro": "GLEBA XV DE NOVEMBRO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ROSANA",
+      "distrito": "ROSANA",
+      "codigo_ibge": 3544251,
+      "latitude": -22.45060921,
+      "longitude": -52.69752884
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 913662,
+    "codigo_mec": "35913662",
+    "nome": "ROMILDA LAZARA PILLON DOS SANTOS PROFESSORA",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "ASSENTAMENTO AGUA SUMIDA",
+      "numero": "SN",
+      "complemento": "DISTRITO",
+      "cep": "19280000",
+      "bairro": "AGUA SUMIDA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "TEODORO SAMPAIO",
+      "distrito": "PLANALTO DO SUL",
+      "codigo_ibge": 3554300,
+      "latitude": -22.31339073,
+      "longitude": -52.31266022
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 297380,
+    "codigo_mec": "35297380",
+    "nome": "ASSENTAMENTO SANTA ZELIA",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "ASSENTAMENTO SANTA ZELIA",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "19280000",
+      "bairro": "SANTA ZELIA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "TEODORO SAMPAIO",
+      "distrito": "TEODORO SAMPAIO",
+      "codigo_ibge": 3554300,
+      "latitude": -22.37401009,
+      "longitude": -52.42435074
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 909646,
+    "codigo_mec": "35909646",
+    "nome": "ANTONIA BINATO SILVA VO NINA",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "ALCIDIA",
+      "numero": "SN",
+      "complemento": "ZONA RURAL",
+      "cep": "19280000",
+      "bairro": "DESTILARIA ALCIDIA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "TEODORO SAMPAIO",
+      "distrito": "TEODORO SAMPAIO",
+      "codigo_ibge": 3554300,
+      "latitude": -22.35367012,
+      "longitude": -52.51908112
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 913674,
+    "codigo_mec": "35913674",
+    "nome": "FRANCISCO FERREIRA DE SOUZA PROFESSOR",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "GLEBA RIBEIRAO BONITO",
+      "numero": "SN",
+      "complemento": "ZONA RURAL",
+      "cep": "19280000",
+      "bairro": "RIBEIRAO BONITO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "TEODORO SAMPAIO",
+      "distrito": "TEODORO SAMPAIO",
+      "codigo_ibge": 3554300,
+      "latitude": -22.48542023,
+      "longitude": -52.38634109
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MIRANTE DO PARANAPANEMA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 904211,
+    "codigo_mec": "35904211",
+    "nome": "PROJETO LAGOA SAO PAULO",
+    "tipo_codigo": 36,
+    "tipo_nome": "QUILOMBOLA",
+    "endereco": {
+      "logradouro": "TEREZINHA ALMEIDA DOS SANTOS",
+      "numero": "1005",
+      "complemento": "",
+      "cep": "19450000",
+      "bairro": "AGROVILA 3",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CAIUA",
+      "distrito": "CAIUA",
+      "codigo_ibge": 3509106,
+      "latitude": -21.6774292,
+      "longitude": -51.95434189
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTO ANASTACIO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  }
+]

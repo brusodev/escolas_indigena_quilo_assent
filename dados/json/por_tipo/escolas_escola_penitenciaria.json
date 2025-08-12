@@ -1,0 +1,4566 @@
+[
+  {
+    "codigo": 457899,
+    "codigo_mec": "35457899",
+    "nome": "PENITENCIARIA ASP ADRIANO APARECIDO DE PIERI DE DRACENA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ENGENHEIRO BYRON DE AZEVEDO NOGUEIRA",
+      "numero": "KM 09",
+      "complemento": "VICINAL DRACENA OURO VERDE",
+      "cep": "17900900",
+      "bairro": "JAMAICA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "DRACENA",
+      "distrito": "DRACENA",
+      "codigo_ibge": 3514403,
+      "latitude": -21.49557304,
+      "longitude": -51.63319397
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31252
+    }
+  },
+  {
+    "codigo": 455337,
+    "codigo_mec": "35455337",
+    "nome": "PENITENCIARIA AEVP CRISTIANO DE OLIVEIRA DE FLORIDA PAULISTA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "KIICHIRO HATTORI",
+      "numero": "SN",
+      "complemento": "KM 6",
+      "cep": "17830000",
+      "bairro": "AGRELO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "FLORIDA PAULISTA",
+      "distrito": "FLORIDA PAULISTA",
+      "codigo_ibge": 3516002,
+      "latitude": -21.66110039,
+      "longitude": -51.20587158
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 30910
+    }
+  },
+  {
+    "codigo": 455064,
+    "codigo_mec": "35455064",
+    "nome": "PENITENCIARIA DE IRAPURU",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MUNICIPAL IRAPURU",
+      "numero": "125",
+      "complemento": "KM 35",
+      "cep": "17880000",
+      "bairro": "PATURI",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "IRAPURU",
+      "distrito": "IRAPURU",
+      "codigo_ibge": 3521606,
+      "latitude": -21.54578582,
+      "longitude": -51.32294472
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 30958
+    }
+  },
+  {
+    "codigo": 454345,
+    "codigo_mec": "35454345",
+    "nome": "PENITENCIARIA DE JUNQUEIROPOLIS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ALMIRANTE JOAO RIBEIRO DE BARROS",
+      "numero": "SN",
+      "complemento": "KM 6382 VICINAL ALCIDES CANOLA KM 2",
+      "cep": "17890000",
+      "bairro": "",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "JUNQUEIROPOLIS",
+      "distrito": "JUNQUEIROPOLIS",
+      "codigo_ibge": 3526001,
+      "latitude": -21.47952461,
+      "longitude": -51.44407654
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31525
+    }
+  },
+  {
+    "codigo": 453870,
+    "codigo_mec": "35453870",
+    "nome": "PENITENCIARIA DE LUCELIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MILTOM LENTINI",
+      "numero": "SN",
+      "complemento": "KM 12",
+      "cep": "17780000",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LUCELIA",
+      "distrito": "LUCELIA",
+      "codigo_ibge": 3527405,
+      "latitude": -21.61466026,
+      "longitude": -50.98077011
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 30788
+    }
+  },
+  {
+    "codigo": 454400,
+    "codigo_mec": "35454400",
+    "nome": "PENITENCIARIA COMPACTA DE OSVALDO CRUZ",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ARMANDO SALLES",
+      "numero": "SN",
+      "complemento": "KM 5725",
+      "cep": "17700000",
+      "bairro": "CENTRO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "OSVALDO CRUZ",
+      "distrito": "OSVALDO CRUZ",
+      "codigo_ibge": 3534609,
+      "latitude": -21.76641083,
+      "longitude": -50.90082169
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 922584
+    }
+  },
+  {
+    "codigo": 573139,
+    "codigo_mec": "35573139",
+    "nome": "PENITENCIARIA DE OSVALDO CRUZ SEMIABERTO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "COMANDANTE JOAO RIBEIRO BARROS",
+      "numero": "SN",
+      "complemento": "KM 572",
+      "cep": "17700000",
+      "bairro": "VENDA BRANCA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "OSVALDO CRUZ",
+      "distrito": "OSVALDO CRUZ",
+      "codigo_ibge": 3534609,
+      "latitude": -21.76641083,
+      "longitude": -50.90082169
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 922584
+    }
+  },
+  {
+    "codigo": 7000,
+    "codigo_mec": "35007000",
+    "nome": "CENTRO DE DETENCAO PROVISORIA I DE PACAEMBU",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "KOUITIRO SATO",
+      "numero": "SN",
+      "complemento": "KM 07",
+      "cep": "17860000",
+      "bairro": "VILA OLIMPIA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PACAEMBU",
+      "distrito": "PACAEMBU",
+      "codigo_ibge": 3534906,
+      "latitude": -21.54408073,
+      "longitude": -51.25778961
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31069
+    }
+  },
+  {
+    "codigo": 7001,
+    "codigo_mec": "35007001",
+    "nome": "CENTRO DE DETENCAO PROVISORIA II DE PACAEMBU",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "KOUTTIRO SATO",
+      "numero": "SN",
+      "complemento": "KM 7",
+      "cep": "17860000",
+      "bairro": "VILA OLIMPIA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PACAEMBU",
+      "distrito": "PACAEMBU",
+      "codigo_ibge": 3534906,
+      "latitude": -21.49002457,
+      "longitude": -51.26772308
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31069
+    }
+  },
+  {
+    "codigo": 457929,
+    "codigo_mec": "35457929",
+    "nome": "PENITENCIARIA OZIAS LUCIO DOS SANTOS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ROD COMANDANTE JOAO RIBEIRO DE BARROS",
+      "numero": "KM 615",
+      "complemento": "AVENIDA",
+      "cep": "17860000",
+      "bairro": "SAO SIMAO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PACAEMBU",
+      "distrito": "PACAEMBU",
+      "codigo_ibge": 3534906,
+      "latitude": -21.56259918,
+      "longitude": -51.24489975
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31069
+    }
+  },
+  {
+    "codigo": 462706,
+    "codigo_mec": "35462706",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA DE PACAEMBU",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ROD COMANDANTE JOAO RIBEIRO DE BARROS",
+      "numero": "SN",
+      "complemento": "KM 615",
+      "cep": "17860000",
+      "bairro": "SAO SIMAO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PACAEMBU",
+      "distrito": "PACAEMBU",
+      "codigo_ibge": 3534906,
+      "latitude": -21.5574,
+      "longitude": -51.2404
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31069
+    }
+  },
+  {
+    "codigo": 455155,
+    "codigo_mec": "35455155",
+    "nome": "PENITENCIARIA DE PRACINHA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "VICINAL GERALDO RISSATO",
+      "numero": "SN",
+      "complemento": "KM 16",
+      "cep": "17790000",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PRACINHA",
+      "distrito": "PRACINHA",
+      "codigo_ibge": 3540853,
+      "latitude": -21.84490013,
+      "longitude": -51.0802002
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 30831
+    }
+  },
+  {
+    "codigo": 455349,
+    "codigo_mec": "35455349",
+    "nome": "PENITENCIARIA VANDERLEI TARTARI MONTEIRO DE TUPI PAULISTA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "COMANDANTE JOAO RIBEIRO DE BARROS",
+      "numero": "SN",
+      "complemento": "KM 6678",
+      "cep": "17930000",
+      "bairro": "GUARACIABA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "TUPI PAULISTA",
+      "distrito": "TUPI PAULISTA",
+      "codigo_ibge": 3555109,
+      "latitude": -21.38260078,
+      "longitude": -51.67998886
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31513
+    }
+  },
+  {
+    "codigo": 459636,
+    "codigo_mec": "35459636",
+    "nome": "PENITENCIARIA FEMININA DE TUPI PAULISTA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "COMENDADOR JOAO RIBEIRO DE BARROS",
+      "numero": "SN",
+      "complemento": "SP 294  KM 6678",
+      "cep": "17930000",
+      "bairro": "GUARACIABA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "TUPI PAULISTA",
+      "distrito": "TUPI PAULISTA",
+      "codigo_ibge": 3555109,
+      "latitude": -21.37750053,
+      "longitude": -51.68009949
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ADAMANTINA",
+      "situacao": 1,
+      "vinculo": 31422
+    }
+  },
+  {
+    "codigo": 453201,
+    "codigo_mec": "35453201",
+    "nome": "AEVP RENATO GONCALVES RODRIGUES CENTRO DENT PROV",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RUA DOUTOR ANIBAL TANGANELLI JUNIOR 335",
+      "numero": "335",
+      "complemento": "",
+      "cep": "13473900",
+      "bairro": "SALTO GRANDE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "AMERICANA",
+      "distrito": "AMERICANA",
+      "codigo_ibge": 3501608,
+      "latitude": -22.70433998,
+      "longitude": -47.31898117
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AMERICANA",
+      "situacao": 1,
+      "vinculo": 17176
+    }
+  },
+  {
+    "codigo": 453225,
+    "codigo_mec": "35453225",
+    "nome": "PENITENCIARIA DE ANDRADINA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MUNICIPAL ADD 468",
+      "numero": "468",
+      "complemento": "RODOVIA",
+      "cep": "16900220",
+      "bairro": "VILA PEREIRA JORDAO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ANDRADINA",
+      "distrito": "ANDRADINA",
+      "codigo_ibge": 3502101,
+      "latitude": -20.93803024,
+      "longitude": -51.39575958
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ANDRADINA",
+      "situacao": 1,
+      "vinculo": 29361
+    }
+  },
+  {
+    "codigo": 7113,
+    "codigo_mec": "35007113",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE LAVINIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "LAVINIA 020  KM03",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "16850000",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LAVINIA",
+      "distrito": "LAVINIA",
+      "codigo_ibge": 3526506,
+      "latitude": -21.13588905,
+      "longitude": -51.10887146
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ANDRADINA",
+      "situacao": 1,
+      "vinculo": 29452
+    }
+  },
+  {
+    "codigo": 453785,
+    "codigo_mec": "35453785",
+    "nome": "PENITENCIARIA I DE LAVINIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MUNICIPAL LAVINIA TABAJARA",
+      "numero": "SN",
+      "complemento": "KM 03",
+      "cep": "16850000",
+      "bairro": "PEROBAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LAVINIA",
+      "distrito": "LAVINIA",
+      "codigo_ibge": 3526506,
+      "latitude": -21.17048073,
+      "longitude": -51.03038025
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ANDRADINA",
+      "situacao": 1,
+      "vinculo": 29452
+    }
+  },
+  {
+    "codigo": 453812,
+    "codigo_mec": "35453812",
+    "nome": "PENITENCIARIA II DE LAVINIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MUNICIPAL LAVINIA TABAJARA",
+      "numero": "SN",
+      "complemento": "KM 03",
+      "cep": "16850000",
+      "bairro": "PEROBAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LAVINIA",
+      "distrito": "LAVINIA",
+      "codigo_ibge": 3526506,
+      "latitude": -21.17506027,
+      "longitude": -51.0271492
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ANDRADINA",
+      "situacao": 1,
+      "vinculo": 29452
+    }
+  },
+  {
+    "codigo": 454102,
+    "codigo_mec": "35454102",
+    "nome": "PENITENCIARIA III ASP PAULO GUIMARAES",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MUNICIPAL LAVINIA TABAJARA",
+      "numero": "SN",
+      "complemento": "KM 03",
+      "cep": "16850000",
+      "bairro": "PEROBAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LAVINIA",
+      "distrito": "LAVINIA",
+      "codigo_ibge": 3526506,
+      "latitude": -21.17498016,
+      "longitude": -51.02597046
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ANDRADINA",
+      "situacao": 1,
+      "vinculo": 29452
+    }
+  },
+  {
+    "codigo": 453304,
+    "codigo_mec": "35453304",
+    "nome": "PENITENCIARIA II DE MIRANDOPOLIS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "DR OSWALDO BRANDI FARIA",
+      "numero": "4450",
+      "complemento": "RUA",
+      "cep": "16800000",
+      "bairro": "RIBEIRAO CLARO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MIRANDOPOLIS",
+      "distrito": "MIRANDOPOLIS",
+      "codigo_ibge": 3530102,
+      "latitude": -21.15434074,
+      "longitude": -51.11309052
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ANDRADINA",
+      "situacao": 1,
+      "vinculo": 29336
+    }
+  },
+  {
+    "codigo": 453959,
+    "codigo_mec": "35453959",
+    "nome": "PENITENCIARIA NESTOR CANOA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "DR OSVALDO BRANDI DE FARIA",
+      "numero": "4450",
+      "complemento": "RUA",
+      "cep": "16800000",
+      "bairro": "RIBEIRAO CLARO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MIRANDOPOLIS",
+      "distrito": "MIRANDOPOLIS",
+      "codigo_ibge": 3530102,
+      "latitude": -21.15673637,
+      "longitude": -51.11193466
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ANDRADINA",
+      "situacao": 1,
+      "vinculo": 29336
+    }
+  },
+  {
+    "codigo": 6317,
+    "codigo_mec": "35006317",
+    "nome": "CENTRO DE DETENCAO PROVISORIA  CDP DE NOVA INDEPENDENCIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ROD GENERL EUCLIDES DE OLIVEIRA FIGUEIREDO  SP 563",
+      "numero": "KM 166",
+      "complemento": "",
+      "cep": "16940000",
+      "bairro": "IPE",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "NOVA INDEPENDENCIA",
+      "distrito": "NOVA INDEPENDENCIA",
+      "codigo_ibge": 3533205,
+      "latitude": -21.10569954,
+      "longitude": -51.49290085
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ANDRADINA",
+      "situacao": 1,
+      "vinculo": 29324
+    }
+  },
+  {
+    "codigo": 573048,
+    "codigo_mec": "35573048",
+    "nome": "CENTRO DE RESSOCIALIZACAO ARACATUBA CLASSES PROV",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "SACADURA CABRAL",
+      "numero": "251",
+      "complemento": "RUA",
+      "cep": "16055510",
+      "bairro": "AVIACAO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARACATUBA",
+      "distrito": "ARACATUBA",
+      "codigo_ibge": 3502804,
+      "latitude": -21.19820023,
+      "longitude": -50.42810059
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARACATUBA",
+      "situacao": 1,
+      "vinculo": 29762
+    }
+  },
+  {
+    "codigo": 453973,
+    "codigo_mec": "35453973",
+    "nome": "PENITENCIARIA DE VALPARAISO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MUNICIPAL VPS012 VPS 351",
+      "numero": "SN",
+      "complemento": "KM 02",
+      "cep": "16880000",
+      "bairro": "VALDEVINO DE S PACHECO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "VALPARAISO",
+      "distrito": "VALPARAISO",
+      "codigo_ibge": 3556305,
+      "latitude": -21.23240089,
+      "longitude": -50.84989929
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARACATUBA",
+      "situacao": 1,
+      "vinculo": 29981
+    }
+  },
+  {
+    "codigo": 453985,
+    "codigo_mec": "35453985",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA DE VALPARAISO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MUNICIPAL VPS 012 VPS 351",
+      "numero": "SN",
+      "complemento": "KM 02",
+      "cep": "16880000",
+      "bairro": "VALDEVINO DE S PACHECO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "VALPARAISO",
+      "distrito": "VALPARAISO",
+      "codigo_ibge": 3556305,
+      "latitude": -21.2316,
+      "longitude": -50.8525
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARACATUBA",
+      "situacao": 1,
+      "vinculo": 29981
+    }
+  },
+  {
+    "codigo": 453249,
+    "codigo_mec": "35453249",
+    "nome": "PENITENCIARIA DR SEBASTIAO MARTINS SILVEIRA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "FRANCISCO VAZ FILHO",
+      "numero": "4055",
+      "complemento": "AVENIDA",
+      "cep": "14811418",
+      "bairro": "JARDIM PINHEIROS VILA XAVIER",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARARAQUARA",
+      "distrito": "ARARAQUARA",
+      "codigo_ibge": 3503208,
+      "latitude": -21.7662,
+      "longitude": -48.1396
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARARAQUARA",
+      "situacao": 1,
+      "vinculo": 21970
+    }
+  },
+  {
+    "codigo": 453274,
+    "codigo_mec": "35453274",
+    "nome": "CENTRO DE RESSOCIALIZACAO MASCULINO DE ARARAQUARA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MUNICIPAL DE ARARAQUARA",
+      "numero": "250",
+      "complemento": "",
+      "cep": "14810970",
+      "bairro": "ESTRADA MUNICIPAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ARARAQUARA",
+      "distrito": "ARARAQUARA",
+      "codigo_ibge": 3503208,
+      "latitude": -21.7713,
+      "longitude": -48.1411
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARARAQUARA",
+      "situacao": 1,
+      "vinculo": 21970
+    }
+  },
+  {
+    "codigo": 454072,
+    "codigo_mec": "35454072",
+    "nome": "CENTRO DE RESSOCIALIZACAO FEMININO DE ARARAQUARA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "JORGE BILLER TEIXEIRA",
+      "numero": "590",
+      "complemento": "AVENIDA",
+      "cep": "14802345",
+      "bairro": "VILA FERROVIARIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ARARAQUARA",
+      "distrito": "ARARAQUARA",
+      "codigo_ibge": 3503208,
+      "latitude": -21.7787,
+      "longitude": -48.1732
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ARARAQUARA",
+      "situacao": 1,
+      "vinculo": 21970
+    }
+  },
+  {
+    "codigo": 70464,
+    "codigo_mec": "35070464",
+    "nome": "PENITENCIARIA DE ASSIS CLASSES PROVISORIAS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "CLEMENTINO ALVES DE SOUZA",
+      "numero": "KM 2",
+      "complemento": "",
+      "cep": "19812900",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ASSIS",
+      "distrito": "ASSIS",
+      "codigo_ibge": 3504008,
+      "latitude": -22.64492989,
+      "longitude": -50.36014175
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ASSIS",
+      "situacao": 1,
+      "vinculo": 33108
+    }
+  },
+  {
+    "codigo": 454886,
+    "codigo_mec": "35454886",
+    "nome": "PENITENCIARIA DE ASSIS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "CLEMENTINO ALVES DE SOUZA",
+      "numero": "SN",
+      "complemento": "KM 02",
+      "cep": "19812900",
+      "bairro": "AGUA DO PAVAO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ASSIS",
+      "distrito": "ASSIS",
+      "codigo_ibge": 3504008,
+      "latitude": -22.64546013,
+      "longitude": -50.36022186
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ASSIS",
+      "situacao": 1,
+      "vinculo": 33108
+    }
+  },
+  {
+    "codigo": 586067,
+    "codigo_mec": "35586067",
+    "nome": "PENITENCIARIA DE FLORINEA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RUA JOSE INACIO COELHO DE SOUSA 920",
+      "numero": "SN",
+      "complemento": "KM 438  754M",
+      "cep": "19870970",
+      "bairro": "CENTRO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "FLORÍNEA",
+      "distrito": "FLORÍNEA",
+      "codigo_ibge": 3516101,
+      "latitude": -22.90010071,
+      "longitude": -50.72831345
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ASSIS",
+      "situacao": 1,
+      "vinculo": 33091
+    }
+  },
+  {
+    "codigo": 453473,
+    "codigo_mec": "35453473",
+    "nome": "PENITENCIARIA DE PARAGUACU PAULISTA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "KM 47",
+      "complemento": "",
+      "cep": "19729899",
+      "bairro": "AREA RURAL DE SAPEZAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PARAGUACU PAULISTA",
+      "distrito": "PARAGUACU PAULISTA",
+      "codigo_ibge": 3535507,
+      "latitude": -23.55051994,
+      "longitude": -46.63330841
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ASSIS",
+      "situacao": 1,
+      "vinculo": 33327
+    }
+  },
+  {
+    "codigo": 453183,
+    "codigo_mec": "35453183",
+    "nome": "CENTRO DE RESSOCIALIZACAO DOUTOR MAURO DE MACEDO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MANOEL DOS SANTOS CALLADO",
+      "numero": "207",
+      "complemento": "RUA",
+      "cep": "18708800",
+      "bairro": "CONJUNTO HABITACIONAL DOUTOR ANTONIO FRANCISCO INOCENCIO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "AVARE",
+      "distrito": "AVARE",
+      "codigo_ibge": 3504503,
+      "latitude": -23.07488251,
+      "longitude": -48.91291809
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 918489
+    }
+  },
+  {
+    "codigo": 454011,
+    "codigo_mec": "35454011",
+    "nome": "PENITENCIARIA NELSON MARCONDES DO AMARAL",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ANTONIO QUINTILIANO TEIXEIRA",
+      "numero": "800",
+      "complemento": "",
+      "cep": "18704391",
+      "bairro": "BARRA GRANDE",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "AVARE",
+      "distrito": "AVARE",
+      "codigo_ibge": 3504503,
+      "latitude": -23.08042908,
+      "longitude": -48.91069031
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 918489
+    }
+  },
+  {
+    "codigo": 483229,
+    "codigo_mec": "35483229",
+    "nome": "PENITENCIARIA MASCULINA DE CERQUEIRA CESAR",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "S/N",
+      "complemento": "RODOVIA SP245  KM21",
+      "cep": "18769899",
+      "bairro": "AREA RURAL DE CERQUEIRA CESAR",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CERQUEIRA CESAR",
+      "distrito": "CERQUEIRA CESAR",
+      "codigo_ibge": 3511409,
+      "latitude": -23.05310059,
+      "longitude": -49.12981033
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 14527
+    }
+  },
+  {
+    "codigo": 483230,
+    "codigo_mec": "35483230",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE CERQUEIRA CESAR",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "S/N",
+      "complemento": "RODOVIA SP245  KM21",
+      "cep": "18769899",
+      "bairro": "AREA RURAL DE CERQUEIRA CESAR",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CERQUEIRA CESAR",
+      "distrito": "CERQUEIRA CESAR",
+      "codigo_ibge": 3511409,
+      "latitude": -23.0549202,
+      "longitude": -49.1267395
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 14527
+    }
+  },
+  {
+    "codigo": 454126,
+    "codigo_mec": "35454126",
+    "nome": "PENITENCIARIA ORLANDO BRANDO FILINTO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "JAIR GILBERTO CAMPANATI",
+      "numero": "S/N",
+      "complemento": "KM 04",
+      "cep": "18775023",
+      "bairro": "CENTRO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "IARAS",
+      "distrito": "IARAS",
+      "codigo_ibge": 3519253,
+      "latitude": -22.87973976,
+      "longitude": -49.17869949
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 14552
+    }
+  },
+  {
+    "codigo": 453572,
+    "codigo_mec": "35453572",
+    "nome": "PENITENCIARIA CABO P M MARCELO PIRES DA SILVA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "EDUARDO SAIGH",
+      "numero": "S/N",
+      "complemento": "RODOVIA SP255  KM2925",
+      "cep": "18739899",
+      "bairro": "CENTRO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITAI",
+      "distrito": "ITAI",
+      "codigo_ibge": 3521804,
+      "latitude": -23.36182022,
+      "longitude": -49.08150101
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 14485
+    }
+  },
+  {
+    "codigo": 573735,
+    "codigo_mec": "35573735",
+    "nome": "PENITENCIARIA DE TAQUARITUBA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ESTADUAL EDUARDO SAIGH KM 326",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "18740000",
+      "bairro": "EDUARDO SAIGH",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "TAQUARITUBA",
+      "distrito": "TAQUARITUBA",
+      "codigo_ibge": 3553807,
+      "latitude": -23.55298042,
+      "longitude": -49.24048996
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "AVARE",
+      "situacao": 1,
+      "vinculo": 924088
+    }
+  },
+  {
+    "codigo": 453286,
+    "codigo_mec": "35453286",
+    "nome": "PENITENCIARIA RODRIGO DOS SANTOS FREITAS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "",
+      "complemento": "",
+      "cep": "16649899",
+      "bairro": "AREA RURAL DE BALBINOS",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BALBINOS",
+      "distrito": "BALBINOS",
+      "codigo_ibge": 3504701,
+      "latitude": -21.91124916,
+      "longitude": -49.3528595
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 26273
+    }
+  },
+  {
+    "codigo": 453298,
+    "codigo_mec": "35453298",
+    "nome": "PENITENCIARIA GILMAR MONTEIRO DE SOUZA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RODOVIA DE ACESSO ARCIRIO RIGOTO",
+      "numero": "KM 15",
+      "complemento": "RODOVIA DE ACESSO ARCIRIO RIGOTO",
+      "cep": "16649899",
+      "bairro": "BALBINOS",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BALBINOS",
+      "distrito": "BALBINOS",
+      "codigo_ibge": 3504701,
+      "latitude": -21.91155052,
+      "longitude": -49.35203934
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 26273
+    }
+  },
+  {
+    "codigo": 29212,
+    "codigo_mec": "35029212",
+    "nome": "CDP III PROF NOE DE AZEVEDO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "COMANDANTE JOAO RIBEIRO DE BARROS",
+      "numero": "S/N",
+      "complemento": "KM",
+      "cep": "17064868",
+      "bairro": "DISTRITO INDUSTRIAL CLAUDIO GUEDES MISQUIATI",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BAURU",
+      "distrito": "BAURU",
+      "codigo_ibge": 3506003,
+      "latitude": -22.25694084,
+      "longitude": -49.14350128
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 25549
+    }
+  },
+  {
+    "codigo": 453316,
+    "codigo_mec": "35453316",
+    "nome": "CENTRO DE PROGRESSAO PENIT DR EDUARDO DE OLIVEIRA VIANNA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MARECHAL RONDON",
+      "numero": "SN",
+      "complemento": "KM 350",
+      "cep": "17025162",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BAURU",
+      "distrito": "BAURU",
+      "codigo_ibge": 3506003,
+      "latitude": -22.26074147,
+      "longitude": -49.14203882
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 25549
+    }
+  },
+  {
+    "codigo": 457802,
+    "codigo_mec": "35457802",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA DR ALBERTO BROCCHIERI",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MARECHAL RONDON",
+      "numero": "KM 350",
+      "complemento": "",
+      "cep": "17015970",
+      "bairro": "GABIROBA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BAURU",
+      "distrito": "BAURU",
+      "codigo_ibge": 3506003,
+      "latitude": -22.25962067,
+      "longitude": -49.14101028
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 25549
+    }
+  },
+  {
+    "codigo": 453353,
+    "codigo_mec": "35453353",
+    "nome": "PENITENCIARIA DR WALTER FARIA PEREIRA DE QUIEROZ",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "VICINAL PREFEITO ANIBAL HAMAN",
+      "numero": "",
+      "complemento": "",
+      "cep": "16602000",
+      "bairro": "VILA ESPERANCA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PIRAJUI",
+      "distrito": "PIRAJUI",
+      "codigo_ibge": 3538907,
+      "latitude": -22.01412964,
+      "longitude": -49.50294113
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 26136
+    }
+  },
+  {
+    "codigo": 457796,
+    "codigo_mec": "35457796",
+    "nome": "PENITENCIARIA LUIZ GONZAGA VIEIRA P II DE PIRAJUI",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "VICINAL PREFEITO ANIBAL HAMAN",
+      "numero": "",
+      "complemento": "",
+      "cep": "16602000",
+      "bairro": "VILA ESPERANCA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PIRAJUI",
+      "distrito": "PIRAJUI",
+      "codigo_ibge": 3538907,
+      "latitude": -22.0069294,
+      "longitude": -49.50374985
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 26136
+    }
+  },
+  {
+    "codigo": 479305,
+    "codigo_mec": "35479305",
+    "nome": "PENITENCIARIA FEMININA SANDRA APARECIDA LARIO VIANNA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "KM 01",
+      "complemento": "",
+      "cep": "16619899",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PIRAJUI",
+      "distrito": "PIRAJUI",
+      "codigo_ibge": 3538907,
+      "latitude": -21.96464729,
+      "longitude": -49.44830704
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 26136
+    }
+  },
+  {
+    "codigo": 453547,
+    "codigo_mec": "35453547",
+    "nome": "PENITENCIARIA TEN PM JOSE ALFREDO CINTRA BORIN",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ESTRADA VICINAL ROBERTO KASSIM KM 4100",
+      "numero": "",
+      "complemento": "",
+      "cep": "17196902",
+      "bairro": "CENTRO PRISIONAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "REGINOPOLIS",
+      "distrito": "REGINOPOLIS",
+      "codigo_ibge": 3542503,
+      "latitude": -21.92135048,
+      "longitude": -49.2256012
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 25392
+    }
+  },
+  {
+    "codigo": 453648,
+    "codigo_mec": "35453648",
+    "nome": "PENITENCIARIA SGTO PM ANTONIO LUIZ DE SOUZA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ESTRADA VICINAL ROBERTO KASSIM KM 4",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "17196901",
+      "bairro": "CENTRO PRISIONAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "REGINOPOLIS",
+      "distrito": "REGINOPOLIS",
+      "codigo_ibge": 3542503,
+      "latitude": -21.92136002,
+      "longitude": -49.2263298
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BAURU",
+      "situacao": 1,
+      "vinculo": 25392
+    }
+  },
+  {
+    "codigo": 65341,
+    "codigo_mec": "35065341",
+    "nome": "CENTRO DE RESSOCIALIZACAO DE BIRIGUI CLASSES PROV",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MARECHAL CANDIDO RONDON",
+      "numero": "KM 512",
+      "complemento": "RODOVIA",
+      "cep": "16204240",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BIRIGUI",
+      "distrito": "BIRIGUI",
+      "codigo_ibge": 3506508,
+      "latitude": -21.34851955,
+      "longitude": -50.31517085
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BIRIGUI",
+      "situacao": 1,
+      "vinculo": 43102
+    }
+  },
+  {
+    "codigo": 4037,
+    "codigo_mec": "35004037",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE ITATINGA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "PRESIDENTE CASTELO BRANCO SP 280",
+      "numero": "KM 228,5",
+      "complemento": "",
+      "cep": "18690000",
+      "bairro": "DISTRITO DO LOBO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITATINGA",
+      "distrito": "LOBO",
+      "codigo_ibge": 3523503,
+      "latitude": -23.01576233,
+      "longitude": -48.69550705
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BOTUCATU",
+      "situacao": 1,
+      "vinculo": 14448
+    }
+  },
+  {
+    "codigo": 454312,
+    "codigo_mec": "35454312",
+    "nome": "CENTRO RESSOCIALIZACAO DE ATIBAIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "JOSE BONIFACIO",
+      "numero": "680",
+      "complemento": "RUA",
+      "cep": "12940210",
+      "bairro": "JARDIM BRASIL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ATIBAIA",
+      "distrito": "ATIBAIA",
+      "codigo_ibge": 3504107,
+      "latitude": -23.13269997,
+      "longitude": -46.58670044
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BRAGANCA PAULISTA",
+      "situacao": 1,
+      "vinculo": 907315
+    }
+  },
+  {
+    "codigo": 454761,
+    "codigo_mec": "35454761",
+    "nome": "CENTRO DE RESSOCIALIZACAO ANGELO FERNANDO BARATELLA ENF",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ADOLFO BERTOLOTTI",
+      "numero": "330",
+      "complemento": "RUA",
+      "cep": "12912100",
+      "bairro": "VILA MUNICIPAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "BRAGANCA PAULISTA",
+      "distrito": "BRAGANCA PAULISTA",
+      "codigo_ibge": 3507605,
+      "latitude": -22.94958687,
+      "longitude": -46.53340912
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "BRAGANCA PAULISTA",
+      "situacao": 1,
+      "vinculo": 18036
+    }
+  },
+  {
+    "codigo": 454187,
+    "codigo_mec": "35454187",
+    "nome": "PENITENCIARIA I MARIO MOURA ALBUQUERQUE",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RODOVIA EDGAR MAXIMO ZAMBOTO KM 445",
+      "numero": "",
+      "complemento": "",
+      "cep": "7834900",
+      "bairro": "GLEBAS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCO DA ROCHA",
+      "distrito": "FRANCO DA ROCHA",
+      "codigo_ibge": 3516408,
+      "latitude": -23.31790924,
+      "longitude": -46.82302856
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5708
+    }
+  },
+  {
+    "codigo": 454199,
+    "codigo_mec": "35454199",
+    "nome": "CENTRO DE DETENCAO PROVISORIA FEMININO DE FRANCO DA ROCHA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MARCUS VINICIUS DONADEL GOES",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "7859380",
+      "bairro": "PARQUE INDUSTRIAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCO DA ROCHA",
+      "distrito": "FRANCO DA ROCHA",
+      "codigo_ibge": 3516408,
+      "latitude": -23.33550072,
+      "longitude": -46.68489838
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5708
+    }
+  },
+  {
+    "codigo": 454242,
+    "codigo_mec": "35454242",
+    "nome": "PENITENCIARIA II NILTON SILVA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "EDGARD MAXIMO ZAMBOTO SP 354",
+      "numero": "SN",
+      "complemento": "KM 445",
+      "cep": "7834950",
+      "bairro": "JARDIM ALICE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCO DA ROCHA",
+      "distrito": "FRANCO DA ROCHA",
+      "codigo_ibge": 3516408,
+      "latitude": -23.30918156,
+      "longitude": -46.80296474
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5708
+    }
+  },
+  {
+    "codigo": 454254,
+    "codigo_mec": "35454254",
+    "nome": "HOSP DE CUSTODIA E TRATAMENTO PSIQ PROF ANDRE TEIXEIRA LIMA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MARCUS VINICIUS DONADEL GOES",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "7859380",
+      "bairro": "PARQUE INDUSTRIAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCO DA ROCHA",
+      "distrito": "FRANCO DA ROCHA",
+      "codigo_ibge": 3516408,
+      "latitude": -23.3345,
+      "longitude": -46.6834
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5708
+    }
+  },
+  {
+    "codigo": 454285,
+    "codigo_mec": "35454285",
+    "nome": "PENITENCIARIA III JOSE APARECIDO RIBEIRO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MARCUS VINICIUS DONADEL GOES",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "7859380",
+      "bairro": "PARQUE INDUSTRIAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCO DA ROCHA",
+      "distrito": "FRANCO DA ROCHA",
+      "codigo_ibge": 3516408,
+      "latitude": -23.33650017,
+      "longitude": -46.68399811
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5708
+    }
+  },
+  {
+    "codigo": 458107,
+    "codigo_mec": "35458107",
+    "nome": "HCTP 2 DE FRANCO DA ROCHA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "LUIZ SALOMAO CHAMMA",
+      "numero": "SN",
+      "complemento": "KM 45",
+      "cep": "7859340",
+      "bairro": "VILA INDUSTRIAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCO DA ROCHA",
+      "distrito": "FRANCO DA ROCHA",
+      "codigo_ibge": 3516408,
+      "latitude": -23.32625961,
+      "longitude": -46.69232941
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5708
+    }
+  },
+  {
+    "codigo": 458120,
+    "codigo_mec": "35458120",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA DE FRANCO DA ROCHA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "GOVERNO",
+      "numero": "SN",
+      "complemento": "KM 41",
+      "cep": "7859340",
+      "bairro": "POUSO ALEGRE",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCO DA ROCHA",
+      "distrito": "FRANCO DA ROCHA",
+      "codigo_ibge": 3516408,
+      "latitude": -23.33400917,
+      "longitude": -46.71607971
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAIEIRAS",
+      "situacao": 1,
+      "vinculo": 5708
+    }
+  },
+  {
+    "codigo": 453365,
+    "codigo_mec": "35453365",
+    "nome": "PENITENCIARIA FEMININA DE CAMPINAS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "JOAO BATISTA MORATO DO CANTO",
+      "numero": "100",
+      "complemento": "AVENIDA",
+      "cep": "13031390",
+      "bairro": "FUNDACAO DA CASA POPULAR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAMPINAS",
+      "distrito": "CAMPINAS LESTE",
+      "codigo_ibge": 3509502,
+      "latitude": -22.91799927,
+      "longitude": -47.07320023
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAMPINAS LESTE",
+      "situacao": 1,
+      "vinculo": 42626
+    }
+  },
+  {
+    "codigo": 454114,
+    "codigo_mec": "35454114",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA PROF ATALIBA NOGUEIRA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "JORNALISTA FRANCISCO AGUIRRE PROENCA",
+      "numero": "SN",
+      "complemento": "KM 45",
+      "cep": "13064900",
+      "bairro": "CHACARA NOVA BOA VISTA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "CAMPINAS",
+      "distrito": "CAMPINAS OESTE",
+      "codigo_ibge": 3509502,
+      "latitude": -22.8822,
+      "longitude": -47.1557
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CAMPINAS OESTE",
+      "situacao": 1,
+      "vinculo": 18855
+    }
+  },
+  {
+    "codigo": 453420,
+    "codigo_mec": "35453420",
+    "nome": "CENTRO DE DETEN PROV DR JOSE EDUARDO MARIZ DE OLIVEIRA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "PIRASSUNUNGA",
+      "numero": "500",
+      "complemento": "",
+      "cep": "11660970",
+      "bairro": "PORTO NOVO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CARAGUATATUBA",
+      "distrito": "PORTO NOVO",
+      "codigo_ibge": 3510500,
+      "latitude": -23.71080017,
+      "longitude": -45.49990082
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CARAGUATATUBA",
+      "situacao": 1,
+      "vinculo": 11393
+    }
+  },
+  {
+    "codigo": 454382,
+    "codigo_mec": "35454382",
+    "nome": "PENITENCIARIA FEMININA DE SANTANA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "GENERAL ATALIBA LEONEL",
+      "numero": "656",
+      "complemento": "",
+      "cep": "2088900",
+      "bairro": "SANTANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "SANTANA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.50462914,
+      "longitude": -46.62107849
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 917
+    }
+  },
+  {
+    "codigo": 454734,
+    "codigo_mec": "35454734",
+    "nome": "PENITENCIARIA MASCULINA DA CAPITAL",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ZAKI NARCHI",
+      "numero": "1369",
+      "complemento": "AVENIDA",
+      "cep": "2029001",
+      "bairro": "CARANDIRU",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA GUILHERME",
+      "codigo_ibge": 3550308,
+      "latitude": -23.50517082,
+      "longitude": -46.61531067
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO",
+      "situacao": 1,
+      "vinculo": 917
+    }
+  },
+  {
+    "codigo": 457905,
+    "codigo_mec": "35457905",
+    "nome": "CPPF DRA MARINA MARIGO CARDOSO DE OLIVEIRA DO BUTANTA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RAPOSO TAVARES",
+      "numero": "SN",
+      "complemento": "KM 195",
+      "cep": "5577300",
+      "bairro": "JARDIM ARPOADOR",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BUTANTA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.58989906,
+      "longitude": -46.79629898
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 37424
+    }
+  },
+  {
+    "codigo": 9456,
+    "codigo_mec": "35009456",
+    "nome": "CENTRO DE DETENCAO PROVISORIA I PINHEIROS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "TONELERO",
+      "numero": "407",
+      "complemento": "",
+      "cep": "5056000",
+      "bairro": "VILA IPOJUCA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA LEOPOLDINA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.53190041,
+      "longitude": -46.70439148
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3372
+    }
+  },
+  {
+    "codigo": 10198,
+    "codigo_mec": "35010198",
+    "nome": "CENTRO DE DETENCAO PROVISORIA IV  PINHEIROS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "DOUTORA RUTH CARDOSO",
+      "numero": "1405",
+      "complemento": "",
+      "cep": "5310000",
+      "bairro": "VILA LEOPOLDINA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA LEOPOLDINA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.53255081,
+      "longitude": -46.74633026
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3372
+    }
+  },
+  {
+    "codigo": 457759,
+    "codigo_mec": "35457759",
+    "nome": "CENTRO DE DETENCAO PROVISORIA II PINHEIROS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "NACOES UNIDAS",
+      "numero": "1501",
+      "complemento": "AVENIDA",
+      "cep": "5310000",
+      "bairro": "VILA LEOPOLDINA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA LEOPOLDINA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5322094,
+      "longitude": -46.74776459
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3372
+    }
+  },
+  {
+    "codigo": 500677,
+    "codigo_mec": "35500677",
+    "nome": "CENTRO DE DETENCAO PROVISORIA III PINHEIROS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "NACOES UNIDAS",
+      "numero": "1230",
+      "complemento": "AVENIDA",
+      "cep": "5310000",
+      "bairro": "VILA LEOPOLDINA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "VILA LEOPOLDINA",
+      "codigo_ibge": 3550308,
+      "latitude": -23.5325222,
+      "longitude": -46.74750137
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CENTRO OESTE",
+      "situacao": 1,
+      "vinculo": 3372
+    }
+  },
+  {
+    "codigo": 454175,
+    "codigo_mec": "35454175",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE DIADEMA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "CARAMURU",
+      "numero": "1255",
+      "complemento": "RUA",
+      "cep": "9911510",
+      "bairro": "CONCEICAO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "DIADEMA",
+      "distrito": "DIADEMA",
+      "codigo_ibge": 3513801,
+      "latitude": -23.69631958,
+      "longitude": -46.61642838
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "DIADEMA",
+      "situacao": 1,
+      "vinculo": 296533
+    }
+  },
+  {
+    "codigo": 464454,
+    "codigo_mec": "35464454",
+    "nome": "PENITENCIARIA DE FRANCA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "SIDNEY ROMEU DE ANDRADE DOUTOR",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "14409652",
+      "bairro": "JARDIM MARAMBAIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "FRANCA",
+      "distrito": "FRANCA",
+      "codigo_ibge": 3516200,
+      "latitude": -20.46827969,
+      "longitude": -47.4103725
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "FRANCA",
+      "situacao": 1,
+      "vinculo": 65997
+    }
+  },
+  {
+    "codigo": 453432,
+    "codigo_mec": "35453432",
+    "nome": "PENITENCIARIA I DE POTIM",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "JACARE",
+      "numero": "SN",
+      "complemento": "KM 92",
+      "cep": "12529899",
+      "bairro": "",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "POTIM",
+      "distrito": "POTIM",
+      "codigo_ibge": 3540754,
+      "latitude": -22.83183861,
+      "longitude": -45.32468796
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARATINGUETA",
+      "situacao": 1,
+      "vinculo": 12725
+    }
+  },
+  {
+    "codigo": 469142,
+    "codigo_mec": "35469142",
+    "nome": "PENITENCIARIA II DE POTIM",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "DO JACARE",
+      "numero": "SN",
+      "complemento": "KM 9",
+      "cep": "12529899",
+      "bairro": "CORREIAS",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "POTIM",
+      "distrito": "POTIM",
+      "codigo_ibge": 3540754,
+      "latitude": -22.83127975,
+      "longitude": -45.32408905
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARATINGUETA",
+      "situacao": 1,
+      "vinculo": 12725
+    }
+  },
+  {
+    "codigo": 454266,
+    "codigo_mec": "35454266",
+    "nome": "PENITENCIARIA JOSE PARADA NETO I",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "BENEDITO CLIMERIO DE SANTANA",
+      "numero": "600",
+      "complemento": "RUA",
+      "cep": "7034080",
+      "bairro": "VARZEA DO PALACIO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARULHOS",
+      "distrito": "GUARULHOS NORTE",
+      "codigo_ibge": 3518800,
+      "latitude": -23.471,
+      "longitude": -46.4961
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARULHOS NORTE",
+      "situacao": 1,
+      "vinculo": 6166
+    }
+  },
+  {
+    "codigo": 465872,
+    "codigo_mec": "35465872",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE GUARULHOS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "GUINLE",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "7221070",
+      "bairro": "CIDADE INDUSTRIAL SATELITE DE SAO PAULO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARULHOS",
+      "distrito": "GUARULHOS NORTE",
+      "codigo_ibge": 3518800,
+      "latitude": -23.46328163,
+      "longitude": -46.48821259
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARULHOS NORTE",
+      "situacao": 1,
+      "vinculo": 6166
+    }
+  },
+  {
+    "codigo": 465914,
+    "codigo_mec": "35465914",
+    "nome": "PENITENCIARIA DESEMBARGADOR ADRIANO MARREY",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "PRESIDENTE DUTRA KM 13",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "7034907",
+      "bairro": "PARQUE CECAP",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "GUARULHOS",
+      "distrito": "GUARULHOS NORTE",
+      "codigo_ibge": 3518800,
+      "latitude": -23.4638,
+      "longitude": -46.4904
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "GUARULHOS NORTE",
+      "situacao": 1,
+      "vinculo": 6166
+    }
+  },
+  {
+    "codigo": 453523,
+    "codigo_mec": "35453523",
+    "nome": "PENITENCIARIA I DE GUAREI",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "VICINAL DOMICIANO",
+      "numero": "SN",
+      "complemento": "KM 11",
+      "cep": "18250000",
+      "bairro": "CAPELA VELHA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "GUAREI",
+      "distrito": "GUAREI",
+      "codigo_ibge": 3518503,
+      "latitude": -23.36412048,
+      "longitude": -48.27962112
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPETININGA",
+      "situacao": 1,
+      "vinculo": 15003
+    }
+  },
+  {
+    "codigo": 454709,
+    "codigo_mec": "35454709",
+    "nome": "PENITENCIARIA II DE GUAREI",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "VICINAL DOMICIANO DE SOUZA",
+      "numero": "SN",
+      "complemento": "KM 11",
+      "cep": "18250000",
+      "bairro": "CAPELA VELHA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "GUAREI",
+      "distrito": "GUAREI",
+      "codigo_ibge": 3518503,
+      "latitude": -23.36568069,
+      "longitude": -48.27917099
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPETININGA",
+      "situacao": 1,
+      "vinculo": 15003
+    }
+  },
+  {
+    "codigo": 453493,
+    "codigo_mec": "35453493",
+    "nome": "CENTRO DE RESSOCIALIZACAO DE ITAPETININGA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "GLADYS BERNARDES MINHOTO",
+      "numero": "63",
+      "complemento": "RODOVIA",
+      "cep": "18211265",
+      "bairro": "VILA BELO HORIZONTE",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITAPETININGA",
+      "distrito": "ITAPETININGA",
+      "codigo_ibge": 3522307,
+      "latitude": -23.46713066,
+      "longitude": -48.04639053
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPETININGA",
+      "situacao": 1,
+      "vinculo": 46899
+    }
+  },
+  {
+    "codigo": 453584,
+    "codigo_mec": "35453584",
+    "nome": "PENITENCIARIA JAIRO DE ALMEIDA BUENO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "GLADYS BERNARDES MINHOTO",
+      "numero": "SN",
+      "complemento": "KM 63",
+      "cep": "18211265",
+      "bairro": "VILA BELO HORIZONTE",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITAPETININGA",
+      "distrito": "ITAPETININGA",
+      "codigo_ibge": 3522307,
+      "latitude": -23.46713066,
+      "longitude": -48.04639053
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPETININGA",
+      "situacao": 1,
+      "vinculo": 46899
+    }
+  },
+  {
+    "codigo": 453717,
+    "codigo_mec": "35453717",
+    "nome": "PENITENCIARIA II DE ITAPETININGA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "GLADYS BERNARDES MINHOTO",
+      "numero": "SN",
+      "complemento": "KM 63",
+      "cep": "18211265",
+      "bairro": "CAPAO ALTO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITAPETININGA",
+      "distrito": "ITAPETININGA",
+      "codigo_ibge": 3522307,
+      "latitude": -23.46713066,
+      "longitude": -48.04639053
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITAPETININGA",
+      "situacao": 1,
+      "vinculo": 46899
+    }
+  },
+  {
+    "codigo": 453730,
+    "codigo_mec": "35453730",
+    "nome": "PENITENCIARIA ODON RAMOS MARANHAO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MUNICIPAL DE IPERO",
+      "numero": "SN",
+      "complemento": "KM 55",
+      "cep": "18560000",
+      "bairro": "HORTO FLORESTAL DE BELA VISTA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "IPERO",
+      "distrito": "IPERO",
+      "codigo_ibge": 3521002,
+      "latitude": -23.44956017,
+      "longitude": -47.5559082
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITU",
+      "situacao": 1,
+      "vinculo": 908228
+    }
+  },
+  {
+    "codigo": 567036,
+    "codigo_mec": "35567036",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA DE PORTO FELIZ",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "KM 05 S/N",
+      "complemento": "",
+      "cep": "18549899",
+      "bairro": "AREA RURAL DE PORTO FELIZ",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PORTO FELIZ",
+      "distrito": "PORTO FELIZ",
+      "codigo_ibge": 3540606,
+      "latitude": -23.15166092,
+      "longitude": -47.54019547
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "ITU",
+      "situacao": 1,
+      "vinculo": 922481
+    }
+  },
+  {
+    "codigo": 5478,
+    "codigo_mec": "35005478",
+    "nome": "PENITENCIARIA FEMININA DE GUARIBA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "BRIGADEIRO FARIA LIMA SP326 KM 323",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "14840000",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "GUARIBA",
+      "distrito": "GUARIBA",
+      "codigo_ibge": 3518602,
+      "latitude": -21.36839676,
+      "longitude": -48.27709579
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JABOTICABAL",
+      "situacao": 1,
+      "vinculo": 23590
+    }
+  },
+  {
+    "codigo": 474691,
+    "codigo_mec": "35474691",
+    "nome": "PENITENCIARIA DE TAIUVA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RODOVIA BRIGADEIRO FARIA LIMA",
+      "numero": "KM 359",
+      "complemento": "",
+      "cep": "14720000",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "TAIUVA",
+      "distrito": "TAIUVA",
+      "codigo_ibge": 3553203,
+      "latitude": -21.10219002,
+      "longitude": -48.39786911
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JABOTICABAL",
+      "situacao": 1,
+      "vinculo": 22512
+    }
+  },
+  {
+    "codigo": 112948,
+    "codigo_mec": "35112948",
+    "nome": "CENTRO DE RESSOCIALIZACAO DE JAU CLASSES PROVISORIAS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "COMANDANTE JOAO RIBEIRO DE BARROS",
+      "numero": "KM188",
+      "complemento": "RODOVIA",
+      "cep": "17213701",
+      "bairro": "2 ZONA INDUSTRIAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "JAU",
+      "distrito": "JAU",
+      "codigo_ibge": 3525300,
+      "latitude": -22.26269913,
+      "longitude": -48.55450058
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JAU",
+      "situacao": 1,
+      "vinculo": 25616
+    }
+  },
+  {
+    "codigo": 581082,
+    "codigo_mec": "35581082",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE JUNDIAI",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AUGUSTA ZORZI BARADEL",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "13205710",
+      "bairro": "TIJUCO PRETO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "JUNDIAI",
+      "distrito": "JUNDIAI",
+      "codigo_ibge": 3525904,
+      "latitude": -23.2772541,
+      "longitude": -46.85764694
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "JUNDIAI",
+      "situacao": 1,
+      "vinculo": 39962
+    }
+  },
+  {
+    "codigo": 454564,
+    "codigo_mec": "35454564",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA DE SAO MIGUEL PAULISTA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AMERICO GOMES DA COSTA",
+      "numero": "305 A",
+      "complemento": "RUA",
+      "cep": "8010120",
+      "bairro": "VILA AMERICANA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "SAO MIGUEL",
+      "codigo_ibge": 3550308,
+      "latitude": -23.49714088,
+      "longitude": -46.44404984
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 2",
+      "situacao": 1,
+      "vinculo": 2914
+    }
+  },
+  {
+    "codigo": 4450,
+    "codigo_mec": "35004450",
+    "nome": "CENTRO DE DETENCAO PROVISORIA I BELEM",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "CONDESSA ELISABETH DE ROBIANO",
+      "numero": "900",
+      "complemento": "",
+      "cep": "3074000",
+      "bairro": "VILA MOREIRA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BELEM",
+      "codigo_ibge": 3550308,
+      "latitude": -23.53013039,
+      "longitude": -46.58802032
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 5",
+      "situacao": 1,
+      "vinculo": 759
+    }
+  },
+  {
+    "codigo": 4451,
+    "codigo_mec": "35004451",
+    "nome": "CENTRO DE DET PROVISORIA PAULO GILBERTO DE ARAUJO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "CONDESSA ELISABETH DE ROBIANO",
+      "numero": "900",
+      "complemento": "",
+      "cep": "3074000",
+      "bairro": "VILA MOREIRA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "BELEM",
+      "codigo_ibge": 3550308,
+      "latitude": -23.53071976,
+      "longitude": -46.58789063
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LESTE 5",
+      "situacao": 1,
+      "vinculo": 759
+    }
+  },
+  {
+    "codigo": 5476,
+    "codigo_mec": "35005476",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE LIMEIRA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "LUIS OMETTO SP 306 KM 32 E 100 MTS",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "13484200",
+      "bairro": "DO PORTO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LIMEIRA",
+      "distrito": "LIMEIRA",
+      "codigo_ibge": 3526902,
+      "latitude": -22.58358002,
+      "longitude": -47.37754822
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LIMEIRA",
+      "situacao": 1,
+      "vinculo": 904004
+    }
+  },
+  {
+    "codigo": 102556,
+    "codigo_mec": "35102556",
+    "nome": "CENTRO DE RESSOCIALIZACAO DE LIMEIRA CLASSES PROVISORIAS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "TATUIBI",
+      "numero": "KM 4,5",
+      "complemento": "",
+      "cep": "13480970",
+      "bairro": "HORTO FLORESTAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "LIMEIRA",
+      "distrito": "LIMEIRA",
+      "codigo_ibge": 3526902,
+      "latitude": -22.56776619,
+      "longitude": -47.3515358
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LIMEIRA",
+      "situacao": 1,
+      "vinculo": 904004
+    }
+  },
+  {
+    "codigo": 269207,
+    "codigo_mec": "35269207",
+    "nome": "CENTRO DE RESSOCIALIZACAO MASC DE RIO CLARO CLS PROV",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "30 NR",
+      "numero": "200",
+      "complemento": "RUA",
+      "cep": "13502340",
+      "bairro": "JARDIM NOVA RIO CLARO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIO CLARO",
+      "distrito": "RIO CLARO",
+      "codigo_ibge": 3543907,
+      "latitude": -22.42923927,
+      "longitude": -47.5899086
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LIMEIRA",
+      "situacao": 1,
+      "vinculo": 21787
+    }
+  },
+  {
+    "codigo": 453675,
+    "codigo_mec": "35453675",
+    "nome": "CENTRO DE RESSOCIALIZACAO FEMININO DE RIO CLARO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "12 BE",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "13501290",
+      "bairro": "ESTADIO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIO CLARO",
+      "distrito": "RIO CLARO",
+      "codigo_ibge": 3543907,
+      "latitude": -22.35652924,
+      "longitude": -47.54512024
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LIMEIRA",
+      "situacao": 1,
+      "vinculo": 21787
+    }
+  },
+  {
+    "codigo": 453444,
+    "codigo_mec": "35453444",
+    "nome": "PENITENCIARIA OSIRIS SOUZA E SILVA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "VICINAL AURELIO ANDRADE JUNQUEIRA",
+      "numero": "SN",
+      "complemento": "KM 95",
+      "cep": "16450000",
+      "bairro": "SANTA AMERICA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "GETULINA",
+      "distrito": "GETULINA",
+      "codigo_ibge": 3517000,
+      "latitude": -21.79491043,
+      "longitude": -50.02579117
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LINS",
+      "situacao": 1,
+      "vinculo": 26384
+    }
+  },
+  {
+    "codigo": 453845,
+    "codigo_mec": "35453845",
+    "nome": "CENTRO DE RESSOCIALIZACAO DR MANOEL CARLOS MUNIZ",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MEN DE SA",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "16400787",
+      "bairro": "VILA PARQUE DAS AMERICAS",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "LINS",
+      "distrito": "LINS",
+      "codigo_ibge": 3527108,
+      "latitude": -21.64488029,
+      "longitude": -49.75154114
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "LINS",
+      "situacao": 1,
+      "vinculo": 26448
+    }
+  },
+  {
+    "codigo": 7986,
+    "codigo_mec": "35007986",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE ALVARO DE CARVALHO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AREA RURAL",
+      "numero": "SN",
+      "complemento": "ROD DA COMUNIDADE KM 36",
+      "cep": "17419899",
+      "bairro": "AREA RURAL DE ALVARO DE CARVALHO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ALVARO DE CARVALHO",
+      "distrito": "ALVARO DE CARVALHO",
+      "codigo_ibge": 3501400,
+      "latitude": -22.05546951,
+      "longitude": -49.75252914
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33510
+    }
+  },
+  {
+    "codigo": 453158,
+    "codigo_mec": "35453158",
+    "nome": "PENITENCIARIA VALENTIM ALVES DA SILVA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MAMEDE DE BARRETOS",
+      "numero": "KM 36",
+      "complemento": "",
+      "cep": "17419899",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ALVARO DE CARVALHO",
+      "distrito": "ALVARO DE CARVALHO",
+      "codigo_ibge": 3501400,
+      "latitude": -22.05349922,
+      "longitude": -49.75490952
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33510
+    }
+  },
+  {
+    "codigo": 9890,
+    "codigo_mec": "35009890",
+    "nome": "PENITENCIARIA I DE GALIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "SP 331  SENTIDO NORTE",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "17459899",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "GALIA",
+      "distrito": "GALIA",
+      "codigo_ibge": 3516606,
+      "latitude": -22.27460861,
+      "longitude": -49.56239319
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33534
+    }
+  },
+  {
+    "codigo": 9892,
+    "codigo_mec": "35009892",
+    "nome": "PENITENCIARIA II DE GALIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "SP 331  SENTIDO NORTE",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "17459899",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "GALIA",
+      "distrito": "GALIA",
+      "codigo_ibge": 3516606,
+      "latitude": -22.27420998,
+      "longitude": -49.56201172
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 33534
+    }
+  },
+  {
+    "codigo": 453237,
+    "codigo_mec": "35453237",
+    "nome": "PENITENCIARIA DE MARILIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "COMANDANTE JOAO RIBEIRO BARROS",
+      "numero": "SN",
+      "complemento": "KM 465",
+      "cep": "17525320",
+      "bairro": "PARQUE SERRA DOURADA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MARILIA",
+      "distrito": "MARILIA",
+      "codigo_ibge": 3529005,
+      "latitude": -22.25,
+      "longitude": -49.93759918
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 907650
+    }
+  },
+  {
+    "codigo": 453262,
+    "codigo_mec": "35453262",
+    "nome": "CENTRO DE RESSOCIALIZACAO DE MARILIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "COMANDANTE JOAO RIBEIRO DE BARROS",
+      "numero": "KM 465",
+      "complemento": "",
+      "cep": "17500970",
+      "bairro": "PARQUE SERRA DOURADA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MARILIA",
+      "distrito": "PADRE NOBREGA",
+      "codigo_ibge": 3529005,
+      "latitude": -22.15825081,
+      "longitude": -50.02840042
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MARILIA",
+      "situacao": 1,
+      "vinculo": 474629
+    }
+  },
+  {
+    "codigo": 479068,
+    "codigo_mec": "35479068",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE MAUA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "JOAO XXIII PAPA",
+      "numero": "SN",
+      "complemento": "AVENIDA",
+      "cep": "9370800",
+      "bairro": "VILA NOEMIA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MAUA",
+      "distrito": "MAUA",
+      "codigo_ibge": 3529401,
+      "latitude": -23.69739914,
+      "longitude": -46.47949982
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MAUA",
+      "situacao": 1,
+      "vinculo": 43849
+    }
+  },
+  {
+    "codigo": 11187,
+    "codigo_mec": "35011187",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE MOGI DAS CRUZES",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ESTRADA DO TABOAO DO PARATEI",
+      "numero": "SN",
+      "complemento": "KM 236",
+      "cep": "8772010",
+      "bairro": "TABOAO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MOGI DAS CRUZES",
+      "distrito": "MOGI DAS CRUZES",
+      "codigo_ibge": 3530607,
+      "latitude": -23.42743683,
+      "longitude": -46.24398804
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MOGI DAS CRUZES",
+      "situacao": 1,
+      "vinculo": 43795
+    }
+  },
+  {
+    "codigo": 577112,
+    "codigo_mec": "35577112",
+    "nome": "PENITENCIARIA FEMININA DE MOGI GUACU",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ALMINO MONTEIRO ALVARES AFFONSO",
+      "numero": "SN",
+      "complemento": "KM 15501",
+      "cep": "13855017",
+      "bairro": "MARTINHO PRADO JUNIOR",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MOGI GUACU",
+      "distrito": "MOGI GUACU",
+      "codigo_ibge": 3530706,
+      "latitude": -22.29430008,
+      "longitude": -47.00059891
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MOGI MIRIM",
+      "situacao": 1,
+      "vinculo": 21258
+    }
+  },
+  {
+    "codigo": 453948,
+    "codigo_mec": "35453948",
+    "nome": "CENTRO DE RESSOCIALIZACAO PREFEITO JOAO MISSAGLIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "WILSON FINARDI",
+      "numero": "SN",
+      "complemento": "KM 74 SP 191",
+      "cep": "13800970",
+      "bairro": "VATINGA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MOGI MIRIM",
+      "distrito": "MOGI MIRIM",
+      "codigo_ibge": 3530805,
+      "latitude": -22.41773033,
+      "longitude": -47.06769943
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "MOGI MIRIM",
+      "situacao": 1,
+      "vinculo": 20655
+    }
+  },
+  {
+    "codigo": 566810,
+    "codigo_mec": "35566810",
+    "nome": "PENITENCIARIA DE BERNARDINO DE CAMPOS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RODOVIA RAPOSO TAVARES KM 338",
+      "numero": "S/N",
+      "complemento": "ZONA RURAL",
+      "cep": "18964900",
+      "bairro": "CENTRO PRISIONAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "BERNARDINO DE CAMPOS",
+      "distrito": "BERNARDINO DE CAMPOS",
+      "codigo_ibge": 3506300,
+      "latitude": -23.08490944,
+      "longitude": -49.52737045
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "OURINHOS",
+      "situacao": 1,
+      "vinculo": 34393
+    }
+  },
+  {
+    "codigo": 495359,
+    "codigo_mec": "35495359",
+    "nome": "CENTRO DE RESSOCIALIZACAO DE OURINHOS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "JACINTO FERREIRA DE SA",
+      "numero": "21",
+      "complemento": "AVENIDA",
+      "cep": "19911720",
+      "bairro": "VILA CHRISTONI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "OURINHOS",
+      "distrito": "OURINHOS",
+      "codigo_ibge": 3534708,
+      "latitude": -22.97509956,
+      "longitude": -49.87260056
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "OURINHOS",
+      "situacao": 1,
+      "vinculo": 903700
+    }
+  },
+  {
+    "codigo": 457848,
+    "codigo_mec": "35457848",
+    "nome": "PENITENCIARIA COMPACTA DE AVANHANDAVA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MARECHAL RONDON",
+      "numero": "KM 475",
+      "complemento": "RUA",
+      "cep": "16360000",
+      "bairro": "ROCINHA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "AVANHANDAVA",
+      "distrito": "AVANHANDAVA",
+      "codigo_ibge": 3504404,
+      "latitude": -21.5178208,
+      "longitude": -50.00590108
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PENAPOLIS",
+      "situacao": 1,
+      "vinculo": 30348
+    }
+  },
+  {
+    "codigo": 453821,
+    "codigo_mec": "35453821",
+    "nome": "PENITENCIARIA DR TARCIZO LEONCE PINHEIRO CINTRA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AMADOR BUENO DA VEIGA",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "12122700",
+      "bairro": "CONDOMINIO RESIDENCIAL GIRASSOL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TREMEMBE",
+      "distrito": "TREMEMBE",
+      "codigo_ibge": 3554805,
+      "latitude": -22.97376442,
+      "longitude": -45.51350403
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PINDAMONHANGABA",
+      "situacao": 1,
+      "vinculo": 37916
+    }
+  },
+  {
+    "codigo": 453857,
+    "codigo_mec": "35453857",
+    "nome": "CENTRO DE PROGRESSAO PENIT DR EDGARD MAGALHAES NORONHA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AMADOR BUENO DA VEIGA",
+      "numero": "SN",
+      "complemento": "KM 138",
+      "cep": "12120970",
+      "bairro": "UNA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TREMEMBE",
+      "distrito": "TREMEMBE",
+      "codigo_ibge": 3554805,
+      "latitude": -22.97949982,
+      "longitude": -45.51480103
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PINDAMONHANGABA",
+      "situacao": 1,
+      "vinculo": 37916
+    }
+  },
+  {
+    "codigo": 454576,
+    "codigo_mec": "35454576",
+    "nome": "PENITENCIARIA FEMININA SANTA MARIA EUFRASIA PELLETIER",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MONSENHOR AMADOR BUENO",
+      "numero": "59",
+      "complemento": "",
+      "cep": "12120033",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TREMEMBE",
+      "distrito": "TREMEMBE",
+      "codigo_ibge": 3554805,
+      "latitude": -22.95911789,
+      "longitude": -45.54928207
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PINDAMONHANGABA",
+      "situacao": 1,
+      "vinculo": 37916
+    }
+  },
+  {
+    "codigo": 457887,
+    "codigo_mec": "35457887",
+    "nome": "PENITENCIARIA DR JOSE AUGUSTO CESAR SALGADO DE TREMEMBE II",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AMADOR BUENO DA VEIGA",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "12122700",
+      "bairro": "CONDOMINIO RESIDENCIAL GIRASSOL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TREMEMBE",
+      "distrito": "TREMEMBE",
+      "codigo_ibge": 3554805,
+      "latitude": -22.97738075,
+      "longitude": -45.51819992
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PINDAMONHANGABA",
+      "situacao": 1,
+      "vinculo": 37916
+    }
+  },
+  {
+    "codigo": 471264,
+    "codigo_mec": "35471264",
+    "nome": "PENITENCIARIA FEMININA II DE TREMEMBE",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AMADOR BUENO DA VEIGA",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "12122700",
+      "bairro": "CONDOMINIO RESIDENCIAL GIRASSOL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TREMEMBE",
+      "distrito": "TREMEMBE",
+      "codigo_ibge": 3554805,
+      "latitude": -22.99029922,
+      "longitude": -45.54970169
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PINDAMONHANGABA",
+      "situacao": 1,
+      "vinculo": 37916
+    }
+  },
+  {
+    "codigo": 454047,
+    "codigo_mec": "35454047",
+    "nome": "CENTRO DE RESSOCIALIZACAO FEMININO DE PIRACICABA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "JOSE SAO",
+      "numero": "260",
+      "complemento": "RUA",
+      "cep": "13400330",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PIRACICABA",
+      "distrito": "PIRACICABA",
+      "codigo_ibge": 3538709,
+      "latitude": -22.72325516,
+      "longitude": -47.6513176
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PIRACICABA",
+      "situacao": 1,
+      "vinculo": 20977
+    }
+  },
+  {
+    "codigo": 459628,
+    "codigo_mec": "35459628",
+    "nome": "CENTRO DE DETENCAO PROVISORIA PIRACICABA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "147 PIRACICABA/LIMEIRA",
+      "numero": "SN",
+      "complemento": "KM 45",
+      "cep": "13414020",
+      "bairro": "SANTA ROSA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PIRACICABA",
+      "distrito": "PIRACICABA",
+      "codigo_ibge": 3538709,
+      "latitude": -22.69854927,
+      "longitude": -47.61104965
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PIRACICABA",
+      "situacao": 1,
+      "vinculo": 20977
+    }
+  },
+  {
+    "codigo": 587114,
+    "codigo_mec": "35587114",
+    "nome": "PENITENCIARIA MASCULINA DE PIRACICABA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "LAERCIO CORTE SP 147",
+      "numero": "SN",
+      "complemento": "KM 132 MAIS 465 M",
+      "cep": "13414020",
+      "bairro": "AREIAO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PIRACICABA",
+      "distrito": "PIRACICABA",
+      "codigo_ibge": 3538709,
+      "latitude": -22.67789078,
+      "longitude": -47.56444168
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PIRACICABA",
+      "situacao": 1,
+      "vinculo": 20825
+    }
+  },
+  {
+    "codigo": 453213,
+    "codigo_mec": "35453213",
+    "nome": "PENITENCIARIA TACYAN MENEZES DE LUCENA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "HOMERO SEVERO LINS",
+      "numero": "542",
+      "complemento": "RUA",
+      "cep": "19500000",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MARTINOPOLIS",
+      "distrito": "MARTINOPOLIS",
+      "codigo_ibge": 3529203,
+      "latitude": -22.17239952,
+      "longitude": -51.11029816
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PRESIDENTE PRUDENTE",
+      "situacao": 1,
+      "vinculo": 32505
+    }
+  },
+  {
+    "codigo": 454333,
+    "codigo_mec": "35454333",
+    "nome": "PENITENCIARIA WELLINGTON RODRIGO SEGURA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "IRIO ZUNTINI",
+      "numero": "",
+      "complemento": "",
+      "cep": "19036000",
+      "bairro": "CONJUNTO HABITACIONAL JOAO DOMINGOS NETTO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PRESIDENTE PRUDENTE",
+      "distrito": "MONTALVAO",
+      "codigo_ibge": 3541406,
+      "latitude": -22.04379082,
+      "longitude": -51.36724091
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PRESIDENTE PRUDENTE",
+      "situacao": 1,
+      "vinculo": 31951
+    }
+  },
+  {
+    "codigo": 455076,
+    "codigo_mec": "35455076",
+    "nome": "GLAUCIO REINALDO MENDES PEREIRA ASP C RESSOCIALIZACAO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "IRIO ZUNTINI",
+      "numero": "SN",
+      "complemento": "KM 3",
+      "cep": "19036000",
+      "bairro": "CONJUNTO HABITACIONAL JOAO DOMINGOS NETTO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PRESIDENTE PRUDENTE",
+      "distrito": "MONTALVAO",
+      "codigo_ibge": 3541406,
+      "latitude": -22.04379082,
+      "longitude": -51.36724091
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "PRESIDENTE PRUDENTE",
+      "situacao": 1,
+      "vinculo": 31951
+    }
+  },
+  {
+    "codigo": 7848,
+    "codigo_mec": "35007848",
+    "nome": "PENITENCIARIA DE REGISTRO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "REGIS BITERCOURT KM 453  75M",
+      "numero": "S/N?",
+      "complemento": "PENITENCIARIA DE REGISTRO",
+      "cep": "11900000",
+      "bairro": "CENTRO PRISIONAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "REGISTRO",
+      "distrito": "REGISTRO",
+      "codigo_ibge": 3542602,
+      "latitude": -24.50379944,
+      "longitude": -47.86199951
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 901659
+    }
+  },
+  {
+    "codigo": 454060,
+    "codigo_mec": "35454060",
+    "nome": "PENITENCIARIA FEMININA DE RIBEIRAO PRETO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ALFREDO CONDEIXA",
+      "numero": "1666",
+      "complemento": "RUA",
+      "cep": "14031300",
+      "bairro": "JARDIM MARCHESI",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PRETO",
+      "distrito": "RIBEIRAO PRETO",
+      "codigo_ibge": 3543402,
+      "latitude": -21.19816017,
+      "longitude": -47.84495163
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 23899
+    }
+  },
+  {
+    "codigo": 464466,
+    "codigo_mec": "35464466",
+    "nome": "PENITENCIARIA MASCULINA DE RIBEIRAO PRETO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ABRAO ASSED",
+      "numero": "KM 47",
+      "complemento": "",
+      "cep": "14097900",
+      "bairro": "ANHANGUERA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "RIBEIRAO PRETO",
+      "distrito": "RIBEIRAO PRETO",
+      "codigo_ibge": 3543402,
+      "latitude": -21.22470093,
+      "longitude": -47.76451111
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 907881
+    }
+  },
+  {
+    "codigo": 453699,
+    "codigo_mec": "35453699",
+    "nome": "PENITENCIARIA I DE SERRA AZUL",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ABRAO ASSED",
+      "numero": "SN",
+      "complemento": "KM 28",
+      "cep": "14230000",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "SERRA AZUL",
+      "distrito": "SERRA AZUL",
+      "codigo_ibge": 3551405,
+      "latitude": -21.24496078,
+      "longitude": -47.53643036
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 24211
+    }
+  },
+  {
+    "codigo": 454035,
+    "codigo_mec": "35454035",
+    "nome": "PENITENCIARIA II DE SERRA AZUL",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ABRAAO ASSED",
+      "numero": "SN",
+      "complemento": "KM 2870",
+      "cep": "14230970",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "SERRA AZUL",
+      "distrito": "SERRA AZUL",
+      "codigo_ibge": 3551405,
+      "latitude": -21.2451992,
+      "longitude": -47.53569031
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 24211
+    }
+  },
+  {
+    "codigo": 464831,
+    "codigo_mec": "35464831",
+    "nome": "ASP SANDRO ALVES DA SILVA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ABRA ASSED SP 333",
+      "numero": "KM 28",
+      "complemento": "RUA",
+      "cep": "14230000",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "SERRA AZUL",
+      "distrito": "SERRA AZUL",
+      "codigo_ibge": 3551405,
+      "latitude": -21.24221992,
+      "longitude": -47.53422165
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "RIBEIRAO PRETO",
+      "situacao": 1,
+      "vinculo": 24211
+    }
+  },
+  {
+    "codigo": 7400,
+    "codigo_mec": "35007400",
+    "nome": "PENITENCIARIA DE CAIUA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RAPOSO TAVARES   ESTRADA VICINAL DE ACESSO A CAIUA KM 01",
+      "numero": "SN",
+      "complemento": "KM 634  240M",
+      "cep": "19450000",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CAIUA",
+      "distrito": "CAIUA",
+      "codigo_ibge": 3509106,
+      "latitude": -21.85527992,
+      "longitude": -51.9784317
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTO ANASTACIO",
+      "situacao": 1,
+      "vinculo": 32165
+    }
+  },
+  {
+    "codigo": 453195,
+    "codigo_mec": "35453195",
+    "nome": "PENITENCIARIA JOAO AUGUSTINHO PANNUCCI",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "GENERAL EUCLIDES FIGUEIREDO  SP 563",
+      "numero": "SN",
+      "complemento": "KM 507",
+      "cep": "19430000",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MARABA PAULISTA",
+      "distrito": "MARABA PAULISTA",
+      "codigo_ibge": 3528700,
+      "latitude": -22.13426971,
+      "longitude": -51.93416977
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTO ANASTACIO",
+      "situacao": 1,
+      "vinculo": 32360
+    }
+  },
+  {
+    "codigo": 454357,
+    "codigo_mec": "35454357",
+    "nome": "PENITENCIARIA SILVIO YOSHIHIRO HINOHARA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RAPOSO TAVARES",
+      "numero": "SN",
+      "complemento": "KM 586",
+      "cep": "19300970",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PRESIDENTE BERNARDES",
+      "distrito": "PRESIDENTE BERNARDES",
+      "codigo_ibge": 3541208,
+      "latitude": -22.04224014,
+      "longitude": -51.56557083
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTO ANASTACIO",
+      "situacao": 1,
+      "vinculo": 32839
+    }
+  },
+  {
+    "codigo": 471549,
+    "codigo_mec": "35471549",
+    "nome": "PENITENCIARIA ZWINGLIO FERREIRA DE PRESIDENTE VENCESLAU",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ANTONIO MARQUES DA SILVA",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "19402901",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "PRESIDENTE VENCESLAU",
+      "distrito": "PRESIDENTE VENCESLAU",
+      "codigo_ibge": 3541505,
+      "latitude": -21.29224968,
+      "longitude": -50.34283829
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SANTO ANASTACIO",
+      "situacao": 1,
+      "vinculo": 32190
+    }
+  },
+  {
+    "codigo": 453778,
+    "codigo_mec": "35453778",
+    "nome": "PENITENCIARIA DR ANTONIO DE QUEIROZ FILHO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "DE ACESSO",
+      "numero": "SN",
+      "complemento": "KM 1",
+      "cep": "13530000",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ITIRAPINA",
+      "distrito": "ITIRAPINA",
+      "codigo_ibge": 3523602,
+      "latitude": -22.2475,
+      "longitude": -47.8171
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO CARLOS",
+      "situacao": 1,
+      "vinculo": 21684
+    }
+  },
+  {
+    "codigo": 464442,
+    "codigo_mec": "35464442",
+    "nome": "PENITENCIARIA JOAO BATISTA DE ARRUDA SAMPAIO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "DOIS",
+      "numero": "625",
+      "complemento": "AVENIDA",
+      "cep": "13530000",
+      "bairro": "DISTRITO INDUSTRIAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "ITIRAPINA",
+      "distrito": "ITIRAPINA",
+      "codigo_ibge": 3523602,
+      "latitude": -22.26409796,
+      "longitude": -47.81266421
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO CARLOS",
+      "situacao": 1,
+      "vinculo": 21684
+    }
+  },
+  {
+    "codigo": 10188,
+    "codigo_mec": "35010188",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE AGUAI",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RUA PROFESSOR BOANERGES NOGUEIRA DE LIMA",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "13860000",
+      "bairro": "RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "AGUAI",
+      "distrito": "AGUAI",
+      "codigo_ibge": 3500303,
+      "latitude": -22.01329994,
+      "longitude": -47.03810883
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOAO DA BOA VISTA",
+      "situacao": 1,
+      "vinculo": 20722
+    }
+  },
+  {
+    "codigo": 454148,
+    "codigo_mec": "35454148",
+    "nome": "PENITENCIARIA JOAQUIM DE SILOS CINTRA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ARI PINTO LIMPELT",
+      "numero": "S/N",
+      "complemento": "KM 05",
+      "cep": "13707899",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CASA BRANCA",
+      "distrito": "CASA BRANCA",
+      "codigo_ibge": 3510807,
+      "latitude": -21.78353691,
+      "longitude": -47.0126915
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOAO DA BOA VISTA",
+      "situacao": 1,
+      "vinculo": 19288
+    }
+  },
+  {
+    "codigo": 467029,
+    "codigo_mec": "35467029",
+    "nome": "CENTRO DE RESSOCIALIZACAO DE MOCOCA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "SASSAKI MASSAO",
+      "numero": "108",
+      "complemento": "RUA",
+      "cep": "13739110",
+      "bairro": "DISTRITO INDUSTRIAL II",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MOCOCA",
+      "distrito": "MOCOCA",
+      "codigo_ibge": 3530508,
+      "latitude": -21.47258935,
+      "longitude": -47.03600058
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOAO DA BOA VISTA",
+      "situacao": 1,
+      "vinculo": 19012
+    }
+  },
+  {
+    "codigo": 4666,
+    "codigo_mec": "35004666",
+    "nome": "CENTRO DE DETENCAO PROVISORIA MARCOS AMILTON RAYSARO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "BR 153",
+      "numero": "SN",
+      "complemento": "KM 13",
+      "cep": "15460000",
+      "bairro": "",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ICEM",
+      "distrito": "ICEM",
+      "codigo_ibge": 3519808,
+      "latitude": -20.41315842,
+      "longitude": -49.25492859
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DO RIO PRETO",
+      "situacao": 1,
+      "vinculo": 27819
+    }
+  },
+  {
+    "codigo": 453687,
+    "codigo_mec": "35453687",
+    "nome": "CENTRO DE RESSOCIALIZACAO FEM DE SAO JOSE DO RIO PRETO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "BR153",
+      "numero": "SN",
+      "complemento": "KM 475",
+      "cep": "15053750",
+      "bairro": "SAO BENEDITO DA CAPELINHA ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "SAO JOSE DO RIO PRETO",
+      "distrito": "SAO JOSE DO RIO PRETO",
+      "codigo_ibge": 3549805,
+      "latitude": -20.68721008,
+      "longitude": -49.33889008
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DO RIO PRETO",
+      "situacao": 1,
+      "vinculo": 28859
+    }
+  },
+  {
+    "codigo": 454023,
+    "codigo_mec": "35454023",
+    "nome": "CENTRO DE PROGRESSAO PENIT DOUTOR JAVERT DE ANDRADE",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "BR 153",
+      "numero": "SN",
+      "complemento": "KM 475",
+      "cep": "15093450",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "SAO JOSE DO RIO PRETO",
+      "distrito": "SAO JOSE DO RIO PRETO",
+      "codigo_ibge": 3549805,
+      "latitude": -20.68726921,
+      "longitude": -49.33866882
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DO RIO PRETO",
+      "situacao": 1,
+      "vinculo": 28859
+    }
+  },
+  {
+    "codigo": 453705,
+    "codigo_mec": "35453705",
+    "nome": "CENTRO DE RESSOCIALIZACAO FEMININO DE SAO JOSE DOS CAMPOS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "FRANCISCO ALMADA",
+      "numero": "81",
+      "complemento": "TRAVESSA",
+      "cep": "12245681",
+      "bairro": "CENTRO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO JOSE DOS CAMPOS",
+      "distrito": "SAO JOSE DOS CAMPOS",
+      "codigo_ibge": 3549904,
+      "latitude": -23.18630028,
+      "longitude": -45.88809967
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO JOSE DOS CAMPOS",
+      "situacao": 1,
+      "vinculo": 13602
+    }
+  },
+  {
+    "codigo": 570801,
+    "codigo_mec": "35570801",
+    "nome": "PENITENCIARIA MASCULINA DE MAIRINQUE",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MUNICIPAL SININDU",
+      "numero": "6905",
+      "complemento": "PRACA",
+      "cep": "18120000",
+      "bairro": "CRISTAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "MAIRINQUE",
+      "distrito": "MAIRINQUE",
+      "codigo_ibge": 3528403,
+      "latitude": -23.4265995,
+      "longitude": -47.24129868
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO ROQUE",
+      "situacao": 1,
+      "vinculo": 903243
+    }
+  },
+  {
+    "codigo": 454163,
+    "codigo_mec": "35454163",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA DE MONGAGUA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "DOS MARISCOS",
+      "numero": "500",
+      "complemento": "AVENIDA",
+      "cep": "11730000",
+      "bairro": "BALNEAREO ARARA VERMELHA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "MONGAGUA",
+      "distrito": "MONGAGUA",
+      "codigo_ibge": 3531100,
+      "latitude": -24.1215992,
+      "longitude": -46.71300125
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 45160
+    }
+  },
+  {
+    "codigo": 8980,
+    "codigo_mec": "35008980",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "PADRE MANOEL DA NOBREGA",
+      "numero": "KM283",
+      "complemento": "",
+      "cep": "11346300",
+      "bairro": "SAMARITA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO VICENTE",
+      "distrito": "SAO VICENTE",
+      "codigo_ibge": 3551009,
+      "latitude": -24.19290924,
+      "longitude": -46.8334198
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 905012
+    }
+  },
+  {
+    "codigo": 454138,
+    "codigo_mec": "35454138",
+    "nome": "PENITENCIARIA DOUTOR GERALDO DE ANDRADE VIEIRA I",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "PADRE MANOEL DA NOBREGA KM 66",
+      "numero": "SN",
+      "complemento": "KM 66",
+      "cep": "11348910",
+      "bairro": "SAMARITA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO VICENTE",
+      "distrito": "SAO VICENTE",
+      "codigo_ibge": 3551009,
+      "latitude": -23.96154976,
+      "longitude": -46.47277069
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 905012
+    }
+  },
+  {
+    "codigo": 581689,
+    "codigo_mec": "35581689",
+    "nome": "PENITENCIARIA II DE SAO VICENTE",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "PADRE MANOEL DA NOBREGA",
+      "numero": "SN",
+      "complemento": "KM 282",
+      "cep": "11348910",
+      "bairro": "PARQUE CONTINENTAL",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO VICENTE",
+      "distrito": "SAO VICENTE",
+      "codigo_ibge": 3551009,
+      "latitude": -23.9510994,
+      "longitude": -46.45460129
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SAO VICENTE",
+      "situacao": 1,
+      "vinculo": 905012
+    }
+  },
+  {
+    "codigo": 497685,
+    "codigo_mec": "35497685",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA DE JARDINOPOLIS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ROD CANDIDO PORTINARI",
+      "numero": "KM 323",
+      "complemento": "SP 334",
+      "cep": "14690000",
+      "bairro": "JURUCE",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "JARDINOPOLIS",
+      "distrito": "JURUCE",
+      "codigo_ibge": 3525102,
+      "latitude": -21.0170002,
+      "longitude": -47.76811981
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SERTAOZINHO",
+      "situacao": 1,
+      "vinculo": 24144
+    }
+  },
+  {
+    "codigo": 474678,
+    "codigo_mec": "35474678",
+    "nome": "PENITENCIARIA  DE PONTAL",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ROD ARMANDO DE SALLES OLIVEIRA SP 322",
+      "numero": "KM 349",
+      "complemento": "RUA",
+      "cep": "14180000",
+      "bairro": "CENTRO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PONTAL",
+      "distrito": "PONTAL",
+      "codigo_ibge": 3540200,
+      "latitude": -21.08008957,
+      "longitude": -48.08778
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SERTAOZINHO",
+      "situacao": 1,
+      "vinculo": 22561
+    }
+  },
+  {
+    "codigo": 453729,
+    "codigo_mec": "35453729",
+    "nome": "PENITENCIARIA DOUTOR DANILO PINHEIRO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ALTINO ARANTES DOUTOR",
+      "numero": "622",
+      "complemento": "RUA",
+      "cep": "18076302",
+      "bairro": "JARDIM SAO LOURENZO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SOROCABA",
+      "distrito": "SOROCABA",
+      "codigo_ibge": 3552205,
+      "latitude": -23.46590042,
+      "longitude": -47.47029877
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SOROCABA",
+      "situacao": 1,
+      "vinculo": 922031
+    }
+  },
+  {
+    "codigo": 453742,
+    "codigo_mec": "35453742",
+    "nome": "PENITENCIARIA II DOUTOR ANTONIO DE SOUZA NETO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ANTONIO DE SOUZA NETTO DOUTOR",
+      "numero": "100",
+      "complemento": "AVENIDA",
+      "cep": "18087210",
+      "bairro": "APARECIDINHA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "SOROCABA",
+      "distrito": "SOROCABA",
+      "codigo_ibge": 3552205,
+      "latitude": -23.45170021,
+      "longitude": -47.37250137
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SOROCABA",
+      "situacao": 1,
+      "vinculo": 919913
+    }
+  },
+  {
+    "codigo": 453171,
+    "codigo_mec": "35453171",
+    "nome": "PENITENCIARIA ASP JOAQUIM FONSECA LOPES",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "NOEL NUTELS",
+      "numero": "100",
+      "complemento": "AVENIDA",
+      "cep": "4896092",
+      "bairro": "JARDIM SANTA TEREZINHA PARELHEIROS",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SAO PAULO",
+      "distrito": "PARELHEIROS",
+      "codigo_ibge": 3550308,
+      "latitude": -23.82299995,
+      "longitude": -46.72900009
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUL 3",
+      "situacao": 1,
+      "vinculo": 923059
+    }
+  },
+  {
+    "codigo": 453535,
+    "codigo_mec": "35453535",
+    "nome": "CENTRO DE PROGRESSAO PENITENCIARIA DE HORTOLANDIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "DE VELHA CAMPINASMONTE MOR",
+      "numero": "SN",
+      "complemento": "KM 5",
+      "cep": "13185577",
+      "bairro": "PARQUE PERON",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "HORTOLANDIA",
+      "distrito": "HORTOLANDIA",
+      "codigo_ibge": 3519071,
+      "latitude": -22.88200951,
+      "longitude": -47.15576935
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUMARE",
+      "situacao": 1,
+      "vinculo": 39861
+    }
+  },
+  {
+    "codigo": 459653,
+    "codigo_mec": "35459653",
+    "nome": "PENITENCIARIA ODETE LEITE DE CAMPOS CRITTER HORTOLANDIA II",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "LISANTO",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "13185150",
+      "bairro": "JARDIM NOVO ANGULO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "HORTOLANDIA",
+      "distrito": "HORTOLANDIA",
+      "codigo_ibge": 3519071,
+      "latitude": -22.87524033,
+      "longitude": -47.15808868
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUMARE",
+      "situacao": 1,
+      "vinculo": 39861
+    }
+  },
+  {
+    "codigo": 459665,
+    "codigo_mec": "35459665",
+    "nome": "PENITENCIARIA HORTOLANDIA III",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "LISANTO",
+      "numero": "SN",
+      "complemento": "KM 5",
+      "cep": "13185150",
+      "bairro": "JARDIM NOVO ANGULO",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "HORTOLANDIA",
+      "distrito": "HORTOLANDIA",
+      "codigo_ibge": 3519071,
+      "latitude": -22.87524033,
+      "longitude": -47.15808868
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUMARE",
+      "situacao": 1,
+      "vinculo": 39861
+    }
+  },
+  {
+    "codigo": 454059,
+    "codigo_mec": "35454059",
+    "nome": "CENTRO DE RESSOCIALIZACAO DE SUMARE",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "QUINTINO BOCAIUVA",
+      "numero": "SN",
+      "complemento": "RUA",
+      "cep": "13171430",
+      "bairro": "PARQUE RESIDENCIAL FLORENCA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "SUMARE",
+      "distrito": "SUMARE",
+      "codigo_ibge": 3552403,
+      "latitude": -22.81200027,
+      "longitude": -47.27119827
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "SUMARE",
+      "situacao": 1,
+      "vinculo": 910351
+    }
+  },
+  {
+    "codigo": 454618,
+    "codigo_mec": "35454618",
+    "nome": "CENTRO DE DETENCAO PROVISORIO DOUTOR FELIX NOBRE DE CAMPOS",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "AMADOR BUENO DA VEIGA",
+      "numero": "5000",
+      "complemento": "AVENIDA",
+      "cep": "12062400",
+      "bairro": "JARDIM JARAGUA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TAUBATE",
+      "distrito": "TAUBATE",
+      "codigo_ibge": 3554102,
+      "latitude": -22.98855972,
+      "longitude": -45.52312088
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TAUBATE",
+      "situacao": 1,
+      "vinculo": 14023
+    }
+  },
+  {
+    "codigo": 457772,
+    "codigo_mec": "35457772",
+    "nome": "HCTP DR ARNALDO AMADO FERREIRA DE TAUBATE",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "MARECHAL DEODORO DA FONSECA",
+      "numero": "746",
+      "complemento": "PRACA",
+      "cep": "12020070",
+      "bairro": "JARDIM SANTA CLARA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "TAUBATE",
+      "distrito": "TAUBATE",
+      "codigo_ibge": 3554102,
+      "latitude": -23.01320076,
+      "longitude": -45.54999924
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "TAUBATE",
+      "situacao": 1,
+      "vinculo": 14023
+    }
+  },
+  {
+    "codigo": 495360,
+    "codigo_mec": "35495360",
+    "nome": "PENITENCIARIA DE CAPELA DO ALTO",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RODOVIA RAPOSO TAVARES",
+      "numero": "SN",
+      "complemento": "KM 1341",
+      "cep": "18195890",
+      "bairro": "CAPANEMA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CAPELA DO ALTO",
+      "distrito": "CAPELA DO ALTO",
+      "codigo_ibge": 3510302,
+      "latitude": -23.55297089,
+      "longitude": -47.76462936
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 16913
+    }
+  },
+  {
+    "codigo": 499699,
+    "codigo_mec": "35499699",
+    "nome": "PENITENCIARIA DR ENIO MENDES JUNIOR",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RODOVIA RAPOSO TAVARES",
+      "numero": "SN",
+      "complemento": "KM 134",
+      "cep": "18195890",
+      "bairro": "CAPANEMA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "CAPELA DO ALTO",
+      "distrito": "CAPELA DO ALTO",
+      "codigo_ibge": 3510302,
+      "latitude": -23.55307007,
+      "longitude": -47.76335907
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 16913
+    }
+  },
+  {
+    "codigo": 4484,
+    "codigo_mec": "35004484",
+    "nome": "PENITENCIARIA FEMININA OSCAR GARCIA MACHADO DE VOTORANTIM",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "RAIMUNDO ANTUNES SOARES",
+      "numero": "SN",
+      "complemento": "KM 1055",
+      "cep": "18115120",
+      "bairro": "CAPOAVINHA",
+      "zona": "Urbana"
+    },
+    "localizacao": {
+      "municipio": "VOTORANTIM",
+      "distrito": "VOTORANTIM",
+      "codigo_ibge": 3557006,
+      "latitude": -23.62268066,
+      "longitude": -47.45782089
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTORANTIM",
+      "situacao": 1,
+      "vinculo": 924143
+    }
+  },
+  {
+    "codigo": 7090,
+    "codigo_mec": "35007090",
+    "nome": "CENTRO DE DETENCAO PROVISORIA DE PAULO DE FARIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ARMANDO SALLES DE OLIVEIRA KM 528  950 MTS",
+      "numero": "SN",
+      "complemento": "SP 322",
+      "cep": "15490000",
+      "bairro": "ZONA RURAL",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "PAULO DE FARIA",
+      "distrito": "PAULO DE FARIA",
+      "codigo_ibge": 3536604,
+      "latitude": -20.11211967,
+      "longitude": -49.34907913
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTUPORANGA",
+      "situacao": 1,
+      "vinculo": 27753
+    }
+  },
+  {
+    "codigo": 453651,
+    "codigo_mec": "35453651",
+    "nome": "PENITENCIARIA JOAO BATISTA SANTANA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ESTRADA MUNICIPAL WALDEMAR LOPES FERRAZ SP322",
+      "numero": "SN",
+      "complemento": "KM 02",
+      "cep": "15496000",
+      "bairro": "PENITENCIARIA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "RIOLANDIA",
+      "distrito": "RIOLANDIA",
+      "codigo_ibge": 3544202,
+      "latitude": -19.98398018,
+      "longitude": -49.70690918
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTUPORANGA",
+      "situacao": 1,
+      "vinculo": 27686
+    }
+  },
+  {
+    "codigo": 565027,
+    "codigo_mec": "35565027",
+    "nome": "CDP ASP VALDECIR FABIANO DE RIOLANDIA",
+    "tipo_codigo": 15,
+    "tipo_nome": "ESCOLA_PENITENCIARIA",
+    "endereco": {
+      "logradouro": "ESTRADA MUNICIPAL WALDEMAR LOPES FERRAZ SP322",
+      "numero": "667",
+      "complemento": "KM 02",
+      "cep": "15496000",
+      "bairro": "PENITENCIARIA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "RIOLANDIA",
+      "distrito": "RIOLANDIA",
+      "codigo_ibge": 3544202,
+      "latitude": -19.98226929,
+      "longitude": -49.70259857
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "VOTUPORANGA",
+      "situacao": 1,
+      "vinculo": 27686
+    }
+  }
+]

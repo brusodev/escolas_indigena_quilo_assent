@@ -1,0 +1,114 @@
+[
+  {
+    "codigo": 5693,
+    "codigo_mec": "35005693",
+    "nome": "BAIRRO DE BOMBAS",
+    "tipo_codigo": 31,
+    "tipo_nome": "ASSENTAMENTO",
+    "endereco": {
+      "logradouro": "BAIRRO BOMBAS DE BAIXO",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "18330000",
+      "bairro": "BOMBAS DE BAIXO",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "IPORANGA",
+      "distrito": "IPORANGA",
+      "codigo_ibge": 3521200,
+      "latitude": -24.60935974,
+      "longitude": -48.65967178
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "APIAI",
+      "situacao": 1,
+      "vinculo": 14321
+    }
+  },
+  {
+    "codigo": 6283,
+    "codigo_mec": "35006283",
+    "nome": "BAIRRO BOMBAS DE CIMA",
+    "tipo_codigo": 31,
+    "tipo_nome": "ASSENTAMENTO",
+    "endereco": {
+      "logradouro": "BAIRRO BOMBAS DE CIMA",
+      "numero": "SN",
+      "complemento": "",
+      "cep": "18330000",
+      "bairro": "BAIRRO BOMBAS DE CIMA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "IPORANGA",
+      "distrito": "IPORANGA",
+      "codigo_ibge": 3521200,
+      "latitude": -24.60933304,
+      "longitude": -48.65969086
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "APIAI",
+      "situacao": 1,
+      "vinculo": 14321
+    }
+  },
+  {
+    "codigo": 307221,
+    "codigo_mec": "35307221",
+    "nome": "FAZENDA DA CAIXA",
+    "tipo_codigo": 31,
+    "tipo_nome": "ASSENTAMENTO",
+    "endereco": {
+      "logradouro": "CASA DA FARINHA",
+      "numero": "S/N",
+      "complemento": "",
+      "cep": "11698899",
+      "bairro": "AREA RURAL DE UBATUBA",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "UBATUBA",
+      "distrito": "UBATUBA",
+      "codigo_ibge": 3555406,
+      "latitude": -23.34110069,
+      "longitude": -44.83760834
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "CARAGUATATUBA",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  },
+  {
+    "codigo": 924489,
+    "codigo_mec": "35924489",
+    "nome": "MARIA ANTONIA CHULES PRINCS",
+    "tipo_codigo": 31,
+    "tipo_nome": "ASSENTAMENTO",
+    "endereco": {
+      "logradouro": "BENEDITO PASCOAL DE FRANCA",
+      "numero": "KM 37",
+      "complemento": "KM 111",
+      "cep": "11960000",
+      "bairro": "ANDRE LOPEZ",
+      "zona": "Rural"
+    },
+    "localizacao": {
+      "municipio": "ELDORADO",
+      "distrito": "ELDORADO",
+      "codigo_ibge": 3514809,
+      "latitude": -24.60128975,
+      "longitude": -48.40626144
+    },
+    "administrativa": {
+      "dependencia": "ESTADUAL - SE",
+      "diretoria_ensino": "REGISTRO",
+      "situacao": 1,
+      "vinculo": 0
+    }
+  }
+]
