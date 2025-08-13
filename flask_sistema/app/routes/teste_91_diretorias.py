@@ -5,23 +5,28 @@ import os
 # Blueprint para teste das 91 diretorias
 bp_91_diretorias = Blueprint('91_diretorias', __name__)
 
+
 def get_db_91():
     """Conecta ao banco com 91 diretorias."""
     conn = sqlite3.connect('instance/banco_91_diretorias.db')
     conn.row_factory = sqlite3.Row
     return conn
 
+
 @bp_91_diretorias.route('/91-diretorias')
 def dashboard_91():
     """Dashboard com as 91 diretorias atualizadas."""
     try:
         conn = get_db_91()
-        
+
         # Estatísticas gerais
-        total_diretorias = conn.execute('SELECT COUNT(*) FROM diretorias').fetchone()[0]
-        total_escolas = conn.execute('SELECT COUNT(*) FROM escolas').fetchone()[0]
-        total_tipos = conn.execute('SELECT COUNT(*) FROM tipos_escola').fetchone()[0]
-        
+        total_diretorias = conn.execute(
+            'SELECT COUNT(*) FROM diretorias').fetchone()[0]
+        total_escolas = conn.execute(
+            'SELECT COUNT(*) FROM escolas').fetchone()[0]
+        total_tipos = conn.execute(
+            'SELECT COUNT(*) FROM tipos_escola').fetchone()[0]
+
         # Top 10 diretorias
         top_diretorias = conn.execute('''
             SELECT nome, sigla, total_escolas 
@@ -29,21 +34,24 @@ def dashboard_91():
             ORDER BY total_escolas DESC 
             LIMIT 10
         ''').fetchall()
-        
+
         # Tipos de escola
         tipos_escola = conn.execute('''
             SELECT codigo, nome, total_escolas, percentual
             FROM tipos_escola 
             ORDER BY codigo
         ''').fetchall()
-        
+
         # Escolas especiais
-        indigenas = conn.execute('SELECT COUNT(*) FROM escolas WHERE tipo_escola_codigo = 10').fetchone()[0]
-        quilombolas = conn.execute('SELECT COUNT(*) FROM escolas WHERE tipo_escola_codigo = 36').fetchone()[0]
-        assentamentos = conn.execute('SELECT COUNT(*) FROM escolas WHERE tipo_escola_codigo = 31').fetchone()[0]
-        
+        indigenas = conn.execute(
+            'SELECT COUNT(*) FROM escolas WHERE tipo_escola_codigo = 10').fetchone()[0]
+        quilombolas = conn.execute(
+            'SELECT COUNT(*) FROM escolas WHERE tipo_escola_codigo = 36').fetchone()[0]
+        assentamentos = conn.execute(
+            'SELECT COUNT(*) FROM escolas WHERE tipo_escola_codigo = 31').fetchone()[0]
+
         conn.close()
-        
+
         html = f'''
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -146,7 +154,7 @@ def dashboard_91():
                                 </thead>
                                 <tbody>
         '''
-        
+
         # Adicionar top diretorias
         for i, diretoria in enumerate(top_diretorias, 1):
             html += f'''
@@ -157,7 +165,7 @@ def dashboard_91():
                                         <td><span class="badge bg-primary">{diretoria['total_escolas']}</span></td>
                                     </tr>
             '''
-        
+
         html += '''
                                 </tbody>
                             </table>
@@ -173,10 +181,11 @@ def dashboard_91():
                     </div>
                     <div class="card-body">
         '''
-        
+
         # Adicionar tipos de escola
         for tipo in tipos_escola:
-            cor_badge = "primary" if tipo['codigo'] in [10, 36, 31] else "secondary"
+            cor_badge = "primary" if tipo['codigo'] in [
+                10, 36, 31] else "secondary"
             html += f'''
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <span>
@@ -186,7 +195,7 @@ def dashboard_91():
                             <span class="badge bg-outline-dark">{tipo['total_escolas']}</span>
                         </div>
             '''
-        
+
         html += f'''
                     </div>
                 </div>
@@ -236,26 +245,27 @@ def dashboard_91():
 </body>
 </html>
         '''
-        
+
         return html
-        
+
     except Exception as e:
         return f'<h1>❌ Erro ao carregar dados: {str(e)}</h1>'
+
 
 @bp_91_diretorias.route('/api/diretorias-91')
 def api_diretorias_91():
     """API com todas as 91 diretorias."""
     try:
         conn = get_db_91()
-        
+
         diretorias = conn.execute('''
             SELECT nome, sigla, total_escolas, cidade
             FROM diretorias 
             ORDER BY nome
         ''').fetchall()
-        
+
         conn.close()
-        
+
         resultado = []
         for d in diretorias:
             resultado.append({
@@ -264,7 +274,7 @@ def api_diretorias_91():
                 'total_escolas': d['total_escolas'],
                 'cidade': d['cidade']
             })
-        
+
         return jsonify({
             'success': True,
             'total_diretorias': len(resultado),
@@ -272,7 +282,7 @@ def api_diretorias_91():
             'data_atualizacao': '2025-08-12',
             'diretorias': resultado
         })
-        
+
     except Exception as e:
         return jsonify({
             'success': False,

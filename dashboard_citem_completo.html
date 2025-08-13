@@ -37,246 +37,246 @@ Status: PRODUÇÃO COMPLETA (base CITEM integral)
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard Integrado - Escolas × Diretorias × Frota [CITEM COMPLETO]</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Integrado - Escolas × Diretorias × Frota [CITEM COMPLETO]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
 
-  <!-- Coordenadas do Estado -->
-  <script type="module" src="static/js/coordenadas_completa.js"></script>
-  <script type="module" src="static/js/coordenadas_simples.js"></script>
-  <script src="static/js/modules/coordinates-loader.js"></script>
+    <!-- Coordenadas do Estado -->
+    <script type="module" src="static/js/coordenadas_completa.js"></script>
+    <script type="module" src="static/js/coordenadas_simples.js"></script>
+    <script src="static/js/modules/coordinates-loader.js"></script>
 
-  <!-- Módulos do Dashboard - VERSÃO CITEM COMPLETA -->
-  <script src="static/js/modules/data-loader-citem-completo.js"></script>
-  <script src="static/js/modules/ui-components.js"></script>
-  <script src="static/js/modules/map-components.js"></script>
-  <script src="static/js/modules/charts.js"></script>
-  <script src="static/js/modules/events.js"></script>
-  <script src="static/js/modules/type-filters.js"></script>
+    <!-- Módulos do Dashboard - VERSÃO CITEM COMPLETA -->
+    <script src="static/js/modules/data-loader-citem-completo.js"></script>
+    <script src="static/js/modules/ui-components.js"></script>
+    <script src="static/js/modules/map-components.js"></script>
+    <script src="static/js/modules/charts.js"></script>
+    <script src="static/js/modules/events.js"></script>
+    <script src="static/js/modules/type-filters.js"></script>
 
-  <!-- Dashboard Principal -->
-  <script src="static/js/dashboard-main.js"></script>
-  <link rel="stylesheet" href="static/css/dash.css">
-  <link rel="stylesheet" href="static/css/dashboard-citem-completo.css">
+    <!-- Dashboard Principal -->
+    <script src="static/js/dashboard-main.js"></script>
+    <link rel="stylesheet" href="static/css/dash.css">
+    <link rel="stylesheet" href="static/css/dashboard-citem-completo.css">
 </head>
 
 <body>
-  <div class="header">
-    <h1>🎯 Dashboard Integrado - Sistema CITEM Completo</h1>
-    <p class="subtitle">5.582 Escolas de Todos os Tipos × 89 Unidades Regionais × Análise Completa</p>
-  </div>
-
-  <div class="main-container">
-    <!-- Estatísticas Gerais -->
-    <div class="stats-section">
-      <div class="stat-card escolas">
-        <div class="stat-number" id="total-schools">5,582</div>
-        <div class="stat-label">Total de Escolas</div>
-      </div>
-      <div class="stat-card diretorias">
-        <div class="stat-number" id="total-diretorias">89</div>
-        <div class="stat-label">Unidades Regionais</div>
-      </div>
-      <div class="stat-card tipos">
-        <div class="stat-number" id="total-tipos">10</div>
-        <div class="stat-label">Tipos de Escola</div>
-      </div>
-      <div class="stat-card coordenadas">
-        <div class="stat-number" id="coordenadas-validas">100%</div>
-        <div class="stat-label">Com Coordenadas</div>
-      </div>
-      <div class="stat-card regulares">
-        <div class="stat-number" id="regulares-count">4,964</div>
-        <div class="stat-label">Escolas Regulares</div>
-      </div>
+    <div class="header">
+        <h1>🎯 Dashboard Integrado - Sistema CITEM Completo</h1>
+        <p class="subtitle">5.582 Escolas de Todos os Tipos × 89 Unidades Regionais × Análise Completa</p>
     </div>
 
-    <!-- Filtros por Tipo de Escola -->
-    <div class="filters-section">
-      <h3>🎛️ Filtros por Tipo de Escola</h3>
-      <div class="type-filters">
-        <button class="type-filter-btn active" data-type="all">
-          <span class="filter-icon">🏫</span>
-          <span class="filter-text">Todas (5,582)</span>
-        </button>
-        <button class="type-filter-btn" data-type="regular">
-          <span class="filter-icon">🏫</span>
-          <span class="filter-text">Regular (4,964)</span>
-        </button>
-        <button class="type-filter-btn" data-type="indigena">
-          <span class="filter-icon">👥</span>
-          <span class="filter-text">Indígena (43)</span>
-        </button>
-        <button class="type-filter-btn" data-type="quilombola">
-          <span class="filter-icon">🏛️</span>
-          <span class="filter-text">Quilombola (16)</span>
-        </button>
-        <button class="type-filter-btn" data-type="assentamento">
-          <span class="filter-icon">🚜</span>
-          <span class="filter-text">Assentamento (4)</span>
-        </button>
-        <button class="type-filter-btn" data-type="ceeja">
-          <span class="filter-icon">📚</span>
-          <span class="filter-text">CEEJA (43)</span>
-        </button>
-        <button class="type-filter-btn" data-type="cel_jto">
-          <span class="filter-icon">🎓</span>
-          <span class="filter-text">CEL JTO (165)</span>
-        </button>
-        <button class="type-filter-btn" data-type="hospitalar">
-          <span class="filter-icon">🏥</span>
-          <span class="filter-text">Hospitalar (71)</span>
-        </button>
-        <button class="type-filter-btn" data-type="penitenciaria">
-          <span class="filter-icon">🏢</span>
-          <span class="filter-text">Penitenciária (163)</span>
-        </button>
-        <button class="type-filter-btn" data-type="socioeduc">
-          <span class="filter-icon">👦</span>
-          <span class="filter-text">Socioeducativo (113)</span>
-        </button>
-      </div>
+    <div class="main-container">
+        <!-- Estatísticas Gerais -->
+        <div class="stats-section">
+            <div class="stat-card escolas">
+                <div class="stat-number" id="total-schools">5,582</div>
+                <div class="stat-label">Total de Escolas</div>
+            </div>
+            <div class="stat-card diretorias">
+                <div class="stat-number" id="total-diretorias">89</div>
+                <div class="stat-label">Unidades Regionais</div>
+            </div>
+            <div class="stat-card tipos">
+                <div class="stat-number" id="total-tipos">10</div>
+                <div class="stat-label">Tipos de Escola</div>
+            </div>
+            <div class="stat-card coordenadas">
+                <div class="stat-number" id="coordenadas-validas">100%</div>
+                <div class="stat-label">Com Coordenadas</div>
+            </div>
+            <div class="stat-card regulares">
+                <div class="stat-number" id="regulares-count">4,964</div>
+                <div class="stat-label">Escolas Regulares</div>
+            </div>
+        </div>
+
+        <!-- Filtros por Tipo de Escola -->
+        <div class="filters-section">
+            <h3>🎛️ Filtros por Tipo de Escola</h3>
+            <div class="type-filters">
+                <button class="type-filter-btn active" data-type="all">
+                    <span class="filter-icon">🏫</span>
+                    <span class="filter-text">Todas (5,582)</span>
+                </button>
+                <button class="type-filter-btn" data-type="regular">
+                    <span class="filter-icon">🏫</span>
+                    <span class="filter-text">Regular (4,964)</span>
+                </button>
+                <button class="type-filter-btn" data-type="indigena">
+                    <span class="filter-icon">👥</span>
+                    <span class="filter-text">Indígena (43)</span>
+                </button>
+                <button class="type-filter-btn" data-type="quilombola">
+                    <span class="filter-icon">🏛️</span>
+                    <span class="filter-text">Quilombola (16)</span>
+                </button>
+                <button class="type-filter-btn" data-type="assentamento">
+                    <span class="filter-icon">🚜</span>
+                    <span class="filter-text">Assentamento (4)</span>
+                </button>
+                <button class="type-filter-btn" data-type="ceeja">
+                    <span class="filter-icon">📚</span>
+                    <span class="filter-text">CEEJA (43)</span>
+                </button>
+                <button class="type-filter-btn" data-type="cel_jto">
+                    <span class="filter-icon">🎓</span>
+                    <span class="filter-text">CEL JTO (165)</span>
+                </button>
+                <button class="type-filter-btn" data-type="hospitalar">
+                    <span class="filter-icon">🏥</span>
+                    <span class="filter-text">Hospitalar (71)</span>
+                </button>
+                <button class="type-filter-btn" data-type="penitenciaria">
+                    <span class="filter-icon">🏢</span>
+                    <span class="filter-text">Penitenciária (163)</span>
+                </button>
+                <button class="type-filter-btn" data-type="socioeduc">
+                    <span class="filter-icon">👦</span>
+                    <span class="filter-text">Socioeducativo (113)</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Gráficos de Análise -->
+        <div class="charts-container" style="grid-template-columns: 1fr 1fr 1fr;">
+            <div class="chart-panel">
+                <h3>📊 Distribuição por Tipo</h3>
+                <div class="chart-container">
+                    <canvas id="typeChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-panel">
+                <h3>🌍 Escolas por Região</h3>
+                <div class="chart-container">
+                    <canvas id="regionChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-panel">
+                <h3>🎯 Cobertura Territorial</h3>
+                <div class="chart-container">
+                    <canvas id="coverageChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção Principal: Mapa e Lista -->
+        <div class="main-content">
+            <!-- Mapa Interativo -->
+            <div class="panel map-panel">
+                <h3>🗺️ Mapa Interativo - Sistema CITEM Completo</h3>
+
+                <div id="map"></div>
+
+                <!-- Legenda do Mapa -->
+                <div class="map-legend">
+                    <h4>📍 Legenda do Mapa</h4>
+                    <div class="legend-item">
+                        <span class="legend-icon" style="color: #8B4513;">●</span>
+                        <span>Escolas Indígenas (<span id="indigena-count">43</span>)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-icon" style="color: #800080;">●</span>
+                        <span>Escolas Quilombolas (<span id="quilombola-count">16</span>)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-icon" style="color: #228B22;">●</span>
+                        <span>Escolas de Assentamento (<span id="assentamento-count">4</span>)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-icon" style="color: #4169E1;">●</span>
+                        <span>Escolas Regulares (<span id="regular-count">4,964</span>)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-icon" style="color: #FF6347;">●</span>
+                        <span>CEEJA (<span id="ceeja-count">43</span>)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-icon" style="color: #FF8C00;">●</span>
+                        <span>CEL JTO (<span id="cel-jto-count">165</span>)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-icon" style="color: #DC143C;">●</span>
+                        <span>Hospitalar (<span id="hospitalar-count">71</span>)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-icon" style="color: #2F4F4F;">●</span>
+                        <span>Penitenciárias (<span id="penitenciaria-count">163</span>)</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-icon" style="color: #9932CC;">●</span>
+                        <span>Socioeducativo (<span id="socioeduc-count">113</span>)</span>
+                    </div>
+                </div>
+
+                <!-- Controles do Mapa -->
+                <div class="map-controls">
+                    <h4>🎛️ Controles do Mapa</h4>
+                    <div class="control-buttons">
+                        <button id="toggle-coordinates-btn" class="toggle-btn" data-mode="simple">
+                            <span class="btn-icon">🗺️</span>
+                            <span class="btn-text">Mostrar Municípios</span>
+                        </button>
+                        <button id="fullscreen-btn" class="toggle-btn fullscreen-btn">
+                            <span class="btn-icon">🔍</span>
+                            <span class="btn-text">Tela Cheia</span>
+                        </button>
+                        <button id="cluster-btn" class="toggle-btn">
+                            <span class="btn-icon">📍</span>
+                            <span class="btn-text">Agrupar Próximas</span>
+                        </button>
+                    </div>
+                    <div class="control-info">
+                        <small id="coordinates-info">Modo: Sistema CITEM Completo</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lista de Escolas -->
+            <div class="panel">
+                <h3>📋 Escolas do Sistema CITEM</h3>
+
+                <div class="filters">
+                    <div class="filter-group">
+                        <button class="filter-btn active" data-filter="all">Todas</button>
+                        <button class="filter-btn" data-filter="indigena">Indígenas</button>
+                        <button class="filter-btn" data-filter="quilombola">Quilombolas</button>
+                        <button class="filter-btn" data-filter="assentamento">Assentamentos</button>
+                        <button class="filter-btn" data-filter="regular">Regulares</button>
+                        <button class="filter-btn" data-filter="especiais">Especiais</button>
+                    </div>
+                    <input type="text" class="search-box" placeholder="🔍 Buscar escola, cidade ou unidade regional..."
+                        id="search-input">
+                </div>
+
+                <div class="school-list" id="school-list">
+                    <!-- Escolas serão carregadas aqui -->
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- Gráficos de Análise -->
-    <div class="charts-container" style="grid-template-columns: 1fr 1fr 1fr;">
-      <div class="chart-panel">
-        <h3>📊 Distribuição por Tipo</h3>
-        <div class="chart-container">
-          <canvas id="typeChart"></canvas>
+    <!-- Overlay de Tela Cheia do Mapa -->
+    <div id="map-fullscreen-overlay" class="fullscreen-overlay hidden">
+        <div class="fullscreen-header">
+            <h2>🗺️ Mapa Interativo - Sistema CITEM Completo</h2>
+            <div class="fullscreen-controls">
+                <div class="fullscreen-stats">
+                    <span id="visible-schools-count">5,582 escolas visíveis</span>
+                </div>
+                <button id="exit-fullscreen-btn" class="exit-btn">
+                    <span class="btn-icon">✕</span>
+                    <span class="btn-text">Sair da Tela Cheia</span>
+                </button>
+            </div>
         </div>
-      </div>
-      <div class="chart-panel">
-        <h3>🌍 Escolas por Região</h3>
-        <div class="chart-container">
-          <canvas id="regionChart"></canvas>
+        <div id="map-fullscreen-container" class="fullscreen-map">
+            <!-- Mapa será criado aqui -->
         </div>
-      </div>
-      <div class="chart-panel">
-        <h3>🎯 Cobertura Territorial</h3>
-        <div class="chart-container">
-          <canvas id="coverageChart"></canvas>
-        </div>
-      </div>
     </div>
-
-    <!-- Seção Principal: Mapa e Lista -->
-    <div class="main-content">
-      <!-- Mapa Interativo -->
-      <div class="panel map-panel">
-        <h3>🗺️ Mapa Interativo - Sistema CITEM Completo</h3>
-
-        <div id="map"></div>
-
-        <!-- Legenda do Mapa -->
-        <div class="map-legend">
-          <h4>📍 Legenda do Mapa</h4>
-          <div class="legend-item">
-            <span class="legend-icon" style="color: #8B4513;">●</span>
-            <span>Escolas Indígenas (<span id="indigena-count">43</span>)</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-icon" style="color: #800080;">●</span>
-            <span>Escolas Quilombolas (<span id="quilombola-count">16</span>)</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-icon" style="color: #228B22;">●</span>
-            <span>Escolas de Assentamento (<span id="assentamento-count">4</span>)</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-icon" style="color: #4169E1;">●</span>
-            <span>Escolas Regulares (<span id="regular-count">4,964</span>)</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-icon" style="color: #FF6347;">●</span>
-            <span>CEEJA (<span id="ceeja-count">43</span>)</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-icon" style="color: #FF8C00;">●</span>
-            <span>CEL JTO (<span id="cel-jto-count">165</span>)</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-icon" style="color: #DC143C;">●</span>
-            <span>Hospitalar (<span id="hospitalar-count">71</span>)</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-icon" style="color: #2F4F4F;">●</span>
-            <span>Penitenciárias (<span id="penitenciaria-count">163</span>)</span>
-          </div>
-          <div class="legend-item">
-            <span class="legend-icon" style="color: #9932CC;">●</span>
-            <span>Socioeducativo (<span id="socioeduc-count">113</span>)</span>
-          </div>
-        </div>
-
-        <!-- Controles do Mapa -->
-        <div class="map-controls">
-          <h4>🎛️ Controles do Mapa</h4>
-          <div class="control-buttons">
-            <button id="toggle-coordinates-btn" class="toggle-btn" data-mode="simple">
-              <span class="btn-icon">🗺️</span>
-              <span class="btn-text">Mostrar Municípios</span>
-            </button>
-            <button id="fullscreen-btn" class="toggle-btn fullscreen-btn">
-              <span class="btn-icon">🔍</span>
-              <span class="btn-text">Tela Cheia</span>
-            </button>
-            <button id="cluster-btn" class="toggle-btn">
-              <span class="btn-icon">📍</span>
-              <span class="btn-text">Agrupar Próximas</span>
-            </button>
-          </div>
-          <div class="control-info">
-            <small id="coordinates-info">Modo: Sistema CITEM Completo</small>
-          </div>
-        </div>
-      </div>
-
-      <!-- Lista de Escolas -->
-      <div class="panel">
-        <h3>📋 Escolas do Sistema CITEM</h3>
-
-        <div class="filters">
-          <div class="filter-group">
-            <button class="filter-btn active" data-filter="all">Todas</button>
-            <button class="filter-btn" data-filter="indigena">Indígenas</button>
-            <button class="filter-btn" data-filter="quilombola">Quilombolas</button>
-            <button class="filter-btn" data-filter="assentamento">Assentamentos</button>
-            <button class="filter-btn" data-filter="regular">Regulares</button>
-            <button class="filter-btn" data-filter="especiais">Especiais</button>
-          </div>
-          <input type="text" class="search-box" placeholder="🔍 Buscar escola, cidade ou unidade regional..."
-            id="search-input">
-        </div>
-
-        <div class="school-list" id="school-list">
-          <!-- Escolas serão carregadas aqui -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Overlay de Tela Cheia do Mapa -->
-  <div id="map-fullscreen-overlay" class="fullscreen-overlay hidden">
-    <div class="fullscreen-header">
-      <h2>🗺️ Mapa Interativo - Sistema CITEM Completo</h2>
-      <div class="fullscreen-controls">
-        <div class="fullscreen-stats">
-          <span id="visible-schools-count">5,582 escolas visíveis</span>
-        </div>
-        <button id="exit-fullscreen-btn" class="exit-btn">
-          <span class="btn-icon">✕</span>
-          <span class="btn-text">Sair da Tela Cheia</span>
-        </button>
-      </div>
-    </div>
-    <div id="map-fullscreen-container" class="fullscreen-map">
-      <!-- Mapa será criado aqui -->
-    </div>
-  </div>
 
 </body>
 

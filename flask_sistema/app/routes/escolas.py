@@ -15,11 +15,11 @@ def index():
     """Lista todas as escolas"""
     page = request.args.get('page', 1, type=int)
     per_page = request.args.get('per_page', 50, type=int)
-    
+
     escolas = Escola.query.paginate(
         page=page, per_page=per_page, error_out=False
     )
-    
+
     return jsonify({
         'escolas': [escola.to_dict() for escola in escolas.items],
         'total': escolas.total,

@@ -21,7 +21,7 @@ try:
     )
     __all__ = [
         'Escola', 'Diretoria', 'Veiculo', 'Supervisor', 'Distancia',
-        'DiretoriaExpandida', 'EscolaExpandida', 'VeiculoExpandido', 
+        'DiretoriaExpandida', 'EscolaExpandida', 'VeiculoExpandido',
         'SupervisorExpandido', 'DistanciaExpandida', 'EstatisticasGerais'
     ]
 except ImportError:

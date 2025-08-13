@@ -11,29 +11,31 @@ def criar_dashboard_final():
     """Criar dashboard final com todas as correções"""
     print("🔧 CRIANDO DASHBOARD FINAL CORRIGIDO...")
     print("-" * 50)
-    
+
     # Carregar dados
     with open('dados/json/dados_escolas_atualizados.json', 'r', encoding='utf-8') as f:
         escolas = json.load(f)
-    
+
     with open('dados_veiculos_diretorias.json', 'r', encoding='utf-8') as f:
         veiculos = json.load(f)
-    
+
     # Estatísticas
     diretorias = sorted(set(escola['diretoria'] for escola in escolas))
     tipos_escola = {}
     for escola in escolas:
         tipo = escola.get('type', 'regular')
         tipos_escola[tipo] = tipos_escola.get(tipo, 0) + 1
-    
+
     total_veiculos = veiculos['metadata']['total_veiculos']
-    
+
     print(f"✅ {len(escolas):,} escolas, {len(diretorias)} diretorias, {total_veiculos} veículos")
-    
+
     # Calcular estatísticas para dashboard
-    escolas_alta_prioridade = sum(1 for e in escolas if e.get('distance', 0) > 50)
-    distancia_media = sum(e.get('distance', 0) for e in escolas) / len(escolas) if escolas else 0
-    
+    escolas_alta_prioridade = sum(
+        1 for e in escolas if e.get('distance', 0) > 50)
+    distancia_media = sum(e.get('distance', 0)
+                          for e in escolas) / len(escolas) if escolas else 0
+
     html_content = f"""<!DOCTYPE html>
 <!--
 =================================================================
@@ -123,7 +125,7 @@ Status: PRODUÇÃO FINAL (todas as correções aplicadas)
         <button class="type-filter-btn active" data-type="all">
           <span class="filter-count">Todas ({len(escolas):,})</span>
         </button>"""
-    
+
     # Adicionar botões de filtro por tipo com emojis
     emoji_map = {
         'indigena': '🔴',
@@ -136,17 +138,17 @@ Status: PRODUÇÃO FINAL (todas as correções aplicadas)
         'ceeja': '🟡',
         'centro_atend_socioeduc': '🟤'
     }
-    
+
     for tipo, count in sorted(tipos_escola.items(), key=lambda x: x[1], reverse=True):
         emoji = emoji_map.get(tipo, '📚')
         nome_tipo = tipo.replace('_', ' ').title()
-        
+
         html_content += f"""
         <button class="type-filter-btn" data-type="{tipo}">
           <span class="filter-emoji">{emoji}</span>
           <span class="filter-count">{nome_tipo} ({count:,})</span>
         </button>"""
-    
+
     html_content += """
       </div>
     </div>
@@ -399,11 +401,11 @@ Status: PRODUÇÃO FINAL (todas as correções aplicadas)
 </body>
 
 </html>"""
-    
+
     # Salvar dashboard final
     with open('dashboard_final.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
-    
+
     print("✅ Dashboard final salvo como: dashboard_final.html")
     print(f"📊 Estatísticas finais:")
     print(f"  🏫 Escolas: {len(escolas):,}")
@@ -412,7 +414,7 @@ Status: PRODUÇÃO FINAL (todas as correções aplicadas)
     print(f"  📈 Tipos: {len(tipos_escola)}")
     print(f"  🎯 Alta Prioridade: {escolas_alta_prioridade:,}")
     print(f"  📍 Distância Média: {distancia_media:.1f} km")
-    
+
     return html_content
 
 

@@ -15,9 +15,9 @@ def analisar_bases_existentes():
     """Analisar todas as bases de dados existentes"""
     print("🔍 ANALISANDO BASES DE DADOS EXISTENTES...")
     print("=" * 60)
-    
+
     bases_encontradas = {}
-    
+
     # 1. Analisar JSONs principais
     json_files = [
         'dados/json/dados_escolas_atualizados.json',
@@ -25,13 +25,13 @@ def analisar_bases_existentes():
         'dados_supervisao_atualizados.json',
         'estatisticas_atualizadas.json'
     ]
-    
+
     for file_path in json_files:
         if os.path.exists(file_path):
             print(f"\n📄 Analisando: {file_path}")
             with open(file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                
+
             if isinstance(data, list):
                 print(f"   📊 Registros: {len(data)}")
                 if data:
@@ -50,7 +50,7 @@ def analisar_bases_existentes():
                     'chaves': list(data.keys()),
                     'dados': data
                 }
-    
+
     # 2. Analisar Excel files
     excel_files = [
         'diretorias_com_coordenadas.xlsx',
@@ -58,7 +58,7 @@ def analisar_bases_existentes():
         'QUANTIDADE DE VEÍCULOS LOCADOS - DIRETORIAS.xlsx',
         'GEP.xlsx'
     ]
-    
+
     for file_path in excel_files:
         if os.path.exists(file_path):
             print(f"\n📊 Analisando Excel: {file_path}")
@@ -74,7 +74,7 @@ def analisar_bases_existentes():
                 }
             except Exception as e:
                 print(f"   ❌ Erro ao ler: {e}")
-    
+
     return bases_encontradas
 
 
@@ -82,7 +82,7 @@ def definir_entidades_principais():
     """Definir as entidades principais do sistema"""
     print("\n🏗️ DEFININDO ENTIDADES PRINCIPAIS...")
     print("=" * 60)
-    
+
     entidades = {
         'escola': {
             'campos_principais': [
@@ -126,13 +126,13 @@ def definir_entidades_principais():
             'descricao': 'Distâncias calculadas entre escolas e diretorias'
         }
     }
-    
+
     for nome, dados in entidades.items():
         print(f"\n🔷 {nome.upper()}")
         print(f"   📝 {dados['descricao']}")
         print(f"   🔑 Campos: {', '.join(dados['campos_principais'][:5])}...")
         print(f"   🔗 Relaciona com: {', '.join(dados['relacionamentos'])}")
-    
+
     return entidades
 
 
@@ -140,16 +140,17 @@ def padronizar_dados_escolas(bases_encontradas):
     """Padronizar dados de escolas"""
     print("\n🏫 PADRONIZANDO DADOS DE ESCOLAS...")
     print("-" * 40)
-    
+
     # Usar base principal de escolas
-    escolas_data = bases_encontradas.get('dados/json/dados_escolas_atualizados.json', {}).get('dados', [])
-    
+    escolas_data = bases_encontradas.get(
+        'dados/json/dados_escolas_atualizados.json', {}).get('dados', [])
+
     if not escolas_data:
         print("❌ Dados de escolas não encontrados")
         return []
-    
+
     escolas_padronizadas = []
-    
+
     for i, escola in enumerate(escolas_data, 1):
         escola_padronizada = {
             'id': i,
@@ -172,7 +173,7 @@ def padronizar_dados_escolas(bases_encontradas):
             'updated_at': '2025-08-11'
         }
         escolas_padronizadas.append(escola_padronizada)
-    
+
     print(f"✅ {len(escolas_padronizadas)} escolas padronizadas")
     return escolas_padronizadas
 
@@ -181,21 +182,25 @@ def padronizar_dados_diretorias(bases_encontradas):
     """Padronizar dados de diretorias"""
     print("\n🏛️ PADRONIZANDO DADOS DE DIRETORIAS...")
     print("-" * 40)
-    
+
     # Extrair diretorias únicas das escolas
-    escolas_data = bases_encontradas.get('dados/json/dados_escolas_atualizados.json', {}).get('dados', [])
-    diretorias_nomes = sorted(set(escola.get('diretoria', '').strip() for escola in escolas_data if escola.get('diretoria')))
-    
+    escolas_data = bases_encontradas.get(
+        'dados/json/dados_escolas_atualizados.json', {}).get('dados', [])
+    diretorias_nomes = sorted(set(escola.get('diretoria', '').strip(
+    ) for escola in escolas_data if escola.get('diretoria')))
+
     # Dados de veículos por diretoria
-    veiculos_data = bases_encontradas.get('dados_veiculos_diretorias.json', {}).get('dados', {})
-    diretorias_veiculos = veiculos_data.get('diretorias', {}) if isinstance(veiculos_data, dict) else {}
-    
+    veiculos_data = bases_encontradas.get(
+        'dados_veiculos_diretorias.json', {}).get('dados', {})
+    diretorias_veiculos = veiculos_data.get(
+        'diretorias', {}) if isinstance(veiculos_data, dict) else {}
+
     diretorias_padronizadas = []
-    
+
     for i, nome in enumerate(diretorias_nomes, 1):
         # Buscar dados de veículos
         veiculos_info = diretorias_veiculos.get(nome, {})
-        
+
         diretoria_padronizada = {
             'id': i,
             'nome': nome,
@@ -212,7 +217,7 @@ def padronizar_dados_diretorias(bases_encontradas):
             'updated_at': '2025-08-11'
         }
         diretorias_padronizadas.append(diretoria_padronizada)
-    
+
     print(f"✅ {len(diretorias_padronizadas)} diretorias padronizadas")
     return diretorias_padronizadas
 
@@ -221,21 +226,25 @@ def padronizar_dados_veiculos(bases_encontradas):
     """Padronizar dados de veículos"""
     print("\n🚗 PADRONIZANDO DADOS DE VEÍCULOS...")
     print("-" * 40)
-    
-    veiculos_data = bases_encontradas.get('dados_veiculos_diretorias.json', {}).get('dados', {})
-    diretorias_veiculos = veiculos_data.get('diretorias', {}) if isinstance(veiculos_data, dict) else {}
-    
+
+    veiculos_data = bases_encontradas.get(
+        'dados_veiculos_diretorias.json', {}).get('dados', {})
+    diretorias_veiculos = veiculos_data.get(
+        'diretorias', {}) if isinstance(veiculos_data, dict) else {}
+
     veiculos_padronizados = []
     veiculo_id = 1
-    
+
     for diretoria_nome, veiculos_info in diretorias_veiculos.items():
         # Criar registros para cada tipo de veículo
         tipos_veiculos = [
             ('S-1', veiculos_info.get('s1', 0), 'Veículo pequeno (até 7 lugares)'),
-            ('S-2', veiculos_info.get('s2', 0), 'Veículo médio/grande (8+ lugares)'),
-            ('S-2 4X4', veiculos_info.get('s2_4x4', 0), 'Veículo médio/grande com tração 4x4')
+            ('S-2', veiculos_info.get('s2', 0),
+             'Veículo médio/grande (8+ lugares)'),
+            ('S-2 4X4', veiculos_info.get('s2_4x4', 0),
+             'Veículo médio/grande com tração 4x4')
         ]
-        
+
         for tipo, quantidade, descricao in tipos_veiculos:
             for i in range(quantidade):
                 veiculo_padronizado = {
@@ -253,7 +262,7 @@ def padronizar_dados_veiculos(bases_encontradas):
                 }
                 veiculos_padronizados.append(veiculo_padronizado)
                 veiculo_id += 1
-    
+
     print(f"✅ {len(veiculos_padronizados)} veículos padronizados")
     return veiculos_padronizados
 
@@ -262,26 +271,26 @@ def criar_base_centralizada(escolas, diretorias, veiculos):
     """Criar base de dados centralizada"""
     print("\n💾 CRIANDO BASE CENTRALIZADA...")
     print("-" * 40)
-    
+
     # Criar diretório para bases padronizadas
     base_dir = Path('bases_padronizadas')
     base_dir.mkdir(exist_ok=True)
-    
+
     # Salvar escolas
     with open(base_dir / 'escolas.json', 'w', encoding='utf-8') as f:
         json.dump(escolas, f, ensure_ascii=False, indent=2)
     print(f"✅ Escolas salvas: {len(escolas)} registros")
-    
+
     # Salvar diretorias
     with open(base_dir / 'diretorias.json', 'w', encoding='utf-8') as f:
         json.dump(diretorias, f, ensure_ascii=False, indent=2)
     print(f"✅ Diretorias salvas: {len(diretorias)} registros")
-    
+
     # Salvar veículos
     with open(base_dir / 'veiculos.json', 'w', encoding='utf-8') as f:
         json.dump(veiculos, f, ensure_ascii=False, indent=2)
     print(f"✅ Veículos salvos: {len(veiculos)} registros")
-    
+
     # Criar metadados
     metadata = {
         'created_at': '2025-08-11T23:30:00',
@@ -302,10 +311,10 @@ def criar_base_centralizada(escolas, diretorias, veiculos):
             }
         }
     }
-    
+
     with open(base_dir / 'metadata.json', 'w', encoding='utf-8') as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)
-    
+
     print(f"✅ Metadados salvos")
     return base_dir
 
@@ -315,28 +324,28 @@ def main():
     print("🚀 PADRONIZAÇÃO DE BASES DE DADOS")
     print("Preparando para migração Flask + SQLAlchemy + PostgreSQL")
     print("=" * 60)
-    
+
     # 1. Analisar bases existentes
     bases = analisar_bases_existentes()
-    
+
     # 2. Definir entidades
     entidades = definir_entidades_principais()
-    
+
     # 3. Padronizar dados
     escolas = padronizar_dados_escolas(bases)
     diretorias = padronizar_dados_diretorias(bases)
     veiculos = padronizar_dados_veiculos(bases)
-    
+
     # 4. Criar base centralizada
     base_dir = criar_base_centralizada(escolas, diretorias, veiculos)
-    
+
     print(f"\n🎉 PADRONIZAÇÃO CONCLUÍDA!")
     print(f"📁 Bases salvas em: {base_dir}")
     print(f"📊 Total de registros:")
     print(f"   🏫 Escolas: {len(escolas)}")
     print(f"   🏛️ Diretorias: {len(diretorias)}")
     print(f"   🚗 Veículos: {len(veiculos)}")
-    
+
     return base_dir
 
 

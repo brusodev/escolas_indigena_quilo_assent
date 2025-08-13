@@ -5,14 +5,13 @@ Script de Inicialização Simplificado para SQLite
 Sistema Flask + SQLAlchemy + SQLite (migração futura para PostgreSQL)
 """
 
+from app.models import Escola, Diretoria, Veiculo, Supervisor, Distancia
+from app import create_app, db
 import sys
 from pathlib import Path
 
 # Adicionar o diretório do projeto ao path
 sys.path.insert(0, str(Path(__file__).parent))
-
-from app import create_app, db
-from app.models import Escola, Diretoria, Veiculo, Supervisor, Distancia
 
 
 def create_tables():
@@ -25,7 +24,7 @@ def create_tables():
 def import_data_sqlite():
     """Importa dados dos JSONs padronizados"""
     print("📥 Importando dados...")
-    
+
     try:
         from app.utils.imports import import_all_data
         success = import_all_data()
@@ -39,12 +38,12 @@ def import_data_sqlite():
 def import_basic_data():
     """Importação básica de dados se os utilitários não funcionarem"""
     import json
-    
+
     # Importar diretorias básicas
     try:
         with open('data/json/diretorias.json', 'r', encoding='utf-8') as f:
             diretorias_data = json.load(f)
-        
+
         for diretoria_data in diretorias_data[:5]:  # Apenas 5 para teste
             if not Diretoria.query.filter_by(nome=diretoria_data.get('nome')).first():
                 diretoria = Diretoria(
@@ -54,11 +53,11 @@ def import_basic_data():
                     total_veiculos=diretoria_data.get('total_veiculos', 0)
                 )
                 db.session.add(diretoria)
-        
+
         db.session.commit()
         print("✅ Dados básicos importados")
         return True
-        
+
     except Exception as e:
         print(f"❌ Erro na importação básica: {e}")
         return False
@@ -68,17 +67,17 @@ def init_sqlite():
     """Inicializa banco SQLite completo"""
     print("🗄️ INICIALIZANDO SISTEMA SQLITE...")
     print("=" * 50)
-    
+
     # Criar aplicação
     app = create_app()
-    
+
     with app.app_context():
         # Criar tabelas
         create_tables()
-        
+
         # Importar dados
         success = import_data_sqlite()
-        
+
         if success:
             # Mostrar estatísticas
             print("\n📊 DADOS IMPORTADOS:")
@@ -87,7 +86,7 @@ def init_sqlite():
             print(f"   🚗 Veículos: {Veiculo.query.count()}")
             print(f"   👥 Supervisores: {Supervisor.query.count()}")
             print(f"   📏 Distâncias: {Distancia.query.count()}")
-            
+
             print("\n✅ SISTEMA SQLITE PRONTO!")
             print("🚀 Execute: python run.py")
             return True
@@ -99,9 +98,9 @@ def init_sqlite():
 def check_sqlite():
     """Verifica status do banco SQLite"""
     print("🔍 VERIFICANDO SISTEMA SQLITE...")
-    
+
     app = create_app()
-    
+
     with app.app_context():
         try:
             # Verificar arquivo de banco
@@ -112,11 +111,11 @@ def check_sqlite():
             else:
                 print("❌ Banco SQLite não encontrado")
                 return False
-            
+
             # Testar conexão
             db.session.execute('SELECT 1')
             print("✅ Conexão: OK")
-            
+
             # Contar registros
             counts = {
                 'Escolas': Escola.query.count(),
@@ -125,14 +124,14 @@ def check_sqlite():
                 'Supervisores': Supervisor.query.count(),
                 'Distâncias': Distancia.query.count()
             }
-            
+
             print("\n📊 REGISTROS:")
             for table, count in counts.items():
                 status = "✅" if count > 0 else "⚠️"
                 print(f"   {status} {table}: {count}")
-            
+
             return True
-            
+
         except Exception as e:
             print(f"❌ Erro: {e}")
             return False
@@ -143,7 +142,7 @@ def main():
     print("🗄️ GERENCIADOR SQLITE")
     print("Sistema preparado para migração futura para PostgreSQL")
     print("=" * 60)
-    
+
     if len(sys.argv) < 2:
         print("\nComandos disponíveis:")
         print("  init    - Inicializar sistema SQLite")
@@ -151,9 +150,9 @@ def main():
         print("  reset   - Resetar banco (cuidado!)")
         print("\nExemplo: python setup_sqlite.py init")
         return
-    
+
     comando = sys.argv[1].lower()
-    
+
     if comando == 'init':
         init_sqlite()
     elif comando == 'check':

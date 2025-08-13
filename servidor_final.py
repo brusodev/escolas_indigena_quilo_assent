@@ -15,20 +15,20 @@ def iniciar_servidor_final():
     """Iniciar servidor HTTP para dashboard final"""
     print("🚀 INICIANDO SERVIDOR DASHBOARD FINAL...")
     print("-" * 50)
-    
+
     # Verificar se arquivo existe
     dashboard_file = Path("dashboard_final.html")
     if not dashboard_file.exists():
         print("❌ Arquivo dashboard_final.html não encontrado!")
         return
-    
+
     # Configurar servidor
     PORT = 8002
     Handler = http.server.SimpleHTTPRequestHandler
-    
+
     # Mudar para diretório correto
     os.chdir(Path(__file__).parent)
-    
+
     try:
         with socketserver.TCPServer(("", PORT), Handler) as httpd:
             print(f"✅ Servidor iniciado na porta {PORT}")
@@ -41,13 +41,13 @@ def iniciar_servidor_final():
             print("  ✅ Gráficos funcionais")
             print("⏹️  Pressione Ctrl+C para parar o servidor")
             print("-" * 50)
-            
+
             # Abrir navegador automaticamente
             webbrowser.open(f"http://localhost:{PORT}/dashboard_final.html")
-            
+
             # Manter servidor rodando
             httpd.serve_forever()
-            
+
     except KeyboardInterrupt:
         print("\n🛑 Servidor parado pelo usuário")
     except Exception as e:

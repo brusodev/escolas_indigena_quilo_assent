@@ -12,46 +12,47 @@ import os
 
 def atualizar_sistema_flask():
     """Atualiza o sistema Flask com os dados consolidados."""
-    
+
     print("🔄 ATUALIZANDO SISTEMA FLASK")
     print("=" * 40)
-    
+
     # 1. Copiar banco consolidado
     print("\n1. 📋 Copiando banco consolidado...")
     banco_origem = '../dados/consolidados/banco_completo_91_diretorias.db'
     banco_destino = 'instance/escolas_sistema_91.db'
-    
+
     # Criar pasta instance
     os.makedirs('instance', exist_ok=True)
-    
+
     if os.path.exists(banco_origem):
         shutil.copy2(banco_origem, banco_destino)
         print(f"✅ Banco copiado para: {banco_destino}")
-        
+
         # Verificar
         conn = sqlite3.connect(banco_destino)
         cursor = conn.cursor()
-        
+
         cursor.execute("SELECT COUNT(*) FROM diretorias")
         diretorias = cursor.fetchone()[0]
-        
+
         cursor.execute("SELECT COUNT(*) FROM escolas")
         escolas = cursor.fetchone()[0]
-        
+
         cursor.execute("SELECT COUNT(*) FROM tipos_escola")
         tipos = cursor.fetchone()[0]
-        
+
         conn.close()
-        
-        print(f"✅ Verificação: {diretorias} diretorias, {escolas:,} escolas, {tipos} tipos")
-        
+
+        print(
+            f"✅ Verificação: {diretorias} diretorias, {escolas:,} escolas, {tipos} tipos")
+
     else:
         print(f"❌ Banco não encontrado: {banco_origem}")
         return False
-    
+
     # 2. Criar rota de teste simples
     print("\n2. 🌐 Criando rota de teste...")
-    
+
     rota_teste = '''from flask import Blueprint, jsonify, render_template_string
 import sqlite3
 import os
@@ -68,15 +69,16 @@ def teste_91_diretorias():
     """Testa as 91 diretorias."""
     try:
         conn = get_db()
-        
+
         # Contar diretorias
-        total_diretorias = conn.execute('SELECT COUNT(*) FROM diretorias').fetchone()[0]
-        
+        total_diretorias = conn.execute(
+            'SELECT COUNT(*) FROM diretorias').fetchone()[0]
+
         # Listar algumas diretorias com siglas
         diretorias = conn.execute('''
-            SELECT nome, sigla, total_escolas 
-            FROM diretorias 
-            ORDER BY total_escolas DESC 
+            SELECT nome, sigla, total_escolas
+            FROM diretorias
+            ORDER BY total_escolas DESC
             LIMIT 10
         ''').fetchall()
         

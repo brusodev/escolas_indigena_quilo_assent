@@ -11,25 +11,25 @@ def criar_dashboard_final_corrigido():
     """Criar dashboard final com módulos corrigidos"""
     print("🔧 CRIANDO DASHBOARD FINAL CORRIGIDO...")
     print("-" * 50)
-    
+
     # Carregar dados
     with open('dados/json/dados_escolas_atualizados.json', 'r', encoding='utf-8') as f:
         escolas = json.load(f)
-    
+
     with open('dados_veiculos_diretorias.json', 'r', encoding='utf-8') as f:
         veiculos = json.load(f)
-    
+
     # Estatísticas
     diretorias = sorted(set(escola['diretoria'] for escola in escolas))
     tipos_escola = {}
     for escola in escolas:
         tipo = escola.get('type', 'regular')
         tipos_escola[tipo] = tipos_escola.get(tipo, 0) + 1
-    
+
     total_veiculos = veiculos['metadata']['total_veiculos']
-    
+
     print(f"✅ {len(escolas):,} escolas, {len(diretorias)} diretorias, {total_veiculos} veículos")
-    
+
     html_content = f"""<!DOCTYPE html>
 <!--
 =================================================================
@@ -124,11 +124,11 @@ DATA: 11/08/2025 - Status: CORRIGIDO
         <button class="type-filter-btn active" data-type="all">
           <span class="filter-count">Todas ({len(escolas):,})</span>
         </button>"""
-    
+
     # Adicionar botões de filtro por tipo com emojis e contadores
     emoji_map = {
         'indigena': '🔴',
-        'quilombola': '🟠', 
+        'quilombola': '🟠',
         'regular': '🟢',
         'cel_jto': '🔵',
         'escola_penitenciaria': '⚫',
@@ -137,17 +137,17 @@ DATA: 11/08/2025 - Status: CORRIGIDO
         'ceeja': '🟡',
         'centro_atend_socioeduc': '🟤'
     }
-    
+
     for tipo, count in sorted(tipos_escola.items(), key=lambda x: x[1], reverse=True):
         emoji = emoji_map.get(tipo, '📚')
         nome_tipo = tipo.replace('_', ' ').title()
-        
+
         html_content += f"""
         <button class="type-filter-btn" data-type="{tipo}">
           <span class="filter-emoji">{emoji}</span>
           <span class="filter-count">{nome_tipo} ({count:,})</span>
         </button>"""
-    
+
     html_content += """
       </div>
     </div>
@@ -398,20 +398,20 @@ DATA: 11/08/2025 - Status: CORRIGIDO
 </body>
 
 </html>"""
-    
+
     # Salvar dashboard final corrigido
     with open('dashboard_corrigido_final.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
-    
+
     print("✅ Dashboard final corrigido salvo como: dashboard_corrigido_final.html")
     print(f"📊 Correções aplicadas:")
     print(f"  ✅ {len(diretorias)} diretorias (correto)")
-    print(f"  ✅ {len(escolas):,} escolas com dados atualizados") 
+    print(f"  ✅ {len(escolas):,} escolas com dados atualizados")
     print(f"  ✅ {total_veiculos} veículos distribuídos")
     print(f"  ✅ {len(tipos_escola)} tipos de escola corrigidos")
     print(f"  ✅ Módulos simplificados e funcionais")
     print(f"  ✅ Marcadores, diretorias e linhas implementados")
-    
+
     return html_content
 
 

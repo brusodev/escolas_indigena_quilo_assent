@@ -3,9 +3,10 @@
 Registro de Blueprints - Sistema Flask
 """
 
+
 def register_blueprints(app):
     """Registra todos os blueprints da aplicação"""
-    
+
     # Importar blueprints
     from .escolas import bp_escolas
     from .diretorias import bp_diretorias
@@ -14,7 +15,7 @@ def register_blueprints(app):
     from .dashboard import bp_dashboard
     from .dados_expandidos import dados_expandidos_bp
     from .teste_91_diretorias import bp_91_diretorias
-    
+
     # Registrar blueprints
     app.register_blueprint(bp_escolas, url_prefix='/escolas')
     app.register_blueprint(bp_diretorias, url_prefix='/diretorias')
@@ -23,7 +24,7 @@ def register_blueprints(app):
     app.register_blueprint(bp_dashboard, url_prefix='/')
     app.register_blueprint(dados_expandidos_bp, url_prefix='/')
     app.register_blueprint(bp_91_diretorias, url_prefix='/')
-    
+
     # Rota de health check
     @app.route('/health')
     def health():

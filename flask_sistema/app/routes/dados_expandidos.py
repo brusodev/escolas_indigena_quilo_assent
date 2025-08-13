@@ -9,6 +9,7 @@ import os
 
 dados_expandidos_bp = Blueprint('dados_expandidos', __name__)
 
+
 def get_db_connection():
     """Conecta ao banco SQLite"""
     db_path = os.path.join('instance', 'escolas_sistema.db')
@@ -16,10 +17,12 @@ def get_db_connection():
     conn.row_factory = sqlite3.Row
     return conn
 
+
 @dados_expandidos_bp.route('/completo')
 def dashboard_completo():
     """Página do dashboard completo"""
     return render_template('dashboard/completo.html')
+
 
 @dados_expandidos_bp.route('/api/diretorias/completas')
 def diretorias_completas():
@@ -27,12 +30,12 @@ def diretorias_completas():
     try:
         conn = get_db_connection()
         cursor = conn.cursor()
-        
+
         cursor.execute('''
         SELECT * FROM diretorias_estatisticas 
         ORDER BY total_escolas DESC
         ''')
-        
+
         diretorias = []
         for row in cursor.fetchall():
             diretorias.append({
@@ -54,17 +57,18 @@ def diretorias_completas():
                 'codigo': row['codigo'],
                 'capacidade_total_veiculos': row['capacidade_total_veiculos']
             })
-        
+
         conn.close()
-        
+
         return jsonify({
             'status': 'success',
             'total': len(diretorias),
             'diretorias': diretorias
         })
-        
+
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
+
 
 @dados_expandidos_bp.route('/api/diretorias/<nome>/detalhes')
 def diretoria_detalhes(nome):
@@ -72,23 +76,23 @@ def diretoria_detalhes(nome):
     try:
         conn = get_db_connection()
         cursor = conn.cursor()
-        
+
         # Dados da diretoria
         cursor.execute('''
         SELECT * FROM diretorias_estatisticas 
         WHERE diretoria_nome = ?
         ''', (nome,))
-        
+
         diretoria = cursor.fetchone()
         if not diretoria:
             return jsonify({'status': 'error', 'message': 'Diretoria não encontrada'}), 404
-        
+
         # Veículos da diretoria
         cursor.execute('''
         SELECT * FROM veiculos_detalhados 
         WHERE diretoria_nome = ?
         ''', (nome,))
-        
+
         veiculos = []
         for row in cursor.fetchall():
             veiculos.append({
@@ -99,7 +103,7 @@ def diretoria_detalhes(nome):
                 'capacidade_estimada': row['capacidade_estimada'],
                 'necessidade_especial': bool(row['necessidade_especial'])
             })
-        
+
         # Escolas da diretoria
         cursor.execute('''
         SELECT nome, tipo, cidade, latitude, longitude, endereco
@@ -107,7 +111,7 @@ def diretoria_detalhes(nome):
         WHERE diretoria = ?
         ORDER BY tipo, nome
         ''', (nome,))
-        
+
         escolas = []
         for row in cursor.fetchall():
             escolas.append({
@@ -118,9 +122,9 @@ def diretoria_detalhes(nome):
                 'longitude': row['longitude'],
                 'endereco': row['endereco']
             })
-        
+
         conn.close()
-        
+
         return jsonify({
             'status': 'success',
             'diretoria': {
@@ -138,9 +142,10 @@ def diretoria_detalhes(nome):
                 'escolas': escolas
             }
         })
-        
+
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
+
 
 @dados_expandidos_bp.route('/api/veiculos/detalhados')
 def veiculos_detalhados():
@@ -148,7 +153,7 @@ def veiculos_detalhados():
     try:
         conn = get_db_connection()
         cursor = conn.cursor()
-        
+
         cursor.execute('''
         SELECT diretoria_nome, tipo_veiculo, categoria, descricao,
                SUM(quantidade) as total_quantidade,
@@ -157,7 +162,7 @@ def veiculos_detalhados():
         GROUP BY diretoria_nome, tipo_veiculo
         ORDER BY diretoria_nome, tipo_veiculo
         ''')
-        
+
         veiculos = {}
         for row in cursor.fetchall():
             diretoria = row['diretoria_nome']
@@ -168,7 +173,7 @@ def veiculos_detalhados():
                     'total_veiculos': 0,
                     'capacidade_total': 0
                 }
-            
+
             veiculo_info = {
                 'tipo': row['tipo_veiculo'],
                 'categoria': row['categoria'],
@@ -178,21 +183,22 @@ def veiculos_detalhados():
                 'necessidade_especial': bool(row['necessidade_especial']),
                 'capacidade_total': row['total_quantidade'] * row['capacidade_estimada']
             }
-            
+
             veiculos[diretoria]['veiculos'].append(veiculo_info)
             veiculos[diretoria]['total_veiculos'] += row['total_quantidade']
             veiculos[diretoria]['capacidade_total'] += veiculo_info['capacidade_total']
-        
+
         conn.close()
-        
+
         return jsonify({
             'status': 'success',
             'total_diretorias': len(veiculos),
             'veiculos_por_diretoria': list(veiculos.values())
         })
-        
+
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
+
 
 @dados_expandidos_bp.route('/api/supervisores/completos')
 def supervisores_completos():
@@ -200,19 +206,20 @@ def supervisores_completos():
     try:
         conn = get_db_connection()
         cursor = conn.cursor()
-        
+
         cursor.execute('''
         SELECT * FROM supervisores_completo 
         ORDER BY total_escolas DESC
         ''')
-        
+
         supervisores = []
         for row in cursor.fetchall():
             # Processar diretorias supervisionadas
             diretorias_lista = []
             if row['diretorias_supervisionadas']:
-                diretorias_lista = [d.strip() for d in row['diretorias_supervisionadas'].split('\n') if d.strip()]
-            
+                diretorias_lista = [
+                    d.strip() for d in row['diretorias_supervisionadas'].split('\n') if d.strip()]
+
             supervisores.append({
                 'nome': row['nome'],
                 'regiao': row['regiao'],
@@ -223,17 +230,18 @@ def supervisores_completos():
                 'email': row['email'],
                 'telefone': row['telefone']
             })
-        
+
         conn.close()
-        
+
         return jsonify({
             'status': 'success',
             'total': len(supervisores),
             'supervisores': supervisores
         })
-        
+
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
+
 
 @dados_expandidos_bp.route('/api/estatisticas/sistema')
 def estatisticas_sistema():
@@ -241,18 +249,18 @@ def estatisticas_sistema():
     try:
         conn = get_db_connection()
         cursor = conn.cursor()
-        
+
         # Estatísticas mais recentes
         cursor.execute('''
         SELECT * FROM estatisticas_sistema 
         ORDER BY data_referencia DESC 
         LIMIT 1
         ''')
-        
+
         stats = cursor.fetchone()
         if not stats:
             return jsonify({'status': 'error', 'message': 'Estatísticas não encontradas'}), 404
-        
+
         # Top 10 diretorias por número de escolas
         cursor.execute('''
         SELECT diretoria_nome, total_escolas, total_veiculos,
@@ -261,7 +269,7 @@ def estatisticas_sistema():
         ORDER BY total_escolas DESC 
         LIMIT 10
         ''')
-        
+
         top_diretorias = []
         for row in cursor.fetchall():
             top_diretorias.append({
@@ -272,20 +280,20 @@ def estatisticas_sistema():
                 'escolas_quilombolas': row['escolas_quilombolas'],
                 'escolas_regulares': row['escolas_regulares']
             })
-        
+
         # Distribuição de veículos por tipo
         cursor.execute('''
         SELECT tipo_veiculo, SUM(quantidade) as total
         FROM veiculos_detalhados 
         GROUP BY tipo_veiculo
         ''')
-        
+
         distribuicao_veiculos = {}
         for row in cursor.fetchall():
             distribuicao_veiculos[row['tipo_veiculo']] = row['total']
-        
+
         conn.close()
-        
+
         return jsonify({
             'status': 'success',
             'data_referencia': stats['data_referencia'],
@@ -314,9 +322,10 @@ def estatisticas_sistema():
             },
             'top_diretorias': top_diretorias
         })
-        
+
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500
+
 
 @dados_expandidos_bp.route('/api/relatorio/completo')
 def relatorio_completo():
@@ -324,20 +333,22 @@ def relatorio_completo():
     try:
         conn = get_db_connection()
         cursor = conn.cursor()
-        
+
         # Resumo geral
         cursor.execute('SELECT COUNT(*) as total FROM diretorias_estatisticas')
         total_diretorias = cursor.fetchone()['total']
-        
-        cursor.execute('SELECT SUM(total_escolas) as total FROM diretorias_estatisticas')
+
+        cursor.execute(
+            'SELECT SUM(total_escolas) as total FROM diretorias_estatisticas')
         total_escolas = cursor.fetchone()['total']
-        
-        cursor.execute('SELECT SUM(quantidade) as total FROM veiculos_detalhados')
+
+        cursor.execute(
+            'SELECT SUM(quantidade) as total FROM veiculos_detalhados')
         total_veiculos = cursor.fetchone()['total']
-        
+
         cursor.execute('SELECT COUNT(*) as total FROM supervisores_completo')
         total_supervisores = cursor.fetchone()['total']
-        
+
         # Escolas por tipo
         cursor.execute('''
         SELECT SUM(escolas_indigenas) as indigenas,
@@ -346,7 +357,7 @@ def relatorio_completo():
         FROM diretorias_estatisticas
         ''')
         tipos_escolas = cursor.fetchone()
-        
+
         # Distribuição geográfica
         cursor.execute('''
         SELECT regiao_supervisao, COUNT(*) as diretorias,
@@ -356,7 +367,7 @@ def relatorio_completo():
         GROUP BY regiao_supervisao
         ORDER BY escolas DESC
         ''')
-        
+
         distribuicao_geografica = []
         for row in cursor.fetchall():
             distribuicao_geografica.append({
@@ -365,9 +376,9 @@ def relatorio_completo():
                 'escolas': row['escolas'],
                 'veiculos': row['veiculos']
             })
-        
+
         conn.close()
-        
+
         return jsonify({
             'status': 'success',
             'resumo_executivo': {
@@ -385,6 +396,6 @@ def relatorio_completo():
             },
             'distribuicao_geografica': distribuicao_geografica
         })
-        
+
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 500

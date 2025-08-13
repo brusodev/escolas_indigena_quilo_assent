@@ -13,26 +13,27 @@ def corrigir_dashboard_completo():
     """Corrigir dashboard usando dados originais com funcionalidade completa"""
     print("🔧 CORRIGINDO DASHBOARD COMPLETO...")
     print("-" * 50)
-    
+
     # Carregar dados originais (corretos)
     with open('dados/json/dados_escolas_atualizados.json', 'r', encoding='utf-8') as f:
         escolas = json.load(f)
-    
+
     # Carregar dados de veículos
     with open('dados_veiculos_diretorias.json', 'r', encoding='utf-8') as f:
         veiculos = json.load(f)
-    
-    print(f"✅ Carregados: {len(escolas):,} escolas e {len(veiculos):,} veículos")
-    
+
+    print(
+        f"✅ Carregados: {len(escolas):,} escolas e {len(veiculos):,} veículos")
+
     # Análise dos dados
     diretorias = sorted(set(escola['diretoria'] for escola in escolas))
     tipos_escola = {}
     for escola in escolas:
         tipo = escola.get('type', 'regular')
         tipos_escola[tipo] = tipos_escola.get(tipo, 0) + 1
-    
+
     print(f"📊 {len(diretorias)} diretorias, {len(tipos_escola)} tipos de escola")
-    
+
     # Criar dashboard corrigido
     html_content = f"""<!DOCTYPE html>
 <!--
@@ -131,7 +132,7 @@ Status: PRODUÇÃO (dados completos validados)
         <button class="type-filter-btn active" data-type="all">
           <span class="filter-count">Todas ({len(escolas):,})</span>
         </button>"""
-    
+
     # Adicionar botões de filtro por tipo
     for tipo, count in sorted(tipos_escola.items(), key=lambda x: x[1], reverse=True):
         emoji = {
@@ -145,13 +146,13 @@ Status: PRODUÇÃO (dados completos validados)
             'ceeja': '🟡',
             'centro_atend_socioeduc': '🟤'
         }.get(tipo, '📚')
-        
+
         html_content += f"""
         <button class="type-filter-btn" data-type="{tipo}">
           <span class="filter-emoji">{emoji}</span>
           <span class="filter-count">{tipo.title()} ({count:,})</span>
         </button>"""
-    
+
     html_content += """
       </div>
     </div>
@@ -364,16 +365,16 @@ Status: PRODUÇÃO (dados completos validados)
 </body>
 
 </html>"""
-    
+
     # Salvar dashboard corrigido
     with open('dashboard_corrigido.html', 'w', encoding='utf-8') as f:
         f.write(html_content)
-    
+
     print("✅ Dashboard corrigido salvo como: dashboard_corrigido.html")
     print(f"📊 Diretorias: {len(diretorias)} (correto!)")
     print(f"🏫 Escolas: {len(escolas):,}")
     print(f"🚗 Veículos: {len(veiculos):,}")
-    
+
     return html_content
 
 

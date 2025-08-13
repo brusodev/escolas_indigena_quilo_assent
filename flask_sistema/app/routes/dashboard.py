@@ -21,16 +21,16 @@ def index():
         'total_veiculos': Veiculo.query.count(),
         'total_supervisores': Supervisor.query.filter_by(ativo=True).count()
     }
-    
+
     # Escolas por tipo
     escolas_por_tipo = db.session.query(
         Escola.tipo,
         func.count(Escola.id).label('total')
     ).group_by(Escola.tipo).all()
-    
-    stats['escolas_por_tipo'] = {tipo: total 
-                                for tipo, total in escolas_por_tipo}
-    
+
+    stats['escolas_por_tipo'] = {tipo: total
+                                 for tipo, total in escolas_por_tipo}
+
     return render_template('dashboard/index.html', stats=stats)
 
 
@@ -64,7 +64,7 @@ def dados_veiculos():
 @bp_dashboard.route('/dados/estatisticas')
 def estatisticas():
     """API para estatísticas gerais"""
-    
+
     # Estatísticas básicas
     stats = {
         'total_escolas': Escola.query.count(),
@@ -72,25 +72,25 @@ def estatisticas():
         'total_veiculos': Veiculo.query.count(),
         'total_supervisores': Supervisor.query.filter_by(ativo=True).count()
     }
-    
+
     # Escolas por tipo
     escolas_por_tipo = db.session.query(
         Escola.tipo,
         func.count(Escola.id).label('total')
     ).group_by(Escola.tipo).all()
-    
-    stats['escolas_por_tipo'] = {tipo: total 
-                                for tipo, total in escolas_por_tipo}
-    
+
+    stats['escolas_por_tipo'] = {tipo: total
+                                 for tipo, total in escolas_por_tipo}
+
     # Veículos por tipo
     veiculos_por_tipo = db.session.query(
         Veiculo.tipo,
         func.count(Veiculo.id).label('total')
     ).group_by(Veiculo.tipo).all()
-    
-    stats['veiculos_por_tipo'] = {tipo: total 
-                                 for tipo, total in veiculos_por_tipo}
-    
+
+    stats['veiculos_por_tipo'] = {tipo: total
+                                  for tipo, total in veiculos_por_tipo}
+
     # Diretorias com mais escolas
     diretorias_top = db.session.query(
         Diretoria.nome,
@@ -98,10 +98,10 @@ def estatisticas():
     ).join(Escola).group_by(Diretoria.nome).order_by(
         func.count(Escola.id).desc()
     ).limit(10).all()
-    
+
     stats['diretorias_top'] = [
         {'nome': nome, 'total_escolas': total}
         for nome, total in diretorias_top
     ]
-    
+
     return jsonify(stats)

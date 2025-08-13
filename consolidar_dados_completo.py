@@ -17,6 +17,7 @@ import json
 import os
 from datetime import datetime
 
+
 def criar_siglas_diretorias():
     """Cria siglas para as 91 diretorias baseadas nos nomes."""
     siglas_manuais = {
@@ -114,6 +115,7 @@ def criar_siglas_diretorias():
     }
     return siglas_manuais
 
+
 def mapear_tipos_escola():
     """Mapeia todos os 10 tipos de escola encontrados."""
     tipos_escola = {
@@ -170,38 +172,41 @@ def mapear_tipos_escola():
     }
     return tipos_escola
 
+
 def consolidar_dados_completos():
     """Consolida todos os dados em um banco consistente."""
-    
+
     print("🔄 INICIANDO CONSOLIDAÇÃO COMPLETA DE DADOS")
     print("=" * 60)
-    
+
     # 1. Carregar dados do CSV oficial (fonte principal)
     print("\n1. 📊 CARREGANDO DADOS DO CSV OFICIAL...")
-    df_csv = pd.read_csv('dados/ENDERECO_ESCOLAS_062025 (1).csv', sep=';', encoding='latin-1')
+    df_csv = pd.read_csv(
+        'dados/ENDERECO_ESCOLAS_062025 (1).csv', sep=';', encoding='latin-1')
     print(f"   ✅ {len(df_csv):,} escolas carregadas")
     print(f"   ✅ {df_csv['DE'].nunique()} diretorias encontradas")
     print(f"   ✅ {df_csv['TIPOESC'].nunique()} tipos de escola encontrados")
-    
+
     # 2. Carregar diretorias com endereços
     print("\n2. 🏢 CARREGANDO DADOS DAS DIRETORIAS...")
-    df_diretorias = pd.read_excel('dados/excel/diretorias_ensino_completo.xlsx')
+    df_diretorias = pd.read_excel(
+        'dados/excel/diretorias_ensino_completo.xlsx')
     print(f"   ✅ {len(df_diretorias)} diretorias com endereços completos")
-    
+
     # 3. Criar mapeamentos
     print("\n3. 🗺️  CRIANDO MAPEAMENTOS...")
     siglas_diretorias = criar_siglas_diretorias()
     tipos_escola = mapear_tipos_escola()
     print(f"   ✅ {len(siglas_diretorias)} siglas de diretorias criadas")
     print(f"   ✅ {len(tipos_escola)} tipos de escola mapeados")
-    
+
     # 4. Consolidar diretorias com informações completas
     print("\n4. 🔧 CONSOLIDANDO DIRETORIAS...")
     diretorias_consolidadas = []
-    
+
     # Lista das 91 diretorias do CSV
     diretorias_csv = sorted(df_csv['DE'].unique())
-    
+
     for i, nome_diretoria in enumerate(diretorias_csv, 1):
         # Buscar dados no Excel de diretorias
         diretoria_excel = df_diretorias[
@@ -209,23 +214,25 @@ def consolidar_dados_completos():
                 nome_diretoria.replace(' ', '.*'), regex=True, na=False
             )
         ]
-        
+
         # Contar escolas por tipo nesta diretoria
         escolas_diretoria = df_csv[df_csv['DE'] == nome_diretoria]
         total_escolas = len(escolas_diretoria)
-        
+
         # Estatísticas por tipo
         tipos_estatisticas = {}
         for tipo_codigo in escolas_diretoria['TIPOESC'].unique():
-            qtd = len(escolas_diretoria[escolas_diretoria['TIPOESC'] == tipo_codigo])
-            tipo_info = tipos_escola.get(tipo_codigo, {'nome': f'TIPO_{tipo_codigo}'})
+            qtd = len(
+                escolas_diretoria[escolas_diretoria['TIPOESC'] == tipo_codigo])
+            tipo_info = tipos_escola.get(
+                tipo_codigo, {'nome': f'TIPO_{tipo_codigo}'})
             tipos_estatisticas[str(tipo_codigo)] = {
                 'quantidade': int(qtd),
                 'nome': tipo_info['nome'],
                 'descricao': tipo_info.get('descricao', ''),
                 'categoria': tipo_info.get('categoria', '')
             }
-        
+
         # Dados da diretoria
         diretoria_dados = {
             'id': int(i),
@@ -244,7 +251,7 @@ def consolidar_dados_completos():
             'dirigente': '',
             'coordenadas': {'latitude': None, 'longitude': None}
         }
-        
+
         # Se encontrou dados no Excel, usar
         if not diretoria_excel.empty:
             row = diretoria_excel.iloc[0]
@@ -259,19 +266,20 @@ def consolidar_dados_completos():
                 'email': str(row.get('Email', '')),
                 'dirigente': str(row.get('Dirigente', ''))
             })
-        
+
         diretorias_consolidadas.append(diretoria_dados)
-    
+
     print(f"   ✅ {len(diretorias_consolidadas)} diretorias consolidadas")
-    
+
     # 5. Consolidar escolas com informações completas
     print("\n5. 🏫 CONSOLIDANDO ESCOLAS...")
     escolas_consolidadas = []
-    
+
     for idx, row in df_csv.iterrows():
         tipo_codigo = row['TIPOESC']
-        tipo_info = tipos_escola.get(tipo_codigo, {'nome': f'TIPO_{tipo_codigo}'})
-        
+        tipo_info = tipos_escola.get(
+            tipo_codigo, {'nome': f'TIPO_{tipo_codigo}'})
+
         escola_dados = {
             'id': int(idx + 1),
             'codigo_escola': str(row.get('COD_ESC', '')),
@@ -295,11 +303,11 @@ def consolidar_dados_completos():
             'situacao': str(row.get('CODSIT', '')),
             'vinculo': str(row.get('CODVINC', ''))
         }
-        
+
         escolas_consolidadas.append(escola_dados)
-    
+
     print(f"   ✅ {len(escolas_consolidadas):,} escolas consolidadas")
-    
+
     # 6. Criar estatísticas gerais
     print("\n6. 📈 CRIANDO ESTATÍSTICAS GERAIS...")
     estatisticas_gerais = {
@@ -311,16 +319,17 @@ def consolidar_dados_completos():
         'estatisticas_por_diretoria': {},
         'resumo_por_categoria': {}
     }
-    
+
     # Estatísticas por tipo
     for tipo_codigo, tipo_info in tipos_escola.items():
-        qtd = len([e for e in escolas_consolidadas if e['tipo_escola_codigo'] == tipo_codigo])
+        qtd = len(
+            [e for e in escolas_consolidadas if e['tipo_escola_codigo'] == tipo_codigo])
         estatisticas_gerais['estatisticas_por_tipo'][tipo_codigo] = {
             'nome': tipo_info['nome'],
             'quantidade': qtd,
             'percentual': round((qtd / len(escolas_consolidadas)) * 100, 2)
         }
-    
+
     # Estatísticas por categoria
     categorias = {}
     for escola in escolas_consolidadas:
@@ -328,44 +337,44 @@ def consolidar_dados_completos():
         if categoria not in categorias:
             categorias[categoria] = 0
         categorias[categoria] += 1
-    
+
     for categoria, qtd in categorias.items():
         estatisticas_gerais['resumo_por_categoria'][categoria] = {
             'quantidade': qtd,
             'percentual': round((qtd / len(escolas_consolidadas)) * 100, 2)
         }
-    
+
     # 7. Salvar dados consolidados
     print("\n7. 💾 SALVANDO DADOS CONSOLIDADOS...")
-    
+
     # Criar pasta de dados consolidados
     os.makedirs('dados/consolidados', exist_ok=True)
-    
+
     # Salvar diretorias
     with open('dados/consolidados/diretorias_91_completas.json', 'w', encoding='utf-8') as f:
         json.dump(diretorias_consolidadas, f, ensure_ascii=False, indent=2)
-    
+
     # Salvar escolas
     with open('dados/consolidados/escolas_5582_completas.json', 'w', encoding='utf-8') as f:
         json.dump(escolas_consolidadas, f, ensure_ascii=False, indent=2)
-    
+
     # Salvar tipos de escola
     with open('dados/consolidados/tipos_escola_10_completos.json', 'w', encoding='utf-8') as f:
         json.dump(tipos_escola, f, ensure_ascii=False, indent=2)
-    
+
     # Salvar estatísticas
     with open('dados/consolidados/estatisticas_completas.json', 'w', encoding='utf-8') as f:
         json.dump(estatisticas_gerais, f, ensure_ascii=False, indent=2)
-    
+
     # Salvar siglas das diretorias
     with open('dados/consolidados/siglas_diretorias.json', 'w', encoding='utf-8') as f:
         json.dump(siglas_diretorias, f, ensure_ascii=False, indent=2)
-    
+
     print("   ✅ Arquivos salvos em dados/consolidados/")
-    
+
     # 8. Gerar relatório de consolidação
     print("\n8. 📋 GERANDO RELATÓRIO DE CONSOLIDAÇÃO...")
-    
+
     relatorio = f"""# RELATÓRIO DE CONSOLIDAÇÃO COMPLETA
 ## Data: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}
 
@@ -377,24 +386,25 @@ def consolidar_dados_completos():
 ## 📊 ESTATÍSTICAS POR TIPO DE ESCOLA
 
 """
-    
+
     for tipo_codigo in sorted(tipos_escola.keys()):
         tipo_info = tipos_escola[tipo_codigo]
-        qtd = len([e for e in escolas_consolidadas if e['tipo_escola_codigo'] == tipo_codigo])
+        qtd = len(
+            [e for e in escolas_consolidadas if e['tipo_escola_codigo'] == tipo_codigo])
         percentual = round((qtd / len(escolas_consolidadas)) * 100, 2)
         relatorio += f"### {tipo_info['nome']} (Tipo {tipo_codigo})\n"
         relatorio += f"- **Quantidade**: {qtd:,} escolas ({percentual}%)\n"
         relatorio += f"- **Descrição**: {tipo_info['descricao']}\n"
         relatorio += f"- **Categoria**: {tipo_info['categoria']}\n\n"
-    
+
     relatorio += f"""
 ## 🏢 DIRETORIAS COM SIGLAS
 
 """
-    
+
     for diretoria in sorted(diretorias_consolidadas, key=lambda x: x['nome']):
         relatorio += f"- **{diretoria['nome']}** ({diretoria['sigla']}) - {diretoria['total_escolas']} escolas\n"
-    
+
     relatorio += f"""
 
 ## 📁 ARQUIVOS GERADOS
@@ -407,24 +417,25 @@ def consolidar_dados_completos():
 
 ## ✅ STATUS: CONSOLIDAÇÃO COMPLETA E CONSISTENTE
 """
-    
+
     with open('dados/consolidados/RELATORIO_CONSOLIDACAO.md', 'w', encoding='utf-8') as f:
         f.write(relatorio)
-    
+
     print("   ✅ Relatório salvo em dados/consolidados/RELATORIO_CONSOLIDACAO.md")
-    
+
     print(f"\n🎉 CONSOLIDAÇÃO COMPLETA FINALIZADA!")
     print(f"   📊 {len(escolas_consolidadas):,} escolas processadas")
     print(f"   🏢 {len(diretorias_consolidadas)} diretorias consolidadas")
     print(f"   🏫 {len(tipos_escola)} tipos de escola mapeados")
     print(f"   📁 Dados salvos em dados/consolidados/")
-    
+
     return {
         'diretorias': diretorias_consolidadas,
         'escolas': escolas_consolidadas,
         'tipos_escola': tipos_escola,
         'estatisticas': estatisticas_gerais
     }
+
 
 if __name__ == "__main__":
     resultado = consolidar_dados_completos()

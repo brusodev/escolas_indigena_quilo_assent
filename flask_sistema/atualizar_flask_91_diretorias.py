@@ -20,38 +20,39 @@ from datetime import datetime
 
 def copiar_banco_consolidado():
     """Copia o banco consolidado para o sistema Flask."""
-    
+
     print("📋 COPIANDO BANCO CONSOLIDADO PARA FLASK")
     print("=" * 50)
-    
+
     # Caminhos
     banco_consolidado = '../dados/consolidados/banco_completo_91_diretorias.db'
     banco_flask = 'instance/escolas_sistema_91_completo.db'
-    
+
     # Criar pasta instance se não existir
     os.makedirs('instance', exist_ok=True)
-    
+
     # Copiar banco
     if os.path.exists(banco_consolidado):
         shutil.copy2(banco_consolidado, banco_flask)
         print(f"✅ Banco copiado: {banco_flask}")
-        
+
         # Verificar integridade
         conn = sqlite3.connect(banco_flask)
         cursor = conn.cursor()
-        
+
         cursor.execute("SELECT COUNT(*) FROM diretorias")
         diretorias_count = cursor.fetchone()[0]
-        
+
         cursor.execute("SELECT COUNT(*) FROM escolas")
         escolas_count = cursor.fetchone()[0]
-        
+
         cursor.execute("SELECT COUNT(*) FROM tipos_escola")
         tipos_count = cursor.fetchone()[0]
-        
+
         conn.close()
-        
-        print(f"✅ Verificação: {diretorias_count} diretorias, {escolas_count:,} escolas, {tipos_count} tipos")
+
+        print(
+            f"✅ Verificação: {diretorias_count} diretorias, {escolas_count:,} escolas, {tipos_count} tipos")
         return True
     else:
         print(f"❌ Banco consolidado não encontrado: {banco_consolidado}")
@@ -60,24 +61,24 @@ def copiar_banco_consolidado():
 
 def atualizar_configuracao_flask():
     """Atualiza a configuração do Flask para usar o novo banco."""
-    
+
     print("\n🔧 ATUALIZANDO CONFIGURAÇÃO DO FLASK")
     print("-" * 40)
-    
+
     # Ler config atual
     if os.path.exists('app/config.py'):
         with open('app/config.py', 'r', encoding='utf-8') as f:
             config_content = f.read()
-        
+
         # Atualizar caminho do banco
         new_config = config_content.replace(
             'escolas_sistema.db',
             'escolas_sistema_91_completo.db'
         )
-        
+
         with open('app/config.py', 'w', encoding='utf-8') as f:
             f.write(new_config)
-        
+
         print("✅ Configuração do Flask atualizada")
     else:
         print("⚠️ Arquivo config.py não encontrado")
@@ -85,10 +86,10 @@ def atualizar_configuracao_flask():
 
 def criar_novas_rotas_api():
     """Cria rotas API atualizadas para as 91 diretorias."""
-    
+
     print("\n🌐 CRIANDO ROTAS API ATUALIZADAS")
     print("-" * 40)
-    
+
     rotas_content = '''#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -117,11 +118,11 @@ def listar_diretorias():
     try:
         conn = get_db_connection()
         diretorias = conn.execute('''
-            SELECT 
+            SELECT
                 id, nome, sigla, total_escolas,
                 endereco_completo, cidade, cep,
                 telefone, email
-            FROM diretorias 
+            FROM diretorias
             ORDER BY nome
         ''').fetchall()
         conn.close()

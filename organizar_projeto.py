@@ -16,30 +16,30 @@ def arquivos_para_manter():
     return {
         # Bases de dados padronizadas (recém criadas)
         'bases_padronizadas/',
-        
+
         # JSONs principais de dados
         'dados_escolas_atualizados.json',
         'dados_veiculos_diretorias.json',
         'dados_supervisao_atualizados.json',
         'estatisticas_atualizadas.json',
-        
+
         # Excel com informações importantes
         'diretorias_com_coordenadas.xlsx',
         'diretorias_ensino_completo.xlsx',
         'QUANTIDADE DE VEÍCULOS LOCADOS - DIRETORIAS.xlsx',
         'GEP.xlsx',
         'ENDERECO_ESCOLAS_062025 (1).csv',
-        
+
         # Documentação
         'README.md',
         'GUIA_RAPIDO.md',
         'relatorio_bruno.md',
-        
+
         # Scripts úteis que podem ser aproveitados
         'calcular_distancias.py',
         'processar_dados_atualizados.py',
         'padronizar_bases.py',
-        
+
         # Git
         '.git/',
         '.gitignore'
@@ -54,7 +54,7 @@ def arquivos_para_remover():
         'index.html',
         'distancias_escolas.html',
         'dashboard_corrigido_final.html',
-        
+
         # Scripts do dashboard que não serão mais necessários
         'atualizar_dashboard_completo.py',
         'atualizar_dashboard.py',
@@ -62,52 +62,52 @@ def arquivos_para_remover():
         'servidor_corrigido_final.py',
         'menu_integrado.py',
         'mostrar_dados_atuais.py',
-        
+
         # Scripts de geração de relatórios antigos
         'gerar_graficos_frota.py',
         'gerar_relatorio_excel.py',
         'gerar_relatorio_pdf.py',
         'gerar_relatorios.py',
         'relatorio_final_status.py',
-        
+
         # Scripts de correção que já foram executados
         'corrigir_coordenadas.py',
         'corrigir_distancias.py',
         'atualizar_relatorios_haversine.py',
         'atualizar_sistema_distancias.py',
         'regenerar_tudo_atualizado.py',
-        
+
         # Scripts de validação antigos
         'validar_distancias_completo.py',
         'verificar_completo.py',
         'verificar_dados.py',
         'verificar_enderecos_v2.py',
-        
+
         # Outros scripts desnecessários
         'analise_frota_integrada.py',
         'converter_dados.py',
         'criar_bases_exemplo.py',
         'testar_dashboard_completo.py',
         'main.py',
-        
+
         # JSONs duplicados ou temporários
         'dados_escolas_corrigidos.json',
         'dados_js_corrigidos.txt',
         'dados_veiculos.json',
-        
+
         # Relatórios PDF gerados (podem ser regenerados)
         'Relatorio_*.pdf',
         'Graficos_*.png',
         'Mapa_Calor_*.png',
-        
+
         # Excel de relatórios (podem ser regenerados)
         'Analise_Integrada_*.xlsx',
         'distancias_escolas_diretorias*.xlsx',
         'Relatorio_*.xlsx',
-        
+
         # Arquivos de metodologia (informação já documentada)
         'Metodologia_*.txt',
-        
+
         # Diretórios antigos do dashboard
         'static/',
         'dados/js/',
@@ -119,7 +119,7 @@ def criar_estrutura_flask():
     """Cria a estrutura básica do projeto Flask"""
     print("\n🏗️ CRIANDO ESTRUTURA FLASK...")
     print("-" * 40)
-    
+
     # Estrutura do projeto Flask
     estrutura = {
         'app/': {
@@ -178,11 +178,11 @@ def criar_estrutura_flask():
             'database.py': ''
         }
     }
-    
+
     def criar_estrutura(base_path, estrutura_dict):
         for nome, conteudo in estrutura_dict.items():
             caminho = base_path / nome
-            
+
             if isinstance(conteudo, dict):
                 # É um diretório
                 caminho.mkdir(exist_ok=True)
@@ -194,12 +194,12 @@ def criar_estrutura_flask():
                 if not caminho.exists():
                     caminho.write_text(conteudo, encoding='utf-8')
                 print(f"📄 {caminho}")
-    
+
     # Criar estrutura
     base_path = Path('flask_sistema')
     base_path.mkdir(exist_ok=True)
     criar_estrutura(base_path, estrutura)
-    
+
     return base_path
 
 
@@ -207,7 +207,7 @@ def criar_arquivos_base_flask():
     """Cria arquivos base do Flask"""
     print("\n📝 CRIANDO ARQUIVOS BASE FLASK...")
     print("-" * 40)
-    
+
     # requirements.txt
     requirements = """Flask==2.3.3
 Flask-SQLAlchemy==3.0.5
@@ -220,11 +220,11 @@ folium==0.14.0
 plotly==5.15.0
 gunicorn==21.2.0
 """
-    
+
     with open('flask_sistema/requirements.txt', 'w') as f:
         f.write(requirements)
     print("✅ requirements.txt criado")
-    
+
     # .env.example
     env_example = """# Configurações do Banco de Dados
 DATABASE_URL=postgresql://usuario:senha@localhost:5432/escolas_sistema
@@ -242,11 +242,11 @@ SECRET_KEY=sua_chave_secreta_aqui
 # Configurações de Debug
 DEBUG=True
 """
-    
+
     with open('flask_sistema/.env.example', 'w') as f:
         f.write(env_example)
     print("✅ .env.example criado")
-    
+
     # run.py
     run_py = """#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -270,11 +270,11 @@ if __name__ == '__main__':
         debug=debug
     )
 """
-    
+
     with open('flask_sistema/run.py', 'w', encoding='utf-8') as f:
         f.write(run_py)
     print("✅ run.py criado")
-    
+
     # docker-compose.yml
     docker_compose = """version: '3.8'
 
@@ -307,11 +307,11 @@ services:
 volumes:
   postgres_data:
 """
-    
+
     with open('flask_sistema/docker-compose.yml', 'w') as f:
         f.write(docker_compose)
     print("✅ docker-compose.yml criado")
-    
+
     # Dockerfile
     dockerfile = """FROM python:3.11-slim
 
@@ -335,7 +335,7 @@ EXPOSE 5000
 # Comando para iniciar a aplicação
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "4", "run:app"]
 """
-    
+
     with open('flask_sistema/Dockerfile', 'w') as f:
         f.write(dockerfile)
     print("✅ Dockerfile criado")
@@ -345,17 +345,17 @@ def mover_bases_padronizadas():
     """Move as bases padronizadas para o projeto Flask"""
     print("\n📦 MOVENDO BASES PADRONIZADAS...")
     print("-" * 40)
-    
+
     source = Path('bases_padronizadas')
     destination = Path('flask_sistema/data/json')
-    
+
     if source.exists():
         destination.mkdir(parents=True, exist_ok=True)
-        
+
         for arquivo in source.glob('*.json'):
             shutil.copy2(arquivo, destination)
             print(f"✅ {arquivo.name} -> {destination}/{arquivo.name}")
-    
+
     # Copiar também outros JSONs importantes
     arquivos_importantes = [
         'dados_escolas_atualizados.json',
@@ -363,7 +363,7 @@ def mover_bases_padronizadas():
         'dados_supervisao_atualizados.json',
         'estatisticas_atualizadas.json'
     ]
-    
+
     for arquivo in arquivos_importantes:
         if os.path.exists(arquivo):
             shutil.copy2(arquivo, destination)
@@ -532,7 +532,7 @@ Para contribuir:
 
 Para suporte técnico, consulte a documentação ou abra uma issue no repositório.
 """
-    
+
     with open('flask_sistema/README.md', 'w', encoding='utf-8') as f:
         f.write(readme_content)
     print("✅ README.md do Flask criado")
@@ -542,22 +542,22 @@ def listar_arquivos_para_limpeza():
     """Lista arquivos que serão removidos"""
     print("\n🧹 ANALISANDO ARQUIVOS PARA LIMPEZA...")
     print("-" * 40)
-    
+
     manter = arquivos_para_manter()
     remover = arquivos_para_remover()
-    
+
     arquivos_existentes = []
     for item in Path('.').rglob('*'):
         if item.is_file():
             arquivos_existentes.append(str(item))
-    
+
     # Identificar o que será mantido e removido
     sera_mantido = []
     sera_removido = []
-    
+
     for arquivo in arquivos_existentes:
         arquivo_normalizado = arquivo.replace('\\', '/')
-        
+
         # Verificar se deve ser mantido
         deve_manter = False
         for padrao in manter:
@@ -569,7 +569,7 @@ def listar_arquivos_para_limpeza():
                 if arquivo_normalizado.endswith(padrao) or padrao in arquivo_normalizado:
                     deve_manter = True
                     break
-        
+
         if deve_manter:
             sera_mantido.append(arquivo)
         else:
@@ -578,17 +578,17 @@ def listar_arquivos_para_limpeza():
                 if padrao in arquivo_normalizado or arquivo_normalizado.endswith(padrao):
                     sera_removido.append(arquivo)
                     break
-    
+
     print(f"📊 RESUMO:")
     print(f"   📁 Total de arquivos: {len(arquivos_existentes)}")
     print(f"   ✅ Serão mantidos: {len(sera_mantido)}")
     print(f"   🗑️ Serão removidos: {len(sera_removido)}")
-    
+
     if sera_removido:
         print(f"\n🗑️ ARQUIVOS PARA REMOÇÃO:")
         for arquivo in sorted(sera_removido):
             print(f"   - {arquivo}")
-    
+
     return sera_mantido, sera_removido
 
 
@@ -597,22 +597,22 @@ def main():
     print("🧹 LIMPEZA E ORGANIZAÇÃO DO PROJETO")
     print("Preparando para migração Flask + SQLAlchemy + PostgreSQL")
     print("=" * 60)
-    
+
     # 1. Analisar arquivos
     mantidos, removidos = listar_arquivos_para_limpeza()
-    
+
     # 2. Criar estrutura Flask
     flask_dir = criar_estrutura_flask()
-    
+
     # 3. Criar arquivos base
     criar_arquivos_base_flask()
-    
+
     # 4. Mover bases padronizadas
     mover_bases_padronizadas()
-    
+
     # 5. Criar README
     criar_readme_flask()
-    
+
     print(f"\n🎉 ORGANIZAÇÃO CONCLUÍDA!")
     print(f"📁 Projeto Flask criado em: {flask_dir}")
     print(f"📊 Estrutura preparada para SQLAlchemy + PostgreSQL")
@@ -623,10 +623,11 @@ def main():
     print(f"   4. cp .env.example .env (e editar)")
     print(f"   5. flask db init && flask db migrate && flask db upgrade")
     print(f"   6. python run.py")
-    
+
     # Opção de limpar arquivos antigos
     if removidos:
-        print(f"\n⚠️ ATENÇÃO: {len(removidos)} arquivos antigos identificados para remoção")
+        print(
+            f"\n⚠️ ATENÇÃO: {len(removidos)} arquivos antigos identificados para remoção")
         print(f"Execute o script com --clean para remover arquivos desnecessários")
 
 
